@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ1.SCAL.1218">FRB.FOBJ1.SCAL.1218</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL1218AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1218AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL1218BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1218BR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL1218CR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1218CR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP>ABB</NXP>
+                <T>R&#x00e8;gles et tableaux pour le calcul des installations &#x00e9;lectriques &#x2013;</T>
+                <NXP>Sace</NXP>
+                <T></T>
+                <NXP>Stotz</NXP>
+                <T>: porte documents, 8 r&#x00e8;gles de lectures, tableaux</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet : sans m&#x00e9;diation</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-A1.1</LIEU>
+        </Z0>
+        <Z2>
+            <SXP>S/N 1788</SXP>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <NXP>France</NXP>
+            <T>,</T>
+            <NXP>Chassieu</NXP>
+            <T></T>
+            <T>:</T>
+            <NXP>ABB</NXP>
+            <T>,</T>
+            <DT D="00001989">1989</DT>
+        </Z4>
+        <Z5>
+            <T>L <NB>17,5</NB> x l <NB>32,8</NB> x H <NB>3</NB> cm, 1 kg, plastique
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat.</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+            <T></T>
+            <REF>SYSCAL.68.1218</REF>
+        </Z8>
+    </ISBD>
+    <P>
+        <T>r&#x00e8;gle de lecture &#x201c;</T>
+        <NXP>A</NXP>
+        <T>&#x201d; Fiche de dimensionnement des c&#x00e2;bles en Cu et Al, a&#x00e9;riens et enterr&#x00e9;s,
+            (suivant
+        </T>
+        <NXP>IEC</NXP>
+        <T>364-5-523) et v&#x00e9;rification des chutes de tension,</T>
+        <T>double carton plastifi&#x00e9; 15 x 31 cm</T>
+    </P>
+    <P>
+        <T>r&#x00e8;gle de lecture &#x201c;</T>
+        <NXP>A1</NXP>
+        <T>&#x201d; Fiche de dimensionnement des c&#x00e2;bles en Cu et Al, a&#x00e9;riens et enterr&#x00e9;s, et v&#x00e9;rification
+            des chutes de tension (suivant
+        </T>
+        <NXP>NFC</NXP>
+        <T>15-100),</T>
+        <T>carton plastifi&#x00e9; 15 x 31 cm</T>
+    </P>
+    <P>
+        <T>r&#x00e8;gle de lecture &#x201c;</T>
+        <NXP>B</NXP>
+        <T>&#x201d; Fiche de dimensionnement des barres en Cu et Al (conform&#x00e9;ment aux normes</T>
+        <NXP>DIN</NXP>
+        <T>43671 et</T>
+        <NXP>DIN</NXP>
+        <T>43670,</T>
+        <DT D="00121975">D&#x00e9;c. 1975</DT>
+        <T>),</T>
+        <T>double carton plastifi&#x00e9; 15 x 31 cm</T>
+    </P>
+    <P>
+        <T>r&#x00e8;gle de lecture &#x201c;</T>
+        <NXP>C</NXP>
+        <T>&#x201d; Fiche pour le calcul des contraintes &#x00e9;lectrodynamiques dans les syst&#x00e8;mes de barres en
+            Cu et en Al (suivant
+        </T>
+        <NXP>IEC</NXP>
+        <T>865, <NB>1&#x00e8;re</NB> &#x00e9;dit.
+        </T>
+        <DT D="00001986">1986</DT>
+        <T>et</T>
+        <NXP>VDE</NXP>
+        <T>0103/02.82, &#x00e9;dit.</T>
+        <DT D="00021982">F&#x00e9;v. 82</DT>
+        <T>),</T>
+        <T>double carton plastifi&#x00e9; 15 x 31 cm</T>
+    </P>
+    <P>
+        <T>r&#x00e8;gle de lecture &#x201c;</T>
+        <NXP>D</NXP>
+        <T>&#x201d; pour: - le calcul des courants de court-circuit, - coordination en s&#x00e9;rie entre disjoncteurs
+            Sace/Sace et Sace/Stotz et choix des disjoncteurs,
+        </T>
+        <T>plastique 15 x 31 cm avec feuille centrale mobile</T>
+    </P>
+    <P>
+        <T>livret 'Tableaux de s&#x00e9;lectivit&#x00e9; entre disjoncteurs Sace/Sace , Sace/Stotz et Stotz/Stotz,</T>
+        <T>livret de 20 pages doubles 15 x 31 cm</T>
+    </P>
+    <P>
+        <T>r&#x00e8;gle de lecture &#x201c;F&#x201d; R&#x00e8;gle pour la v&#x00e9;rification des longueurs prot&#x00e9;g&#x00e9;es
+            et de la section des c&#x00e2;bles, en fonction du (I2.t) que les disjoncteurs Sace S&#x00e9;ries modul et
+            limitor laissent passer,
+        </T>
+        <T>plastique 15 x 31 cm avec feuille centrale mobile</T>
+    </P>
+    <P>
+        <T>r&#x00e8;gle de lecture &#x201c;G&#x201d; R&#x00e8;gle pour la v&#x00e9;rification des longueurs prot&#x00e9;g&#x00e9;es
+            et de la section des c&#x00e2;bles, en fonction du (I2.t) que les disjoncteurs Stotz S&#x00e9;ries S2,
+        </T>
+        <T>plastique <NB>10,5</NB> x 31 cm avec feuille centrale mobile
+        </T>
+    </P>
+    <P>
+        <T>r&#x00e8;gle de lecture &#x201c;H&#x201d; R&#x00e8;gle pour la s&#x00e9;lection des contacteurs</T>
+        <NXP>ABB</NXP>
+        <T>Serie B en coordination avec les disjoncteurs BT Sace,</T>
+        <T>plastique <NB>8,5</NB> x 31 cm avec feuille centrale mobile
+        </T>
+    </P>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>
