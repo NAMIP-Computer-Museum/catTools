@@ -14,7 +14,15 @@ garder le nom de l'image
 img = root.findall("P/AI")
 for i in img:
     image = i.attrib
-    print(image)
+    ref = str(image).split("'")
+    image = ref[3].split("$")
+    print(image[0])
+    "enfant de la balise AI"
+    child = i.find("IMG")
+    ichild = child.attrib
+    ref =str(ichild).split("'")
+    ichild = ref[3].split("$")
+    print(ichild[2])
 """
 recup stock et date in dans l'inventaire
 """

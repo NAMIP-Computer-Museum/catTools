@@ -1,25 +1,25 @@
-# catTools
-il s'agit du repository qui contient
-tout ce qui à déja été fait pour la conception
+# CatTools
+Il s'agit du repository qui contient
+tout ce qui à déjà été fait pour la conception
 de la base de données des inventaires du musée NAM-IP.
 
-## data
-dossier contennant des ressources de test pour les 
-migration des inventaires de Bull et de KHS.
+## Data
+Dossier contenant des ressources de test pour les 
+migrations des inventaires de Bull et de KHS.
 
-## database
-dossier contennant la creation de la base de données et
+## Database
+Dossier contenant la creation de la base de données et
 des tables de celle-ci.
 
-## migrationBull
-dossier contennant le travail fait sur l'inventaire Bull
-avec tout ce qui est lié aux différents ETL (Extract,Transform and Load).
+## MigrationBull
+Dossier contenant le travail fait sur l'inventaire Bull
+avec tout ce qui est lié aux différents ETL (Extract, Transform and Load).
 De plus que les ajouts des artefacts.
 
-## migrationKHS
-dossier contennant le travail fait sur l'inventaire de KHS.
+## MigrationKHS
+Dossier contenant le travail fait sur l'inventaire de KHS.
 
-## tests
+## Tests
 
-dossier conntennant les tests sur les différentes partie du projet ou sur
+Dossier con1tenant les tests sur les différentes parties du projet ou sur
 des librairies utilisées durant le projet
