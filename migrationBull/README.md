@@ -1,9 +1,16 @@
 # MigrationBull
+## Prototype
+-proto_bull.py :
+Il s'agit du prototype d'insertion d'artefacts pour l'inventaire Bull.
+Il a besoin que les ETL présentés ultérieurement soient lancer et qu'ils aient accomplis leur
+tâches avant de le faire tourner.
+Il va rechercher les informations que les ETL ont déjà mis en DB pour remplir celles des artéfacts.
+
+
 ## ETL (Extract, Transform and Load)
 - listeAppartenance.py :
 Il s'agit de l'ETL qui récupère les différentes appartenances des artéfacts
   de l'inventaire de Bull.
-    
 - listeConditionnement.py : 
 Il s'agit de l'ETL qui récupère les différents conditionnements des artéfacts
   de l'inventaire de Bull.
@@ -24,9 +31,4 @@ Il s'agit de l'ETL qui récupère les différents producteurs des artéfacts
 - listeUsage.py :
 Il s'agit de l'ETL qui récupère les différents usages des artéfacts
   de l'inventaire de Bull.
-## Prototype
--proto_bull.py :
-Il s'agit du prototype d'insertion d'artefacts pour l'inventaire Bull.
-Il a besoin que les ETL présentés ultérieurement soient lancer et qu'ils aient accomplis leur
-tâches avant de le faire tourner.
-Il va rechercher les informations que les ETL ont déjà mis en DB pour remplir celles des artéfacts
+

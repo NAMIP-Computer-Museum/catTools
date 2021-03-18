@@ -15,14 +15,16 @@ img = root.findall("P/AI")
 for i in img:
     image = i.attrib
     ref = str(image).split("'")
-    image = ref[3].split("$")
-    print(image[0])
+    ref = ref[3].split("$")
+    ref = ref[0].split("/")
+    print(ref[1])
     "enfant de la balise AI"
     child = i.find("IMG")
     ichild = child.attrib
-    ref =str(ichild).split("'")
-    ichild = ref[3].split("$")
-    print(ichild[2])
+    ref = str(ichild).split("'")
+    ref = ref[3].split("$")
+    ref = ref[2].split("/")
+    print(ref[1])
 """
 recup stock et date in dans l'inventaire
 """
