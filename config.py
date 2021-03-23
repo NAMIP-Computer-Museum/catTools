@@ -1,6 +1,7 @@
 # -*- coding: utf8 -*-
 import logging
-
+import re
+import os
 """
 initialisation variable de la boucle du fichier
 """
@@ -10,6 +11,8 @@ min_row = 7
 max_row = 678
 max_column = 34
 min_column = 0
+# dossier ou se trouve les différents fichiers xml
+path = 'C:\\Users\\jazzt\\PycharmProjects\\pythonProject\\catTools\\data\\KHS'
 """
 initalisation parametres connection DB locale
 """

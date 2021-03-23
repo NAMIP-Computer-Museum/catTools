@@ -82,10 +82,8 @@ def process_libelle(row):
 
 
 def process_modele(row):
-    # print(row[4].value)
     modele = row[4].value
     if modele is None:
-        #print("pas de modele")
         return None
     else:
         return modele
@@ -97,11 +95,9 @@ methode pour l'apparetenance est présente
 
 
 def process_appartenance(row,conn):
-    # print(row[5].value)
     appart = row[5].value
     id = None
     if appart is None:
-        #print('pas d appartenance')
         return None
     else:
         cursor = conn.cursor()
@@ -119,10 +115,8 @@ methode pour n° de serie ou numero de la machine
 
 
 def process_numero_serie(row):
-    # print(row[6].value)
     nums = row[6].value
     if nums is None:
-        #print("pas de numero de serie")
         return None
     else:
         return nums
@@ -135,10 +129,8 @@ en 4 chiffres
 
 
 def process_anprod(row):
-    # print(row[7].value)
     anprod = row[7].value
     if anprod is None:
-       #print("pas d'année de production")
         return None
     else:
         return anprod
@@ -151,7 +143,6 @@ un seul producteur
 
 
 def process_producteur(row,conn):
-    # print(row[8].value)
     prod = row[8].value
     id = None
     if prod is None:
