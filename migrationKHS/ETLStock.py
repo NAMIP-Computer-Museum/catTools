@@ -1,5 +1,8 @@
-def ETLStock(root, cursor):
+import xml.etree.ElementTree as ET
+def ETLStock(file, cursor):
     id = None
+    tree = ET.parse("data\\" + str(file))
+    root = tree.getroot()
     loc = root.find("ISBD/Z0/LIEU").text
     #verification si la localisation est en DB
     sql="SELECT id_local FROM localisations WHERE localisation = \'" + str(loc) + "\'"
