@@ -5,6 +5,7 @@ import ETLEtat
 import ETLCollection
 import ETLProducteur
 import ETLStock
+import xml.etree.ElementTree as ET
 import sql
 try:
     # ouverture du socket de communication avec la DB
@@ -13,15 +14,19 @@ try:
     # boucle pour charger les ETL en DB
     for file in configKhs.os.listdir(configKhs.path):
         if configKhs.re.match('V[0-9]*.xml', file):
-            ETLStock.ETLStock(file, cursor)
-            ETLProducteur.ETLProducteur(file, cursor)
-            ETLEtat.ETLEtat(file, cursor)
-            ETLCollection.ETLCollection(file, cursor)
+            tree = ET.parse(str(file))
+            root = tree.getroot()
+            ETLStock.ETLStock(root, cursor)
+            ETLProducteur.ETLProducteur(root, cursor)
+            ETLEtat.ETLEtat(root, cursor)
+            ETLCollection.ETLCollection(root, cursor)
             conn.commit
     # ouverture de la boucle de lecture des fichiers xml
     """
     for file in configKhs.os.listdir(configKhs.path):
         if configKhs.re.match('V[0-9]*.xml', file):
+             tree = ET.parse(str(file))
+             root = tree.getroot()
             # creation d'une instance de la classe artefact
              artefact = configKhs.Artefact.Artefact()
              artefact.clearList()
@@ -55,4 +60,5 @@ finally:
 except:
   log => fichier de log     
 """
+
 

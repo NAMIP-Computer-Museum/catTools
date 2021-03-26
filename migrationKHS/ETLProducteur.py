@@ -1,9 +1,5 @@
-import xml.etree.ElementTree as ET
-
-def ETLProducteur(file, cursor):
+def ETLProducteur(root, cursor):
     id = None
-    tree = ET.parse("data\\" + str(file))
-    root = tree.getroot()
     producteur = root.findall("ISBD/Z4/NXP")
     if len(producteur) == 1:
         prod = producteur[0].text

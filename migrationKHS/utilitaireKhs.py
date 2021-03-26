@@ -1,14 +1,9 @@
-import xml.etree.ElementTree as ET
 import configKhs
-def idArtefact(file):
-    tree = ET.parse("data\\" + str(file))
-    root = tree.getroot()
+def idArtefact(root):
     return root.find("INVID").text
 
-def nomArtefact(file):
+def nomArtefact(root):
     libelle =""
-    tree = ET.parse("data\\" + str(file))
-    root = tree.getroot()
     isbd = root.find("ISBD")
     titi = isbd.find("Z1/TITI")
     for child in titi:
@@ -16,46 +11,57 @@ def nomArtefact(file):
             libelle = str(libelle) + str(child.text)
     return libelle
 
-def dateInArtefact(file):
-    tree = ET.parse("data\\" + str(file))
-    root = tree.getroot()
+def dateInArtefact(root):
     return root.find("ISBD/Z0/INV").text
 
-def modeleArtefact(file):
-    tree = ET.parse("data\\" + str(file))
-    root = tree.getroot()
+def modeleArtefact(root):
     if root.find("ISBD/Z2/SXP") is not None:
         return root.find("ISBD/Z2/SXP").text
 
-def dateProdArtefact(file):
-    tree = ET.parse("data\\" + str(file))
-    root = tree.getroot()
+def dateProdArtefact(root):
     if root.find("ISBD/Z4/DT") is not None:
         return root.find("ISBD/Z4/DT").text
 
-def dimensionArtefact(file, artefact):
-    list = []
-    tree = ET.parse("data\\" + str(file))
-    root = tree.getroot()
-    isbd = root.find("ISBD")
-    z5 = isbd.find("Z5/T")
-    if z5 is not None:
-        z5 = isbd.find("Z5/T")
-        sp = str(z5.text).split()
-        for item in sp:
-            if configKhs.re.match("^[0-9]*$", item):
-                list.append(item)
-    nb = z5.findall("NB")
-    if len(nb) != 0:
-        for child in nb:
-            dim = child.text
-            list.append(dim)
-    return list
+def dimensionArtefact(root, artefact):
+     dim = ""
+     z5 = root.findall("ISBD/Z5/")
+     for child in z5:
+         if child.text is not None:
+             dim = str(dim) + str(child.text)
+     ref = str(dim).split()
+     if str(ref[0]) == "L":
+         artefact.longueur = ref[1]
 
-def imageArtefact(file):
+         if str(ref[3]) == "l":
+                artefact.largeur = ref[4]
+
+         if len(ref) > 6:
+             if str(ref[6]) == "H":
+              artefact.hauteur = ref[7]
+         elif len(ref) > 6:
+             if configKhs.re.match("^[0-9]*$", str(ref[6])):
+                print(ref[6])
+                artefact.hauteur = ref[6]
+         else:
+             artefact.hauteur = None
+
+         if len(ref) > 10:
+            if configKhs.re.match("^[0-9]*$", str(ref[8])):
+             artefact.poids = ref[8]
+         elif len(ref) > 10:
+             if configKhs.re.match("^[0-9]*$", str(ref[9])):
+                artefact.poids = ref[9]
+         else:
+             artefact.poids = None
+
+     elif configKhs.re.match("^[0-9]*$", str(ref[0])):
+         artefact.poids = ref[0]
+         artefact.longeur = None
+         artefact.largeur = None
+         artefact.hauteur = None
+
+def imageArtefact(root):
     list = []
-    tree = ET.parse("data\\" + str(file))
-    root = tree.getroot()
     img = root.findall("P/AI")
     for i in img:
         image = i.attrib
@@ -65,10 +71,8 @@ def imageArtefact(file):
         list.append(ref[1])
     return list
 
-def recupLocalisation(file, cursor):
+def recupLocalisation(root, cursor):
     id = None
-    tree = ET.parse("data\\" + str(file))
-    root = tree.getroot()
     loc = root.find("ISBD/Z0/LIEU").text
     sql="SELECT id_local FROM localisations WHERE localisation = \'" + str(loc) + "\'"
     cursor.execute(sql)
@@ -76,10 +80,8 @@ def recupLocalisation(file, cursor):
     for resultat in res:
         id = resultat[0]
     return id
-def recupProducteur(file, cursor):
+def recupProducteur(root, cursor):
     id = None
-    tree = ET.parse("data\\" + str(file))
-    root = tree.getroot()
     producteur = root.findall("ISBD/Z4/NXP")
     if len(producteur) == 1:
         prod = producteur[0].text
@@ -91,10 +93,8 @@ def recupProducteur(file, cursor):
     for resultat in res:
         id = resultat[0]
     return id
-def recupEtat(file, cursor):
+def recupEtat(root, cursor):
     id = None
-    tree = ET.parse("data\\" + str(file))
-    root = tree.getroot()
     etat = root.find("ISBD/Z7/T").text
     sql = "SELECT id_etat FROM etats WHERE etat =\'" + str(etat) + "\'"
     cursor.execute(sql)
@@ -102,10 +102,8 @@ def recupEtat(file, cursor):
     for resultat in res:
         id = resultat[0]
     return id
-def recupCollection(file, cursor):
+def recupCollection(root, cursor):
     id = None
-    tree = ET.parse("data\\" + str(file))
-    root = tree.getroot()
     collection = root.find("ISBD/Z8/NXP").text
     sql = "SELECT id_donateur FROM donateurs WHERE donateur =\'" + str(collection) + "\'"
     cursor.execute(sql)
