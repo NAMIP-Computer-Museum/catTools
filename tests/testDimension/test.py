@@ -1,7 +1,7 @@
 import unittest
-import migrationKHS\utilitaireKhs
-import migrationKHS\Artefact
+from catTools.migrationKHS import utilitaireKhs, Artefact
 import xml.etree.ElementTree as ET
+
 class TestSetDimension(unittest.TestCase):
     """test ok"""
     def test_Alldimension(self):
