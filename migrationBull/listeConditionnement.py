@@ -2,47 +2,38 @@
 import openpyxl
 from catTools import config
 import mysql.connector
-import re
 """
 fonction qui va recuperer tout les usages du fichiers
 mettre constante ou fichier de config 
 """
 
 
-def recup_conditionnement():
+def recup_conditionnement(cursor):
+   try:
     wb = openpyxl.load_workbook(filename='c:\\Users\\jazzt\\desktop\\NAM-IP\\bull.xlsm')
     ws = wb['Inventaire']
-
-    condliste = []
     for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
         local = row[18].value
         cond = row[17].value
-        id = 0
-        if cond is None:
-            continue
-        elif cond in condliste:
-            continue
-        elif cond == 0:
-            continue
+        idA = row[0].value
+        sql = "SELECT id_cond FROM conditionnements WHERE  conditionnement =\'" + str(cond).capitalize() + "\'"
+        cursor.execute(sql)
+        res = cursor.fetchone()
+        if res:
+           """rien ne se passe"""
         else:
-            condliste.append(cond)
-            try:
-             conn = mysql.connector.connect(host=config.host, user=config.user, password=config.passwd, database=config.database)
-             cursor = conn.cursor()
-             sql1 = "SELECT id_local FROM localisations WHERE localisation = \'"+str(local)+"\'"
-             cursor.execute(sql1)
-             res = cursor.fetchall()
-             for resultat in res:
-               id = resultat[0]
-               cond = re.sub('[\'"]', '', cond)
-               sql2 = "INSERT INTO `conditionnements`(`conditionnement`,localisation_key) VALUES (\'"+str(cond)+"\',"+str(id)+")"
-               cursor.execute(sql2)
-               conn.commit()
-            except mysql.connector.errors.InterfaceError as e:
-                print("Error %d: %s" % (e.args[0], e.args[1]))
-            finally:
-              if conn:
-               conn.close()
-    return condliste
+            if (cond is int) or (cond is None):
+                config.logging.warning("artefact:"+str(idA)+"-conditionnement n'est pas correct ou vide")
+            else:
+              sqlUsage ="SELECT id_local from localisations where localisation =\'"+str(local).capitalize()+"\'"
+              cursor.execute(sqlUsage)
+              res = cursor.fetchall()
+              for resultat in res:
+                  idU = resultat[0]
 
-recup_conditionnement()
+              sql ="INSERT INTO conditionnements (conditionnement,localisation_key) VALUES(\'"+str(cond).capitalize()+"\',"+str(idU)+")"
+              cursor.execute(sql)
+   except mysql.connector.errors.DatabaseError as e:
+       config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
+       config.logging.error("requete pour cond;" + str(sql) + "\n")
+

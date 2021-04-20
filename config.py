@@ -3,6 +3,10 @@ import logging
 import re
 import os
 """
+initialisation de l'ecriture dans un file du logging
+"""
+logging.basicConfig(filename="errorlog.txt",filemode="w",format = "%(levelname)s;%(message)s")
+"""
 initialisation variable de la boucle du fichier
 """
 min_row = 7
@@ -16,7 +20,7 @@ path = 'C:\\Users\\jazzt\\PycharmProjects\\pythonProject\\catTools\\data\\KHS'
 """
 initalisation parametres connection DB locale
 """
-"""
+#"""
 host = "localhost"
 user = "root"
 passwd = ""
@@ -25,7 +29,7 @@ database = "nam_ip"
 """
 initialisation parametres connection DB distante
 """
-#"""
+"""
 host = "cl1-sql11.phpnet.org"
 database = "durnal6"
 user = "durnal6"

@@ -4,7 +4,13 @@ import re
 from catTools import config
 import datetime
 import mysql.connector
-
+import listeAppartenance
+import listeConditionnement
+import listeEtat
+import listeUsage
+import listeFamille
+import listeProducteur
+import listeLocalisation
 """
 methode pour savoir si id est rempli 
 """
@@ -27,19 +33,19 @@ def process_usage(row,conn):
     usage = row[1].value
     p = re.compile('^[A-Z]{2,3}$')
     if usage is None:
-        #print("usage non encodé")
+        config.logging.warning("usage non encodé")
         return None
     elif p.match(usage):
 
         cursor = conn.cursor()
-        sql = "SELECT id_usage FROM usages WHERE libellUsage =\'" + str(usage) + "\'"
+        sql = "SELECT id_usage FROM usages WHERE libellUsage =\'" + str(usage).upper() + "\'"
         cursor.execute(sql)
         res = cursor.fetchall()
         for resultat in res:
             id = resultat[0]
         return id
     else:
-        #print("usage doit être compris en 2 et 3 lettres en majuscule")
+        config.logging.warning("usage doit être compris en 2 et 3 lettres en majuscule")
         return None
 
 
@@ -51,13 +57,14 @@ methode pour voir si la famille est présente ou non
 def process_famille(row,conn):
     # print(row[2].value)
     famille = row[2].value
+    idA = row[0].value
     id = None
     if famille is None:
-        #print("famille non encodée")
+        config.logging.warning("artefact:"+str(idA)+";famille vide")
         return None
     else:
         cursor = conn.cursor()
-        sql = "SELECT id_famille FROM familles WHERE famille =\'" + str(famille) + "\'"
+        sql = "SELECT id_famille FROM familles WHERE famille =\'" + str(famille).capitalize() + "\'"
         cursor.execute(sql)
         res = cursor.fetchall()
         for resultat in res:
@@ -73,6 +80,10 @@ methode pour voir si le libellé est présente
 def process_libelle(row):
     # print(row[3].value)
     libelle = row[3].value
+    if str(libelle).__contains__("\'"):
+     # escape des caracères ' et "
+     libelle = re.sub('[\']', '', libelle)
+
     return libelle
 
 
@@ -101,7 +112,7 @@ def process_appartenance(row,conn):
         return None
     else:
         cursor = conn.cursor()
-        sql = "SELECT id_appart FROM appartenances WHERE appartenance =\'" + str(appart) + "\'"
+        sql = "SELECT id_appart FROM appartenances WHERE appartenance =\'" + str(appart).capitalize() + "\'"
         cursor.execute(sql)
         res = cursor.fetchall()
         for resultat in res:
@@ -154,7 +165,7 @@ def process_producteur(row,conn):
         prod = re.sub('[\'"]', '', prod)
 
     cursor = conn.cursor()
-    sql = "SELECT id_producteur FROM producteurs WHERE producteur =\'" + str(prod) + "\'"
+    sql = "SELECT id_producteur FROM producteurs WHERE producteur =\'" + str(prod).capitalize() + "\'"
     cursor.execute(sql)
     res = cursor.fetchall()
     for resultat in res:
@@ -169,10 +180,11 @@ peut etre compris entre 0 et autant que possible
 
 
 def process_quantite(row):
-    # print(row[10].value)
-    qte = row[10].value
+    # print(row[9].value)
+    qte = row[9].value
+    id = row[0].value
     if qte is None:
-        #print("pas de quantité")
+        config.logging.warning("artefact:"+str(id)+";pas de quantité")
         return None
     else:
         return qte
@@ -185,13 +197,13 @@ peut etre de différents état
 
 
 def process_etat(row,conn):
-    # print(row[11].value)
+    # print(row[5].value)
     etat = row[5].value
     if etat is None:
         return None
     else:
         cursor = conn.cursor()
-        sql = "SELECT id_etat FROM etats WHERE etat =\'" + str(etat) + "\'"
+        sql = "SELECT id_etat FROM etats WHERE etat =\'" + str(etat).upper() + "\'"
         cursor.execute(sql)
         res = cursor.fetchall()
         id = None
@@ -219,7 +231,7 @@ def process_conditionement(row,conn):
         cond = re.sub('[\'"]', '', cond)
 
     cursor = conn.cursor()
-    sql = "SELECT id_cond FROM conditionnements WHERE conditionnement = \'" + str(cond) + "\'"
+    sql = "SELECT id_cond FROM conditionnements WHERE conditionnement = \'" + str(cond).capitalize() + "\'"
     cursor.execute(sql)
     res = cursor.fetchall()
     for resultat in res:
@@ -243,11 +255,10 @@ musée ou musée B
 
 
 def process_localisation(row,conn):
-    # print(row[18].value)
     local = row[18].value
     id = None
     cursor = conn.cursor()
-    sql = "SELECT id_local FROM localisations WHERE localisation = \'" + str(local) + "\'"
+    sql = "SELECT id_local FROM localisations WHERE localisation = \'" + str(local).capitalize() + "\'"
     cursor.execute(sql)
     res = cursor.fetchall()
     for resultat in res:
@@ -263,22 +274,20 @@ nombre+cm  ^[A-Z]{2,3}$
 
 
 def process_longueur(row):
-    # print(row[19].value)
     longueur = row[19].value
+    id = row[0].value
     cm = re.compile('^[1-9]+Cm$')
     if longueur is None:
-       # print("erreur")
+        config.logging.warning("artefact:"+str(id)+";pas de longueur")
         return None
     elif longueur is int:
-        #print("la valeur doit est un nombre suivi de Cm")
         return longueur
     elif cm.match(str(longueur)):
-        #print("longueur ok")
         str(longueur).split("C")
         return longueur[0]
     else:
-         #print("mauvais encodage de la longueur")
-         return None
+         config.logging.warning("artefact:"+str(id)+";mauvais encodage de la longueur")
+    return None
 
 
 """
@@ -290,20 +299,19 @@ nombre+cm ^[A-Z]{2,3}$
 def process_largeur(row):
     # print(row[20].value)
     largeur = row[20].value
+    id = row[0].value
     cm = re.compile('^[1-9]+Cm$')
     if largeur is None:
-        #print("erreur")
+        config.logging.warning("artefact:"+str(id)+";pas de largeur")
         return None
     elif largeur is int:
-        #print("la valeur doit est un nombre suivi de Cm")
-        return None
+        return largeur
     elif cm.match(str(largeur)):
-        #print("largeur ok")
         str(largeur).split("C")
-        print(largeur[0])
+        config.logging.debug(largeur[0])
         return largeur[0]
     else:
-        #print("mauvais encodage de la largeur")
+        config.logging.warning("artefact:"+str(id)+";mauvais encodage de la largeur")
         return None
 
 """
@@ -314,21 +322,19 @@ nombre+cm  ^[A-Z]{2,3}$
 
 
 def process_hauteur(row):
-    # print(row[21].value)
     hauteur = row[21].value
+    id = row[0].value
     cm = re.compile('^[1-9]+Cm$')
     if hauteur is None:
-       # print("erreur")
+        config.logging.warning("artefact:"+str(id)+";pas de hauteur")
         return None
     elif hauteur is int:
-        #print("la valeur doit est un nombre suivi de  Cm")
         return hauteur
     elif cm.match(str(hauteur)):
-        #print("hauteur ok")
         str(hauteur).split("C")
         return hauteur[0]
     else:
-        #print("mauvais encodage de la hauteur")
+        config.logging.warning("artefact:"+str(id)+";mauvais encodage de la hauteur")
         return None
 
 """
@@ -341,19 +347,19 @@ attention peuty avoir des gramme gr
 
 def process_poids(row):
     poids = row[22].value
+    id = row[0].value
     kg = re.compile('^[1-9]+Kg$')
     if poids is None:
-        # print("erreur")
+        config.logging.warning("artefact:"+str(id)+";pas de poids")
         return None
     elif poids is int:
-        # print("la valeur doit est un nombre suivi de Kg")
         return poids
     elif kg.match(str(poids)):
         str(poids).split("K")
         return poids[0]
     else:
-       #print("mauvais encodage du poids")
-       return None
+       config.logging.warning("artefact:"+str(id)+";mauvais encodage du poids")
+    return None
 
 
 """
@@ -380,16 +386,10 @@ def process_donateur(row,conn):
 """
 methode pour les liens
 pas obligatoire
-     if conn is not None and conn.is_connected():
-            print("END")
-            conn.commit()
-            conn.close()
 """
 
 
 def process_liens(row):
-    # print(row[27].value)
-    # print(row[28].value)
     liens = (row[27].value, row[28].value)
     return liens
 
@@ -432,9 +432,11 @@ cherche encore comment verifier la date car il faut du String pas du datetime
 
 def process_datein(row):
     datetime.date = row[31].value
+    id = row[0].value
     dateIn = None
     if datetime.date is None:
         dateIn = None
+        config.logging.warning("artefact:" + str(id) + ";pas de date d'entrée")
     else:
         dateIn = datetime.date
     return dateIn
@@ -448,13 +450,13 @@ dd-mm-aaaa
 
 
 def process_recolement(row):
-    # print(row[33].value)
     datetime.date = row[33].value
+    id = row[0].value
     if datetime.date is None:
-        #print("pas de soucis")
-        ""
+        return None
+        config.logging.warning("artefact:" + str(id) + ";pas de recolement")
     else:
-        print(datetime.date)
+        #print(datetime.date)
         return datetime.date
 
 
@@ -466,7 +468,6 @@ retournera les retour des autres fonctions pour montrer ce qui est à changer ou
 
 
 def process_row(row,conn):
-    try:
 
      id = process_id(row)
      famille = process_famille(row,conn)
@@ -500,14 +501,24 @@ def process_row(row,conn):
      else:
          # insertion dans la table de donateur
          sqlDon = "INSERT INTO donateurs (donateur) VALUES (\'" + str(donateur) + "\')"
-         cursor.execute(sqlDon)
+         try:
+             cursor.execute(sqlDon)
+         except mysql.connector.errors.DatabaseError as e:
+             config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
+             config.logging.error("requete donateur;"+str(sqlDon)+"\n")
+             conn.rollback()
 
          # recuperation de l'id du donateur
          sqlDon2 = "SELECT id_donateur FROM donateurs WHERE donateur = \'" + str(donateur) + "\'"
-         cursor.execute(sqlDon2)
+         try:
+            cursor.execute(sqlDon2)
+         except mysql.connector.errors.DatabaseError as e:
+            config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
+            config.logging.error("requete donateur;" + str(sqlDon2)+"\n")
+            conn.rollback()
          res = cursor.fetchall()
          for resultat in res:
-             idDon = resultat[0]
+           idDon = resultat[0]
 
      p1 = "INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,"
      p2 = "`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,"
@@ -516,15 +527,20 @@ def process_row(row,conn):
         p4 = "\'," + str(anProd) + "," + str(qte) + ",\'" + str(dateIn) + "\'," + "NULL" + "," + "NULL" + "," +"NULL"+ "," + "NULL"
      else:
         p4 = "\'," + str(anProd) + "," + str(qte) + "," + str(dateIn) + "," + "NULL" + "," +"NULL"+ "," + "NULL"+ "," + "NULL"
-
-     p5 = ",\'" + str(comment) + "\'," + str(idDon) + "," + str(cond) + "," + str(prod) + "," + str(etat) + "," + str(
-        local)
+     p5 = ",\'" + str(comment) + "\'," + str(idDon) + "," + str(cond) + "," + str(prod) + "," + str(etat) + "," + str(local)
      p6 = "," + str(appart) + "," + str(famille) + ")"
      sqlArtefact = p1 + p2 + p3 + p4 + p5 + p6
      sqlArtefact = re.sub('None', 'NULL', sqlArtefact)
-     #print(sqlArtefact)
-     cursor.execute(sqlArtefact)
-
+     try:
+      cursor.execute(sqlArtefact)
+     except mysql.connector.errors.DatabaseError as e:
+         config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
+         config.logging.error("requete artefact;" + str(sqlArtefact)+"\n")
+         conn.rollback()
+         # if cursor:
+         #config.logging.warning("l'artefact est OK")
+     #else :
+         #config.logging.error("l'artefact "+str(id)+"n'est pas passé")
     # insertion dans la table des liens
      """ 
      for l in lien:
@@ -548,10 +564,13 @@ def process_row(row,conn):
      else:
         sqlRecol = "INSERT INTO `recolements`(`recolement`, `artefact_key`) VALUES (\'" + str(recolement) + "\'," + str(
             id) + ")"
-        cursor.execute(sqlRecol)
+        try:
+         cursor.execute(sqlRecol)
+        except mysql.connector.errors.DatabaseError as e:
+            config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
+            config.logging.error("requete recolement;"+str(sqlRecol)+"\n")
+            conn.rollback()
      conn.commit()
-    except mysql.connector.errors.DatabaseError as e:
-       print("Error %d: %s" % (e.args[0], e.args[1]))
 
 wb = openpyxl.load_workbook(filename='c:\\Users\\jazzt\\desktop\\NAM-IP\\bull.xlsm')
 ws = wb['Inventaire']
@@ -561,10 +580,18 @@ si oui verifier si elle sont bien encodée + mise dans la DataBase si tout est O
 """
 try:
  conn = mysql.connector.connect(host=config.host, user=config.user, password=config.passwd, database=config.database)
+ cursor = conn.cursor()
+ listeEtat.recup_etat(cursor)
+ listeProducteur.recup_producteur(cursor)
+ listeUsage.recup_usage(cursor)
+ listeAppartenance.recup_appartenance(cursor)
+ listeFamille.recup_famille(cursor)
+ listeLocalisation.recup_localisation(cursor)
+ listeConditionnement.recup_conditionnement(cursor)
+ conn.commit()
  for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
     if all([cell.value is None for cell in row[2:]]):
         continue
-
     process_row(row,conn)
 finally:
     conn.close

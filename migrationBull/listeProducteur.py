@@ -7,31 +7,27 @@ fonction permettant de repucerer tout les producteur du fichier
 """
 
 
-def recup_producteur():
+def recup_producteur(cursor):
+ try:
     wb = openpyxl.load_workbook(filename='c:\\Users\\jazzt\\desktop\\NAM-IP\\bull.xlsm')
     ws = wb['Inventaire']
 
-    prodliste = []
     for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
         prod = row[8].value
-        if prod is None:
-            continue
-        elif prod in prodliste:
-            continue
-        elif str(prod).capitalize() is int:
-            continue
+        idA = row[0].value
+        id = None
+        sql = "SELECT id_producteur  FROM producteurs WHERE producteur =\'" + str(prod).capitalize() + "\'"
+        cursor.execute(sql)
+        res = cursor.fetchone()
+        if res:
+           """rien ne se passe"""
         else:
-            prodliste.append(prod)
-            try:
-             conn = mysql.connector.connect(host=config.host, user=config.user, password=config.passwd, database=config.database)
-             cursor = conn.cursor()
-             sql = "INSERT INTO `producteurs`(`producteur`) VALUES (\""+str(prod)+"\")"
-             cursor.execute(sql)
-             conn.commit()
-            except mysql.connector.errors as e:
-                print("Error %d: %s" % (e.args[0], e.args[1]))
-            finally:
-                if conn:
-                    conn.close
+            if (prod is int) or (prod is None) or (prod ==1 or prod == 0):
+                config.logging.warning("artefact:"+str(idA)+"-producteur n'est pas correct ou vide")
+            else:
+              sql1 ="INSERT INTO producteurs (producteur) VALUES(\'"+str(prod).capitalize()+"\')"
+              cursor.execute(sql1)
 
-recup_producteur()
+ except mysql.connector.errors.DatabaseError as e:
+    config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
+
