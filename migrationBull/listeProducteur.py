@@ -23,7 +23,7 @@ def recup_producteur(cursor):
            """rien ne se passe"""
         else:
             if (prod is int) or (prod is None) or (prod ==1 or prod == 0):
-                config.logging.warning("artefact:"+str(idA)+"-producteur n'est pas correct ou vide")
+                config.logging.warning("artefact:"+str(idA)+";producteur n'est pas correct ou vide")
             else:
               sql1 ="INSERT INTO producteurs (producteur) VALUES(\'"+str(prod).capitalize()+"\')"
               cursor.execute(sql1)

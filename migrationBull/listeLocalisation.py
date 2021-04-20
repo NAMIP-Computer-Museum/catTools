@@ -21,7 +21,7 @@ def recup_localisation(cursor):
            """rien ne se passe"""
         else:
             if (local is int) or (local is None):
-                config.logging.warning("artefact:"+str(idA)+"-localisation n'est pas correcte ou vide")
+                config.logging.warning("artefact:"+str(idA)+";localisation n'est pas correcte ou vide")
             else:
               sql ="INSERT INTO localisations (localisation) VALUES(\'"+str(local).capitalize()+"\')"
               cursor.execute(sql)

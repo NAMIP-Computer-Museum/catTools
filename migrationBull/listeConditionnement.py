@@ -23,7 +23,7 @@ def recup_conditionnement(cursor):
            """rien ne se passe"""
         else:
             if (cond is int) or (cond is None):
-                config.logging.warning("artefact:"+str(idA)+"-conditionnement n'est pas correct ou vide")
+                config.logging.warning("artefact:"+str(idA)+";conditionnement n'est pas correct ou vide")
             else:
               sqlUsage ="SELECT id_local from localisations where localisation =\'"+str(local).capitalize()+"\'"
               cursor.execute(sqlUsage)
