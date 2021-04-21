@@ -56,14 +56,21 @@ methode pour voir si la famille est présente ou non
 
 def process_famille(row,conn):
     # print(row[2].value)
+    usage = row[1].value
     famille = row[2].value
     idA = row[0].value
+    idU = None
+    cursor = conn.cursor()
     id = None
     if famille is None:
-        config.logging.warning("artefact:"+str(idA)+";famille vide")
-        return None
+        """
+        sql = "SELECT id_usage FROM usages WHERE libellUsage =\'" + str(usage).upper() + "\'"
+        cursor.execute(sql)
+        res = cursor.fetchone()
+        idU = res[0]
+        sql=" SELECT id_famille FROM familles WHERE famille = inconnue AND usage_key ="+str(idU)
+        """
     else:
-        cursor = conn.cursor()
         sql = "SELECT id_famille FROM familles WHERE famille =\'" + str(famille).capitalize() + "\'"
         cursor.execute(sql)
         res = cursor.fetchall()
@@ -112,7 +119,7 @@ def process_appartenance(row,conn):
         return None
     else:
         cursor = conn.cursor()
-        sql = "SELECT id_appart FROM appartenances WHERE appartenance =\'" + str(appart).capitalize() + "\'"
+        sql = "SELECT id_appart FROM appartenances WHERE appartenance =\'" + str(appart)+ "\'"
         cursor.execute(sql)
         res = cursor.fetchall()
         for resultat in res:
@@ -442,6 +449,8 @@ def process_datein(row):
         config.logging.warning("artefact:" + str(id) + ";pas de date d'entrée")
     else:
         dateIn = datetime.date
+       # if dateIn.year < 1900:
+       # config.logging.warning("artefact:"+str(id)+";date suspecte")
     return dateIn
 
 
@@ -585,7 +594,7 @@ try:
  conn.commit()
  for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
     if all([cell.value is None for cell in row[2:]]):
-        continue
+        config.logging.warning("artefact"+str(row[0])+";est vide")
     process_row(row,conn)
 finally:
     conn.close

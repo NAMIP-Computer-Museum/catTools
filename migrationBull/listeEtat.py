@@ -22,8 +22,10 @@ def recup_etat(cursor):
         if res:
            """rien ne se passe"""
         else:
-            if (etat is int) or (etat is None) or (etat ==1 or etat == 0):
+            if (etat is int) or (etat is None):
                 config.logging.warning("artefact:"+str(idA)+";etat n'est pas correct ou vide")
+            elif  (etat ==1 or etat == 0):
+                config.logging.warning("artefact:" + str(idA) + ";etat est 0 ou 1")
             else:
               sql1 ="INSERT INTO etats (etat) VALUES(\'"+str(etat).upper()+"\')"
               cursor.execute(sql1)

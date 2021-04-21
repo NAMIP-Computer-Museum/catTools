@@ -14,7 +14,6 @@ def recup_usage(cursor):
     for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
         usage = row[1].value
         idA = row[0].value
-        id = None
         sql = "SELECT id_usage FROM usages WHERE libelleUsage =\'" + str(usage).upper() + "\'"
         cursor.execute(sql)
         res = cursor.fetchone()

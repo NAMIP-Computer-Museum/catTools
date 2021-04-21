@@ -1,19 +1,19 @@
-WARNING;artefact:7;etat n'est pas correct ou vide
-WARNING;artefact:6987;etat n'est pas correct ou vide
-WARNING;artefact:6988;etat n'est pas correct ou vide
-WARNING;artefact:6989;etat n'est pas correct ou vide
-WARNING;artefact:6990;etat n'est pas correct ou vide
-WARNING;artefact:6991;etat n'est pas correct ou vide
+WARNING;artefact:7;etat est 0 ou 1
+WARNING;artefact:6987;etat est 0 ou 1
+WARNING;artefact:6988;etat est 0 ou 1
+WARNING;artefact:6989;etat est 0 ou 1
+WARNING;artefact:6990;etat est 0 ou 1
+WARNING;artefact:6991;etat est 0 ou 1
 WARNING;artefact:6992;etat n'est pas correct ou vide
 WARNING;artefact:6993;etat n'est pas correct ou vide
-WARNING;artefact:6994;etat n'est pas correct ou vide
-WARNING;artefact:6995;etat n'est pas correct ou vide
+WARNING;artefact:6994;etat est 0 ou 1
+WARNING;artefact:6995;etat est 0 ou 1
 WARNING;artefact:6996;etat n'est pas correct ou vide
 WARNING;artefact:6997;etat n'est pas correct ou vide
 WARNING;artefact:6998;etat n'est pas correct ou vide
 WARNING;artefact:6999;etat n'est pas correct ou vide
-WARNING;artefact:7000;etat n'est pas correct ou vide
-WARNING;artefact:7001;etat n'est pas correct ou vide
+WARNING;artefact:7000;etat est 0 ou 1
+WARNING;artefact:7001;etat est 0 ou 1
 WARNING;artefact:7056;etat n'est pas correct ou vide
 WARNING;artefact:8526;etat n'est pas correct ou vide
 WARNING;artefact:8527;etat n'est pas correct ou vide
@@ -57,96 +57,96 @@ WARNING;artefact:8956;etat n'est pas correct ou vide
 WARNING;artefact:8957;etat n'est pas correct ou vide
 WARNING;artefact:8958;etat n'est pas correct ou vide
 WARNING;artefact:8959;etat n'est pas correct ou vide
-WARNING;artefact:8960;etat n'est pas correct ou vide
-WARNING;artefact:8961;etat n'est pas correct ou vide
-WARNING;artefact:8962;etat n'est pas correct ou vide
-WARNING;artefact:8963;etat n'est pas correct ou vide
-WARNING;artefact:8964;etat n'est pas correct ou vide
-WARNING;artefact:8965;etat n'est pas correct ou vide
-WARNING;artefact:8966;etat n'est pas correct ou vide
-WARNING;artefact:8967;etat n'est pas correct ou vide
-WARNING;artefact:8968;etat n'est pas correct ou vide
+WARNING;artefact:8960;etat est 0 ou 1
+WARNING;artefact:8961;etat est 0 ou 1
+WARNING;artefact:8962;etat est 0 ou 1
+WARNING;artefact:8963;etat est 0 ou 1
+WARNING;artefact:8964;etat est 0 ou 1
+WARNING;artefact:8965;etat est 0 ou 1
+WARNING;artefact:8966;etat est 0 ou 1
+WARNING;artefact:8967;etat est 0 ou 1
+WARNING;artefact:8968;etat est 0 ou 1
 WARNING;artefact:8969;etat n'est pas correct ou vide
-WARNING;artefact:8970;etat n'est pas correct ou vide
-WARNING;artefact:9298;etat n'est pas correct ou vide
-WARNING;artefact:9299;etat n'est pas correct ou vide
-WARNING;artefact:9300;etat n'est pas correct ou vide
+WARNING;artefact:8970;etat est 0 ou 1
+WARNING;artefact:9298;etat est 0 ou 1
+WARNING;artefact:9299;etat est 0 ou 1
+WARNING;artefact:9300;etat est 0 ou 1
 WARNING;artefact:9301;etat n'est pas correct ou vide
-WARNING;artefact:9302;etat n'est pas correct ou vide
-WARNING;artefact:9303;etat n'est pas correct ou vide
-WARNING;artefact:9304;etat n'est pas correct ou vide
-WARNING;artefact:9305;etat n'est pas correct ou vide
-WARNING;artefact:9306;etat n'est pas correct ou vide
-WARNING;artefact:9307;etat n'est pas correct ou vide
-WARNING;artefact:9308;etat n'est pas correct ou vide
-WARNING;artefact:9309;etat n'est pas correct ou vide
-WARNING;artefact:9337;etat n'est pas correct ou vide
-WARNING;artefact:9338;etat n'est pas correct ou vide
-WARNING;artefact:9339;etat n'est pas correct ou vide
-WARNING;artefact:9340;etat n'est pas correct ou vide
+WARNING;artefact:9302;etat est 0 ou 1
+WARNING;artefact:9303;etat est 0 ou 1
+WARNING;artefact:9304;etat est 0 ou 1
+WARNING;artefact:9305;etat est 0 ou 1
+WARNING;artefact:9306;etat est 0 ou 1
+WARNING;artefact:9307;etat est 0 ou 1
+WARNING;artefact:9308;etat est 0 ou 1
+WARNING;artefact:9309;etat est 0 ou 1
+WARNING;artefact:9337;etat est 0 ou 1
+WARNING;artefact:9338;etat est 0 ou 1
+WARNING;artefact:9339;etat est 0 ou 1
+WARNING;artefact:9340;etat est 0 ou 1
 WARNING;artefact:9341;etat n'est pas correct ou vide
 WARNING;artefact:9342;etat n'est pas correct ou vide
-WARNING;artefact:9343;etat n'est pas correct ou vide
-WARNING;artefact:9344;etat n'est pas correct ou vide
-WARNING;artefact:9394;etat n'est pas correct ou vide
+WARNING;artefact:9343;etat est 0 ou 1
+WARNING;artefact:9344;etat est 0 ou 1
+WARNING;artefact:9394;etat est 0 ou 1
 WARNING;artefact:9395;etat n'est pas correct ou vide
-WARNING;artefact:9396;etat n'est pas correct ou vide
+WARNING;artefact:9396;etat est 0 ou 1
 WARNING;artefact:9397;etat n'est pas correct ou vide
 WARNING;artefact:9398;etat n'est pas correct ou vide
-WARNING;artefact:9399;etat n'est pas correct ou vide
-WARNING;artefact:9400;etat n'est pas correct ou vide
-WARNING;artefact:9401;etat n'est pas correct ou vide
-WARNING;artefact:9402;etat n'est pas correct ou vide
+WARNING;artefact:9399;etat est 0 ou 1
+WARNING;artefact:9400;etat est 0 ou 1
+WARNING;artefact:9401;etat est 0 ou 1
+WARNING;artefact:9402;etat est 0 ou 1
 WARNING;artefact:9403;etat n'est pas correct ou vide
-WARNING;artefact:9404;etat n'est pas correct ou vide
+WARNING;artefact:9404;etat est 0 ou 1
 WARNING;artefact:9405;etat n'est pas correct ou vide
-WARNING;artefact:9406;etat n'est pas correct ou vide
-WARNING;artefact:9407;etat n'est pas correct ou vide
-WARNING;artefact:9408;etat n'est pas correct ou vide
+WARNING;artefact:9406;etat est 0 ou 1
+WARNING;artefact:9407;etat est 0 ou 1
+WARNING;artefact:9408;etat est 0 ou 1
 WARNING;artefact:9471;etat n'est pas correct ou vide
-WARNING;artefact:9472;etat n'est pas correct ou vide
-WARNING;artefact:9473;etat n'est pas correct ou vide
-WARNING;artefact:9474;etat n'est pas correct ou vide
-WARNING;artefact:9475;etat n'est pas correct ou vide
+WARNING;artefact:9472;etat est 0 ou 1
+WARNING;artefact:9473;etat est 0 ou 1
+WARNING;artefact:9474;etat est 0 ou 1
+WARNING;artefact:9475;etat est 0 ou 1
 WARNING;artefact:9476;etat n'est pas correct ou vide
-WARNING;artefact:9477;etat n'est pas correct ou vide
-WARNING;artefact:9478;etat n'est pas correct ou vide
-WARNING;artefact:9479;etat n'est pas correct ou vide
+WARNING;artefact:9477;etat est 0 ou 1
+WARNING;artefact:9478;etat est 0 ou 1
+WARNING;artefact:9479;etat est 0 ou 1
 WARNING;artefact:9480;etat n'est pas correct ou vide
-WARNING;artefact:9669;etat n'est pas correct ou vide
-WARNING;artefact:9670;etat n'est pas correct ou vide
-WARNING;artefact:9671;etat n'est pas correct ou vide
-WARNING;artefact:9672;etat n'est pas correct ou vide
-WARNING;artefact:9673;etat n'est pas correct ou vide
-WARNING;artefact:9674;etat n'est pas correct ou vide
-WARNING;artefact:9675;etat n'est pas correct ou vide
-WARNING;artefact:9676;etat n'est pas correct ou vide
-WARNING;artefact:9677;etat n'est pas correct ou vide
-WARNING;artefact:9678;etat n'est pas correct ou vide
-WARNING;artefact:9679;etat n'est pas correct ou vide
-WARNING;artefact:9680;etat n'est pas correct ou vide
-WARNING;artefact:9681;etat n'est pas correct ou vide
-WARNING;artefact:9682;etat n'est pas correct ou vide
-WARNING;artefact:9683;etat n'est pas correct ou vide
-WARNING;artefact:9684;etat n'est pas correct ou vide
-WARNING;artefact:9685;etat n'est pas correct ou vide
+WARNING;artefact:9669;etat est 0 ou 1
+WARNING;artefact:9670;etat est 0 ou 1
+WARNING;artefact:9671;etat est 0 ou 1
+WARNING;artefact:9672;etat est 0 ou 1
+WARNING;artefact:9673;etat est 0 ou 1
+WARNING;artefact:9674;etat est 0 ou 1
+WARNING;artefact:9675;etat est 0 ou 1
+WARNING;artefact:9676;etat est 0 ou 1
+WARNING;artefact:9677;etat est 0 ou 1
+WARNING;artefact:9678;etat est 0 ou 1
+WARNING;artefact:9679;etat est 0 ou 1
+WARNING;artefact:9680;etat est 0 ou 1
+WARNING;artefact:9681;etat est 0 ou 1
+WARNING;artefact:9682;etat est 0 ou 1
+WARNING;artefact:9683;etat est 0 ou 1
+WARNING;artefact:9684;etat est 0 ou 1
+WARNING;artefact:9685;etat est 0 ou 1
 WARNING;artefact:9686;etat n'est pas correct ou vide
-WARNING;artefact:9687;etat n'est pas correct ou vide
+WARNING;artefact:9687;etat est 0 ou 1
 WARNING;artefact:9688;etat n'est pas correct ou vide
 WARNING;artefact:9689;etat n'est pas correct ou vide
 WARNING;artefact:9690;etat n'est pas correct ou vide
 WARNING;artefact:9691;etat n'est pas correct ou vide
-WARNING;artefact:9692;etat n'est pas correct ou vide
-WARNING;artefact:9693;etat n'est pas correct ou vide
+WARNING;artefact:9692;etat est 0 ou 1
+WARNING;artefact:9693;etat est 0 ou 1
 WARNING;artefact:9694;etat n'est pas correct ou vide
-WARNING;artefact:9695;etat n'est pas correct ou vide
+WARNING;artefact:9695;etat est 0 ou 1
 WARNING;artefact:9696;etat n'est pas correct ou vide
 WARNING;artefact:9810;etat n'est pas correct ou vide
-WARNING;artefact:9811;etat n'est pas correct ou vide
+WARNING;artefact:9811;etat est 0 ou 1
 WARNING;artefact:9812;etat n'est pas correct ou vide
-WARNING;artefact:9813;etat n'est pas correct ou vide
+WARNING;artefact:9813;etat est 0 ou 1
 WARNING;artefact:9814;etat n'est pas correct ou vide
-WARNING;artefact:9815;etat n'est pas correct ou vide
+WARNING;artefact:9815;etat est 0 ou 1
 WARNING;artefact:9816;etat n'est pas correct ou vide
 WARNING;artefact:9817;etat n'est pas correct ou vide
 WARNING;artefact:9818;etat n'est pas correct ou vide
@@ -156,74 +156,74 @@ WARNING;artefact:9821;etat n'est pas correct ou vide
 WARNING;artefact:9822;etat n'est pas correct ou vide
 WARNING;artefact:9823;etat n'est pas correct ou vide
 WARNING;artefact:9824;etat n'est pas correct ou vide
-WARNING;artefact:9825;etat n'est pas correct ou vide
+WARNING;artefact:9825;etat est 0 ou 1
 WARNING;artefact:9826;etat n'est pas correct ou vide
-WARNING;artefact:9827;etat n'est pas correct ou vide
-WARNING;artefact:9828;etat n'est pas correct ou vide
-WARNING;artefact:9829;etat n'est pas correct ou vide
-WARNING;artefact:9830;etat n'est pas correct ou vide
-WARNING;artefact:9831;etat n'est pas correct ou vide
-WARNING;artefact:9832;etat n'est pas correct ou vide
-WARNING;artefact:9833;etat n'est pas correct ou vide
+WARNING;artefact:9827;etat est 0 ou 1
+WARNING;artefact:9828;etat est 0 ou 1
+WARNING;artefact:9829;etat est 0 ou 1
+WARNING;artefact:9830;etat est 0 ou 1
+WARNING;artefact:9831;etat est 0 ou 1
+WARNING;artefact:9832;etat est 0 ou 1
+WARNING;artefact:9833;etat est 0 ou 1
 WARNING;artefact:9835;etat n'est pas correct ou vide
 WARNING;artefact:9836;etat n'est pas correct ou vide
-WARNING;artefact:9837;etat n'est pas correct ou vide
-WARNING;artefact:9838;etat n'est pas correct ou vide
-WARNING;artefact:9839;etat n'est pas correct ou vide
-WARNING;artefact:9840;etat n'est pas correct ou vide
-WARNING;artefact:9841;etat n'est pas correct ou vide
-WARNING;artefact:9842;etat n'est pas correct ou vide
-WARNING;artefact:9843;etat n'est pas correct ou vide
-WARNING;artefact:9844;etat n'est pas correct ou vide
-WARNING;artefact:9855;etat n'est pas correct ou vide
-WARNING;artefact:9856;etat n'est pas correct ou vide
-WARNING;artefact:9857;etat n'est pas correct ou vide
-WARNING;artefact:9858;etat n'est pas correct ou vide
-WARNING;artefact:9859;etat n'est pas correct ou vide
-WARNING;artefact:9860;etat n'est pas correct ou vide
+WARNING;artefact:9837;etat est 0 ou 1
+WARNING;artefact:9838;etat est 0 ou 1
+WARNING;artefact:9839;etat est 0 ou 1
+WARNING;artefact:9840;etat est 0 ou 1
+WARNING;artefact:9841;etat est 0 ou 1
+WARNING;artefact:9842;etat est 0 ou 1
+WARNING;artefact:9843;etat est 0 ou 1
+WARNING;artefact:9844;etat est 0 ou 1
+WARNING;artefact:9855;etat est 0 ou 1
+WARNING;artefact:9856;etat est 0 ou 1
+WARNING;artefact:9857;etat est 0 ou 1
+WARNING;artefact:9858;etat est 0 ou 1
+WARNING;artefact:9859;etat est 0 ou 1
+WARNING;artefact:9860;etat est 0 ou 1
 WARNING;artefact:9861;etat n'est pas correct ou vide
-WARNING;artefact:9862;etat n'est pas correct ou vide
-WARNING;artefact:9863;etat n'est pas correct ou vide
+WARNING;artefact:9862;etat est 0 ou 1
+WARNING;artefact:9863;etat est 0 ou 1
 WARNING;artefact:9864;etat n'est pas correct ou vide
-WARNING;artefact:9889;etat n'est pas correct ou vide
+WARNING;artefact:9889;etat est 0 ou 1
 WARNING;artefact:9890;etat n'est pas correct ou vide
 WARNING;artefact:9891;etat n'est pas correct ou vide
-WARNING;artefact:9892;etat n'est pas correct ou vide
+WARNING;artefact:9892;etat est 0 ou 1
 WARNING;artefact:9893;etat n'est pas correct ou vide
 WARNING;artefact:9894;etat n'est pas correct ou vide
-WARNING;artefact:9895;etat n'est pas correct ou vide
-WARNING;artefact:9896;etat n'est pas correct ou vide
+WARNING;artefact:9895;etat est 0 ou 1
+WARNING;artefact:9896;etat est 0 ou 1
 WARNING;artefact:9897;etat n'est pas correct ou vide
-WARNING;artefact:9898;etat n'est pas correct ou vide
-WARNING;artefact:9899;etat n'est pas correct ou vide
-WARNING;artefact:9900;etat n'est pas correct ou vide
-WARNING;artefact:9901;etat n'est pas correct ou vide
-WARNING;artefact:9902;etat n'est pas correct ou vide
-WARNING;artefact:9903;etat n'est pas correct ou vide
+WARNING;artefact:9898;etat est 0 ou 1
+WARNING;artefact:9899;etat est 0 ou 1
+WARNING;artefact:9900;etat est 0 ou 1
+WARNING;artefact:9901;etat est 0 ou 1
+WARNING;artefact:9902;etat est 0 ou 1
+WARNING;artefact:9903;etat est 0 ou 1
 WARNING;artefact:9906;etat n'est pas correct ou vide
 WARNING;artefact:9907;etat n'est pas correct ou vide
-WARNING;artefact:9911;etat n'est pas correct ou vide
-WARNING;artefact:9912;etat n'est pas correct ou vide
-WARNING;artefact:9913;etat n'est pas correct ou vide
-WARNING;artefact:9914;etat n'est pas correct ou vide
+WARNING;artefact:9911;etat est 0 ou 1
+WARNING;artefact:9912;etat est 0 ou 1
+WARNING;artefact:9913;etat est 0 ou 1
+WARNING;artefact:9914;etat est 0 ou 1
 WARNING;artefact:9915;etat n'est pas correct ou vide
 WARNING;artefact:9919;etat n'est pas correct ou vide
 WARNING;artefact:9920;etat n'est pas correct ou vide
 WARNING;artefact:9921;etat n'est pas correct ou vide
 WARNING;artefact:9922;etat n'est pas correct ou vide
-WARNING;artefact:10233;etat n'est pas correct ou vide
-WARNING;artefact:10234;etat n'est pas correct ou vide
-WARNING;artefact:10245;etat n'est pas correct ou vide
-WARNING;artefact:10246;etat n'est pas correct ou vide
-WARNING;artefact:10247;etat n'est pas correct ou vide
-WARNING;artefact:10248;etat n'est pas correct ou vide
+WARNING;artefact:10233;etat est 0 ou 1
+WARNING;artefact:10234;etat est 0 ou 1
+WARNING;artefact:10245;etat est 0 ou 1
+WARNING;artefact:10246;etat est 0 ou 1
+WARNING;artefact:10247;etat est 0 ou 1
+WARNING;artefact:10248;etat est 0 ou 1
 WARNING;artefact:10249;etat n'est pas correct ou vide
 WARNING;artefact:10250;etat n'est pas correct ou vide
 WARNING;artefact:10251;etat n'est pas correct ou vide
 WARNING;artefact:10252;etat n'est pas correct ou vide
 WARNING;artefact:10253;etat n'est pas correct ou vide
 WARNING;artefact:10254;etat n'est pas correct ou vide
-WARNING;artefact:10255;etat n'est pas correct ou vide
+WARNING;artefact:10255;etat est 0 ou 1
 WARNING;artefact:10256;etat n'est pas correct ou vide
 WARNING;artefact:10257;etat n'est pas correct ou vide
 WARNING;artefact:10258;etat n'est pas correct ou vide
@@ -237,107 +237,107 @@ WARNING;artefact:10295;etat n'est pas correct ou vide
 WARNING;artefact:10296;etat n'est pas correct ou vide
 WARNING;artefact:10297;etat n'est pas correct ou vide
 WARNING;artefact:10298;etat n'est pas correct ou vide
-WARNING;artefact:10299;etat n'est pas correct ou vide
-WARNING;artefact:10310;etat n'est pas correct ou vide
-WARNING;artefact:10311;etat n'est pas correct ou vide
-WARNING;artefact:10312;etat n'est pas correct ou vide
-WARNING;artefact:10313;etat n'est pas correct ou vide
-WARNING;artefact:10314;etat n'est pas correct ou vide
-WARNING;artefact:10350;etat n'est pas correct ou vide
-WARNING;artefact:10495;etat n'est pas correct ou vide
+WARNING;artefact:10299;etat est 0 ou 1
+WARNING;artefact:10310;etat est 0 ou 1
+WARNING;artefact:10311;etat est 0 ou 1
+WARNING;artefact:10312;etat est 0 ou 1
+WARNING;artefact:10313;etat est 0 ou 1
+WARNING;artefact:10314;etat est 0 ou 1
+WARNING;artefact:10350;etat est 0 ou 1
+WARNING;artefact:10495;etat est 0 ou 1
 WARNING;artefact:10496;etat n'est pas correct ou vide
-WARNING;artefact:10497;etat n'est pas correct ou vide
-WARNING;artefact:10498;etat n'est pas correct ou vide
-WARNING;artefact:10572;etat n'est pas correct ou vide
-WARNING;artefact:10573;etat n'est pas correct ou vide
-WARNING;artefact:10574;etat n'est pas correct ou vide
-WARNING;artefact:10575;etat n'est pas correct ou vide
-WARNING;artefact:10576;etat n'est pas correct ou vide
-WARNING;artefact:10577;etat n'est pas correct ou vide
-WARNING;artefact:10578;etat n'est pas correct ou vide
-WARNING;artefact:10579;etat n'est pas correct ou vide
-WARNING;artefact:10580;etat n'est pas correct ou vide
-WARNING;artefact:10581;etat n'est pas correct ou vide
+WARNING;artefact:10497;etat est 0 ou 1
+WARNING;artefact:10498;etat est 0 ou 1
+WARNING;artefact:10572;etat est 0 ou 1
+WARNING;artefact:10573;etat est 0 ou 1
+WARNING;artefact:10574;etat est 0 ou 1
+WARNING;artefact:10575;etat est 0 ou 1
+WARNING;artefact:10576;etat est 0 ou 1
+WARNING;artefact:10577;etat est 0 ou 1
+WARNING;artefact:10578;etat est 0 ou 1
+WARNING;artefact:10579;etat est 0 ou 1
+WARNING;artefact:10580;etat est 0 ou 1
+WARNING;artefact:10581;etat est 0 ou 1
 WARNING;artefact:10598;etat n'est pas correct ou vide
 WARNING;artefact:10599;etat n'est pas correct ou vide
 WARNING;artefact:10600;etat n'est pas correct ou vide
 WARNING;artefact:10601;etat n'est pas correct ou vide
-WARNING;artefact:10602;etat n'est pas correct ou vide
-WARNING;artefact:10603;etat n'est pas correct ou vide
+WARNING;artefact:10602;etat est 0 ou 1
+WARNING;artefact:10603;etat est 0 ou 1
 WARNING;artefact:10604;etat n'est pas correct ou vide
 WARNING;artefact:10605;etat n'est pas correct ou vide
-WARNING;artefact:10606;etat n'est pas correct ou vide
+WARNING;artefact:10606;etat est 0 ou 1
 WARNING;artefact:10607;etat n'est pas correct ou vide
 WARNING;artefact:10608;etat n'est pas correct ou vide
 WARNING;artefact:10609;etat n'est pas correct ou vide
 WARNING;artefact:10610;etat n'est pas correct ou vide
 WARNING;artefact:10611;etat n'est pas correct ou vide
-WARNING;artefact:10983;etat n'est pas correct ou vide
-WARNING;artefact:10984;etat n'est pas correct ou vide
-WARNING;artefact:10985;etat n'est pas correct ou vide
-WARNING;artefact:10986;etat n'est pas correct ou vide
-WARNING;artefact:10987;etat n'est pas correct ou vide
-WARNING;artefact:10988;etat n'est pas correct ou vide
-WARNING;artefact:10989;etat n'est pas correct ou vide
-WARNING;artefact:10990;etat n'est pas correct ou vide
-WARNING;artefact:10991;etat n'est pas correct ou vide
-WARNING;artefact:10992;etat n'est pas correct ou vide
-WARNING;artefact:10993;etat n'est pas correct ou vide
-WARNING;artefact:10994;etat n'est pas correct ou vide
+WARNING;artefact:10983;etat est 0 ou 1
+WARNING;artefact:10984;etat est 0 ou 1
+WARNING;artefact:10985;etat est 0 ou 1
+WARNING;artefact:10986;etat est 0 ou 1
+WARNING;artefact:10987;etat est 0 ou 1
+WARNING;artefact:10988;etat est 0 ou 1
+WARNING;artefact:10989;etat est 0 ou 1
+WARNING;artefact:10990;etat est 0 ou 1
+WARNING;artefact:10991;etat est 0 ou 1
+WARNING;artefact:10992;etat est 0 ou 1
+WARNING;artefact:10993;etat est 0 ou 1
+WARNING;artefact:10994;etat est 0 ou 1
 WARNING;artefact:10998;etat n'est pas correct ou vide
 WARNING;artefact:10999;etat n'est pas correct ou vide
 WARNING;artefact:11001;etat n'est pas correct ou vide
-WARNING;artefact:11002;etat n'est pas correct ou vide
-WARNING;artefact:11003;etat n'est pas correct ou vide
-WARNING;artefact:11004;etat n'est pas correct ou vide
+WARNING;artefact:11002;etat est 0 ou 1
+WARNING;artefact:11003;etat est 0 ou 1
+WARNING;artefact:11004;etat est 0 ou 1
 WARNING;artefact:11005;etat n'est pas correct ou vide
-WARNING;artefact:11006;etat n'est pas correct ou vide
+WARNING;artefact:11006;etat est 0 ou 1
 WARNING;artefact:11007;etat n'est pas correct ou vide
-WARNING;artefact:11032;etat n'est pas correct ou vide
-WARNING;artefact:11033;etat n'est pas correct ou vide
+WARNING;artefact:11032;etat est 0 ou 1
+WARNING;artefact:11033;etat est 0 ou 1
 WARNING;artefact:11034;etat n'est pas correct ou vide
 WARNING;artefact:11052;etat n'est pas correct ou vide
-WARNING;artefact:11053;etat n'est pas correct ou vide
-WARNING;artefact:11054;etat n'est pas correct ou vide
-WARNING;artefact:11055;etat n'est pas correct ou vide
+WARNING;artefact:11053;etat est 0 ou 1
+WARNING;artefact:11054;etat est 0 ou 1
+WARNING;artefact:11055;etat est 0 ou 1
 WARNING;artefact:11056;etat n'est pas correct ou vide
-WARNING;artefact:11057;etat n'est pas correct ou vide
+WARNING;artefact:11057;etat est 0 ou 1
 WARNING;artefact:11058;etat n'est pas correct ou vide
-WARNING;artefact:11074;etat n'est pas correct ou vide
+WARNING;artefact:11074;etat est 0 ou 1
 WARNING;artefact:11075;etat n'est pas correct ou vide
-WARNING;artefact:11076;etat n'est pas correct ou vide
-WARNING;artefact:11077;etat n'est pas correct ou vide
-WARNING;artefact:11078;etat n'est pas correct ou vide
-WARNING;artefact:11079;etat n'est pas correct ou vide
-WARNING;artefact:11080;etat n'est pas correct ou vide
+WARNING;artefact:11076;etat est 0 ou 1
+WARNING;artefact:11077;etat est 0 ou 1
+WARNING;artefact:11078;etat est 0 ou 1
+WARNING;artefact:11079;etat est 0 ou 1
+WARNING;artefact:11080;etat est 0 ou 1
 WARNING;artefact:11081;etat n'est pas correct ou vide
 WARNING;artefact:11082;etat n'est pas correct ou vide
 WARNING;artefact:11083;etat n'est pas correct ou vide
-WARNING;artefact:11084;etat n'est pas correct ou vide
+WARNING;artefact:11084;etat est 0 ou 1
 WARNING;artefact:11085;etat n'est pas correct ou vide
 WARNING;artefact:11086;etat n'est pas correct ou vide
-WARNING;artefact:11087;etat n'est pas correct ou vide
-WARNING;artefact:11088;etat n'est pas correct ou vide
+WARNING;artefact:11087;etat est 0 ou 1
+WARNING;artefact:11088;etat est 0 ou 1
 WARNING;artefact:11091;etat n'est pas correct ou vide
-WARNING;artefact:11092;etat n'est pas correct ou vide
-WARNING;artefact:11093;etat n'est pas correct ou vide
-WARNING;artefact:11094;etat n'est pas correct ou vide
-WARNING;artefact:11105;etat n'est pas correct ou vide
-WARNING;artefact:11106;etat n'est pas correct ou vide
-WARNING;artefact:11107;etat n'est pas correct ou vide
+WARNING;artefact:11092;etat est 0 ou 1
+WARNING;artefact:11093;etat est 0 ou 1
+WARNING;artefact:11094;etat est 0 ou 1
+WARNING;artefact:11105;etat est 0 ou 1
+WARNING;artefact:11106;etat est 0 ou 1
+WARNING;artefact:11107;etat est 0 ou 1
 WARNING;artefact:11108;etat n'est pas correct ou vide
 WARNING;artefact:11109;etat n'est pas correct ou vide
 WARNING;artefact:11110;etat n'est pas correct ou vide
 WARNING;artefact:11111;etat n'est pas correct ou vide
 WARNING;artefact:11112;etat n'est pas correct ou vide
-WARNING;artefact:11113;etat n'est pas correct ou vide
-WARNING;artefact:11114;etat n'est pas correct ou vide
-WARNING;artefact:11115;etat n'est pas correct ou vide
+WARNING;artefact:11113;etat est 0 ou 1
+WARNING;artefact:11114;etat est 0 ou 1
+WARNING;artefact:11115;etat est 0 ou 1
 WARNING;artefact:11116;etat n'est pas correct ou vide
 WARNING;artefact:11117;etat n'est pas correct ou vide
 WARNING;artefact:11121;etat n'est pas correct ou vide
 WARNING;artefact:11122;etat n'est pas correct ou vide
-WARNING;artefact:11129;etat n'est pas correct ou vide
+WARNING;artefact:11129;etat est 0 ou 1
 WARNING;artefact:11130;etat n'est pas correct ou vide
 WARNING;artefact:11131;etat n'est pas correct ou vide
 WARNING;artefact:11132;etat n'est pas correct ou vide
@@ -346,14 +346,14 @@ WARNING;artefact:11134;etat n'est pas correct ou vide
 WARNING;artefact:11184;etat n'est pas correct ou vide
 WARNING;artefact:11185;etat n'est pas correct ou vide
 WARNING;artefact:11186;etat n'est pas correct ou vide
-WARNING;artefact:11199;etat n'est pas correct ou vide
-WARNING;artefact:11203;etat n'est pas correct ou vide
-WARNING;artefact:11243;etat n'est pas correct ou vide
-WARNING;artefact:11244;etat n'est pas correct ou vide
-WARNING;artefact:11245;etat n'est pas correct ou vide
-WARNING;artefact:11246;etat n'est pas correct ou vide
-WARNING;artefact:11247;etat n'est pas correct ou vide
-WARNING;artefact:11248;etat n'est pas correct ou vide
+WARNING;artefact:11199;etat est 0 ou 1
+WARNING;artefact:11203;etat est 0 ou 1
+WARNING;artefact:11243;etat est 0 ou 1
+WARNING;artefact:11244;etat est 0 ou 1
+WARNING;artefact:11245;etat est 0 ou 1
+WARNING;artefact:11246;etat est 0 ou 1
+WARNING;artefact:11247;etat est 0 ou 1
+WARNING;artefact:11248;etat est 0 ou 1
 WARNING;artefact:11293;etat n'est pas correct ou vide
 WARNING;artefact:11294;etat n'est pas correct ou vide
 WARNING;artefact:11295;etat n'est pas correct ou vide
@@ -437,7 +437,7 @@ WARNING;artefact:13031;etat n'est pas correct ou vide
 WARNING;artefact:13032;etat n'est pas correct ou vide
 WARNING;artefact:13033;etat n'est pas correct ou vide
 WARNING;artefact:15000;etat n'est pas correct ou vide
-WARNING;artefact:15001;etat n'est pas correct ou vide
+WARNING;artefact:15001;etat est 0 ou 1
 WARNING;artefact:15002;etat n'est pas correct ou vide
 WARNING;artefact:15003;etat n'est pas correct ou vide
 WARNING;artefact:15004;etat n'est pas correct ou vide
@@ -486,9 +486,9 @@ WARNING;artefact:98175;etat n'est pas correct ou vide
 WARNING;artefact:98176;etat n'est pas correct ou vide
 WARNING;artefact:98177;etat n'est pas correct ou vide
 WARNING;artefact:98178;etat n'est pas correct ou vide
-WARNING;artefact:98294;etat n'est pas correct ou vide
+WARNING;artefact:98294;etat est 0 ou 1
 WARNING;artefact:98295;etat n'est pas correct ou vide
-WARNING;artefact:98296;etat n'est pas correct ou vide
+WARNING;artefact:98296;etat est 0 ou 1
 WARNING;artefact:98310;etat n'est pas correct ou vide
 WARNING;artefact:98311;etat n'est pas correct ou vide
 WARNING;artefact:98312;etat n'est pas correct ou vide
@@ -539,50 +539,50 @@ WARNING;artefact:98544;etat n'est pas correct ou vide
 WARNING;artefact:98545;etat n'est pas correct ou vide
 WARNING;artefact:98546;etat n'est pas correct ou vide
 WARNING;artefact:98547;etat n'est pas correct ou vide
-WARNING;artefact:98548;etat n'est pas correct ou vide
-WARNING;artefact:98550;etat n'est pas correct ou vide
+WARNING;artefact:98548;etat est 0 ou 1
+WARNING;artefact:98550;etat est 0 ou 1
 WARNING;artefact:98552;etat n'est pas correct ou vide
-WARNING;artefact:98553;etat n'est pas correct ou vide
-WARNING;artefact:98554;etat n'est pas correct ou vide
+WARNING;artefact:98553;etat est 0 ou 1
+WARNING;artefact:98554;etat est 0 ou 1
 WARNING;artefact:98555;etat n'est pas correct ou vide
 WARNING;artefact:98556;etat n'est pas correct ou vide
 WARNING;artefact:98559;etat n'est pas correct ou vide
-WARNING;artefact:98561;etat n'est pas correct ou vide
+WARNING;artefact:98561;etat est 0 ou 1
 WARNING;artefact:98562;etat n'est pas correct ou vide
-WARNING;artefact:98567;etat n'est pas correct ou vide
+WARNING;artefact:98567;etat est 0 ou 1
 WARNING;artefact:98568;etat n'est pas correct ou vide
-WARNING;artefact:98569;etat n'est pas correct ou vide
-WARNING;artefact:98593;etat n'est pas correct ou vide
-WARNING;artefact:98594;etat n'est pas correct ou vide
-WARNING;artefact:98595;etat n'est pas correct ou vide
-WARNING;artefact:98596;etat n'est pas correct ou vide
-WARNING;artefact:98597;etat n'est pas correct ou vide
-WARNING;artefact:98598;etat n'est pas correct ou vide
-WARNING;artefact:98599;etat n'est pas correct ou vide
-WARNING;artefact:98600;etat n'est pas correct ou vide
+WARNING;artefact:98569;etat est 0 ou 1
+WARNING;artefact:98593;etat est 0 ou 1
+WARNING;artefact:98594;etat est 0 ou 1
+WARNING;artefact:98595;etat est 0 ou 1
+WARNING;artefact:98596;etat est 0 ou 1
+WARNING;artefact:98597;etat est 0 ou 1
+WARNING;artefact:98598;etat est 0 ou 1
+WARNING;artefact:98599;etat est 0 ou 1
+WARNING;artefact:98600;etat est 0 ou 1
 WARNING;artefact:98601;etat n'est pas correct ou vide
 WARNING;artefact:98602;etat n'est pas correct ou vide
-WARNING;artefact:98603;etat n'est pas correct ou vide
-WARNING;artefact:98604;etat n'est pas correct ou vide
-WARNING;artefact:98605;etat n'est pas correct ou vide
+WARNING;artefact:98603;etat est 0 ou 1
+WARNING;artefact:98604;etat est 0 ou 1
+WARNING;artefact:98605;etat est 0 ou 1
 WARNING;artefact:98606;etat n'est pas correct ou vide
 WARNING;artefact:98607;etat n'est pas correct ou vide
 WARNING;artefact:98608;etat n'est pas correct ou vide
 WARNING;artefact:98609;etat n'est pas correct ou vide
 WARNING;artefact:98610;etat n'est pas correct ou vide
 WARNING;artefact:98611;etat n'est pas correct ou vide
-WARNING;artefact:98622;etat n'est pas correct ou vide
+WARNING;artefact:98622;etat est 0 ou 1
 WARNING;artefact:98631;etat n'est pas correct ou vide
-WARNING;artefact:99990;etat n'est pas correct ou vide
+WARNING;artefact:99990;etat est 0 ou 1
 WARNING;artefact:99991;etat n'est pas correct ou vide
 WARNING;artefact:99992;etat n'est pas correct ou vide
-WARNING;artefact:99994;etat n'est pas correct ou vide
-WARNING;artefact:99995;etat n'est pas correct ou vide
+WARNING;artefact:99994;etat est 0 ou 1
+WARNING;artefact:99995;etat est 0 ou 1
 WARNING;artefact:99996;etat n'est pas correct ou vide
-WARNING;artefact:99999;etat n'est pas correct ou vide
-WARNING;artefact:100000;etat n'est pas correct ou vide
-WARNING;artefact:100001;etat n'est pas correct ou vide
-WARNING;artefact:100002;etat n'est pas correct ou vide
+WARNING;artefact:99999;etat est 0 ou 1
+WARNING;artefact:100000;etat est 0 ou 1
+WARNING;artefact:100001;etat est 0 ou 1
+WARNING;artefact:100002;etat est 0 ou 1
 WARNING;artefact:6988;producteur n'est pas correct ou vide
 WARNING;artefact:6989;producteur n'est pas correct ou vide
 WARNING;artefact:6994;producteur n'est pas correct ou vide
@@ -777,748 +777,274 @@ ERROR;artefact:None;Error 1064; 1064 (42000): Erreur de syntaxe près de 'applica
 WARNING;artefact:99991;usage n'est pas correct ou vide
 WARNING;artefact:99992;usage n'est pas correct ou vide
 WARNING;artefact:99996;usage n'est pas correct ou vide
-WARNING;artefact:6987;changement format famille;Bull CP8-Bull cp8
-WARNING;artefact:6988;changement format famille;0-0
 WARNING;artefact:6988;appartenance n'est pas correcte ou vide
-WARNING;artefact:6989;changement format famille;0-0
 WARNING;artefact:6989;appartenance n'est pas correcte ou vide
-WARNING;artefact:6990;changement format famille;0-0
 WARNING;artefact:6990;appartenance n'est pas correcte ou vide
-WARNING;artefact:6991;changement format famille;0-0
 WARNING;artefact:6991;appartenance n'est pas correcte ou vide
-WARNING;artefact:6992;changement format famille;0-0
 WARNING;artefact:6992;appartenance n'est pas correcte ou vide
-WARNING;artefact:6993;changement format famille;0-0
 WARNING;artefact:6993;appartenance n'est pas correcte ou vide
-WARNING;artefact:7056;changement format famille;None-None
 WARNING;artefact:7056;appartenance n'est pas correcte ou vide
-WARNING;artefact:8526;changement format famille;GE 400-Ge 400
-WARNING;artefact:8528;changement format famille;None-None
 WARNING;artefact:8528;appartenance n'est pas correcte ou vide
-WARNING;artefact:8529;changement format famille;None-None
 WARNING;artefact:8529;appartenance n'est pas correcte ou vide
-WARNING;artefact:8530;changement format famille;None-None
 WARNING;artefact:8530;appartenance n'est pas correcte ou vide
-WARNING;artefact:8531;changement format famille;None-None
 WARNING;artefact:8531;appartenance n'est pas correcte ou vide
-WARNING;artefact:8532;changement format famille;None-None
 WARNING;artefact:8532;appartenance n'est pas correcte ou vide
-WARNING;artefact:8533;changement format famille;None-None
 WARNING;artefact:8533;appartenance n'est pas correcte ou vide
-WARNING;artefact:8600;changement format famille;None-None
 WARNING;artefact:8600;appartenance n'est pas correcte ou vide
-WARNING;artefact:8601;changement format famille;None-None
 WARNING;artefact:8601;appartenance n'est pas correcte ou vide
-WARNING;artefact:8602;changement format famille;None-None
 WARNING;artefact:8602;appartenance n'est pas correcte ou vide
-WARNING;artefact:8676;changement format famille;None-None
 WARNING;artefact:8676;appartenance n'est pas correcte ou vide
-WARNING;artefact:8677;changement format famille;None-None
 WARNING;artefact:8677;appartenance n'est pas correcte ou vide
-WARNING;artefact:8678;changement format famille;None-None
 WARNING;artefact:8678;appartenance n'est pas correcte ou vide
-WARNING;artefact:8679;changement format famille;None-None
 WARNING;artefact:8679;appartenance n'est pas correcte ou vide
-WARNING;artefact:8894;changement format famille;None-None
 WARNING;artefact:8894;appartenance n'est pas correcte ou vide
-WARNING;artefact:8895;changement format famille;None-None
 WARNING;artefact:8895;appartenance n'est pas correcte ou vide
-WARNING;artefact:8896;changement format famille;None-None
 WARNING;artefact:8896;appartenance n'est pas correcte ou vide
-WARNING;artefact:8897;changement format famille;None-None
 WARNING;artefact:8897;appartenance n'est pas correcte ou vide
-WARNING;artefact:8898;changement format famille;DPX-Dpx
-WARNING;artefact:8900;changement format famille;None-None
 WARNING;artefact:8900;appartenance n'est pas correcte ou vide
-WARNING;artefact:8901;changement format famille;None-None
 WARNING;artefact:8901;appartenance n'est pas correcte ou vide
-WARNING;artefact:8902;changement format famille;None-None
 WARNING;artefact:8902;appartenance n'est pas correcte ou vide
-WARNING;artefact:8903;changement format famille;None-None
 WARNING;artefact:8903;appartenance n'est pas correcte ou vide
-WARNING;artefact:8904;changement format famille;None-None
 WARNING;artefact:8904;appartenance n'est pas correcte ou vide
-WARNING;artefact:8905;changement format famille;None-None
 WARNING;artefact:8905;appartenance n'est pas correcte ou vide
-WARNING;artefact:8906;changement format famille;None-None
 WARNING;artefact:8906;appartenance n'est pas correcte ou vide
-WARNING;artefact:8907;changement format famille;None-None
 WARNING;artefact:8907;appartenance n'est pas correcte ou vide
-WARNING;artefact:8908;changement format famille;None-None
 WARNING;artefact:8908;appartenance n'est pas correcte ou vide
-WARNING;artefact:8909;changement format famille;0-0
 WARNING;artefact:8909;appartenance n'est pas correcte ou vide
-WARNING;artefact:8910;changement format famille;None-None
 WARNING;artefact:8910;appartenance n'est pas correcte ou vide
-WARNING;artefact:8911;changement format famille;0-0
 WARNING;artefact:8911;appartenance n'est pas correcte ou vide
-WARNING;artefact:8912;changement format famille;None-None
 WARNING;artefact:8912;appartenance n'est pas correcte ou vide
-WARNING;artefact:8913;changement format famille;None-None
 WARNING;artefact:8913;appartenance n'est pas correcte ou vide
-WARNING;artefact:8914;changement format famille;None-None
 WARNING;artefact:8914;appartenance n'est pas correcte ou vide
-WARNING;artefact:8915;changement format famille;150-150
-WARNING;artefact:8956;changement format famille;None-None
 WARNING;artefact:8956;appartenance n'est pas correcte ou vide
-WARNING;artefact:8957;changement format famille;None-None
 WARNING;artefact:8957;appartenance n'est pas correcte ou vide
-WARNING;artefact:8959;changement format famille;P.C.-P.c.
-WARNING;artefact:8960;changement format famille;P.C.-P.c.
-WARNING;artefact:8961;changement format famille;P.C.-P.c.
-WARNING;artefact:8962;changement format famille;P.C.-P.c.
-WARNING;artefact:8963;changement format famille;P.C.-P.c.
-WARNING;artefact:8964;changement format famille;P.C.-P.c.
-WARNING;artefact:8965;changement format famille;P.C.-P.c.
-WARNING;artefact:8966;changement format famille;P.C.-P.c.
-WARNING;artefact:8967;changement format famille;P.C.-P.c.
-WARNING;artefact:8968;changement format famille;P.C.-P.c.
-WARNING;artefact:8969;changement format famille;None-None
 WARNING;artefact:8969;appartenance n'est pas correcte ou vide
-WARNING;artefact:8970;changement format famille;P.C.-P.c.
-WARNING;artefact:9298;changement format famille;0-0
 WARNING;artefact:9298;appartenance n'est pas correcte ou vide
-WARNING;artefact:9299;changement format famille;P.C.-P.c.
-WARNING;artefact:9300;changement format famille;0-0
 WARNING;artefact:9300;appartenance n'est pas correcte ou vide
-WARNING;artefact:9301;changement format famille;None-None
 WARNING;artefact:9301;appartenance n'est pas correcte ou vide
-WARNING;artefact:9302;changement format famille;0-0
 WARNING;artefact:9302;appartenance n'est pas correcte ou vide
-WARNING;artefact:9303;changement format famille;0-0
 WARNING;artefact:9303;appartenance n'est pas correcte ou vide
-WARNING;artefact:9304;changement format famille;P.C.-P.c.
-WARNING;artefact:9307;changement format famille;P.C.-P.c.
-WARNING;artefact:9308;changement format famille;P.C.-P.c.
-WARNING;artefact:9309;changement format famille;P.C.-P.c.
-WARNING;artefact:9338;changement format famille;0-0
 WARNING;artefact:9338;appartenance n'est pas correcte ou vide
-WARNING;artefact:9339;changement format famille;P.C.-P.c.
-WARNING;artefact:9340;changement format famille;P.C.-P.c.
-WARNING;artefact:9341;changement format famille;P.C.-P.c.
-WARNING;artefact:9342;changement format famille;P.C.-P.c.
-WARNING;artefact:9394;changement format famille;P.C.-P.c.
-WARNING;artefact:9395;changement format famille;P.C.-P.c.
-WARNING;artefact:9396;changement format famille;P.C.-P.c.
-WARNING;artefact:9397;changement format famille;P.C.-P.c.
-WARNING;artefact:9399;changement format famille;IRIS-Iris
-WARNING;artefact:9400;changement format famille;GE115-Ge115
-WARNING;artefact:9401;changement format famille;MSU500-Msu500
-WARNING;artefact:9402;changement format famille;DS20-Ds20
-WARNING;artefact:9403;changement format famille;None-None
 WARNING;artefact:9403;appartenance n'est pas correcte ou vide
-WARNING;artefact:9404;changement format famille;0-0
 WARNING;artefact:9404;appartenance n'est pas correcte ou vide
-WARNING;artefact:9405;changement format famille;P.C.-P.c.
-WARNING;artefact:9406;changement format famille;P.C.-P.c.
-WARNING;artefact:9471;changement format famille;None-None
 WARNING;artefact:9471;appartenance n'est pas correcte ou vide
-WARNING;artefact:9472;changement format famille;0-0
 WARNING;artefact:9472;appartenance n'est pas correcte ou vide
-WARNING;artefact:9473;changement format famille;P.C.-P.c.
-WARNING;artefact:9474;changement format famille;0-0
 WARNING;artefact:9474;appartenance n'est pas correcte ou vide
-WARNING;artefact:9475;changement format famille;P.C.-P.c.
-WARNING;artefact:9476;changement format famille;P.C.-P.c.
-WARNING;artefact:9477;changement format famille;P.C.-P.c.
-WARNING;artefact:9478;changement format famille;P.C.-P.c.
-WARNING;artefact:9479;changement format famille;P.C.-P.c.
-WARNING;artefact:9480;changement format famille;P.C.-P.c.
-WARNING;artefact:9670;changement format famille;0-0
 WARNING;artefact:9670;appartenance n'est pas correcte ou vide
-WARNING;artefact:9671;changement format famille;0-0
 WARNING;artefact:9671;appartenance n'est pas correcte ou vide
-WARNING;artefact:9672;changement format famille;0-0
 WARNING;artefact:9672;appartenance n'est pas correcte ou vide
-WARNING;artefact:9673;changement format famille;0-0
 WARNING;artefact:9673;appartenance n'est pas correcte ou vide
-WARNING;artefact:9674;changement format famille;0-0
 WARNING;artefact:9674;appartenance n'est pas correcte ou vide
-WARNING;artefact:9675;changement format famille;disquee-Disquee
-WARNING;artefact:9677;changement format famille;P.C.-P.c.
-WARNING;artefact:9678;changement format famille;150-150
-WARNING;artefact:9679;changement format famille;0-0
 WARNING;artefact:9679;appartenance n'est pas correcte ou vide
-WARNING;artefact:9681;changement format famille;0-0
 WARNING;artefact:9681;appartenance n'est pas correcte ou vide
-WARNING;artefact:9682;changement format famille;DPS-Dps
-WARNING;artefact:9683;changement format famille;DPS9000-Dps9000
-WARNING;artefact:9684;changement format famille;150-150
-WARNING;artefact:9685;changement format famille;DPS9000-Dps9000
-WARNING;artefact:9686;changement format famille;TTX-Ttx
-WARNING;artefact:9687;changement format famille;GE400-Ge400
-WARNING;artefact:9688;changement format famille;P.C.-P.c.
-WARNING;artefact:9689;changement format famille;150-150
-WARNING;artefact:9690;changement format famille;150-150
-WARNING;artefact:9691;changement format famille;150-150
-WARNING;artefact:9692;changement format famille;DPS-Dps
-WARNING;artefact:9693;changement format famille;150-150
-WARNING;artefact:9694;changement format famille;150-150
-WARNING;artefact:9810;changement format famille;DPS 61 et 62-Dps 61 et 62
-WARNING;artefact:9811;changement format famille;DPS 61 et 62-Dps 61 et 62
-WARNING;artefact:9812;changement format famille;DPS 61 et 62-Dps 61 et 62
-WARNING;artefact:9815;changement format famille;KDS-Kds
-WARNING;artefact:9816;changement format famille;None-None
 WARNING;artefact:9816;appartenance n'est pas correcte ou vide
-WARNING;artefact:9817;changement format famille;None-None
 WARNING;artefact:9817;appartenance n'est pas correcte ou vide
-WARNING;artefact:9818;changement format famille;None-None
 WARNING;artefact:9818;appartenance n'est pas correcte ou vide
-WARNING;artefact:9819;changement format famille;None-None
 WARNING;artefact:9819;appartenance n'est pas correcte ou vide
-WARNING;artefact:9820;changement format famille;None-None
 WARNING;artefact:9820;appartenance n'est pas correcte ou vide
-WARNING;artefact:9821;changement format famille;None-None
 WARNING;artefact:9821;appartenance n'est pas correcte ou vide
-WARNING;artefact:9822;changement format famille;None-None
 WARNING;artefact:9822;appartenance n'est pas correcte ou vide
-WARNING;artefact:9823;changement format famille;None-None
 WARNING;artefact:9823;appartenance n'est pas correcte ou vide
-WARNING;artefact:9824;changement format famille;None-None
 WARNING;artefact:9824;appartenance n'est pas correcte ou vide
-WARNING;artefact:9825;changement format famille;150-150
-WARNING;artefact:9826;changement format famille;None-None
 WARNING;artefact:9826;appartenance n'est pas correcte ou vide
-WARNING;artefact:9827;changement format famille;0-0
 WARNING;artefact:9827;appartenance n'est pas correcte ou vide
-WARNING;artefact:9828;changement format famille;0-0
 WARNING;artefact:9828;appartenance n'est pas correcte ou vide
-WARNING;artefact:9829;changement format famille;0-0
 WARNING;artefact:9829;appartenance n'est pas correcte ou vide
-WARNING;artefact:9830;changement format famille;0-0
 WARNING;artefact:9830;appartenance n'est pas correcte ou vide
-WARNING;artefact:9831;changement format famille;0-0
 WARNING;artefact:9831;appartenance n'est pas correcte ou vide
-WARNING;artefact:9832;changement format famille;0-0
 WARNING;artefact:9832;appartenance n'est pas correcte ou vide
-WARNING;artefact:9833;changement format famille;0-0
 WARNING;artefact:9833;appartenance n'est pas correcte ou vide
-WARNING;artefact:9834;changement format famille;0-0
 WARNING;artefact:9834;appartenance n'est pas correcte ou vide
-WARNING;artefact:9835;changement format famille;None-None
 WARNING;artefact:9835;appartenance n'est pas correcte ou vide
-WARNING;artefact:9836;changement format famille;None-None
 WARNING;artefact:9836;appartenance n'est pas correcte ou vide
-WARNING;artefact:9837;changement format famille;P.C.-P.c.
-WARNING;artefact:9838;changement format famille;P.C.-P.c.
-WARNING;artefact:9839;changement format famille;P.C.-P.c.
-WARNING;artefact:9841;changement format famille;0-0
 WARNING;artefact:9841;appartenance n'est pas correcte ou vide
-WARNING;artefact:9842;changement format famille;G7/G8-G7/g8
-WARNING;artefact:9843;changement format famille;400-400
-WARNING;artefact:9844;changement format famille;400-400
-WARNING;artefact:9855;changement format famille;DPS 61 et 62-Dps 61 et 62
-WARNING;artefact:9856;changement format famille;0-0
 WARNING;artefact:9856;appartenance n'est pas correcte ou vide
-WARNING;artefact:9857;changement format famille;DPS 64, 66-Dps 64, 66
-WARNING;artefact:9858;changement format famille;P.C.-P.c.
-WARNING;artefact:9859;changement format famille;EMC²-Emc²
-WARNING;artefact:9860;changement format famille;0-0
 WARNING;artefact:9860;appartenance n'est pas correcte ou vide
-WARNING;artefact:9864;changement format famille;DPS7/8-Dps7/8
-WARNING;artefact:9891;changement format famille;None-None
 WARNING;artefact:9891;appartenance n'est pas correcte ou vide
-WARNING;artefact:9892;changement format famille;0-0
 WARNING;artefact:9892;appartenance n'est pas correcte ou vide
-WARNING;artefact:9893;changement format famille;0-0
 WARNING;artefact:9893;appartenance n'est pas correcte ou vide
-WARNING;artefact:9894;changement format famille;None-None
 WARNING;artefact:9894;appartenance n'est pas correcte ou vide
-WARNING;artefact:9895;changement format famille;0-0
 WARNING;artefact:9895;appartenance n'est pas correcte ou vide
-WARNING;artefact:9896;changement format famille;0-0
 WARNING;artefact:9896;appartenance n'est pas correcte ou vide
-WARNING;artefact:9897;changement format famille;None-None
 WARNING;artefact:9897;appartenance n'est pas correcte ou vide
-WARNING;artefact:9898;changement format famille;150-150
-WARNING;artefact:9899;changement format famille;150-150
-WARNING;artefact:9903;changement format famille;150-150
-WARNING;artefact:9904;changement format famille;150-150
-WARNING;artefact:9905;changement format famille;150-150
-WARNING;artefact:9906;changement format famille;150-150
-WARNING;artefact:9909;changement format famille;150-150
-WARNING;artefact:9912;changement format famille;DPS90-Dps90
-WARNING;artefact:9913;changement format famille;0-0
 WARNING;artefact:9913;appartenance n'est pas correcte ou vide
-WARNING;artefact:9919;changement format famille;None-None
 WARNING;artefact:9919;appartenance n'est pas correcte ou vide
-WARNING;artefact:9920;changement format famille;None-None
 WARNING;artefact:9920;appartenance n'est pas correcte ou vide
-WARNING;artefact:9921;changement format famille;None-None
 WARNING;artefact:9921;appartenance n'est pas correcte ou vide
-WARNING;artefact:9922;changement format famille;None-None
 WARNING;artefact:9922;appartenance n'est pas correcte ou vide
-WARNING;artefact:9923;changement format famille;150-150
-WARNING;artefact:9924;changement format famille;150-150
-WARNING;artefact:10232;changement format famille;150-150
-WARNING;artefact:10233;changement format famille;GE 400-Ge 400
-WARNING;artefact:10246;changement format famille;0-0
 WARNING;artefact:10246;appartenance n'est pas correcte ou vide
-WARNING;artefact:10247;changement format famille;6000-6000
-WARNING;artefact:10248;changement format famille;0-0
 WARNING;artefact:10248;appartenance n'est pas correcte ou vide
-WARNING;artefact:10249;changement format famille;None-None
 WARNING;artefact:10249;appartenance n'est pas correcte ou vide
-WARNING;artefact:10250;changement format famille;None-None
 WARNING;artefact:10250;appartenance n'est pas correcte ou vide
-WARNING;artefact:10251;changement format famille;None-None
 WARNING;artefact:10251;appartenance n'est pas correcte ou vide
-WARNING;artefact:10252;changement format famille;None-None
 WARNING;artefact:10252;appartenance n'est pas correcte ou vide
-WARNING;artefact:10253;changement format famille;None-None
 WARNING;artefact:10253;appartenance n'est pas correcte ou vide
-WARNING;artefact:10254;changement format famille;None-None
 WARNING;artefact:10254;appartenance n'est pas correcte ou vide
-WARNING;artefact:10255;changement format famille;0-0
 WARNING;artefact:10255;appartenance n'est pas correcte ou vide
-WARNING;artefact:10256;changement format famille;None-None
 WARNING;artefact:10256;appartenance n'est pas correcte ou vide
-WARNING;artefact:10257;changement format famille;None-None
 WARNING;artefact:10257;appartenance n'est pas correcte ou vide
-WARNING;artefact:10258;changement format famille;None-None
 WARNING;artefact:10258;appartenance n'est pas correcte ou vide
-WARNING;artefact:10259;changement format famille;None-None
 WARNING;artefact:10259;appartenance n'est pas correcte ou vide
-WARNING;artefact:10260;changement format famille;None-None
 WARNING;artefact:10260;appartenance n'est pas correcte ou vide
-WARNING;artefact:10291;changement format famille;None-None
 WARNING;artefact:10291;appartenance n'est pas correcte ou vide
-WARNING;artefact:10292;changement format famille;None-None
 WARNING;artefact:10292;appartenance n'est pas correcte ou vide
-WARNING;artefact:10293;changement format famille;None-None
 WARNING;artefact:10293;appartenance n'est pas correcte ou vide
-WARNING;artefact:10294;changement format famille;None-None
 WARNING;artefact:10294;appartenance n'est pas correcte ou vide
-WARNING;artefact:10295;changement format famille;None-None
 WARNING;artefact:10295;appartenance n'est pas correcte ou vide
-WARNING;artefact:10296;changement format famille;None-None
 WARNING;artefact:10296;appartenance n'est pas correcte ou vide
-WARNING;artefact:10297;changement format famille;None-None
 WARNING;artefact:10297;appartenance n'est pas correcte ou vide
-WARNING;artefact:10298;changement format famille;None-None
 WARNING;artefact:10298;appartenance n'est pas correcte ou vide
-WARNING;artefact:10299;changement format famille;DS20-Ds20
-WARNING;artefact:10310;changement format famille;0-0
 WARNING;artefact:10310;appartenance n'est pas correcte ou vide
-WARNING;artefact:10311;changement format famille;KDS-Kds
-WARNING;artefact:10312;changement format famille;0-0
 WARNING;artefact:10312;appartenance n'est pas correcte ou vide
-WARNING;artefact:10313;changement format famille;VIP-Vip
-WARNING;artefact:10314;changement format famille;DKU7002-Dku7002
-WARNING;artefact:10495;changement format famille;150-150
-WARNING;artefact:10496;changement format famille;None-None
 WARNING;artefact:10496;appartenance n'est pas correcte ou vide
-WARNING;artefact:10497;changement format famille;150-150
-WARNING;artefact:10498;changement format famille;150-150
-WARNING;artefact:10606;changement format famille;0-0
 WARNING;artefact:10606;appartenance n'est pas correcte ou vide
-WARNING;artefact:10607;changement format famille;None-None
 WARNING;artefact:10607;appartenance n'est pas correcte ou vide
-WARNING;artefact:10608;changement format famille;None-None
 WARNING;artefact:10608;appartenance n'est pas correcte ou vide
-WARNING;artefact:10609;changement format famille;None-None
 WARNING;artefact:10609;appartenance n'est pas correcte ou vide
-WARNING;artefact:10610;changement format famille;None-None
 WARNING;artefact:10610;appartenance n'est pas correcte ou vide
-WARNING;artefact:10611;changement format famille;P.C-P.c
-WARNING;artefact:10983;changement format famille;P.C.-P.c.
-WARNING;artefact:10984;changement format famille;P.C.-P.c.
-WARNING;artefact:10985;changement format famille;P.C.-P.c.
-WARNING;artefact:10986;changement format famille;P.C.-P.c.
-WARNING;artefact:10987;changement format famille;P.C.-P.c.
-WARNING;artefact:10988;changement format famille;P.C.-P.c.
-WARNING;artefact:10989;changement format famille;P.C.-P.c.
-WARNING;artefact:10990;changement format famille;P.C.-P.c.
-WARNING;artefact:10991;changement format famille;P.C.-P.c.
-WARNING;artefact:10992;changement format famille;P.C.-P.c.
-WARNING;artefact:10993;changement format famille;P.C.-P.c.
-WARNING;artefact:10994;changement format famille;0-0
 WARNING;artefact:10994;appartenance n'est pas correcte ou vide
-WARNING;artefact:10995;changement format famille;PC-Pc
-WARNING;artefact:10996;changement format famille;P.C.-P.c.
-WARNING;artefact:10997;changement format famille;DPS6-Dps6
-WARNING;artefact:10998;changement format famille;None-None
 WARNING;artefact:10998;appartenance n'est pas correcte ou vide
-WARNING;artefact:10999;changement format famille;P.C.-P.c.
-WARNING;artefact:11000;changement format famille;P.C-P.c
-WARNING;artefact:11001;changement format famille;P.C.-P.c.
-WARNING;artefact:11002;changement format famille;P.C.-P.c.
-WARNING;artefact:11003;changement format famille;P.C.-P.c.
-WARNING;artefact:11004;changement format famille;P.C.-P.c.
-WARNING;artefact:11005;changement format famille;P.C.-P.c.
-WARNING;artefact:11007;changement format famille;P.C.-P.c.
-WARNING;artefact:11032;changement format famille;P.C.-P.c.
-WARNING;artefact:11033;changement format famille;P.C.-P.c.
-WARNING;artefact:11034;changement format famille;P.C.-P.c.
-WARNING;artefact:11052;changement format famille;None-None
 WARNING;artefact:11052;appartenance n'est pas correcte ou vide
-WARNING;artefact:11053;changement format famille;P.C.-P.c.
-WARNING;artefact:11054;changement format famille;0-0
 WARNING;artefact:11054;appartenance n'est pas correcte ou vide
-WARNING;artefact:11055;changement format famille;P.C.-P.c.
-WARNING;artefact:11056;changement format famille;DPS 7-Dps 7
-WARNING;artefact:11057;changement format famille;DPS 7-Dps 7
-WARNING;artefact:11058;changement format famille;None-None
 WARNING;artefact:11058;appartenance n'est pas correcte ou vide
-WARNING;artefact:11074;changement format famille;P.C-P.c
-WARNING;artefact:11075;changement format famille;P.C.-P.c.
-WARNING;artefact:11077;changement format famille;0-0
 WARNING;artefact:11077;appartenance n'est pas correcte ou vide
-WARNING;artefact:11078;changement format famille;0-0
 WARNING;artefact:11078;appartenance n'est pas correcte ou vide
-WARNING;artefact:11079;changement format famille;P.C-P.c
-WARNING;artefact:11080;changement format famille;0-0
 WARNING;artefact:11080;appartenance n'est pas correcte ou vide
-WARNING;artefact:11081;changement format famille;P.C.-P.c.
-WARNING;artefact:11082;changement format famille;P.C.-P.c.
-WARNING;artefact:11083;changement format famille;P.C.-P.c.
-WARNING;artefact:11084;changement format famille;P.C.-P.c.
-WARNING;artefact:11085;changement format famille;P.C.-P.c.
-WARNING;artefact:11086;changement format famille;P.C.-P.c.
-WARNING;artefact:11087;changement format famille;P.C.-P.c.
-WARNING;artefact:11088;changement format famille;CP8-Cp8
-WARNING;artefact:11089;changement format famille;PC-Pc
-WARNING;artefact:11090;changement format famille;PC-Pc
-WARNING;artefact:11091;changement format famille;PC-Pc
-WARNING;artefact:11092;changement format famille;CP8-Cp8
-WARNING;artefact:11093;changement format famille;0-0
 WARNING;artefact:11093;appartenance n'est pas correcte ou vide
-WARNING;artefact:11105;changement format famille;micro-Micro
-WARNING;artefact:11118;changement format famille;150-150
-WARNING;artefact:11119;changement format famille;P.C.-P.c.
-WARNING;artefact:11121;changement format famille;None-None
 WARNING;artefact:11121;appartenance n'est pas correcte ou vide
-WARNING;artefact:11131;changement format famille;None-None
 WARNING;artefact:11131;appartenance n'est pas correcte ou vide
-WARNING;artefact:11132;changement format famille;150-150
-WARNING;artefact:11133;changement format famille;150-150
-WARNING;artefact:11134;changement format famille;150-150
-WARNING;artefact:11283;changement format famille;D1-D3-D1-d3
-WARNING;artefact:11296;changement format famille;None-None
 WARNING;artefact:11296;appartenance n'est pas correcte ou vide
-WARNING;artefact:11297;changement format famille;None-None
 WARNING;artefact:11297;appartenance n'est pas correcte ou vide
-WARNING;artefact:12000;changement format famille;None-None
 WARNING;artefact:12000;appartenance n'est pas correcte ou vide
-WARNING;artefact:12001;changement format famille;None-None
 WARNING;artefact:12001;appartenance n'est pas correcte ou vide
-WARNING;artefact:12002;changement format famille;None-None
 WARNING;artefact:12002;appartenance n'est pas correcte ou vide
-WARNING;artefact:12003;changement format famille;None-None
 WARNING;artefact:12003;appartenance n'est pas correcte ou vide
-WARNING;artefact:12004;changement format famille;None-None
 WARNING;artefact:12004;appartenance n'est pas correcte ou vide
-WARNING;artefact:12005;changement format famille;None-None
 WARNING;artefact:12005;appartenance n'est pas correcte ou vide
-WARNING;artefact:12006;changement format famille;None-None
 WARNING;artefact:12006;appartenance n'est pas correcte ou vide
-WARNING;artefact:12098;changement format famille;ATM-Atm
-WARNING;artefact:12100;changement format famille;None-None
 WARNING;artefact:12100;appartenance n'est pas correcte ou vide
-WARNING;artefact:12102;changement format famille;None-None
 WARNING;artefact:12102;appartenance n'est pas correcte ou vide
-WARNING;artefact:12106;changement format famille;None-None
 WARNING;artefact:12106;appartenance n'est pas correcte ou vide
-WARNING;artefact:12107;changement format famille;None-None
 WARNING;artefact:12107;appartenance n'est pas correcte ou vide
-WARNING;artefact:12108;changement format famille;None-None
 WARNING;artefact:12108;appartenance n'est pas correcte ou vide
-WARNING;artefact:12109;changement format famille;None-None
 WARNING;artefact:12109;appartenance n'est pas correcte ou vide
-WARNING;artefact:12113;changement format famille;P.C.-P.c.
-WARNING;artefact:12114;changement format famille;P.C.-P.c.
-WARNING;artefact:12115;changement format famille;P.C.-P.c.
-WARNING;artefact:12116;changement format famille;P.C.-P.c.
-WARNING;artefact:12117;changement format famille;P.C.-P.c.
-WARNING;artefact:12118;changement format famille;P.C.-P.c.
-WARNING;artefact:12119;changement format famille;P.C.-P.c.
-WARNING;artefact:12120;changement format famille;P.C.-P.c.
-WARNING;artefact:12121;changement format famille;P.C.-P.c.
-WARNING;artefact:12122;changement format famille;P.C.-P.c.
-WARNING;artefact:12123;changement format famille;P.C.-P.c.
-WARNING;artefact:12141;changement format famille;None-None
 WARNING;artefact:12141;appartenance n'est pas correcte ou vide
-WARNING;artefact:12142;changement format famille;None-None
 WARNING;artefact:12142;appartenance n'est pas correcte ou vide
-WARNING;artefact:13001;changement format famille;GE400-Ge400
-WARNING;artefact:13002;changement format famille;0-0
 WARNING;artefact:13002;appartenance n'est pas correcte ou vide
-WARNING;artefact:13004;changement format famille;None-None
 WARNING;artefact:13004;appartenance n'est pas correcte ou vide
-WARNING;artefact:13006;changement format famille;None-None
 WARNING;artefact:13006;appartenance n'est pas correcte ou vide
-WARNING;artefact:13007;changement format famille;None-None
 WARNING;artefact:13007;appartenance n'est pas correcte ou vide
-WARNING;artefact:13008;changement format famille;None-None
 WARNING;artefact:13008;appartenance n'est pas correcte ou vide
-WARNING;artefact:13009;changement format famille;None-None
 WARNING;artefact:13009;appartenance n'est pas correcte ou vide
-WARNING;artefact:13011;changement format famille;None-None
 WARNING;artefact:13011;appartenance n'est pas correcte ou vide
-WARNING;artefact:13012;changement format famille;None-None
 WARNING;artefact:13012;appartenance n'est pas correcte ou vide
-WARNING;artefact:13013;changement format famille;None-None
 WARNING;artefact:13013;appartenance n'est pas correcte ou vide
-WARNING;artefact:13014;changement format famille;0-0
 WARNING;artefact:13014;appartenance n'est pas correcte ou vide
-WARNING;artefact:13015;changement format famille;0-0
 WARNING;artefact:13015;appartenance n'est pas correcte ou vide
-WARNING;artefact:13018;changement format famille;0-0
 WARNING;artefact:13018;appartenance n'est pas correcte ou vide
-WARNING;artefact:13019;changement format famille;divers-Divers
-WARNING;artefact:13022;changement format famille;150-150
-WARNING;artefact:13024;changement format famille;P.C.-P.c.
-WARNING;artefact:13025;changement format famille;P.C.-P.c.
-WARNING;artefact:13029;changement format famille;None-None
 WARNING;artefact:13029;appartenance n'est pas correcte ou vide
-WARNING;artefact:13031;changement format famille;None-None
 WARNING;artefact:13031;appartenance n'est pas correcte ou vide
-WARNING;artefact:13032;changement format famille;None-None
 WARNING;artefact:13032;appartenance n'est pas correcte ou vide
-WARNING;artefact:13033;changement format famille;None-None
 WARNING;artefact:13033;appartenance n'est pas correcte ou vide
-WARNING;artefact:15000;changement format famille;P.C.-P.c.
-WARNING;artefact:15001;changement format famille;P.C.-P.c.
-WARNING;artefact:15002;changement format famille;None-None
 WARNING;artefact:15002;appartenance n'est pas correcte ou vide
-WARNING;artefact:15003;changement format famille;None-None
 WARNING;artefact:15003;appartenance n'est pas correcte ou vide
-WARNING;artefact:15004;changement format famille;None-None
 WARNING;artefact:15004;appartenance n'est pas correcte ou vide
-WARNING;artefact:15005;changement format famille;None-None
 WARNING;artefact:15005;appartenance n'est pas correcte ou vide
-WARNING;artefact:15006;changement format famille;None-None
 WARNING;artefact:15006;appartenance n'est pas correcte ou vide
-WARNING;artefact:15007;changement format famille;None-None
 WARNING;artefact:15007;appartenance n'est pas correcte ou vide
-WARNING;artefact:98000;changement format famille;None-None
 WARNING;artefact:98000;appartenance n'est pas correcte ou vide
-WARNING;artefact:98001;changement format famille;None-None
 WARNING;artefact:98001;appartenance n'est pas correcte ou vide
-WARNING;artefact:98002;changement format famille;None-None
 WARNING;artefact:98002;appartenance n'est pas correcte ou vide
-WARNING;artefact:98003;changement format famille;None-None
 WARNING;artefact:98003;appartenance n'est pas correcte ou vide
-WARNING;artefact:98004;changement format famille;None-None
 WARNING;artefact:98004;appartenance n'est pas correcte ou vide
-WARNING;artefact:98005;changement format famille;None-None
 WARNING;artefact:98005;appartenance n'est pas correcte ou vide
-WARNING;artefact:98133;changement format famille;None-None
 WARNING;artefact:98133;appartenance n'est pas correcte ou vide
-WARNING;artefact:98134;changement format famille;None-None
 WARNING;artefact:98134;appartenance n'est pas correcte ou vide
-WARNING;artefact:98135;changement format famille;None-None
 WARNING;artefact:98135;appartenance n'est pas correcte ou vide
-WARNING;artefact:98143;changement format famille;None-None
 WARNING;artefact:98143;appartenance n'est pas correcte ou vide
-WARNING;artefact:98144;changement format famille;0-0
 WARNING;artefact:98144;appartenance n'est pas correcte ou vide
-WARNING;artefact:98145;changement format famille;0-0
 WARNING;artefact:98145;appartenance n'est pas correcte ou vide
-WARNING;artefact:98146;changement format famille;None-None
 WARNING;artefact:98146;appartenance n'est pas correcte ou vide
-WARNING;artefact:98147;changement format famille;None-None
 WARNING;artefact:98147;appartenance n'est pas correcte ou vide
-WARNING;artefact:98148;changement format famille;None-None
 WARNING;artefact:98148;appartenance n'est pas correcte ou vide
-WARNING;artefact:98149;changement format famille;0-0
 WARNING;artefact:98149;appartenance n'est pas correcte ou vide
-WARNING;artefact:98150;changement format famille;0-0
 WARNING;artefact:98150;appartenance n'est pas correcte ou vide
-WARNING;artefact:98151;changement format famille;0-0
 WARNING;artefact:98151;appartenance n'est pas correcte ou vide
-WARNING;artefact:98152;changement format famille;0-0
 WARNING;artefact:98152;appartenance n'est pas correcte ou vide
-WARNING;artefact:98153;changement format famille;0-0
 WARNING;artefact:98153;appartenance n'est pas correcte ou vide
-WARNING;artefact:98154;changement format famille;0-0
 WARNING;artefact:98154;appartenance n'est pas correcte ou vide
-WARNING;artefact:98157;changement format famille;None-None
 WARNING;artefact:98157;appartenance n'est pas correcte ou vide
-WARNING;artefact:98158;changement format famille;None-None
 WARNING;artefact:98158;appartenance n'est pas correcte ou vide
-WARNING;artefact:98159;changement format famille;None-None
 WARNING;artefact:98159;appartenance n'est pas correcte ou vide
-WARNING;artefact:98160;changement format famille;None-None
 WARNING;artefact:98160;appartenance n'est pas correcte ou vide
-WARNING;artefact:98161;changement format famille;150-150
-WARNING;artefact:98162;changement format famille;0-0
 WARNING;artefact:98162;appartenance n'est pas correcte ou vide
-WARNING;artefact:98163;changement format famille;None-None
 WARNING;artefact:98163;appartenance n'est pas correcte ou vide
-WARNING;artefact:98164;changement format famille;0-0
 WARNING;artefact:98164;appartenance n'est pas correcte ou vide
-WARNING;artefact:98165;changement format famille;0-0
 WARNING;artefact:98165;appartenance n'est pas correcte ou vide
-WARNING;artefact:98166;changement format famille;0-0
 WARNING;artefact:98166;appartenance n'est pas correcte ou vide
-WARNING;artefact:98173;changement format famille;None-None
 WARNING;artefact:98173;appartenance n'est pas correcte ou vide
-WARNING;artefact:98174;changement format famille;None-None
 WARNING;artefact:98174;appartenance n'est pas correcte ou vide
-WARNING;artefact:98175;changement format famille;None-None
 WARNING;artefact:98175;appartenance n'est pas correcte ou vide
-WARNING;artefact:98176;changement format famille;None-None
 WARNING;artefact:98176;appartenance n'est pas correcte ou vide
-WARNING;artefact:98177;changement format famille;None-None
 WARNING;artefact:98177;appartenance n'est pas correcte ou vide
-WARNING;artefact:98178;changement format famille;None-None
 WARNING;artefact:98178;appartenance n'est pas correcte ou vide
-WARNING;artefact:98294;changement format famille;0-0
 WARNING;artefact:98294;appartenance n'est pas correcte ou vide
-WARNING;artefact:98296;changement format famille;MINI-Mini
-WARNING;artefact:98310;changement format famille;None-None
 WARNING;artefact:98310;appartenance n'est pas correcte ou vide
-WARNING;artefact:98311;changement format famille;P.C-P.c
-WARNING;artefact:98312;changement format famille;None-None
 WARNING;artefact:98312;appartenance n'est pas correcte ou vide
-WARNING;artefact:98313;changement format famille;None-None
 WARNING;artefact:98313;appartenance n'est pas correcte ou vide
-WARNING;artefact:98314;changement format famille;DPS 7000-Dps 7000
-WARNING;artefact:98315;changement format famille;système-Système
-WARNING;artefact:98317;changement format famille;DPS 7000-Dps 7000
-WARNING;artefact:98319;changement format famille;Bull Servers-Bull servers
-WARNING;artefact:98321;changement format famille;None-None
 WARNING;artefact:98321;appartenance n'est pas correcte ou vide
-WARNING;artefact:98322;changement format famille;dispathcing-Dispathcing
-WARNING;artefact:98323;changement format famille;DPS 8-Dps 8
-WARNING;artefact:98324;changement format famille;système-Système
-WARNING;artefact:98325;changement format famille;DPS 7000-Dps 7000
-WARNING;artefact:98326;changement format famille;None-None
 WARNING;artefact:98326;appartenance n'est pas correcte ou vide
-WARNING;artefact:98327;changement format famille;None-None
 WARNING;artefact:98327;appartenance n'est pas correcte ou vide
-WARNING;artefact:98328;changement format famille;None-None
 WARNING;artefact:98328;appartenance n'est pas correcte ou vide
-WARNING;artefact:98329;changement format famille;None-None
 WARNING;artefact:98329;appartenance n'est pas correcte ou vide
-WARNING;artefact:98330;changement format famille;None-None
 WARNING;artefact:98330;appartenance n'est pas correcte ou vide
-WARNING;artefact:98331;changement format famille;None-None
 WARNING;artefact:98331;appartenance n'est pas correcte ou vide
-WARNING;artefact:98498;changement format famille;None-None
 WARNING;artefact:98498;appartenance n'est pas correcte ou vide
-WARNING;artefact:98522;changement format famille;DPS7-Dps7
-WARNING;artefact:98523;changement format famille;None-None
 WARNING;artefact:98523;appartenance n'est pas correcte ou vide
-WARNING;artefact:98524;changement format famille;None-None
 WARNING;artefact:98524;appartenance n'est pas correcte ou vide
-WARNING;artefact:98525;changement format famille;None-None
 WARNING;artefact:98525;appartenance n'est pas correcte ou vide
-WARNING;artefact:98526;changement format famille;None-None
 WARNING;artefact:98526;appartenance n'est pas correcte ou vide
-WARNING;artefact:98527;changement format famille;None-None
 WARNING;artefact:98527;appartenance n'est pas correcte ou vide
-WARNING;artefact:98528;changement format famille;None-None
 WARNING;artefact:98528;appartenance n'est pas correcte ou vide
-WARNING;artefact:98529;changement format famille;None-None
 WARNING;artefact:98529;appartenance n'est pas correcte ou vide
-WARNING;artefact:98530;changement format famille;None-None
 WARNING;artefact:98530;appartenance n'est pas correcte ou vide
-WARNING;artefact:98531;changement format famille;None-None
 WARNING;artefact:98531;appartenance n'est pas correcte ou vide
-WARNING;artefact:98532;changement format famille;None-None
 WARNING;artefact:98532;appartenance n'est pas correcte ou vide
-WARNING;artefact:98533;changement format famille;None-None
 WARNING;artefact:98533;appartenance n'est pas correcte ou vide
-WARNING;artefact:98534;changement format famille;None-None
 WARNING;artefact:98534;appartenance n'est pas correcte ou vide
-WARNING;artefact:98535;changement format famille;0-0
 WARNING;artefact:98535;appartenance n'est pas correcte ou vide
-WARNING;artefact:98536;changement format famille;0-0
 WARNING;artefact:98536;appartenance n'est pas correcte ou vide
-WARNING;artefact:98537;changement format famille;None-None
 WARNING;artefact:98537;appartenance n'est pas correcte ou vide
-WARNING;artefact:98538;changement format famille;0-0
 WARNING;artefact:98538;appartenance n'est pas correcte ou vide
-WARNING;artefact:98539;changement format famille;BULL-Bull
-WARNING;artefact:98540;changement format famille;None-None
 WARNING;artefact:98540;appartenance n'est pas correcte ou vide
-WARNING;artefact:98541;changement format famille;Roularta Books-Roularta books
-WARNING;artefact:98542;changement format famille;None-None
 WARNING;artefact:98542;appartenance n'est pas correcte ou vide
-WARNING;artefact:98543;changement format famille;None-None
 WARNING;artefact:98543;appartenance n'est pas correcte ou vide
-WARNING;artefact:98544;changement format famille;None-None
 WARNING;artefact:98544;appartenance n'est pas correcte ou vide
-WARNING;artefact:98545;changement format famille;None-None
 WARNING;artefact:98545;appartenance n'est pas correcte ou vide
-WARNING;artefact:98548;changement format famille;0-0
 WARNING;artefact:98548;appartenance n'est pas correcte ou vide
-WARNING;artefact:98548;changement format famille;PC-Pc
-WARNING;artefact:98549;changement format famille;PC-Pc
-WARNING;artefact:98550;changement format famille;0-0
 WARNING;artefact:98550;appartenance n'est pas correcte ou vide
-WARNING;artefact:98551;changement format famille;CP8-Cp8
-WARNING;artefact:98552;changement format famille;PC-Pc
-WARNING;artefact:98555;changement format famille;PC-Pc
-WARNING;artefact:98556;changement format famille;None-None
 WARNING;artefact:98556;appartenance n'est pas correcte ou vide
-WARNING;artefact:98557;changement format famille;PC-Pc
-WARNING;artefact:98558;changement format famille;PC-Pc
-WARNING;artefact:98559;changement format famille;None-None
 WARNING;artefact:98559;appartenance n'est pas correcte ou vide
-WARNING;artefact:98560;changement format famille;PC-Pc
-WARNING;artefact:98562;changement format famille;0-0
 WARNING;artefact:98562;appartenance n'est pas correcte ou vide
-WARNING;artefact:98563;changement format famille;PC-Pc
-WARNING;artefact:98564;changement format famille;PRT 300-Prt 300
-WARNING;artefact:98565;changement format famille;150-150
-WARNING;artefact:98566;changement format famille;150-150
-WARNING;artefact:98567;changement format famille;0-0
 WARNING;artefact:98567;appartenance n'est pas correcte ou vide
-WARNING;artefact:98568;changement format famille;PC-Pc
-WARNING;artefact:98569;changement format famille;0-0
 WARNING;artefact:98569;appartenance n'est pas correcte ou vide
-WARNING;artefact:98570;changement format famille;150-150
-WARNING;artefact:98593;changement format famille;0-0
 WARNING;artefact:98593;appartenance n'est pas correcte ou vide
-WARNING;artefact:98594;changement format famille;0-0
 WARNING;artefact:98594;appartenance n'est pas correcte ou vide
-WARNING;artefact:98595;changement format famille;0-0
 WARNING;artefact:98595;appartenance n'est pas correcte ou vide
-WARNING;artefact:98596;changement format famille;0-0
 WARNING;artefact:98596;appartenance n'est pas correcte ou vide
-WARNING;artefact:98597;changement format famille;0-0
 WARNING;artefact:98597;appartenance n'est pas correcte ou vide
-WARNING;artefact:98598;changement format famille;0-0
 WARNING;artefact:98598;appartenance n'est pas correcte ou vide
-WARNING;artefact:98599;changement format famille;0-0
 WARNING;artefact:98599;appartenance n'est pas correcte ou vide
-WARNING;artefact:98600;changement format famille;150-150
-WARNING;artefact:98602;changement format famille;None-None
 WARNING;artefact:98602;appartenance n'est pas correcte ou vide
-WARNING;artefact:98604;changement format famille;0-0
 WARNING;artefact:98604;appartenance n'est pas correcte ou vide
-WARNING;artefact:98605;changement format famille;0-0
 WARNING;artefact:98605;appartenance n'est pas correcte ou vide
-WARNING;artefact:98606;changement format famille;150-150
-WARNING;artefact:98608;changement format famille;150-150
-WARNING;artefact:98609;changement format famille;150-150
-WARNING;artefact:98610;changement format famille;150-150
-WARNING;artefact:98611;changement format famille;150-150
-WARNING;artefact:98622;changement format famille;150-150
-WARNING;artefact:98624;changement format famille;150-150
-WARNING;artefact:98631;changement format famille;None-None
 WARNING;artefact:98631;appartenance n'est pas correcte ou vide
-WARNING;artefact:99990;changement format famille;0-0
 WARNING;artefact:99990;appartenance n'est pas correcte ou vide
-WARNING;artefact:99991;changement format famille;None-None
 WARNING;artefact:99991;appartenance n'est pas correcte ou vide
-WARNING;artefact:99992;changement format famille;None-None
 WARNING;artefact:99992;appartenance n'est pas correcte ou vide
-WARNING;artefact:99993;changement format famille;PC-Pc
-WARNING;artefact:99994;changement format famille;213-213
-WARNING;artefact:99995;changement format famille;mon-Mon
-WARNING;artefact:99996;changement format famille;None-None
 WARNING;artefact:99996;appartenance n'est pas correcte ou vide
-WARNING;artefact:99997;changement format famille;0-0
 WARNING;artefact:99997;appartenance n'est pas correcte ou vide
-WARNING;artefact:99999;changement format famille;115-115
-WARNING;artefact:100000;changement format famille;116-116
-WARNING;artefact:100001;changement format famille;0-0
 WARNING;artefact:100001;appartenance n'est pas correcte ou vide
-WARNING;artefact:100002;changement format famille;0-0
 WARNING;artefact:100002;appartenance n'est pas correcte ou vide
 WARNING;artefact:8530;famille n'est pas correcte ou vide
 WARNING;artefact:8531;famille n'est pas correcte ou vide
@@ -2024,7 +1550,6 @@ WARNING;artefact:8529;pas de largeur
 WARNING;artefact:8529;pas de hauteur
 WARNING;artefact:8529;pas de poids
 WARNING;artefact:8529;pas de date d'entrée
-WARNING;artefact:8530;famille vide
 WARNING;artefact:8530;pas de longueur
 WARNING;artefact:8530;pas de largeur
 WARNING;artefact:8530;pas de hauteur
@@ -2033,7 +1558,6 @@ WARNING;artefact:8530;pas de date d'entrée
 ERROR;artefact:8530;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
 ERROR;artefact:8530;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8530,'Disquettes 3,25, Dos 5,0, 6,2, bootDos','PC','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,15,NULL,NULL,7,NULL,NULL)
 
-WARNING;artefact:8531;famille vide
 WARNING;artefact:8531;pas de longueur
 WARNING;artefact:8531;pas de largeur
 WARNING;artefact:8531;pas de hauteur
@@ -2042,7 +1566,6 @@ WARNING;artefact:8531;pas de date d'entrée
 ERROR;artefact:8531;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
 ERROR;artefact:8531;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8531,'Disquettes 3,25,Dos 6,0, 6,2','PC','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,15,NULL,NULL,7,NULL,NULL)
 
-WARNING;artefact:8532;famille vide
 WARNING;artefact:8532;pas de longueur
 WARNING;artefact:8532;pas de largeur
 WARNING;artefact:8532;pas de hauteur
@@ -2051,7 +1574,6 @@ WARNING;artefact:8532;pas de date d'entrée
 ERROR;artefact:8532;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
 ERROR;artefact:8532;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8532,'Disquettes 3,25,MS Office 4,2 ','PC','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,15,NULL,NULL,7,NULL,NULL)
 
-WARNING;artefact:8533;famille vide
 WARNING;artefact:8533;pas de longueur
 WARNING;artefact:8533;pas de largeur
 WARNING;artefact:8533;pas de hauteur
@@ -2060,7 +1582,6 @@ WARNING;artefact:8533;pas de date d'entrée
 ERROR;artefact:8533;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
 ERROR;artefact:8533;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8533,'Disquettes 3,25,Visual Basic 3,0','PC','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,15,NULL,NULL,7,NULL,NULL)
 
-WARNING;artefact:8534;famille vide
 WARNING;artefact:8534;pas de quantité
 WARNING;artefact:8534;pas de longueur
 WARNING;artefact:8534;pas de largeur
@@ -2069,6 +1590,36 @@ WARNING;artefact:8534;pas de poids
 WARNING;artefact:8534;pas de date d'entrée
 ERROR;artefact:8534;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
 ERROR;artefact:8534;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8534,'Win 3,1 ZDS','PC','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,6,NULL,NULL,5,NULL)
+
+WARNING;artefact<Cell 'Inventaire'.A33>;est vide
+WARNING;artefact:8600;pas de quantité
+WARNING;artefact:8600;pas de longueur
+WARNING;artefact:8600;pas de largeur
+WARNING;artefact:8600;pas de hauteur
+WARNING;artefact:8600;pas de poids
+WARNING;artefact:8600;pas de date d'entrée
+ERROR;artefact:8600;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:8600;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8600,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
+WARNING;artefact<Cell 'Inventaire'.A34>;est vide
+WARNING;artefact:8601;pas de quantité
+WARNING;artefact:8601;pas de longueur
+WARNING;artefact:8601;pas de largeur
+WARNING;artefact:8601;pas de hauteur
+WARNING;artefact:8601;pas de poids
+WARNING;artefact:8601;pas de date d'entrée
+ERROR;artefact:8601;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:8601;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8601,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
+WARNING;artefact<Cell 'Inventaire'.A35>;est vide
+WARNING;artefact:8602;pas de quantité
+WARNING;artefact:8602;pas de longueur
+WARNING;artefact:8602;pas de largeur
+WARNING;artefact:8602;pas de hauteur
+WARNING;artefact:8602;pas de poids
+WARNING;artefact:8602;pas de date d'entrée
+ERROR;artefact:8602;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:8602;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8602,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
 
 WARNING;artefact:8676;pas de quantité
 WARNING;artefact:8676;pas de longueur
@@ -2310,6 +1861,16 @@ WARNING;artefact:9401;mauvais encodage du poids
 WARNING;artefact:9402;mauvais encodage de la longueur
 WARNING;artefact:9402;mauvais encodage de la hauteur
 WARNING;artefact:9402;mauvais encodage du poids
+WARNING;artefact<Cell 'Inventaire'.A109>;est vide
+WARNING;artefact:9403;pas de quantité
+WARNING;artefact:9403;pas de longueur
+WARNING;artefact:9403;pas de largeur
+WARNING;artefact:9403;pas de hauteur
+WARNING;artefact:9403;pas de poids
+WARNING;artefact:9403;pas de date d'entrée
+ERROR;artefact:9403;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:9403;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9403,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
 WARNING;artefact:9404;mauvais encodage de la largeur
 WARNING;artefact:9404;mauvais encodage du poids
 WARNING;artefact:9405;mauvais encodage de la hauteur
@@ -2461,6 +2022,36 @@ WARNING;artefact:9821;pas de largeur
 WARNING;artefact:9821;pas de hauteur
 WARNING;artefact:9821;pas de poids
 WARNING;artefact:9821;pas de date d'entrée
+WARNING;artefact<Cell 'Inventaire'.A165>;est vide
+WARNING;artefact:9822;pas de quantité
+WARNING;artefact:9822;pas de longueur
+WARNING;artefact:9822;pas de largeur
+WARNING;artefact:9822;pas de hauteur
+WARNING;artefact:9822;pas de poids
+WARNING;artefact:9822;pas de date d'entrée
+ERROR;artefact:9822;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:9822;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9822,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
+WARNING;artefact<Cell 'Inventaire'.A166>;est vide
+WARNING;artefact:9823;pas de quantité
+WARNING;artefact:9823;pas de longueur
+WARNING;artefact:9823;pas de largeur
+WARNING;artefact:9823;pas de hauteur
+WARNING;artefact:9823;pas de poids
+WARNING;artefact:9823;pas de date d'entrée
+ERROR;artefact:9823;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:9823;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9823,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
+WARNING;artefact<Cell 'Inventaire'.A167>;est vide
+WARNING;artefact:9824;pas de quantité
+WARNING;artefact:9824;pas de longueur
+WARNING;artefact:9824;pas de largeur
+WARNING;artefact:9824;pas de hauteur
+WARNING;artefact:9824;pas de poids
+WARNING;artefact:9824;pas de date d'entrée
+ERROR;artefact:9824;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:9824;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9824,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
 WARNING;artefact:9825;mauvais encodage du poids
 WARNING;artefact:9826;mauvais encodage de la largeur
 WARNING;artefact:9826;mauvais encodage de la hauteur
@@ -2619,6 +2210,46 @@ WARNING;artefact:9917;pas de date d'entrée
 WARNING;artefact:9918;mauvais encodage de la hauteur
 WARNING;artefact:9918;mauvais encodage du poids
 WARNING;artefact:9918;pas de date d'entrée
+WARNING;artefact<Cell 'Inventaire'.A228>;est vide
+WARNING;artefact:9919;pas de quantité
+WARNING;artefact:9919;pas de longueur
+WARNING;artefact:9919;pas de largeur
+WARNING;artefact:9919;pas de hauteur
+WARNING;artefact:9919;pas de poids
+WARNING;artefact:9919;pas de date d'entrée
+ERROR;artefact:9919;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:9919;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9919,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
+WARNING;artefact<Cell 'Inventaire'.A229>;est vide
+WARNING;artefact:9920;pas de quantité
+WARNING;artefact:9920;pas de longueur
+WARNING;artefact:9920;pas de largeur
+WARNING;artefact:9920;pas de hauteur
+WARNING;artefact:9920;pas de poids
+WARNING;artefact:9920;pas de date d'entrée
+ERROR;artefact:9920;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:9920;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9920,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
+WARNING;artefact<Cell 'Inventaire'.A230>;est vide
+WARNING;artefact:9921;pas de quantité
+WARNING;artefact:9921;pas de longueur
+WARNING;artefact:9921;pas de largeur
+WARNING;artefact:9921;pas de hauteur
+WARNING;artefact:9921;pas de poids
+WARNING;artefact:9921;pas de date d'entrée
+ERROR;artefact:9921;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:9921;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9921,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
+WARNING;artefact<Cell 'Inventaire'.A231>;est vide
+WARNING;artefact:9922;pas de quantité
+WARNING;artefact:9922;pas de longueur
+WARNING;artefact:9922;pas de largeur
+WARNING;artefact:9922;pas de hauteur
+WARNING;artefact:9922;pas de poids
+WARNING;artefact:9922;pas de date d'entrée
+ERROR;artefact:9922;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:9922;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9922,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
 WARNING;artefact:9923;mauvais encodage de la hauteur
 WARNING;artefact:9923;mauvais encodage du poids
 WARNING;artefact:9924;mauvais encodage de la longueur
@@ -2709,7 +2340,16 @@ WARNING;artefact:10295;pas de largeur
 WARNING;artefact:10295;pas de hauteur
 WARNING;artefact:10295;pas de poids
 WARNING;artefact:10295;pas de date d'entrée
-WARNING;artefact:10297;famille vide
+WARNING;artefact<Cell 'Inventaire'.A259>;est vide
+WARNING;artefact:10296;pas de quantité
+WARNING;artefact:10296;pas de longueur
+WARNING;artefact:10296;pas de largeur
+WARNING;artefact:10296;pas de hauteur
+WARNING;artefact:10296;pas de poids
+WARNING;artefact:10296;pas de date d'entrée
+ERROR;artefact:10296;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:10296;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(10296,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
 WARNING;artefact:10297;pas de quantité
 WARNING;artefact:10297;pas de longueur
 WARNING;artefact:10297;pas de largeur
@@ -2717,6 +2357,16 @@ WARNING;artefact:10297;pas de hauteur
 WARNING;artefact:10297;pas de poids
 ERROR;artefact:10297;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
 ERROR;artefact:10297;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(10297,'NULL','NULL','NULL',NULL,NULL,'2004-09-07 00:00:00',NULL,NULL,NULL,NULL,'NULL',18,NULL,NULL,NULL,NULL,NULL,NULL)
+
+WARNING;artefact<Cell 'Inventaire'.A261>;est vide
+WARNING;artefact:10298;pas de quantité
+WARNING;artefact:10298;pas de longueur
+WARNING;artefact:10298;pas de largeur
+WARNING;artefact:10298;pas de hauteur
+WARNING;artefact:10298;pas de poids
+WARNING;artefact:10298;pas de date d'entrée
+ERROR;artefact:10298;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:10298;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(10298,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
 
 WARNING;artefact:10299;mauvais encodage de la hauteur
 WARNING;artefact:10299;pas de poids
@@ -2981,6 +2631,16 @@ WARNING;artefact:11129;mauvais encodage du poids
 WARNING;artefact:11130;mauvais encodage de la longueur
 WARNING;artefact:11130;mauvais encodage du poids
 WARNING;artefact:11130;pas de date d'entrée
+WARNING;artefact<Cell 'Inventaire'.A382>;est vide
+WARNING;artefact:11131;pas de quantité
+WARNING;artefact:11131;pas de longueur
+WARNING;artefact:11131;pas de largeur
+WARNING;artefact:11131;pas de hauteur
+WARNING;artefact:11131;pas de poids
+WARNING;artefact:11131;pas de date d'entrée
+ERROR;artefact:11131;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:11131;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(11131,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
 WARNING;artefact:11132;mauvais encodage de la longueur
 WARNING;artefact:11132;mauvais encodage de la largeur
 WARNING;artefact:11132;mauvais encodage de la hauteur
@@ -3290,6 +2950,16 @@ WARNING;artefact:12139;mauvais encodage de la hauteur
 WARNING;artefact:12139;pas de date d'entrée
 WARNING;artefact:12140;mauvais encodage de la hauteur
 WARNING;artefact:12140;pas de date d'entrée
+WARNING;artefact<Cell 'Inventaire'.A475>;est vide
+WARNING;artefact:12141;pas de quantité
+WARNING;artefact:12141;pas de longueur
+WARNING;artefact:12141;pas de largeur
+WARNING;artefact:12141;pas de hauteur
+WARNING;artefact:12141;pas de poids
+WARNING;artefact:12141;pas de date d'entrée
+ERROR;artefact:12141;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:12141;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(12141,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
 WARNING;artefact:12142;pas de longueur
 WARNING;artefact:12142;pas de largeur
 WARNING;artefact:12142;pas de hauteur
@@ -3408,12 +3078,32 @@ WARNING;artefact:13028;mauvais encodage de la longueur
 WARNING;artefact:13028;mauvais encodage de la hauteur
 WARNING;artefact:13028;mauvais encodage du poids
 WARNING;artefact:13028;pas de date d'entrée
+WARNING;artefact<Cell 'Inventaire'.A505>;est vide
+WARNING;artefact:13029;pas de quantité
+WARNING;artefact:13029;pas de longueur
+WARNING;artefact:13029;pas de largeur
+WARNING;artefact:13029;pas de hauteur
+WARNING;artefact:13029;pas de poids
+WARNING;artefact:13029;pas de date d'entrée
+ERROR;artefact:13029;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:13029;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(13029,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
 WARNING;artefact:13030;mauvais encodage de la longueur
 WARNING;artefact:13030;mauvais encodage de la largeur
 WARNING;artefact:13030;mauvais encodage de la hauteur
 WARNING;artefact:13030;mauvais encodage du poids
 ERROR;artefact:13030;Error 1292; 1292 (22007): Incorrect date value: ' ' for column 'dateIn' at row 1
 ERROR;artefact:13030;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(13030,'Classeur photos','0','0',0,1,' ',NULL,NULL,NULL,NULL,'Trombinoscope',NULL,64,NULL,NULL,32,1,52)
+
+WARNING;artefact<Cell 'Inventaire'.A507>;est vide
+WARNING;artefact:13031;pas de quantité
+WARNING;artefact:13031;pas de longueur
+WARNING;artefact:13031;pas de largeur
+WARNING;artefact:13031;pas de hauteur
+WARNING;artefact:13031;pas de poids
+WARNING;artefact:13031;pas de date d'entrée
+ERROR;artefact:13031;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:13031;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(13031,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
 
 WARNING;artefact:13032;pas de quantité
 WARNING;artefact:13032;pas de longueur
@@ -3453,7 +3143,26 @@ WARNING;artefact:15004;pas de largeur
 WARNING;artefact:15004;pas de hauteur
 WARNING;artefact:15004;pas de poids
 WARNING;artefact:15004;pas de date d'entrée
-WARNING;artefact:15007;famille vide
+WARNING;artefact<Cell 'Inventaire'.A515>;est vide
+WARNING;artefact:15005;pas de quantité
+WARNING;artefact:15005;pas de longueur
+WARNING;artefact:15005;pas de largeur
+WARNING;artefact:15005;pas de hauteur
+WARNING;artefact:15005;pas de poids
+WARNING;artefact:15005;pas de date d'entrée
+ERROR;artefact:15005;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:15005;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(15005,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
+WARNING;artefact<Cell 'Inventaire'.A516>;est vide
+WARNING;artefact:15006;pas de quantité
+WARNING;artefact:15006;pas de longueur
+WARNING;artefact:15006;pas de largeur
+WARNING;artefact:15006;pas de hauteur
+WARNING;artefact:15006;pas de poids
+WARNING;artefact:15006;pas de date d'entrée
+ERROR;artefact:15006;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:15006;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(15006,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
 WARNING;artefact:15007;pas de longueur
 WARNING;artefact:15007;pas de largeur
 WARNING;artefact:15007;pas de hauteur
@@ -3955,7 +3664,6 @@ WARNING;artefact:98554;mauvais encodage du poids
 WARNING;artefact:98555;mauvais encodage de la longueur
 WARNING;artefact:98555;mauvais encodage de la largeur
 WARNING;artefact:98555;mauvais encodage du poids
-WARNING;artefact:98556;famille vide
 WARNING;artefact:98556;pas de quantité
 WARNING;artefact:98556;pas de longueur
 WARNING;artefact:98556;pas de largeur
@@ -3970,7 +3678,6 @@ WARNING;artefact:98557;mauvais encodage de la hauteur
 WARNING;artefact:98557;pas de date d'entrée
 WARNING;artefact:98558;mauvais encodage de la hauteur
 WARNING;artefact:98558;mauvais encodage du poids
-WARNING;artefact:98559;famille vide
 WARNING;artefact:98559;pas de quantité
 WARNING;artefact:98559;pas de longueur
 WARNING;artefact:98559;pas de largeur
@@ -4096,6 +3803,26 @@ WARNING;artefact:99990;mauvais encodage du poids
 ERROR;artefact:99990;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
 ERROR;artefact:99990;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99990,'ligne test','0','0',0,0,'00:00:00',NULL,NULL,NULL,NULL,'NULL',NULL,NULL,NULL,NULL,NULL,NULL,42)
 
+WARNING;artefact<Cell 'Inventaire'.A667>;est vide
+WARNING;artefact:99991;pas de quantité
+WARNING;artefact:99991;pas de longueur
+WARNING;artefact:99991;pas de largeur
+WARNING;artefact:99991;pas de hauteur
+WARNING;artefact:99991;pas de poids
+WARNING;artefact:99991;pas de date d'entrée
+ERROR;artefact:99991;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:99991;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99991,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
+WARNING;artefact<Cell 'Inventaire'.A668>;est vide
+WARNING;artefact:99992;pas de quantité
+WARNING;artefact:99992;pas de longueur
+WARNING;artefact:99992;pas de largeur
+WARNING;artefact:99992;pas de hauteur
+WARNING;artefact:99992;pas de poids
+WARNING;artefact:99992;pas de date d'entrée
+ERROR;artefact:99992;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:99992;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99992,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
 WARNING;artefact:99993;mauvais encodage de la longueur
 WARNING;artefact:99993;mauvais encodage de la largeur
 WARNING;artefact:99993;mauvais encodage de la hauteur
@@ -4111,7 +3838,6 @@ WARNING;artefact:99994;pas de date d'entrée
 ERROR;artefact:99995;Error 1292; 1292 (22007): Incorrect date value: '0' for column 'dateIn' at row 1
 ERROR;artefact:99995;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99995,'456','125','2002',0,0,'0',1,1,2,5,'NULL',NULL,NULL,NULL,NULL,35,74,66)
 
-WARNING;artefact:99996;famille vide
 WARNING;artefact:99996;pas de quantité
 WARNING;artefact:99996;pas de longueur
 WARNING;artefact:99996;pas de largeur
