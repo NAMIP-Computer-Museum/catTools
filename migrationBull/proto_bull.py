@@ -504,8 +504,7 @@ def process_row(row,conn):
          try:
              cursor.execute(sqlDon)
          except mysql.connector.errors.DatabaseError as e:
-             config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
-             config.logging.error("requete donateur;"+str(sqlDon)+"\n")
+             config.logging.error("artefact:" + str(id) + ";Error %d; %s;"+str(sqlDon)+"\n" % (e.args[0], e.args[1]))
              conn.rollback()
 
          # recuperation de l'id du donateur
@@ -513,8 +512,7 @@ def process_row(row,conn):
          try:
             cursor.execute(sqlDon2)
          except mysql.connector.errors.DatabaseError as e:
-            config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
-            config.logging.error("requete donateur;" + str(sqlDon2)+"\n")
+            config.logging.error("artefact:" + str(id) + ";Error %d; %s;"+ str(sqlDon2)+"\n" % (e.args[0], e.args[1]))
             conn.rollback()
          res = cursor.fetchall()
          for resultat in res:
@@ -535,12 +533,8 @@ def process_row(row,conn):
       cursor.execute(sqlArtefact)
      except mysql.connector.errors.DatabaseError as e:
          config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
-         config.logging.error("requete artefact;" + str(sqlArtefact)+"\n")
+         config.logging.error("artefact:"+str(id)+";; erreur requête;"+str(sqlArtefact)+"\n")
          conn.rollback()
-         # if cursor:
-         #config.logging.warning("l'artefact est OK")
-     #else :
-         #config.logging.error("l'artefact "+str(id)+"n'est pas passé")
     # insertion dans la table des liens
      """ 
      for l in lien:
@@ -567,8 +561,7 @@ def process_row(row,conn):
         try:
          cursor.execute(sqlRecol)
         except mysql.connector.errors.DatabaseError as e:
-            config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
-            config.logging.error("requete recolement;"+str(sqlRecol)+"\n")
+            config.logging.error("artefact:" + str(id) + ";Error %d;%s;"+str(sqlRecol)+"\n" % (e.args[0], e.args[1]))
             conn.rollback()
      conn.commit()
 

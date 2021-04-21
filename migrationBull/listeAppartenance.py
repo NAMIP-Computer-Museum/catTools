@@ -14,8 +14,10 @@ def recup_appartenance(cursor):
     for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
         appart = row[5].value
         idA = row[0].value
-        id = None
-        sql = "SELECT id_appart FROM appartenances WHERE appartenance =\'" + str(appart).capitalize() + "\'"
+        appartC = str(appart).capitalize()
+        if appart != appartC:
+         config.logging.warning("artefact:"+str(idA)+";changement format famille;"+str(appart)+"-"+str(appartC))
+        sql = "SELECT id_appart FROM appartenances WHERE appartenance =\'" + str(appartC)+ "\'"
         cursor.execute(sql)
         res = cursor.fetchone()
         if res:
