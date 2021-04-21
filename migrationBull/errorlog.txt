@@ -779,11 +779,17 @@ WARNING;artefact:99992;usage n'est pas correct ou vide
 WARNING;artefact:99996;usage n'est pas correct ou vide
 WARNING;artefact:6987;changement format famille;Bull CP8-Bull cp8
 WARNING;artefact:6988;changement format famille;0-0
+WARNING;artefact:6988;appartenance n'est pas correcte ou vide
 WARNING;artefact:6989;changement format famille;0-0
+WARNING;artefact:6989;appartenance n'est pas correcte ou vide
 WARNING;artefact:6990;changement format famille;0-0
+WARNING;artefact:6990;appartenance n'est pas correcte ou vide
 WARNING;artefact:6991;changement format famille;0-0
+WARNING;artefact:6991;appartenance n'est pas correcte ou vide
 WARNING;artefact:6992;changement format famille;0-0
+WARNING;artefact:6992;appartenance n'est pas correcte ou vide
 WARNING;artefact:6993;changement format famille;0-0
+WARNING;artefact:6993;appartenance n'est pas correcte ou vide
 WARNING;artefact:7056;changement format famille;None-None
 WARNING;artefact:7056;appartenance n'est pas correcte ou vide
 WARNING;artefact:8526;changement format famille;GE 400-Ge 400
@@ -841,9 +847,11 @@ WARNING;artefact:8907;appartenance n'est pas correcte ou vide
 WARNING;artefact:8908;changement format famille;None-None
 WARNING;artefact:8908;appartenance n'est pas correcte ou vide
 WARNING;artefact:8909;changement format famille;0-0
+WARNING;artefact:8909;appartenance n'est pas correcte ou vide
 WARNING;artefact:8910;changement format famille;None-None
 WARNING;artefact:8910;appartenance n'est pas correcte ou vide
 WARNING;artefact:8911;changement format famille;0-0
+WARNING;artefact:8911;appartenance n'est pas correcte ou vide
 WARNING;artefact:8912;changement format famille;None-None
 WARNING;artefact:8912;appartenance n'est pas correcte ou vide
 WARNING;artefact:8913;changement format famille;None-None
@@ -869,17 +877,22 @@ WARNING;artefact:8969;changement format famille;None-None
 WARNING;artefact:8969;appartenance n'est pas correcte ou vide
 WARNING;artefact:8970;changement format famille;P.C.-P.c.
 WARNING;artefact:9298;changement format famille;0-0
+WARNING;artefact:9298;appartenance n'est pas correcte ou vide
 WARNING;artefact:9299;changement format famille;P.C.-P.c.
 WARNING;artefact:9300;changement format famille;0-0
+WARNING;artefact:9300;appartenance n'est pas correcte ou vide
 WARNING;artefact:9301;changement format famille;None-None
 WARNING;artefact:9301;appartenance n'est pas correcte ou vide
 WARNING;artefact:9302;changement format famille;0-0
+WARNING;artefact:9302;appartenance n'est pas correcte ou vide
 WARNING;artefact:9303;changement format famille;0-0
+WARNING;artefact:9303;appartenance n'est pas correcte ou vide
 WARNING;artefact:9304;changement format famille;P.C.-P.c.
 WARNING;artefact:9307;changement format famille;P.C.-P.c.
 WARNING;artefact:9308;changement format famille;P.C.-P.c.
 WARNING;artefact:9309;changement format famille;P.C.-P.c.
 WARNING;artefact:9338;changement format famille;0-0
+WARNING;artefact:9338;appartenance n'est pas correcte ou vide
 WARNING;artefact:9339;changement format famille;P.C.-P.c.
 WARNING;artefact:9340;changement format famille;P.C.-P.c.
 WARNING;artefact:9341;changement format famille;P.C.-P.c.
@@ -895,13 +908,16 @@ WARNING;artefact:9402;changement format famille;DS20-Ds20
 WARNING;artefact:9403;changement format famille;None-None
 WARNING;artefact:9403;appartenance n'est pas correcte ou vide
 WARNING;artefact:9404;changement format famille;0-0
+WARNING;artefact:9404;appartenance n'est pas correcte ou vide
 WARNING;artefact:9405;changement format famille;P.C.-P.c.
 WARNING;artefact:9406;changement format famille;P.C.-P.c.
 WARNING;artefact:9471;changement format famille;None-None
 WARNING;artefact:9471;appartenance n'est pas correcte ou vide
 WARNING;artefact:9472;changement format famille;0-0
+WARNING;artefact:9472;appartenance n'est pas correcte ou vide
 WARNING;artefact:9473;changement format famille;P.C.-P.c.
 WARNING;artefact:9474;changement format famille;0-0
+WARNING;artefact:9474;appartenance n'est pas correcte ou vide
 WARNING;artefact:9475;changement format famille;P.C.-P.c.
 WARNING;artefact:9476;changement format famille;P.C.-P.c.
 WARNING;artefact:9477;changement format famille;P.C.-P.c.
@@ -909,15 +925,22 @@ WARNING;artefact:9478;changement format famille;P.C.-P.c.
 WARNING;artefact:9479;changement format famille;P.C.-P.c.
 WARNING;artefact:9480;changement format famille;P.C.-P.c.
 WARNING;artefact:9670;changement format famille;0-0
+WARNING;artefact:9670;appartenance n'est pas correcte ou vide
 WARNING;artefact:9671;changement format famille;0-0
+WARNING;artefact:9671;appartenance n'est pas correcte ou vide
 WARNING;artefact:9672;changement format famille;0-0
+WARNING;artefact:9672;appartenance n'est pas correcte ou vide
 WARNING;artefact:9673;changement format famille;0-0
+WARNING;artefact:9673;appartenance n'est pas correcte ou vide
 WARNING;artefact:9674;changement format famille;0-0
+WARNING;artefact:9674;appartenance n'est pas correcte ou vide
 WARNING;artefact:9675;changement format famille;disquee-Disquee
 WARNING;artefact:9677;changement format famille;P.C.-P.c.
 WARNING;artefact:9678;changement format famille;150-150
 WARNING;artefact:9679;changement format famille;0-0
+WARNING;artefact:9679;appartenance n'est pas correcte ou vide
 WARNING;artefact:9681;changement format famille;0-0
+WARNING;artefact:9681;appartenance n'est pas correcte ou vide
 WARNING;artefact:9682;changement format famille;DPS-Dps
 WARNING;artefact:9683;changement format famille;DPS9000-Dps9000
 WARNING;artefact:9684;changement format famille;150-150
@@ -957,13 +980,21 @@ WARNING;artefact:9825;changement format famille;150-150
 WARNING;artefact:9826;changement format famille;None-None
 WARNING;artefact:9826;appartenance n'est pas correcte ou vide
 WARNING;artefact:9827;changement format famille;0-0
+WARNING;artefact:9827;appartenance n'est pas correcte ou vide
 WARNING;artefact:9828;changement format famille;0-0
+WARNING;artefact:9828;appartenance n'est pas correcte ou vide
 WARNING;artefact:9829;changement format famille;0-0
+WARNING;artefact:9829;appartenance n'est pas correcte ou vide
 WARNING;artefact:9830;changement format famille;0-0
+WARNING;artefact:9830;appartenance n'est pas correcte ou vide
 WARNING;artefact:9831;changement format famille;0-0
+WARNING;artefact:9831;appartenance n'est pas correcte ou vide
 WARNING;artefact:9832;changement format famille;0-0
+WARNING;artefact:9832;appartenance n'est pas correcte ou vide
 WARNING;artefact:9833;changement format famille;0-0
+WARNING;artefact:9833;appartenance n'est pas correcte ou vide
 WARNING;artefact:9834;changement format famille;0-0
+WARNING;artefact:9834;appartenance n'est pas correcte ou vide
 WARNING;artefact:9835;changement format famille;None-None
 WARNING;artefact:9835;appartenance n'est pas correcte ou vide
 WARNING;artefact:9836;changement format famille;None-None
@@ -972,24 +1003,31 @@ WARNING;artefact:9837;changement format famille;P.C.-P.c.
 WARNING;artefact:9838;changement format famille;P.C.-P.c.
 WARNING;artefact:9839;changement format famille;P.C.-P.c.
 WARNING;artefact:9841;changement format famille;0-0
+WARNING;artefact:9841;appartenance n'est pas correcte ou vide
 WARNING;artefact:9842;changement format famille;G7/G8-G7/g8
 WARNING;artefact:9843;changement format famille;400-400
 WARNING;artefact:9844;changement format famille;400-400
 WARNING;artefact:9855;changement format famille;DPS 61 et 62-Dps 61 et 62
 WARNING;artefact:9856;changement format famille;0-0
+WARNING;artefact:9856;appartenance n'est pas correcte ou vide
 WARNING;artefact:9857;changement format famille;DPS 64, 66-Dps 64, 66
 WARNING;artefact:9858;changement format famille;P.C.-P.c.
 WARNING;artefact:9859;changement format famille;EMC²-Emc²
 WARNING;artefact:9860;changement format famille;0-0
+WARNING;artefact:9860;appartenance n'est pas correcte ou vide
 WARNING;artefact:9864;changement format famille;DPS7/8-Dps7/8
 WARNING;artefact:9891;changement format famille;None-None
 WARNING;artefact:9891;appartenance n'est pas correcte ou vide
 WARNING;artefact:9892;changement format famille;0-0
+WARNING;artefact:9892;appartenance n'est pas correcte ou vide
 WARNING;artefact:9893;changement format famille;0-0
+WARNING;artefact:9893;appartenance n'est pas correcte ou vide
 WARNING;artefact:9894;changement format famille;None-None
 WARNING;artefact:9894;appartenance n'est pas correcte ou vide
 WARNING;artefact:9895;changement format famille;0-0
+WARNING;artefact:9895;appartenance n'est pas correcte ou vide
 WARNING;artefact:9896;changement format famille;0-0
+WARNING;artefact:9896;appartenance n'est pas correcte ou vide
 WARNING;artefact:9897;changement format famille;None-None
 WARNING;artefact:9897;appartenance n'est pas correcte ou vide
 WARNING;artefact:9898;changement format famille;150-150
@@ -1001,6 +1039,7 @@ WARNING;artefact:9906;changement format famille;150-150
 WARNING;artefact:9909;changement format famille;150-150
 WARNING;artefact:9912;changement format famille;DPS90-Dps90
 WARNING;artefact:9913;changement format famille;0-0
+WARNING;artefact:9913;appartenance n'est pas correcte ou vide
 WARNING;artefact:9919;changement format famille;None-None
 WARNING;artefact:9919;appartenance n'est pas correcte ou vide
 WARNING;artefact:9920;changement format famille;None-None
@@ -1014,8 +1053,10 @@ WARNING;artefact:9924;changement format famille;150-150
 WARNING;artefact:10232;changement format famille;150-150
 WARNING;artefact:10233;changement format famille;GE 400-Ge 400
 WARNING;artefact:10246;changement format famille;0-0
+WARNING;artefact:10246;appartenance n'est pas correcte ou vide
 WARNING;artefact:10247;changement format famille;6000-6000
 WARNING;artefact:10248;changement format famille;0-0
+WARNING;artefact:10248;appartenance n'est pas correcte ou vide
 WARNING;artefact:10249;changement format famille;None-None
 WARNING;artefact:10249;appartenance n'est pas correcte ou vide
 WARNING;artefact:10250;changement format famille;None-None
@@ -1029,6 +1070,7 @@ WARNING;artefact:10253;appartenance n'est pas correcte ou vide
 WARNING;artefact:10254;changement format famille;None-None
 WARNING;artefact:10254;appartenance n'est pas correcte ou vide
 WARNING;artefact:10255;changement format famille;0-0
+WARNING;artefact:10255;appartenance n'est pas correcte ou vide
 WARNING;artefact:10256;changement format famille;None-None
 WARNING;artefact:10256;appartenance n'est pas correcte ou vide
 WARNING;artefact:10257;changement format famille;None-None
@@ -1057,8 +1099,10 @@ WARNING;artefact:10298;changement format famille;None-None
 WARNING;artefact:10298;appartenance n'est pas correcte ou vide
 WARNING;artefact:10299;changement format famille;DS20-Ds20
 WARNING;artefact:10310;changement format famille;0-0
+WARNING;artefact:10310;appartenance n'est pas correcte ou vide
 WARNING;artefact:10311;changement format famille;KDS-Kds
 WARNING;artefact:10312;changement format famille;0-0
+WARNING;artefact:10312;appartenance n'est pas correcte ou vide
 WARNING;artefact:10313;changement format famille;VIP-Vip
 WARNING;artefact:10314;changement format famille;DKU7002-Dku7002
 WARNING;artefact:10495;changement format famille;150-150
@@ -1067,6 +1111,7 @@ WARNING;artefact:10496;appartenance n'est pas correcte ou vide
 WARNING;artefact:10497;changement format famille;150-150
 WARNING;artefact:10498;changement format famille;150-150
 WARNING;artefact:10606;changement format famille;0-0
+WARNING;artefact:10606;appartenance n'est pas correcte ou vide
 WARNING;artefact:10607;changement format famille;None-None
 WARNING;artefact:10607;appartenance n'est pas correcte ou vide
 WARNING;artefact:10608;changement format famille;None-None
@@ -1088,6 +1133,7 @@ WARNING;artefact:10991;changement format famille;P.C.-P.c.
 WARNING;artefact:10992;changement format famille;P.C.-P.c.
 WARNING;artefact:10993;changement format famille;P.C.-P.c.
 WARNING;artefact:10994;changement format famille;0-0
+WARNING;artefact:10994;appartenance n'est pas correcte ou vide
 WARNING;artefact:10995;changement format famille;PC-Pc
 WARNING;artefact:10996;changement format famille;P.C.-P.c.
 WARNING;artefact:10997;changement format famille;DPS6-Dps6
@@ -1108,6 +1154,7 @@ WARNING;artefact:11052;changement format famille;None-None
 WARNING;artefact:11052;appartenance n'est pas correcte ou vide
 WARNING;artefact:11053;changement format famille;P.C.-P.c.
 WARNING;artefact:11054;changement format famille;0-0
+WARNING;artefact:11054;appartenance n'est pas correcte ou vide
 WARNING;artefact:11055;changement format famille;P.C.-P.c.
 WARNING;artefact:11056;changement format famille;DPS 7-Dps 7
 WARNING;artefact:11057;changement format famille;DPS 7-Dps 7
@@ -1116,9 +1163,12 @@ WARNING;artefact:11058;appartenance n'est pas correcte ou vide
 WARNING;artefact:11074;changement format famille;P.C-P.c
 WARNING;artefact:11075;changement format famille;P.C.-P.c.
 WARNING;artefact:11077;changement format famille;0-0
+WARNING;artefact:11077;appartenance n'est pas correcte ou vide
 WARNING;artefact:11078;changement format famille;0-0
+WARNING;artefact:11078;appartenance n'est pas correcte ou vide
 WARNING;artefact:11079;changement format famille;P.C-P.c
 WARNING;artefact:11080;changement format famille;0-0
+WARNING;artefact:11080;appartenance n'est pas correcte ou vide
 WARNING;artefact:11081;changement format famille;P.C.-P.c.
 WARNING;artefact:11082;changement format famille;P.C.-P.c.
 WARNING;artefact:11083;changement format famille;P.C.-P.c.
@@ -1132,6 +1182,7 @@ WARNING;artefact:11090;changement format famille;PC-Pc
 WARNING;artefact:11091;changement format famille;PC-Pc
 WARNING;artefact:11092;changement format famille;CP8-Cp8
 WARNING;artefact:11093;changement format famille;0-0
+WARNING;artefact:11093;appartenance n'est pas correcte ou vide
 WARNING;artefact:11105;changement format famille;micro-Micro
 WARNING;artefact:11118;changement format famille;150-150
 WARNING;artefact:11119;changement format famille;P.C.-P.c.
@@ -1191,6 +1242,7 @@ WARNING;artefact:12142;changement format famille;None-None
 WARNING;artefact:12142;appartenance n'est pas correcte ou vide
 WARNING;artefact:13001;changement format famille;GE400-Ge400
 WARNING;artefact:13002;changement format famille;0-0
+WARNING;artefact:13002;appartenance n'est pas correcte ou vide
 WARNING;artefact:13004;changement format famille;None-None
 WARNING;artefact:13004;appartenance n'est pas correcte ou vide
 WARNING;artefact:13006;changement format famille;None-None
@@ -1208,8 +1260,11 @@ WARNING;artefact:13012;appartenance n'est pas correcte ou vide
 WARNING;artefact:13013;changement format famille;None-None
 WARNING;artefact:13013;appartenance n'est pas correcte ou vide
 WARNING;artefact:13014;changement format famille;0-0
+WARNING;artefact:13014;appartenance n'est pas correcte ou vide
 WARNING;artefact:13015;changement format famille;0-0
+WARNING;artefact:13015;appartenance n'est pas correcte ou vide
 WARNING;artefact:13018;changement format famille;0-0
+WARNING;artefact:13018;appartenance n'est pas correcte ou vide
 WARNING;artefact:13019;changement format famille;divers-Divers
 WARNING;artefact:13022;changement format famille;150-150
 WARNING;artefact:13024;changement format famille;P.C.-P.c.
@@ -1257,7 +1312,9 @@ WARNING;artefact:98135;appartenance n'est pas correcte ou vide
 WARNING;artefact:98143;changement format famille;None-None
 WARNING;artefact:98143;appartenance n'est pas correcte ou vide
 WARNING;artefact:98144;changement format famille;0-0
+WARNING;artefact:98144;appartenance n'est pas correcte ou vide
 WARNING;artefact:98145;changement format famille;0-0
+WARNING;artefact:98145;appartenance n'est pas correcte ou vide
 WARNING;artefact:98146;changement format famille;None-None
 WARNING;artefact:98146;appartenance n'est pas correcte ou vide
 WARNING;artefact:98147;changement format famille;None-None
@@ -1265,11 +1322,17 @@ WARNING;artefact:98147;appartenance n'est pas correcte ou vide
 WARNING;artefact:98148;changement format famille;None-None
 WARNING;artefact:98148;appartenance n'est pas correcte ou vide
 WARNING;artefact:98149;changement format famille;0-0
+WARNING;artefact:98149;appartenance n'est pas correcte ou vide
 WARNING;artefact:98150;changement format famille;0-0
+WARNING;artefact:98150;appartenance n'est pas correcte ou vide
 WARNING;artefact:98151;changement format famille;0-0
+WARNING;artefact:98151;appartenance n'est pas correcte ou vide
 WARNING;artefact:98152;changement format famille;0-0
+WARNING;artefact:98152;appartenance n'est pas correcte ou vide
 WARNING;artefact:98153;changement format famille;0-0
+WARNING;artefact:98153;appartenance n'est pas correcte ou vide
 WARNING;artefact:98154;changement format famille;0-0
+WARNING;artefact:98154;appartenance n'est pas correcte ou vide
 WARNING;artefact:98157;changement format famille;None-None
 WARNING;artefact:98157;appartenance n'est pas correcte ou vide
 WARNING;artefact:98158;changement format famille;None-None
@@ -1280,11 +1343,15 @@ WARNING;artefact:98160;changement format famille;None-None
 WARNING;artefact:98160;appartenance n'est pas correcte ou vide
 WARNING;artefact:98161;changement format famille;150-150
 WARNING;artefact:98162;changement format famille;0-0
+WARNING;artefact:98162;appartenance n'est pas correcte ou vide
 WARNING;artefact:98163;changement format famille;None-None
 WARNING;artefact:98163;appartenance n'est pas correcte ou vide
 WARNING;artefact:98164;changement format famille;0-0
+WARNING;artefact:98164;appartenance n'est pas correcte ou vide
 WARNING;artefact:98165;changement format famille;0-0
+WARNING;artefact:98165;appartenance n'est pas correcte ou vide
 WARNING;artefact:98166;changement format famille;0-0
+WARNING;artefact:98166;appartenance n'est pas correcte ou vide
 WARNING;artefact:98173;changement format famille;None-None
 WARNING;artefact:98173;appartenance n'est pas correcte ou vide
 WARNING;artefact:98174;changement format famille;None-None
@@ -1298,6 +1365,7 @@ WARNING;artefact:98177;appartenance n'est pas correcte ou vide
 WARNING;artefact:98178;changement format famille;None-None
 WARNING;artefact:98178;appartenance n'est pas correcte ou vide
 WARNING;artefact:98294;changement format famille;0-0
+WARNING;artefact:98294;appartenance n'est pas correcte ou vide
 WARNING;artefact:98296;changement format famille;MINI-Mini
 WARNING;artefact:98310;changement format famille;None-None
 WARNING;artefact:98310;appartenance n'est pas correcte ou vide
@@ -1356,10 +1424,13 @@ WARNING;artefact:98533;appartenance n'est pas correcte ou vide
 WARNING;artefact:98534;changement format famille;None-None
 WARNING;artefact:98534;appartenance n'est pas correcte ou vide
 WARNING;artefact:98535;changement format famille;0-0
+WARNING;artefact:98535;appartenance n'est pas correcte ou vide
 WARNING;artefact:98536;changement format famille;0-0
+WARNING;artefact:98536;appartenance n'est pas correcte ou vide
 WARNING;artefact:98537;changement format famille;None-None
 WARNING;artefact:98537;appartenance n'est pas correcte ou vide
 WARNING;artefact:98538;changement format famille;0-0
+WARNING;artefact:98538;appartenance n'est pas correcte ou vide
 WARNING;artefact:98539;changement format famille;BULL-Bull
 WARNING;artefact:98540;changement format famille;None-None
 WARNING;artefact:98540;appartenance n'est pas correcte ou vide
@@ -1373,9 +1444,11 @@ WARNING;artefact:98544;appartenance n'est pas correcte ou vide
 WARNING;artefact:98545;changement format famille;None-None
 WARNING;artefact:98545;appartenance n'est pas correcte ou vide
 WARNING;artefact:98548;changement format famille;0-0
+WARNING;artefact:98548;appartenance n'est pas correcte ou vide
 WARNING;artefact:98548;changement format famille;PC-Pc
 WARNING;artefact:98549;changement format famille;PC-Pc
 WARNING;artefact:98550;changement format famille;0-0
+WARNING;artefact:98550;appartenance n'est pas correcte ou vide
 WARNING;artefact:98551;changement format famille;CP8-Cp8
 WARNING;artefact:98552;changement format famille;PC-Pc
 WARNING;artefact:98555;changement format famille;PC-Pc
@@ -1387,26 +1460,38 @@ WARNING;artefact:98559;changement format famille;None-None
 WARNING;artefact:98559;appartenance n'est pas correcte ou vide
 WARNING;artefact:98560;changement format famille;PC-Pc
 WARNING;artefact:98562;changement format famille;0-0
+WARNING;artefact:98562;appartenance n'est pas correcte ou vide
 WARNING;artefact:98563;changement format famille;PC-Pc
 WARNING;artefact:98564;changement format famille;PRT 300-Prt 300
 WARNING;artefact:98565;changement format famille;150-150
 WARNING;artefact:98566;changement format famille;150-150
 WARNING;artefact:98567;changement format famille;0-0
+WARNING;artefact:98567;appartenance n'est pas correcte ou vide
 WARNING;artefact:98568;changement format famille;PC-Pc
 WARNING;artefact:98569;changement format famille;0-0
+WARNING;artefact:98569;appartenance n'est pas correcte ou vide
 WARNING;artefact:98570;changement format famille;150-150
 WARNING;artefact:98593;changement format famille;0-0
+WARNING;artefact:98593;appartenance n'est pas correcte ou vide
 WARNING;artefact:98594;changement format famille;0-0
+WARNING;artefact:98594;appartenance n'est pas correcte ou vide
 WARNING;artefact:98595;changement format famille;0-0
+WARNING;artefact:98595;appartenance n'est pas correcte ou vide
 WARNING;artefact:98596;changement format famille;0-0
+WARNING;artefact:98596;appartenance n'est pas correcte ou vide
 WARNING;artefact:98597;changement format famille;0-0
+WARNING;artefact:98597;appartenance n'est pas correcte ou vide
 WARNING;artefact:98598;changement format famille;0-0
+WARNING;artefact:98598;appartenance n'est pas correcte ou vide
 WARNING;artefact:98599;changement format famille;0-0
+WARNING;artefact:98599;appartenance n'est pas correcte ou vide
 WARNING;artefact:98600;changement format famille;150-150
 WARNING;artefact:98602;changement format famille;None-None
 WARNING;artefact:98602;appartenance n'est pas correcte ou vide
 WARNING;artefact:98604;changement format famille;0-0
+WARNING;artefact:98604;appartenance n'est pas correcte ou vide
 WARNING;artefact:98605;changement format famille;0-0
+WARNING;artefact:98605;appartenance n'est pas correcte ou vide
 WARNING;artefact:98606;changement format famille;150-150
 WARNING;artefact:98608;changement format famille;150-150
 WARNING;artefact:98609;changement format famille;150-150
@@ -1417,6 +1502,7 @@ WARNING;artefact:98624;changement format famille;150-150
 WARNING;artefact:98631;changement format famille;None-None
 WARNING;artefact:98631;appartenance n'est pas correcte ou vide
 WARNING;artefact:99990;changement format famille;0-0
+WARNING;artefact:99990;appartenance n'est pas correcte ou vide
 WARNING;artefact:99991;changement format famille;None-None
 WARNING;artefact:99991;appartenance n'est pas correcte ou vide
 WARNING;artefact:99992;changement format famille;None-None
@@ -1427,10 +1513,13 @@ WARNING;artefact:99995;changement format famille;mon-Mon
 WARNING;artefact:99996;changement format famille;None-None
 WARNING;artefact:99996;appartenance n'est pas correcte ou vide
 WARNING;artefact:99997;changement format famille;0-0
+WARNING;artefact:99997;appartenance n'est pas correcte ou vide
 WARNING;artefact:99999;changement format famille;115-115
 WARNING;artefact:100000;changement format famille;116-116
 WARNING;artefact:100001;changement format famille;0-0
+WARNING;artefact:100001;appartenance n'est pas correcte ou vide
 WARNING;artefact:100002;changement format famille;0-0
+WARNING;artefact:100002;appartenance n'est pas correcte ou vide
 WARNING;artefact:8530;famille n'est pas correcte ou vide
 WARNING;artefact:8531;famille n'est pas correcte ou vide
 WARNING;artefact:8532;famille n'est pas correcte ou vide
@@ -1488,6 +1577,7 @@ WARNING;artefact:10297;localisation n'est pas correcte ou vide
 WARNING;artefact:10298;localisation n'est pas correcte ou vide
 WARNING;artefact:10496;localisation n'est pas correcte ou vide
 WARNING;artefact:11007;localisation n'est pas correcte ou vide
+WARNING;artefact:11113;localisation n'est pas correcte ou vide
 WARNING;artefact:11121;localisation n'est pas correcte ou vide
 WARNING;artefact:11131;localisation n'est pas correcte ou vide
 WARNING;artefact:11294;localisation n'est pas correcte ou vide
@@ -1544,15 +1634,18 @@ WARNING;artefact:98631;localisation n'est pas correcte ou vide
 WARNING;artefact:99990;localisation n'est pas correcte ou vide
 WARNING;artefact:99991;localisation n'est pas correcte ou vide
 WARNING;artefact:99992;localisation n'est pas correcte ou vide
+WARNING;artefact:99994;localisation n'est pas correcte ou vide
 WARNING;artefact:99996;localisation n'est pas correcte ou vide
 WARNING;artefact:99997;localisation n'est pas correcte ou vide
 WARNING;artefact:99999;localisation n'est pas correcte ou vide
 WARNING;artefact:100000;localisation n'est pas correcte ou vide
 WARNING;artefact:100001;localisation n'est pas correcte ou vide
+WARNING;artefact:6995;conditionnement n'est pas correct ou vide
 WARNING;artefact:6996;conditionnement n'est pas correct ou vide
 WARNING;artefact:6997;conditionnement n'est pas correct ou vide
 WARNING;artefact:6998;conditionnement n'est pas correct ou vide
 WARNING;artefact:6999;conditionnement n'est pas correct ou vide
+WARNING;artefact:7000;conditionnement n'est pas correct ou vide
 WARNING;artefact:8534;conditionnement n'est pas correct ou vide
 WARNING;artefact:8600;conditionnement n'est pas correct ou vide
 WARNING;artefact:8601;conditionnement n'est pas correct ou vide
@@ -1571,51 +1664,95 @@ WARNING;artefact:8911;conditionnement n'est pas correct ou vide
 WARNING;artefact:8914;conditionnement n'est pas correct ou vide
 WARNING;artefact:8956;conditionnement n'est pas correct ou vide
 WARNING;artefact:8957;conditionnement n'est pas correct ou vide
+WARNING;artefact:8960;conditionnement n'est pas correct ou vide
+WARNING;artefact:8961;conditionnement n'est pas correct ou vide
+WARNING;artefact:8962;conditionnement n'est pas correct ou vide
+WARNING;artefact:8963;conditionnement n'est pas correct ou vide
+WARNING;artefact:8964;conditionnement n'est pas correct ou vide
 WARNING;artefact:8965;conditionnement n'est pas correct ou vide
 WARNING;artefact:8966;conditionnement n'est pas correct ou vide
+WARNING;artefact:8967;conditionnement n'est pas correct ou vide
+WARNING;artefact:8968;conditionnement n'est pas correct ou vide
 WARNING;artefact:8969;conditionnement n'est pas correct ou vide
+WARNING;artefact:8970;conditionnement n'est pas correct ou vide
+WARNING;artefact:9298;conditionnement n'est pas correct ou vide
+WARNING;artefact:9299;conditionnement n'est pas correct ou vide
+WARNING;artefact:9300;conditionnement n'est pas correct ou vide
 WARNING;artefact:9301;conditionnement n'est pas correct ou vide
+WARNING;artefact:9302;conditionnement n'est pas correct ou vide
+WARNING;artefact:9303;conditionnement n'est pas correct ou vide
 WARNING;artefact:9304;conditionnement n'est pas correct ou vide
+WARNING;artefact:9306;conditionnement n'est pas correct ou vide
+WARNING;artefact:9309;conditionnement n'est pas correct ou vide
+WARNING;artefact:9338;conditionnement n'est pas correct ou vide
 WARNING;artefact:9340;conditionnement n'est pas correct ou vide
 WARNING;artefact:9341;conditionnement n'est pas correct ou vide
 WARNING;artefact:9342;conditionnement n'est pas correct ou vide
 WARNING;artefact:9345;conditionnement n'est pas correct ou vide
 WARNING;artefact:9346;conditionnement n'est pas correct ou vide
 WARNING;artefact:9347;conditionnement n'est pas correct ou vide
+WARNING;artefact:9394;conditionnement n'est pas correct ou vide
 WARNING;artefact:9395;conditionnement n'est pas correct ou vide
+WARNING;artefact:9396;conditionnement n'est pas correct ou vide
 WARNING;artefact:9397;conditionnement n'est pas correct ou vide
 WARNING;artefact:9398;conditionnement n'est pas correct ou vide
+WARNING;artefact:9402;conditionnement n'est pas correct ou vide
 WARNING;artefact:9403;conditionnement n'est pas correct ou vide
 WARNING;artefact:9476;conditionnement n'est pas correct ou vide
+WARNING;artefact:9669;conditionnement n'est pas correct ou vide
+WARNING;artefact:9676;conditionnement n'est pas correct ou vide
 WARNING;artefact:9677;conditionnement n'est pas correct ou vide
 WARNING;artefact:9678;conditionnement n'est pas correct ou vide
 WARNING;artefact:9680;conditionnement n'est pas correct ou vide
 WARNING;artefact:9682;conditionnement n'est pas correct ou vide
+WARNING;artefact:9683;conditionnement n'est pas correct ou vide
 WARNING;artefact:9684;conditionnement n'est pas correct ou vide
 WARNING;artefact:9685;conditionnement n'est pas correct ou vide
 WARNING;artefact:9686;conditionnement n'est pas correct ou vide
+WARNING;artefact:9687;conditionnement n'est pas correct ou vide
 WARNING;artefact:9688;conditionnement n'est pas correct ou vide
 WARNING;artefact:9689;conditionnement n'est pas correct ou vide
 WARNING;artefact:9690;conditionnement n'est pas correct ou vide
 WARNING;artefact:9691;conditionnement n'est pas correct ou vide
+WARNING;artefact:9692;conditionnement n'est pas correct ou vide
+WARNING;artefact:9693;conditionnement n'est pas correct ou vide
 WARNING;artefact:9694;conditionnement n'est pas correct ou vide
 WARNING;artefact:9695;conditionnement n'est pas correct ou vide
 WARNING;artefact:9696;conditionnement n'est pas correct ou vide
+WARNING;artefact:9810;conditionnement n'est pas correct ou vide
 WARNING;artefact:9811;conditionnement n'est pas correct ou vide
 WARNING;artefact:9812;conditionnement n'est pas correct ou vide
+WARNING;artefact:9813;conditionnement n'est pas correct ou vide
+WARNING;artefact:9815;conditionnement n'est pas correct ou vide
 WARNING;artefact:9822;conditionnement n'est pas correct ou vide
 WARNING;artefact:9823;conditionnement n'est pas correct ou vide
 WARNING;artefact:9824;conditionnement n'est pas correct ou vide
+WARNING;artefact:9825;conditionnement n'est pas correct ou vide
 WARNING;artefact:9826;conditionnement n'est pas correct ou vide
+WARNING;artefact:9827;conditionnement n'est pas correct ou vide
 WARNING;artefact:9829;conditionnement n'est pas correct ou vide
+WARNING;artefact:9830;conditionnement n'est pas correct ou vide
 WARNING;artefact:9831;conditionnement n'est pas correct ou vide
+WARNING;artefact:9832;conditionnement n'est pas correct ou vide
+WARNING;artefact:9833;conditionnement n'est pas correct ou vide
+WARNING;artefact:9837;conditionnement n'est pas correct ou vide
+WARNING;artefact:9838;conditionnement n'est pas correct ou vide
 WARNING;artefact:9839;conditionnement n'est pas correct ou vide
 WARNING;artefact:9841;conditionnement n'est pas correct ou vide
 WARNING;artefact:9842;conditionnement n'est pas correct ou vide
+WARNING;artefact:9843;conditionnement n'est pas correct ou vide
+WARNING;artefact:9844;conditionnement n'est pas correct ou vide
+WARNING;artefact:9855;conditionnement n'est pas correct ou vide
+WARNING;artefact:9856;conditionnement n'est pas correct ou vide
+WARNING;artefact:9857;conditionnement n'est pas correct ou vide
+WARNING;artefact:9858;conditionnement n'est pas correct ou vide
+WARNING;artefact:9859;conditionnement n'est pas correct ou vide
+WARNING;artefact:9860;conditionnement n'est pas correct ou vide
 WARNING;artefact:9861;conditionnement n'est pas correct ou vide
 WARNING;artefact:9862;conditionnement n'est pas correct ou vide
 WARNING;artefact:9863;conditionnement n'est pas correct ou vide
 WARNING;artefact:9864;conditionnement n'est pas correct ou vide
+WARNING;artefact:9889;conditionnement n'est pas correct ou vide
 WARNING;artefact:9890;conditionnement n'est pas correct ou vide
 WARNING;artefact:9891;conditionnement n'est pas correct ou vide
 WARNING;artefact:9892;conditionnement n'est pas correct ou vide
@@ -1627,19 +1764,29 @@ WARNING;artefact:9900;conditionnement n'est pas correct ou vide
 WARNING;artefact:9901;conditionnement n'est pas correct ou vide
 WARNING;artefact:9902;conditionnement n'est pas correct ou vide
 WARNING;artefact:9903;conditionnement n'est pas correct ou vide
+WARNING;artefact:9904;conditionnement n'est pas correct ou vide
+WARNING;artefact:9905;conditionnement n'est pas correct ou vide
 WARNING;artefact:9906;conditionnement n'est pas correct ou vide
 WARNING;artefact:9907;conditionnement n'est pas correct ou vide
 WARNING;artefact:9908;conditionnement n'est pas correct ou vide
+WARNING;artefact:9909;conditionnement n'est pas correct ou vide
 WARNING;artefact:9910;conditionnement n'est pas correct ou vide
 WARNING;artefact:9911;conditionnement n'est pas correct ou vide
 WARNING;artefact:9912;conditionnement n'est pas correct ou vide
+WARNING;artefact:9913;conditionnement n'est pas correct ou vide
+WARNING;artefact:9914;conditionnement n'est pas correct ou vide
+WARNING;artefact:9916;conditionnement n'est pas correct ou vide
 WARNING;artefact:9917;conditionnement n'est pas correct ou vide
 WARNING;artefact:9918;conditionnement n'est pas correct ou vide
 WARNING;artefact:9919;conditionnement n'est pas correct ou vide
 WARNING;artefact:9920;conditionnement n'est pas correct ou vide
 WARNING;artefact:9921;conditionnement n'est pas correct ou vide
 WARNING;artefact:9922;conditionnement n'est pas correct ou vide
+WARNING;artefact:9923;conditionnement n'est pas correct ou vide
 WARNING;artefact:9924;conditionnement n'est pas correct ou vide
+WARNING;artefact:10233;conditionnement n'est pas correct ou vide
+WARNING;artefact:10234;conditionnement n'est pas correct ou vide
+WARNING;artefact:10236;conditionnement n'est pas correct ou vide
 WARNING;artefact:10246;conditionnement n'est pas correct ou vide
 WARNING;artefact:10247;conditionnement n'est pas correct ou vide
 WARNING;artefact:10254;conditionnement n'est pas correct ou vide
@@ -1649,8 +1796,18 @@ WARNING;artefact:10292;conditionnement n'est pas correct ou vide
 WARNING;artefact:10296;conditionnement n'est pas correct ou vide
 WARNING;artefact:10297;conditionnement n'est pas correct ou vide
 WARNING;artefact:10298;conditionnement n'est pas correct ou vide
+WARNING;artefact:10299;conditionnement n'est pas correct ou vide
+WARNING;artefact:10310;conditionnement n'est pas correct ou vide
+WARNING;artefact:10311;conditionnement n'est pas correct ou vide
+WARNING;artefact:10312;conditionnement n'est pas correct ou vide
+WARNING;artefact:10313;conditionnement n'est pas correct ou vide
+WARNING;artefact:10314;conditionnement n'est pas correct ou vide
 WARNING;artefact:10350;conditionnement n'est pas correct ou vide
+WARNING;artefact:10495;conditionnement n'est pas correct ou vide
 WARNING;artefact:10496;conditionnement n'est pas correct ou vide
+WARNING;artefact:10497;conditionnement n'est pas correct ou vide
+WARNING;artefact:10498;conditionnement n'est pas correct ou vide
+WARNING;artefact:10603;conditionnement n'est pas correct ou vide
 WARNING;artefact:10607;conditionnement n'est pas correct ou vide
 WARNING;artefact:10608;conditionnement n'est pas correct ou vide
 WARNING;artefact:10609;conditionnement n'est pas correct ou vide
@@ -1659,11 +1816,13 @@ WARNING;artefact:10996;conditionnement n'est pas correct ou vide
 WARNING;artefact:10997;conditionnement n'est pas correct ou vide
 WARNING;artefact:10998;conditionnement n'est pas correct ou vide
 WARNING;artefact:10999;conditionnement n'est pas correct ou vide
+WARNING;artefact:11000;conditionnement n'est pas correct ou vide
 WARNING;artefact:11001;conditionnement n'est pas correct ou vide
 WARNING;artefact:11002;conditionnement n'est pas correct ou vide
 WARNING;artefact:11003;conditionnement n'est pas correct ou vide
 WARNING;artefact:11004;conditionnement n'est pas correct ou vide
 WARNING;artefact:11007;conditionnement n'est pas correct ou vide
+WARNING;artefact:11033;conditionnement n'est pas correct ou vide
 WARNING;artefact:11052;conditionnement n'est pas correct ou vide
 WARNING;artefact:11053;conditionnement n'est pas correct ou vide
 WARNING;artefact:11054;conditionnement n'est pas correct ou vide
@@ -1671,14 +1830,33 @@ WARNING;artefact:11055;conditionnement n'est pas correct ou vide
 WARNING;artefact:11056;conditionnement n'est pas correct ou vide
 WARNING;artefact:11057;conditionnement n'est pas correct ou vide
 WARNING;artefact:11058;conditionnement n'est pas correct ou vide
+WARNING;artefact:11074;conditionnement n'est pas correct ou vide
+WARNING;artefact:11076;conditionnement n'est pas correct ou vide
+WARNING;artefact:11077;conditionnement n'est pas correct ou vide
+WARNING;artefact:11078;conditionnement n'est pas correct ou vide
 WARNING;artefact:11079;conditionnement n'est pas correct ou vide
 WARNING;artefact:11080;conditionnement n'est pas correct ou vide
 WARNING;artefact:11084;conditionnement n'est pas correct ou vide
+WARNING;artefact:11085;conditionnement n'est pas correct ou vide
+WARNING;artefact:11086;conditionnement n'est pas correct ou vide
+WARNING;artefact:11087;conditionnement n'est pas correct ou vide
+WARNING;artefact:11088;conditionnement n'est pas correct ou vide
+WARNING;artefact:11089;conditionnement n'est pas correct ou vide
+WARNING;artefact:11090;conditionnement n'est pas correct ou vide
 WARNING;artefact:11091;conditionnement n'est pas correct ou vide
 WARNING;artefact:11092;conditionnement n'est pas correct ou vide
+WARNING;artefact:11093;conditionnement n'est pas correct ou vide
+WARNING;artefact:11094;conditionnement n'est pas correct ou vide
+WARNING;artefact:11105;conditionnement n'est pas correct ou vide
+WARNING;artefact:11106;conditionnement n'est pas correct ou vide
+WARNING;artefact:11107;conditionnement n'est pas correct ou vide
 WARNING;artefact:11112;conditionnement n'est pas correct ou vide
+WARNING;artefact:11113;conditionnement n'est pas correct ou vide
+WARNING;artefact:11114;conditionnement n'est pas correct ou vide
+WARNING;artefact:11115;conditionnement n'est pas correct ou vide
 WARNING;artefact:11116;conditionnement n'est pas correct ou vide
 WARNING;artefact:11117;conditionnement n'est pas correct ou vide
+WARNING;artefact:11118;conditionnement n'est pas correct ou vide
 WARNING;artefact:11119;conditionnement n'est pas correct ou vide
 WARNING;artefact:11121;conditionnement n'est pas correct ou vide
 WARNING;artefact:11122;conditionnement n'est pas correct ou vide
@@ -1694,6 +1872,13 @@ WARNING;artefact:12003;conditionnement n'est pas correct ou vide
 WARNING;artefact:12004;conditionnement n'est pas correct ou vide
 WARNING;artefact:12005;conditionnement n'est pas correct ou vide
 WARNING;artefact:12006;conditionnement n'est pas correct ou vide
+WARNING;artefact:12093;conditionnement n'est pas correct ou vide
+WARNING;artefact:12094;conditionnement n'est pas correct ou vide
+WARNING;artefact:12095;conditionnement n'est pas correct ou vide
+WARNING;artefact:12096;conditionnement n'est pas correct ou vide
+WARNING;artefact:12097;conditionnement n'est pas correct ou vide
+WARNING;artefact:12098;conditionnement n'est pas correct ou vide
+WARNING;artefact:12099;conditionnement n'est pas correct ou vide
 WARNING;artefact:12106;conditionnement n'est pas correct ou vide
 WARNING;artefact:12107;conditionnement n'est pas correct ou vide
 WARNING;artefact:12108;conditionnement n'est pas correct ou vide
@@ -1707,6 +1892,19 @@ WARNING;artefact:13009;conditionnement n'est pas correct ou vide
 WARNING;artefact:13011;conditionnement n'est pas correct ou vide
 WARNING;artefact:13012;conditionnement n'est pas correct ou vide
 WARNING;artefact:13013;conditionnement n'est pas correct ou vide
+WARNING;artefact:13014;conditionnement n'est pas correct ou vide
+WARNING;artefact:13016;conditionnement n'est pas correct ou vide
+WARNING;artefact:13017;conditionnement n'est pas correct ou vide
+WARNING;artefact:13018;conditionnement n'est pas correct ou vide
+WARNING;artefact:13019;conditionnement n'est pas correct ou vide
+WARNING;artefact:13020;conditionnement n'est pas correct ou vide
+WARNING;artefact:13021;conditionnement n'est pas correct ou vide
+WARNING;artefact:13022;conditionnement n'est pas correct ou vide
+WARNING;artefact:13023;conditionnement n'est pas correct ou vide
+WARNING;artefact:13024;conditionnement n'est pas correct ou vide
+WARNING;artefact:13025;conditionnement n'est pas correct ou vide
+WARNING;artefact:13026;conditionnement n'est pas correct ou vide
+WARNING;artefact:13027;conditionnement n'est pas correct ou vide
 WARNING;artefact:13029;conditionnement n'est pas correct ou vide
 WARNING;artefact:13031;conditionnement n'est pas correct ou vide
 WARNING;artefact:15005;conditionnement n'est pas correct ou vide
@@ -1717,9 +1915,6 @@ ERROR;requete pour cond;SELECT id_cond FROM conditionnements WHERE  conditionnem
 
 WARNING;artefact:7;pas de largeur
 WARNING;artefact:7;mauvais encodage de la hauteur
-ERROR;artefact:7;Error 1062; 1062 (23000): Duplicata du champ '7' pour la clef 'PRIMARY'
-ERROR;artefact:7;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(7,'test 24/01/2021 11h20','DPS8','0',1975,1,'1995-06-01 00:00:00',NULL,NULL,NULL,NULL,'Film 16MM dune formation service technique:Mais qui vous a vendu ça?',NULL,1,1,NULL,1,1,1)
-
 WARNING;artefact:6987;mauvais encodage de la longueur
 WARNING;artefact:6987;pas de largeur
 WARNING;artefact:6987;mauvais encodage de la hauteur
@@ -1732,21 +1927,21 @@ WARNING;artefact:6988;pas de largeur
 WARNING;artefact:6988;mauvais encodage de la hauteur
 WARNING;artefact:6988;mauvais encodage du poids
 ERROR;artefact:6988;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:6988;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6988,'Archives Groupe Bull','0','0',0,1,'00:00:00',NULL,NULL,NULL,NULL,'Archives Groupe Bull',NULL,3,NULL,NULL,2,3,3)
+ERROR;artefact:6988;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6988,'Archives Groupe Bull','0','0',0,1,'00:00:00',NULL,NULL,NULL,NULL,'Archives Groupe Bull',NULL,3,NULL,NULL,2,NULL,3)
 
 WARNING;artefact:6989;mauvais encodage de la longueur
 WARNING;artefact:6989;pas de largeur
 WARNING;artefact:6989;mauvais encodage de la hauteur
 WARNING;artefact:6989;mauvais encodage du poids
 ERROR;artefact:6989;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:6989;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6989,'Revues Commerciales Diverses','0','0',0,1,'00:00:00',NULL,NULL,NULL,NULL,'Revues commerciales diverse ',NULL,4,NULL,NULL,2,3,4)
+ERROR;artefact:6989;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6989,'Revues Commerciales Diverses','0','0',0,1,'00:00:00',NULL,NULL,NULL,NULL,'Revues commerciales diverse ',NULL,4,NULL,NULL,2,NULL,4)
 
 WARNING;artefact:6990;mauvais encodage de la longueur
 WARNING;artefact:6990;pas de largeur
 WARNING;artefact:6990;mauvais encodage de la hauteur
 WARNING;artefact:6990;mauvais encodage du poids
 ERROR;artefact:6990;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:6990;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6990,'Lettre à M. Wackers','0','0',1951,1,'00:00:00',NULL,NULL,NULL,NULL,'archives Belgique  (Roger)',NULL,5,1,NULL,2,3,2)
+ERROR;artefact:6990;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6990,'Lettre à M. Wackers','0','0',1951,1,'00:00:00',NULL,NULL,NULL,NULL,'archives Belgique  (Roger)',NULL,5,1,NULL,2,NULL,2)
 
 WARNING;artefact:6991;mauvais encodage de la longueur
 WARNING;artefact:6991;pas de largeur
@@ -1802,7 +1997,7 @@ WARNING;artefact:7001;pas de largeur
 WARNING;artefact:7001;mauvais encodage de la hauteur
 WARNING;artefact:7001;mauvais encodage du poids
 ERROR;artefact:7001;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:7001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(7001,'Ecole SEC  abréviations ','0','0',1964,1,'00:00:00',NULL,NULL,NULL,NULL,'NULL',4,11,1,NULL,4,4,7)
+ERROR;artefact:7001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(7001,'Ecole SEC  abréviations ','0','0',1964,1,'00:00:00',3,NULL,NULL,NULL,'NULL',4,10,1,NULL,4,3,7)
 
 WARNING;artefact:7056;pas de longueur
 WARNING;artefact:7056;pas de largeur
@@ -1836,7 +2031,7 @@ WARNING;artefact:8530;pas de hauteur
 WARNING;artefact:8530;pas de poids
 WARNING;artefact:8530;pas de date d'entrée
 ERROR;artefact:8530;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
-ERROR;artefact:8530;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8530,'Disquettes 3,25, Dos 5,0, 6,2, bootDos','PC','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,16,NULL,NULL,7,NULL,NULL)
+ERROR;artefact:8530;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8530,'Disquettes 3,25, Dos 5,0, 6,2, bootDos','PC','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,15,NULL,NULL,7,NULL,NULL)
 
 WARNING;artefact:8531;famille vide
 WARNING;artefact:8531;pas de longueur
@@ -1845,7 +2040,7 @@ WARNING;artefact:8531;pas de hauteur
 WARNING;artefact:8531;pas de poids
 WARNING;artefact:8531;pas de date d'entrée
 ERROR;artefact:8531;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
-ERROR;artefact:8531;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8531,'Disquettes 3,25,Dos 6,0, 6,2','PC','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,16,NULL,NULL,7,NULL,NULL)
+ERROR;artefact:8531;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8531,'Disquettes 3,25,Dos 6,0, 6,2','PC','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,15,NULL,NULL,7,NULL,NULL)
 
 WARNING;artefact:8532;famille vide
 WARNING;artefact:8532;pas de longueur
@@ -1854,7 +2049,7 @@ WARNING;artefact:8532;pas de hauteur
 WARNING;artefact:8532;pas de poids
 WARNING;artefact:8532;pas de date d'entrée
 ERROR;artefact:8532;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
-ERROR;artefact:8532;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8532,'Disquettes 3,25,MS Office 4,2 ','PC','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,16,NULL,NULL,7,NULL,NULL)
+ERROR;artefact:8532;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8532,'Disquettes 3,25,MS Office 4,2 ','PC','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,15,NULL,NULL,7,NULL,NULL)
 
 WARNING;artefact:8533;famille vide
 WARNING;artefact:8533;pas de longueur
@@ -1863,7 +2058,7 @@ WARNING;artefact:8533;pas de hauteur
 WARNING;artefact:8533;pas de poids
 WARNING;artefact:8533;pas de date d'entrée
 ERROR;artefact:8533;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
-ERROR;artefact:8533;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8533,'Disquettes 3,25,Visual Basic 3,0','PC','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,16,NULL,NULL,7,NULL,NULL)
+ERROR;artefact:8533;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8533,'Disquettes 3,25,Visual Basic 3,0','PC','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,15,NULL,NULL,7,NULL,NULL)
 
 WARNING;artefact:8534;famille vide
 WARNING;artefact:8534;pas de quantité
@@ -1873,7 +2068,7 @@ WARNING;artefact:8534;pas de hauteur
 WARNING;artefact:8534;pas de poids
 WARNING;artefact:8534;pas de date d'entrée
 ERROR;artefact:8534;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
-ERROR;artefact:8534;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8534,'Win 3,1 ZDS','PC','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,6,NULL,NULL,6,NULL)
+ERROR;artefact:8534;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(8534,'Win 3,1 ZDS','PC','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,6,NULL,NULL,5,NULL)
 
 WARNING;artefact:8676;pas de quantité
 WARNING;artefact:8676;pas de longueur
@@ -2206,8 +2401,8 @@ WARNING;artefact:9692;mauvais encodage de la largeur
 WARNING;artefact:9692;mauvais encodage du poids
 WARNING;artefact:9693;mauvais encodage de la hauteur
 WARNING;artefact:9693;mauvais encodage du poids
-ERROR;artefact:9693;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,1,'2005-08-08 00:00:00',NULL,NULL,NULL,NULL,'dans boite dorigine',NULL,NULL,52' à la ligne 1
-ERROR;artefact:9693;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9693,'Collants de correction cartes','0','0',1950?,1,'2005-08-08 00:00:00',NULL,NULL,NULL,NULL,'dans boite dorigine',NULL,NULL,52,NULL,48,9,39)
+ERROR;artefact:9693;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,1,'2005-08-08 00:00:00',2,5,NULL,NULL,'dans boite dorigine',NULL,NULL,52,NULL,' à la ligne 1
+ERROR;artefact:9693;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9693,'Collants de correction cartes','0','0',1950?,1,'2005-08-08 00:00:00',2,5,NULL,NULL,'dans boite dorigine',NULL,NULL,52,NULL,48,8,39)
 
 WARNING;artefact:9694;pas de longueur
 WARNING;artefact:9694;pas de largeur
@@ -2232,7 +2427,7 @@ WARNING;artefact:9814;pas de date d'entrée
 WARNING;artefact:9815;mauvais encodage de la largeur
 WARNING;artefact:9815;mauvais encodage du poids
 ERROR;artefact:9815;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:9815;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9815,'Boite floppy 8"','0','0',0,11,'00:00:00',NULL,NULL,NULL,NULL,'Dans une boite DSKT récupérées',NULL,NULL,1,NULL,10,31,1)
+ERROR;artefact:9815;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9815,'Boite floppy 8"','0','0',0,11,'00:00:00',1,NULL,1,NULL,'Dans une boite DSKT récupérées',NULL,NULL,1,NULL,10,30,1)
 
 WARNING;artefact:9816;pas de quantité
 WARNING;artefact:9816;pas de longueur
@@ -2979,7 +3174,7 @@ WARNING;artefact:12094;mauvais encodage du poids
 WARNING;artefact:12094;pas de date d'entrée
 WARNING;artefact:12095;mauvais encodage du poids
 ERROR;artefact:12095;Error 1292; 1292 (22007): Incorrect date value: ' ' for column 'dateIn' at row 1
-ERROR;artefact:12095;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(12095,'classeur photos','0','1971 à 1983?',0,1,' ',NULL,NULL,NULL,NULL,'Les ordinateurs H316, H200, H2000, Keyplex ',NULL,NULL,1,NULL,92,20,46)
+ERROR;artefact:12095;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(12095,'classeur photos','0','1971 à 1983?',0,1,' ',3,2,8,NULL,'Les ordinateurs H316, H200, H2000, Keyplex ',NULL,NULL,1,NULL,91,19,46)
 
 WARNING;artefact:12096;mauvais encodage du poids
 WARNING;artefact:12096;pas de date d'entrée
@@ -2987,7 +3182,7 @@ WARNING;artefact:12097;pas de date d'entrée
 WARNING;artefact:12098;mauvais encodage de la largeur
 WARNING;artefact:12098;mauvais encodage du poids
 ERROR;artefact:12098;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:12098;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(12098,'Distributeur de Billets de banque  (Bancontact)','0','1986 à 1993',0,1,'00:00:00',NULL,NULL,NULL,NULL,'Les ATM (distributeurs de billets de banque)',NULL,NULL,47,NULL,93,54,47)
+ERROR;artefact:12098;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(12098,'Distributeur de Billets de banque  (Bancontact)','0','1986 à 1993',0,1,'00:00:00',3,NULL,5,NULL,'Les ATM (distributeurs de billets de banque)',NULL,NULL,47,NULL,92,53,47)
 
 WARNING;artefact:12099;mauvais encodage du poids
 WARNING;artefact:12099;pas de date d'entrée
@@ -3140,8 +3335,8 @@ WARNING;artefact:13008;pas de largeur
 WARNING;artefact:13008;pas de hauteur
 WARNING;artefact:13008;pas de poids
 WARNING;artefact:13008;pas de date d'entrée
-ERROR;artefact:13008;Error 1064; 1064 (42000): Erreur de syntaxe près de 'à 1957,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,72,1,NULL,101,NULL,46)' à la ligne 1
-ERROR;artefact:13008;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(13008,'Place Congrès','Photo Place du Congrès','NULL',1937 à 1957,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,72,1,NULL,101,NULL,46)
+ERROR;artefact:13008;Error 1064; 1064 (42000): Erreur de syntaxe près de 'à 1957,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,71,1,NULL,100,NULL,46)' à la ligne 1
+ERROR;artefact:13008;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(13008,'Place Congrès','Photo Place du Congrès','NULL',1937 à 1957,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,71,1,NULL,100,NULL,46)
 
 WARNING;artefact:13009;pas de longueur
 WARNING;artefact:13009;pas de largeur
@@ -3163,8 +3358,8 @@ WARNING;artefact:13012;pas de largeur
 WARNING;artefact:13012;pas de hauteur
 WARNING;artefact:13012;pas de poids
 WARNING;artefact:13012;pas de date d'entrée
-ERROR;artefact:13012;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,1,NULL,103,NULL,46)' à la ligne 1
-ERROR;artefact:13012;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(13012,'Cours de P.C.','NULL','NULL',1980?,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,1,NULL,103,NULL,46)
+ERROR;artefact:13012;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,1,NULL,102,NULL,46)' à la ligne 1
+ERROR;artefact:13012;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(13012,'Cours de P.C.','NULL','NULL',1980?,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,1,NULL,102,NULL,46)
 
 WARNING;artefact:13013;pas de longueur
 WARNING;artefact:13013;pas de largeur
@@ -3218,7 +3413,7 @@ WARNING;artefact:13030;mauvais encodage de la largeur
 WARNING;artefact:13030;mauvais encodage de la hauteur
 WARNING;artefact:13030;mauvais encodage du poids
 ERROR;artefact:13030;Error 1292; 1292 (22007): Incorrect date value: ' ' for column 'dateIn' at row 1
-ERROR;artefact:13030;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(13030,'Classeur photos','0','0',0,1,' ',NULL,NULL,NULL,NULL,'Trombinoscope',NULL,65,NULL,NULL,32,1,52)
+ERROR;artefact:13030;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(13030,'Classeur photos','0','0',0,1,' ',NULL,NULL,NULL,NULL,'Trombinoscope',NULL,64,NULL,NULL,32,1,52)
 
 WARNING;artefact:13032;pas de quantité
 WARNING;artefact:13032;pas de longueur
@@ -3241,7 +3436,7 @@ WARNING;artefact:15001;mauvais encodage de la largeur
 WARNING;artefact:15001;mauvais encodage de la hauteur
 WARNING;artefact:15001;mauvais encodage du poids
 ERROR;artefact:15001;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:15001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(15001,'Soft ZENITH','0','0',1980,1,'00:00:00',NULL,NULL,NULL,NULL,'NULL',NULL,77,6,NULL,107,10,32)
+ERROR;artefact:15001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(15001,'Soft ZENITH','0','0',1980,1,'00:00:00',NULL,NULL,NULL,NULL,'NULL',NULL,76,6,NULL,106,9,32)
 
 WARNING;artefact:15002;pas de longueur
 WARNING;artefact:15002;pas de largeur
@@ -3265,7 +3460,7 @@ WARNING;artefact:15007;pas de hauteur
 WARNING;artefact:15007;pas de poids
 WARNING;artefact:15007;pas de date d'entrée
 ERROR;artefact:15007;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
-ERROR;artefact:15007;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(15007,'Film ???','NULL','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,NULL,NULL,60,NULL,NULL)
+ERROR;artefact:15007;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(15007,'Film ???','NULL','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,77,NULL,NULL,60,NULL,NULL)
 
 WARNING;artefact:98000;mauvais encodage de la longueur
 WARNING;artefact:98000;mauvais encodage de la largeur
@@ -3277,32 +3472,32 @@ WARNING;artefact:98001;mauvais encodage de la largeur
 WARNING;artefact:98001;pas de hauteur
 WARNING;artefact:98001;pas de poids
 WARNING;artefact:98001;pas de date d'entrée
-ERROR;artefact:98001;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,4,NULL,NULL,NULL,NULL,NULL,'NULL',3,79,1,NULL,108,NULL,57)' à la ligne 1
-ERROR;artefact:98001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98001,'P.M.E.','Paco Rabane,Bardinet,Jeanneau','TBWA',1992?,4,NULL,NULL,NULL,NULL,NULL,'NULL',3,79,1,NULL,108,NULL,57)
+ERROR;artefact:98001;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,4,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)' à la ligne 1
+ERROR;artefact:98001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98001,'P.M.E.','Paco Rabane,Bardinet,Jeanneau','TBWA',1992?,4,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)
 
 WARNING;artefact:98002;mauvais encodage de la longueur
 WARNING;artefact:98002;mauvais encodage de la largeur
 WARNING;artefact:98002;pas de hauteur
 WARNING;artefact:98002;pas de poids
 WARNING;artefact:98002;pas de date d'entrée
-ERROR;artefact:98002;Error 1064; 1064 (42000): Erreur de syntaxe près de 'Arbre et la Banque','NULL',1992?,3,NULL,NULL,NULL,NULL,NULL,'NULL',3,79,1,NULL,1' à la ligne 1
-ERROR;artefact:98002;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98002,'Banque','L'Arbre et la Banque','NULL',1992?,3,NULL,NULL,NULL,NULL,NULL,'NULL',3,79,1,NULL,108,NULL,57)
+ERROR;artefact:98002;Error 1064; 1064 (42000): Erreur de syntaxe près de 'Arbre et la Banque','NULL',1992?,3,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,1' à la ligne 1
+ERROR;artefact:98002;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98002,'Banque','L'Arbre et la Banque','NULL',1992?,3,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)
 
 WARNING;artefact:98003;mauvais encodage de la longueur
 WARNING;artefact:98003;mauvais encodage de la largeur
 WARNING;artefact:98003;pas de hauteur
 WARNING;artefact:98003;pas de poids
 WARNING;artefact:98003;pas de date d'entrée
-ERROR;artefact:98003;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,4,NULL,NULL,NULL,NULL,NULL,'NULL',3,79,1,NULL,108,NULL,57)' à la ligne 1
-ERROR;artefact:98003;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98003,'Mathilde','Non impact printing','NULL',1992?,4,NULL,NULL,NULL,NULL,NULL,'NULL',3,79,1,NULL,108,NULL,57)
+ERROR;artefact:98003;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,4,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)' à la ligne 1
+ERROR;artefact:98003;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98003,'Mathilde','Non impact printing','NULL',1992?,4,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)
 
 WARNING;artefact:98004;mauvais encodage de la longueur
 WARNING;artefact:98004;mauvais encodage de la largeur
 WARNING;artefact:98004;pas de hauteur
 WARNING;artefact:98004;pas de poids
 WARNING;artefact:98004;pas de date d'entrée
-ERROR;artefact:98004;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,79,1,NULL,108,NULL,57)' à la ligne 1
-ERROR;artefact:98004;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98004,'Die Wuste lebt','NULL','TBWA Dusseldorf',1992?,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,79,1,NULL,108,NULL,57)
+ERROR;artefact:98004;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)' à la ligne 1
+ERROR;artefact:98004;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98004,'Die Wuste lebt','NULL','TBWA Dusseldorf',1992?,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)
 
 WARNING;artefact:98005;mauvais encodage de la longueur
 WARNING;artefact:98005;mauvais encodage de la largeur
@@ -3592,7 +3787,7 @@ WARNING;artefact:98520;pas de hauteur
 WARNING;artefact:98520;pas de poids
 WARNING;artefact:98520;pas de date d'entrée
 ERROR;artefact:98520;Error 1064; 1064 (42000): Erreur de syntaxe près de 'arbre Bull en bois','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,134,NUL' à la ligne 1
-ERROR;artefact:98520;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98520,'Arbre Bull en bois','L'arbre Bull en bois','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,134,NULL,105,1,58)
+ERROR;artefact:98520;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98520,'Arbre Bull en bois','L'arbre Bull en bois','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,134,NULL,104,1,58)
 
 WARNING;artefact:98521;mauvais encodage de la longueur
 WARNING;artefact:98521;mauvais encodage de la largeur
@@ -3739,7 +3934,7 @@ WARNING;artefact:98548;mauvais encodage de la longueur
 WARNING;artefact:98548;mauvais encodage de la hauteur
 WARNING;artefact:98548;mauvais encodage du poids
 ERROR;artefact:98548;Error 1062; 1062 (23000): Duplicata du champ '98548' pour la clef 'PRIMARY'
-ERROR;artefact:98548;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98548,'Pour Minitel','MN5512','96160F',NULL,1,'2015-06-10 00:00:00',NULL,NULL,NULL,NULL,'livres accompagnant le Micral 15',NULL,NULL,NULL,NULL,120,47,63)
+ERROR;artefact:98548;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98548,'Pour Minitel','MN5512','96160F',NULL,1,'2015-06-10 00:00:00',NULL,3,NULL,NULL,'livres accompagnant le Micral 15',NULL,NULL,NULL,NULL,119,46,63)
 
 WARNING;artefact:98549;mauvais encodage de la longueur
 WARNING;artefact:98550;mauvais encodage de la longueur
@@ -3750,8 +3945,8 @@ WARNING;artefact:98551;mauvais encodage de la hauteur
 WARNING;artefact:98552;mauvais encodage de la largeur
 WARNING;artefact:98552;mauvais encodage de la hauteur
 WARNING;artefact:98552;mauvais encodage du poids
-ERROR;artefact:98552;Error 1064; 1064 (42000): Erreur de syntaxe près de 'bank,1,'2015-06-10 00:00:00',NULL,NULL,NULL,NULL,'avec connecteur femelle vers P' à la ligne 1
-ERROR;artefact:98552;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98552,'Lecteur carte banquaire','NULL','18-1329041*1',2000Deutche bank,1,'2015-06-10 00:00:00',NULL,NULL,NULL,NULL,'avec connecteur femelle vers PC type ? Breveté Bull et Innovatron',3,NULL,NULL,NULL,32,47,32)
+ERROR;artefact:98552;Error 1064; 1064 (42000): Erreur de syntaxe près de 'bank,1,'2015-06-10 00:00:00',7,NULL,NULL,NULL,'avec connecteur femelle vers PC t' à la ligne 1
+ERROR;artefact:98552;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98552,'Lecteur carte banquaire','NULL','18-1329041*1',2000Deutche bank,1,'2015-06-10 00:00:00',7,NULL,NULL,NULL,'avec connecteur femelle vers PC type ? Breveté Bull et Innovatron',3,NULL,NULL,NULL,32,46,32)
 
 WARNING;artefact:98553;pas de date d'entrée
 WARNING;artefact:98554;mauvais encodage de la longueur
@@ -3851,3 +4046,108 @@ WARNING;artefact:98602;pas de longueur
 WARNING;artefact:98602;pas de largeur
 WARNING;artefact:98602;pas de hauteur
 WARNING;artefact:98602;pas de poids
+WARNING;artefact:98603;mauvais encodage de la longueur
+WARNING;artefact:98603;mauvais encodage du poids
+WARNING;artefact:98603;pas de date d'entrée
+WARNING;artefact:98604;mauvais encodage de la hauteur
+WARNING;artefact:98604;mauvais encodage du poids
+WARNING;artefact:98605;mauvais encodage du poids
+WARNING;artefact:98606;mauvais encodage de la largeur
+WARNING;artefact:98606;mauvais encodage de la hauteur
+WARNING;artefact:98606;mauvais encodage du poids
+WARNING;artefact:98607;mauvais encodage de la largeur
+WARNING;artefact:98607;mauvais encodage du poids
+WARNING;artefact:98607;pas de date d'entrée
+WARNING;artefact:98608;mauvais encodage de la longueur
+WARNING;artefact:98608;mauvais encodage du poids
+WARNING;artefact:98609;mauvais encodage de la largeur
+WARNING;artefact:98609;mauvais encodage de la hauteur
+WARNING;artefact:98609;mauvais encodage du poids
+WARNING;artefact:98610;mauvais encodage de la longueur
+WARNING;artefact:98610;mauvais encodage de la largeur
+WARNING;artefact:98610;mauvais encodage de la hauteur
+WARNING;artefact:98610;mauvais encodage du poids
+WARNING;artefact:98611;mauvais encodage de la longueur
+WARNING;artefact:98611;mauvais encodage de la largeur
+WARNING;artefact:98611;mauvais encodage de la hauteur
+WARNING;artefact:98611;mauvais encodage du poids
+WARNING;artefact:98622;mauvais encodage de la longueur
+WARNING;artefact:98622;mauvais encodage de la largeur
+WARNING;artefact:98622;mauvais encodage du poids
+WARNING;artefact:98623;mauvais encodage de la longueur
+WARNING;artefact:98623;mauvais encodage de la largeur
+WARNING;artefact:98623;mauvais encodage de la hauteur
+WARNING;artefact:98623;mauvais encodage du poids
+WARNING;artefact:98624;mauvais encodage du poids
+ERROR;artefact:98624;Error 1292; 1292 (22007): Incorrect date value: '2019/17/12' for column 'dateIn' at row 1
+ERROR;artefact:98624;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98624,'Boites écrous,rondelles','0','0',0,1,'2019/17/12',1,1,1,NULL,'NULL',NULL,NULL,NULL,NULL,86,8,10)
+
+WARNING;artefact:98625;mauvais encodage du poids
+WARNING;artefact:98631;pas de quantité
+WARNING;artefact:98631;pas de longueur
+WARNING;artefact:98631;pas de largeur
+WARNING;artefact:98631;pas de hauteur
+WARNING;artefact:98631;pas de poids
+WARNING;artefact:98631;pas de date d'entrée
+WARNING;artefact:99990;mauvais encodage de la longueur
+WARNING;artefact:99990;mauvais encodage de la largeur
+WARNING;artefact:99990;mauvais encodage de la hauteur
+WARNING;artefact:99990;mauvais encodage du poids
+ERROR;artefact:99990;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
+ERROR;artefact:99990;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99990,'ligne test','0','0',0,0,'00:00:00',NULL,NULL,NULL,NULL,'NULL',NULL,NULL,NULL,NULL,NULL,NULL,42)
+
+WARNING;artefact:99993;mauvais encodage de la longueur
+WARNING;artefact:99993;mauvais encodage de la largeur
+WARNING;artefact:99993;mauvais encodage de la hauteur
+WARNING;artefact:99993;mauvais encodage du poids
+ERROR;artefact:99993;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
+ERROR;artefact:99993;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99993,'OS  (article de test)','DOS','MS DOS 3,2',1985,0,'00:00:00',NULL,NULL,NULL,NULL,' 5 disquttes dand boite de disquettes 3" 1/2',11,76,29,NULL,127,46,32)
+
+WARNING;artefact:99994;mauvais encodage de la longueur
+WARNING;artefact:99994;mauvais encodage de la largeur
+WARNING;artefact:99994;mauvais encodage de la hauteur
+WARNING;artefact:99994;mauvais encodage du poids
+WARNING;artefact:99994;pas de date d'entrée
+ERROR;artefact:99995;Error 1292; 1292 (22007): Incorrect date value: '0' for column 'dateIn' at row 1
+ERROR;artefact:99995;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99995,'456','125','2002',0,0,'0',1,1,2,5,'NULL',NULL,NULL,NULL,NULL,35,74,66)
+
+WARNING;artefact:99996;famille vide
+WARNING;artefact:99996;pas de quantité
+WARNING;artefact:99996;pas de longueur
+WARNING;artefact:99996;pas de largeur
+WARNING;artefact:99996;pas de hauteur
+WARNING;artefact:99996;pas de poids
+ERROR;artefact:99996;Error 1292; 1292 (22007): Incorrect date value: '0' for column 'dateIn' at row 1
+ERROR;artefact:99996;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99996,'NULL','NULL','NULL',NULL,NULL,'0',NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
+WARNING;artefact:99997;mauvais encodage de la longueur
+WARNING;artefact:99997;mauvais encodage de la largeur
+WARNING;artefact:99997;mauvais encodage de la hauteur
+WARNING;artefact:99997;mauvais encodage du poids
+WARNING;artefact:99997;pas de date d'entrée
+WARNING;artefact:99998;mauvais encodage de la longueur
+WARNING;artefact:99998;mauvais encodage de la largeur
+WARNING;artefact:99998;mauvais encodage de la hauteur
+WARNING;artefact:99998;mauvais encodage du poids
+WARNING;artefact:99999;mauvais encodage de la longueur
+WARNING;artefact:99999;mauvais encodage de la largeur
+WARNING;artefact:99999;mauvais encodage de la hauteur
+WARNING;artefact:99999;mauvais encodage du poids
+WARNING;artefact:100000;mauvais encodage de la longueur
+WARNING;artefact:100000;mauvais encodage de la largeur
+WARNING;artefact:100000;mauvais encodage de la hauteur
+WARNING;artefact:100000;mauvais encodage du poids
+WARNING;artefact:100001;mauvais encodage de la longueur
+WARNING;artefact:100001;mauvais encodage de la largeur
+WARNING;artefact:100001;mauvais encodage de la hauteur
+WARNING;artefact:100001;mauvais encodage du poids
+ERROR;artefact:100001;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
+ERROR;artefact:100001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(100001,'Utilisation test100001','0','0',0,0,'00:00:00',NULL,NULL,NULL,NULL,'NULL',NULL,NULL,NULL,NULL,NULL,NULL,71)
+
+WARNING;artefact:100002;mauvais encodage de la longueur
+WARNING;artefact:100002;mauvais encodage de la largeur
+WARNING;artefact:100002;mauvais encodage de la hauteur
+WARNING;artefact:100002;mauvais encodage du poids
+ERROR;artefact:100002;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
+ERROR;artefact:100002;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(100002,'util.100002 test','0','0',0,1,'00:00:00',NULL,NULL,NULL,NULL,'NULL',NULL,NULL,NULL,NULL,129,NULL,72)
+

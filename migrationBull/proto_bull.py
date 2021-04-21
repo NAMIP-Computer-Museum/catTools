@@ -161,8 +161,9 @@ def process_producteur(row,conn):
     elif prod == 0:
         prod = None
     else:
-        # escape des caracères ' et "
-        prod = re.sub('[\'"]', '', prod)
+        if str(prod).__contains__("\'"):
+         # escape des caracères ' et "
+         prod = re.sub('[\'"]', '', prod)
 
     cursor = conn.cursor()
     sql = "SELECT id_producteur FROM producteurs WHERE producteur =\'" + str(prod).capitalize() + "\'"
@@ -227,8 +228,9 @@ def process_conditionement(row,conn):
     elif cond == 0:
         cond = None
     else:
-        # escape des caracères ' et "
-        cond = re.sub('[\'"]', '', cond)
+        if str(cond).__contains__("\'"):
+         # escape des caracères ' et "
+         cond = re.sub('[\'"]', '', cond)
 
     cursor = conn.cursor()
     sql = "SELECT id_cond FROM conditionnements WHERE conditionnement = \'" + str(cond).capitalize() + "\'"
@@ -407,8 +409,9 @@ def process_comment(row):
     elif comment == 0:
         comment = None
     else:
-        # escape des caracères ' et "
-        comment = re.sub('[\'"]', '', comment)
+        if str(comment).__contains__("\'"):
+         # escape des caracères ' et "
+         comment = re.sub('[\'"]', '', comment)
     return comment
 
 
@@ -456,7 +459,6 @@ def process_recolement(row):
         return None
         config.logging.warning("artefact:" + str(id) + ";pas de recolement")
     else:
-        #print(datetime.date)
         return datetime.date
 
 
@@ -486,7 +488,7 @@ def process_row(row,conn):
      haut = process_hauteur(row)
      poids = process_poids(row)
      donateur = process_donateur(row,conn)
-     # lien = process_liens(row)
+     lien = process_liens(row)
      comment = process_comment(row)
      image = process_images(row)
      dateIn = process_datein(row)
@@ -522,9 +524,9 @@ def process_row(row,conn):
      p2 = "`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,"
      p3 = "`appart_key`, `famille_key`) VALUES(" + str(id) + ",\'" + str(libelle) + "\',\'" + str(modele) + "\',\'" + str(numSerie)
      if dateIn is not None:
-        p4 = "\'," + str(anProd) + "," + str(qte) + ",\'" + str(dateIn) + "\'," + "NULL" + "," + "NULL" + "," +"NULL"+ "," + "NULL"
+        p4 = "\'," + str(anProd) + "," + str(qte) + ",\'" + str(dateIn) + "\'," + str(long)+ "," +str(larg)+ "," +str(haut)+ "," +str(poids)
      else:
-        p4 = "\'," + str(anProd) + "," + str(qte) + "," + str(dateIn) + "," + "NULL" + "," +"NULL"+ "," + "NULL"+ "," + "NULL"
+        p4 = "\'," + str(anProd) + "," + str(qte) + "," + str(dateIn) + "," +str(long)+ "," +str(larg)+ "," +str(haut)+ "," + str(poids)
      p5 = ",\'" + str(comment) + "\'," + str(idDon) + "," + str(cond) + "," + str(prod) + "," + str(etat) + "," + str(local)
      p6 = "," + str(appart) + "," + str(famille) + ")"
      sqlArtefact = p1 + p2 + p3 + p4 + p5 + p6
@@ -556,8 +558,7 @@ def process_row(row,conn):
          #print("")
          ""
      else:
-        sqlRecol = "INSERT INTO `recolements`(`recolement`, `artefact_key`) VALUES (\'" + str(recolement) + "\'," + str(
-            id) + ")"
+        sqlRecol = "INSERT INTO `recolements`(`recolement`, `artefact_key`) VALUES (\'" + str(recolement) + "\'," + str(id) + ")"
         try:
          cursor.execute(sqlRecol)
         except mysql.connector.errors.DatabaseError as e:
