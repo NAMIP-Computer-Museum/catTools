@@ -21,7 +21,7 @@ def recup_usage(cursor):
         if res:
            """rien ne se passe"""
         else:
-            if (usage is int) or (usage is None):
+            if (usage is int) or (usage is None) or (usage == 1 or usage == 0):
                 config.logging.warning("artefact:"+str(idA)+";usage n'est pas correct ou vide")
             else:
               sql1 ="INSERT INTO usages (libelleUsage) VALUES(\'"+str(usage).upper()+"\')"

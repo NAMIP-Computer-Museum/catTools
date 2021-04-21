@@ -22,7 +22,7 @@ def recup_famille(cursor):
         if res:
            """rien ne se passe"""
         else:
-            if (famille is int) or (famille is None):
+            if (famille is int) or (famille is None) or (famille ==1 or famille == 0):
                 config.logging.warning("artefact:"+str(idA)+";famille n'est pas correcte ou vide")
             else:
               sqlUsage ="SELECT id_usage from usages where libelleUsage =\'"+str(usage).upper()+"\'"
