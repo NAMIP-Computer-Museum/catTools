@@ -66,11 +66,15 @@ def process_famille(row,conn):
         sql = "SELECT id_usage FROM usages WHERE libelleUsage =\'" + str(usage).upper() + "\'"
         cursor.execute(sql)
         res = cursor.fetchone()
-        idU = res[0]
-        sql=" SELECT id_famille FROM familles WHERE famille = \'inconnue\' AND usage_key ="+str(idU)
-        cursor.execute(sql)
-        res = cursor.fetchone()
-        return res[0]
+        if res is not None:
+         idU = res[0]
+         sql=" SELECT id_famille FROM familles WHERE famille = \'inconnue\' AND usage_key ="+str(idU)
+         cursor.execute(sql)
+         res = cursor.fetchone()
+         return res[0]
+        else:
+            return None
+        config.logging.error("Artefact:"+str(idA)+";pas de famille")
     else:
         sql = "SELECT id_famille FROM familles WHERE famille =\'" + str(famille).capitalize() + "\'"
         cursor.execute(sql)
@@ -442,16 +446,18 @@ cherche encore comment verifier la date car il faut du String pas du datetime
 
 
 def process_datein(row):
-    datetime.date = row[31].value
+    d = row[31].value
     id = row[0].value
     dateIn = None
     if datetime.date is None:
         dateIn = None
         config.logging.warning("artefact:" + str(id) + ";pas de date d'entrée")
     else:
-        dateIn = datetime.date
-       # if dateIn.year < 1900:
-       # config.logging.warning("artefact:"+str(id)+";date suspecte")
+        """
+        if d :
+        config.logging.warning("artefact:"+str(id)+";date suspecte car inférieur à 1900")
+        """
+        dateIn = d
     return dateIn
 
 
@@ -595,7 +601,7 @@ try:
  conn.commit()
  for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
     if any([cell.value is None for cell in row[2:]]):
-        config.logging.error("artefact"+str(row[0])+";est vide")
+        config.logging.warning("artefact:"+str(row[0].value)+";ligne vide")
     process_row(row,conn)
 finally:
     conn.close

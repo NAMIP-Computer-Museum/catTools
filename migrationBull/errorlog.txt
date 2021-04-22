@@ -1439,10 +1439,10 @@ WARNING;artefact:98005;conditionnement n'est pas correct ou vide
 ERROR;artefact:<built-in function id>;Error 1064; 1064 (42000): Erreur de syntaxe près de 'estrade'' à la ligne 1
 ERROR;requete pour cond;SELECT id_cond FROM conditionnements WHERE  conditionnement ='Sur l'estrade'
 
-ERROR;artefact<Cell 'Inventaire'.A7>;est vide
+WARNING;artefact:7;ligne vide
 WARNING;artefact:7;pas de largeur
 WARNING;artefact:7;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A8>;est vide
+WARNING;artefact:6987;ligne vide
 WARNING;artefact:6987;mauvais encodage de la longueur
 WARNING;artefact:6987;pas de largeur
 WARNING;artefact:6987;mauvais encodage de la hauteur
@@ -1450,1956 +1450,2225 @@ WARNING;artefact:6987;mauvais encodage du poids
 ERROR;artefact:6987;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
 ERROR;artefact:6987;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6987,'Société Belge des machines Bull 15/12/1939','Moniteur belge','0',14594,1,'00:00:00',NULL,NULL,NULL,NULL,'dans boite Archives Belgique reçu de IW en mars 2020',1,2,2,NULL,2,2,2)
 
-ERROR;artefact<Cell 'Inventaire'.A9>;est vide
+WARNING;artefact:6988;ligne vide
 WARNING;artefact:6988;mauvais encodage de la longueur
 WARNING;artefact:6988;pas de largeur
 WARNING;artefact:6988;mauvais encodage de la hauteur
 WARNING;artefact:6988;mauvais encodage du poids
-ERROR;artefact:6988;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:6988;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6988,'Archives Groupe Bull','0','0',0,1,'00:00:00',NULL,NULL,NULL,NULL,'Archives Groupe Bull',NULL,3,NULL,NULL,2,NULL,3)
-
-ERROR;artefact<Cell 'Inventaire'.A10>;est vide
+WARNING;artefact:6988;pas de date d'entrée
+WARNING;artefact:6989;ligne vide
 WARNING;artefact:6989;mauvais encodage de la longueur
 WARNING;artefact:6989;pas de largeur
 WARNING;artefact:6989;mauvais encodage de la hauteur
 WARNING;artefact:6989;mauvais encodage du poids
-ERROR;artefact:6989;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:6989;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6989,'Revues Commerciales Diverses','0','0',0,1,'00:00:00',NULL,NULL,NULL,NULL,'Revues commerciales diverse ',NULL,4,NULL,NULL,2,NULL,4)
-
-ERROR;artefact<Cell 'Inventaire'.A11>;est vide
+WARNING;artefact:6989;pas de date d'entrée
+WARNING;artefact:6990;ligne vide
 WARNING;artefact:6990;mauvais encodage de la longueur
 WARNING;artefact:6990;pas de largeur
 WARNING;artefact:6990;mauvais encodage de la hauteur
 WARNING;artefact:6990;mauvais encodage du poids
-ERROR;artefact:6990;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:6990;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6990,'Lettre à M. Wackers','0','0',1951,1,'00:00:00',NULL,NULL,NULL,NULL,'archives Belgique  (Roger)',NULL,5,1,NULL,2,NULL,2)
-
-ERROR;artefact<Cell 'Inventaire'.A12>;est vide
+WARNING;artefact:6990;pas de date d'entrée
+WARNING;artefact:6991;ligne vide
 WARNING;artefact:6991;mauvais encodage de la longueur
 WARNING;artefact:6991;pas de largeur
 WARNING;artefact:6991;mauvais encodage de la hauteur
 WARNING;artefact:6991;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A13>;est vide
+WARNING;artefact:6991;pas de date d'entrée
+WARNING;artefact:6992;ligne vide
 WARNING;artefact:6992;mauvais encodage de la longueur
 WARNING;artefact:6992;pas de largeur
 WARNING;artefact:6992;mauvais encodage de la hauteur
 WARNING;artefact:6992;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A14>;est vide
+WARNING;artefact:6992;pas de date d'entrée
+WARNING;artefact:6993;ligne vide
 WARNING;artefact:6993;mauvais encodage de la longueur
 WARNING;artefact:6993;pas de largeur
 WARNING;artefact:6993;mauvais encodage de la hauteur
 WARNING;artefact:6993;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A15>;est vide
+WARNING;artefact:6993;pas de date d'entrée
+WARNING;artefact:6994;ligne vide
 WARNING;artefact:6994;mauvais encodage de la longueur
 WARNING;artefact:6994;pas de largeur
 WARNING;artefact:6994;mauvais encodage de la hauteur
 WARNING;artefact:6994;mauvais encodage du poids
-ERROR;artefact:6994;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:6994;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6994,'Org. & Gestion des ateliers mécanograph. 1','0','0',0,1,'00:00:00',NULL,NULL,NULL,NULL,'livre',NULL,9,NULL,NULL,3,1,5)
-
-ERROR;artefact<Cell 'Inventaire'.A16>;est vide
+WARNING;artefact:6994;pas de date d'entrée
+WARNING;artefact:6995;ligne vide
 WARNING;artefact:6995;mauvais encodage de la longueur
 WARNING;artefact:6995;pas de largeur
 WARNING;artefact:6995;mauvais encodage de la hauteur
 WARNING;artefact:6995;mauvais encodage du poids
-ERROR;artefact:6995;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:6995;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6995,'Org. & Gestion des ateliers mécanograph. 2','0','0',0,1,'00:00:00',NULL,NULL,NULL,NULL,'NULL',NULL,NULL,NULL,NULL,3,1,6)
-
-ERROR;artefact<Cell 'Inventaire'.A17>;est vide
+WARNING;artefact:6995;pas de date d'entrée
+WARNING;artefact:6996;ligne vide
 WARNING;artefact:6996;pas de longueur
 WARNING;artefact:6996;pas de largeur
 WARNING;artefact:6996;pas de hauteur
 WARNING;artefact:6996;pas de poids
 WARNING;artefact:6996;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A18>;est vide
+WARNING;artefact:6997;ligne vide
 WARNING;artefact:6997;pas de longueur
 WARNING;artefact:6997;pas de largeur
 WARNING;artefact:6997;pas de hauteur
 WARNING;artefact:6997;pas de poids
 WARNING;artefact:6997;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A19>;est vide
+WARNING;artefact:6998;ligne vide
 WARNING;artefact:6998;pas de longueur
 WARNING;artefact:6998;pas de largeur
 WARNING;artefact:6998;pas de hauteur
 WARNING;artefact:6998;pas de poids
 WARNING;artefact:6998;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A20>;est vide
+WARNING;artefact:6999;ligne vide
 WARNING;artefact:6999;pas de longueur
 WARNING;artefact:6999;pas de largeur
 WARNING;artefact:6999;pas de hauteur
 WARNING;artefact:6999;pas de poids
 WARNING;artefact:6999;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A21>;est vide
+WARNING;artefact:7000;ligne vide
 WARNING;artefact:7000;mauvais encodage de la longueur
 WARNING;artefact:7000;pas de largeur
 WARNING;artefact:7000;mauvais encodage de la hauteur
 WARNING;artefact:7000;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A22>;est vide
+WARNING;artefact:7000;pas de date d'entrée
+WARNING;artefact:7001;ligne vide
 WARNING;artefact:7001;pas de largeur
 WARNING;artefact:7001;mauvais encodage de la hauteur
 WARNING;artefact:7001;mauvais encodage du poids
-ERROR;artefact:7001;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:7001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(7001,'Ecole SEC  abréviations ','0','0',1964,1,'00:00:00',3,NULL,NULL,NULL,'NULL',4,10,1,NULL,4,3,7)
-
-ERROR;artefact<Cell 'Inventaire'.A23>;est vide
+WARNING;artefact:7001;pas de date d'entrée
+WARNING;artefact:7056;ligne vide
 WARNING;artefact:7056;pas de longueur
 WARNING;artefact:7056;pas de largeur
 WARNING;artefact:7056;pas de hauteur
 WARNING;artefact:7056;pas de poids
 WARNING;artefact:7056;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A24>;est vide
+WARNING;artefact:8526;ligne vide
 WARNING;artefact:8526;pas de longueur
 WARNING;artefact:8526;pas de largeur
 WARNING;artefact:8526;pas de hauteur
 WARNING;artefact:8526;pas de poids
 WARNING;artefact:8526;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A25>;est vide
+WARNING;artefact:8527;ligne vide
 WARNING;artefact:8527;pas de longueur
 WARNING;artefact:8527;pas de largeur
 WARNING;artefact:8527;pas de hauteur
 WARNING;artefact:8527;pas de poids
 WARNING;artefact:8527;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A26>;est vide
+WARNING;artefact:8528;ligne vide
 WARNING;artefact:8528;pas de longueur
 WARNING;artefact:8528;pas de largeur
 WARNING;artefact:8528;pas de hauteur
 WARNING;artefact:8528;pas de poids
 WARNING;artefact:8528;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A27>;est vide
+WARNING;artefact:8529;ligne vide
 WARNING;artefact:8529;pas de longueur
 WARNING;artefact:8529;pas de largeur
 WARNING;artefact:8529;pas de hauteur
 WARNING;artefact:8529;pas de poids
 WARNING;artefact:8529;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A28>;est vide
+WARNING;artefact:8530;ligne vide
 WARNING;artefact:8530;pas de longueur
 WARNING;artefact:8530;pas de largeur
 WARNING;artefact:8530;pas de hauteur
 WARNING;artefact:8530;pas de poids
 WARNING;artefact:8530;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A29>;est vide
+WARNING;artefact:8531;ligne vide
 WARNING;artefact:8531;pas de longueur
 WARNING;artefact:8531;pas de largeur
 WARNING;artefact:8531;pas de hauteur
 WARNING;artefact:8531;pas de poids
 WARNING;artefact:8531;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A30>;est vide
+WARNING;artefact:8532;ligne vide
 WARNING;artefact:8532;pas de longueur
 WARNING;artefact:8532;pas de largeur
 WARNING;artefact:8532;pas de hauteur
 WARNING;artefact:8532;pas de poids
 WARNING;artefact:8532;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A31>;est vide
+WARNING;artefact:8533;ligne vide
 WARNING;artefact:8533;pas de longueur
 WARNING;artefact:8533;pas de largeur
 WARNING;artefact:8533;pas de hauteur
 WARNING;artefact:8533;pas de poids
 WARNING;artefact:8533;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A32>;est vide
+WARNING;artefact:8534;ligne vide
 WARNING;artefact:8534;pas de quantité
 WARNING;artefact:8534;pas de longueur
 WARNING;artefact:8534;pas de largeur
 WARNING;artefact:8534;pas de hauteur
 WARNING;artefact:8534;pas de poids
 WARNING;artefact:8534;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A33>;est vide
+WARNING;artefact:8600;ligne vide
 WARNING;artefact:8600;pas de quantité
 WARNING;artefact:8600;pas de longueur
 WARNING;artefact:8600;pas de largeur
 WARNING;artefact:8600;pas de hauteur
 WARNING;artefact:8600;pas de poids
 WARNING;artefact:8600;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A34>;est vide
+WARNING;artefact:8601;ligne vide
 WARNING;artefact:8601;pas de quantité
 WARNING;artefact:8601;pas de longueur
 WARNING;artefact:8601;pas de largeur
 WARNING;artefact:8601;pas de hauteur
 WARNING;artefact:8601;pas de poids
 WARNING;artefact:8601;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A35>;est vide
+WARNING;artefact:8602;ligne vide
 WARNING;artefact:8602;pas de quantité
 WARNING;artefact:8602;pas de longueur
 WARNING;artefact:8602;pas de largeur
 WARNING;artefact:8602;pas de hauteur
 WARNING;artefact:8602;pas de poids
 WARNING;artefact:8602;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A36>;est vide
+WARNING;artefact:8676;ligne vide
 WARNING;artefact:8676;pas de quantité
 WARNING;artefact:8676;pas de longueur
 WARNING;artefact:8676;pas de largeur
 WARNING;artefact:8676;pas de hauteur
 WARNING;artefact:8676;pas de poids
 WARNING;artefact:8676;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A37>;est vide
+WARNING;artefact:8677;ligne vide
 WARNING;artefact:8677;pas de longueur
 WARNING;artefact:8677;pas de largeur
 WARNING;artefact:8677;pas de hauteur
 WARNING;artefact:8677;pas de poids
 WARNING;artefact:8677;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A38>;est vide
+WARNING;artefact:8678;ligne vide
 WARNING;artefact:8678;pas de longueur
 WARNING;artefact:8678;pas de largeur
 WARNING;artefact:8678;pas de hauteur
 WARNING;artefact:8678;pas de poids
 WARNING;artefact:8678;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A39>;est vide
+WARNING;artefact:8679;ligne vide
 WARNING;artefact:8679;pas de longueur
 WARNING;artefact:8679;pas de largeur
 WARNING;artefact:8679;pas de hauteur
 WARNING;artefact:8679;pas de poids
 WARNING;artefact:8679;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A40>;est vide
+WARNING;artefact:8894;ligne vide
 WARNING;artefact:8894;pas de longueur
 WARNING;artefact:8894;pas de largeur
 WARNING;artefact:8894;pas de hauteur
 WARNING;artefact:8894;pas de poids
 WARNING;artefact:8894;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A41>;est vide
+WARNING;artefact:8895;ligne vide
 WARNING;artefact:8895;pas de longueur
 WARNING;artefact:8895;pas de largeur
 WARNING;artefact:8895;pas de hauteur
 WARNING;artefact:8895;pas de poids
 WARNING;artefact:8895;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A42>;est vide
+WARNING;artefact:8896;ligne vide
 WARNING;artefact:8896;pas de longueur
 WARNING;artefact:8896;pas de largeur
 WARNING;artefact:8896;pas de hauteur
 WARNING;artefact:8896;pas de poids
 WARNING;artefact:8896;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A43>;est vide
+WARNING;artefact:8897;ligne vide
 WARNING;artefact:8897;pas de longueur
 WARNING;artefact:8897;pas de largeur
 WARNING;artefact:8897;pas de hauteur
 WARNING;artefact:8897;pas de poids
 WARNING;artefact:8897;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A44>;est vide
+WARNING;artefact:8898;ligne vide
 WARNING;artefact:8898;pas de longueur
 WARNING;artefact:8898;pas de largeur
 WARNING;artefact:8898;pas de hauteur
 WARNING;artefact:8898;pas de poids
 WARNING;artefact:8898;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A45>;est vide
+WARNING;artefact:8899;ligne vide
 WARNING;artefact:8899;pas de longueur
 WARNING;artefact:8899;pas de largeur
 WARNING;artefact:8899;pas de hauteur
 WARNING;artefact:8899;pas de poids
 WARNING;artefact:8899;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A46>;est vide
+WARNING;artefact:8900;ligne vide
 WARNING;artefact:8900;mauvais encodage de la longueur
 WARNING;artefact:8900;pas de largeur
 WARNING;artefact:8900;pas de hauteur
 WARNING;artefact:8900;pas de poids
 WARNING;artefact:8900;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A47>;est vide
+WARNING;artefact:8901;ligne vide
 WARNING;artefact:8901;mauvais encodage de la longueur
 WARNING;artefact:8901;pas de largeur
 WARNING;artefact:8901;pas de hauteur
 WARNING;artefact:8901;pas de poids
 WARNING;artefact:8901;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A48>;est vide
+WARNING;artefact:8902;ligne vide
 WARNING;artefact:8902;mauvais encodage de la longueur
 WARNING;artefact:8902;pas de largeur
 WARNING;artefact:8902;pas de hauteur
 WARNING;artefact:8902;pas de poids
 WARNING;artefact:8902;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A49>;est vide
+WARNING;artefact:8903;ligne vide
 WARNING;artefact:8903;mauvais encodage de la longueur
 WARNING;artefact:8903;pas de largeur
 WARNING;artefact:8903;pas de hauteur
 WARNING;artefact:8903;pas de poids
 WARNING;artefact:8903;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A50>;est vide
+WARNING;artefact:8904;ligne vide
 WARNING;artefact:8904;mauvais encodage de la longueur
 WARNING;artefact:8904;pas de largeur
 WARNING;artefact:8904;pas de hauteur
 WARNING;artefact:8904;pas de poids
 WARNING;artefact:8904;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A51>;est vide
+WARNING;artefact:8905;ligne vide
 WARNING;artefact:8905;pas de longueur
 WARNING;artefact:8905;pas de largeur
 WARNING;artefact:8905;pas de hauteur
 WARNING;artefact:8905;pas de poids
 WARNING;artefact:8905;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A52>;est vide
+WARNING;artefact:8906;ligne vide
 WARNING;artefact:8906;mauvais encodage de la longueur
 WARNING;artefact:8906;pas de largeur
 WARNING;artefact:8906;pas de hauteur
 WARNING;artefact:8906;pas de poids
 WARNING;artefact:8906;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A53>;est vide
+WARNING;artefact:8907;ligne vide
 WARNING;artefact:8907;mauvais encodage de la longueur
 WARNING;artefact:8907;pas de largeur
 WARNING;artefact:8907;pas de hauteur
 WARNING;artefact:8907;pas de poids
 WARNING;artefact:8907;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A54>;est vide
+WARNING;artefact:8908;ligne vide
 WARNING;artefact:8908;mauvais encodage de la longueur
 WARNING;artefact:8908;pas de largeur
 WARNING;artefact:8908;pas de hauteur
 WARNING;artefact:8908;pas de poids
 WARNING;artefact:8908;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A55>;est vide
+WARNING;artefact:8909;ligne vide
 WARNING;artefact:8909;mauvais encodage de la longueur
 WARNING;artefact:8909;pas de largeur
 WARNING;artefact:8909;mauvais encodage de la hauteur
 WARNING;artefact:8909;mauvais encodage du poids
 WARNING;artefact:8909;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A56>;est vide
+WARNING;artefact:8910;ligne vide
 WARNING;artefact:8910;pas de longueur
 WARNING;artefact:8910;pas de largeur
 WARNING;artefact:8910;pas de hauteur
 WARNING;artefact:8910;pas de poids
 WARNING;artefact:8910;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A57>;est vide
+WARNING;artefact:8911;ligne vide
 WARNING;artefact:8911;mauvais encodage de la longueur
 WARNING;artefact:8911;pas de largeur
 WARNING;artefact:8911;mauvais encodage de la hauteur
 WARNING;artefact:8911;mauvais encodage du poids
 WARNING;artefact:8911;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A58>;est vide
+WARNING;artefact:8912;ligne vide
 WARNING;artefact:8912;mauvais encodage de la longueur
 WARNING;artefact:8912;pas de largeur
 WARNING;artefact:8912;pas de hauteur
 WARNING;artefact:8912;pas de poids
 WARNING;artefact:8912;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A59>;est vide
+WARNING;artefact:8913;ligne vide
 WARNING;artefact:8913;mauvais encodage de la longueur
 WARNING;artefact:8913;pas de largeur
 WARNING;artefact:8913;pas de hauteur
 WARNING;artefact:8913;pas de poids
 WARNING;artefact:8913;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A60>;est vide
+WARNING;artefact:8914;ligne vide
 WARNING;artefact:8914;mauvais encodage de la longueur
 WARNING;artefact:8914;pas de largeur
 WARNING;artefact:8914;pas de hauteur
 WARNING;artefact:8914;pas de poids
 WARNING;artefact:8914;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A61>;est vide
+WARNING;artefact:8915;ligne vide
 WARNING;artefact:8915;pas de longueur
 WARNING;artefact:8915;pas de largeur
 WARNING;artefact:8915;pas de hauteur
 WARNING;artefact:8915;pas de poids
 WARNING;artefact:8915;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A62>;est vide
+WARNING;artefact:8956;ligne vide
 WARNING;artefact:8956;pas de longueur
 WARNING;artefact:8956;pas de largeur
 WARNING;artefact:8956;pas de hauteur
 WARNING;artefact:8956;pas de poids
 WARNING;artefact:8956;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A63>;est vide
+WARNING;artefact:8957;ligne vide
 WARNING;artefact:8957;pas de longueur
 WARNING;artefact:8957;pas de largeur
 WARNING;artefact:8957;pas de hauteur
 WARNING;artefact:8957;pas de poids
 WARNING;artefact:8957;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A64>;est vide
+WARNING;artefact:8958;ligne vide
 WARNING;artefact:8958;pas de longueur
 WARNING;artefact:8958;pas de largeur
 WARNING;artefact:8958;pas de hauteur
 WARNING;artefact:8958;pas de poids
 WARNING;artefact:8958;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A65>;est vide
+WARNING;artefact:8959;ligne vide
 WARNING;artefact:8959;pas de longueur
 WARNING;artefact:8959;pas de largeur
 WARNING;artefact:8959;mauvais encodage de la hauteur
 WARNING;artefact:8959;pas de poids
 WARNING;artefact:8959;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A66>;est vide
+WARNING;artefact:8960;ligne vide
 WARNING;artefact:8960;mauvais encodage de la longueur
 WARNING;artefact:8960;pas de largeur
 WARNING;artefact:8960;mauvais encodage de la hauteur
 WARNING;artefact:8960;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A67>;est vide
+WARNING;artefact:8960;pas de date d'entrée
+WARNING;artefact:8961;ligne vide
 WARNING;artefact:8961;mauvais encodage de la largeur
 WARNING;artefact:8961;mauvais encodage de la hauteur
 WARNING;artefact:8961;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A68>;est vide
+WARNING;artefact:8961;pas de date d'entrée
+WARNING;artefact:8962;ligne vide
 WARNING;artefact:8962;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A69>;est vide
+WARNING;artefact:8962;pas de date d'entrée
+WARNING;artefact:8963;ligne vide
 WARNING;artefact:8963;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A70>;est vide
-ERROR;artefact<Cell 'Inventaire'.A71>;est vide
+WARNING;artefact:8963;pas de date d'entrée
+WARNING;artefact:8964;ligne vide
+WARNING;artefact:8964;pas de date d'entrée
+WARNING;artefact:8965;ligne vide
 WARNING;artefact:8965;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A72>;est vide
+WARNING;artefact:8965;pas de date d'entrée
+WARNING;artefact:8966;ligne vide
 WARNING;artefact:8966;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A73>;est vide
+WARNING;artefact:8966;pas de date d'entrée
+WARNING;artefact:8967;ligne vide
 WARNING;artefact:8967;mauvais encodage de la longueur
 WARNING;artefact:8967;mauvais encodage de la largeur
-ERROR;artefact<Cell 'Inventaire'.A74>;est vide
+WARNING;artefact:8967;pas de date d'entrée
+WARNING;artefact:8968;ligne vide
 WARNING;artefact:8968;mauvais encodage de la longueur
 WARNING;artefact:8968;mauvais encodage de la largeur
 WARNING;artefact:8968;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A75>;est vide
+WARNING;artefact:8968;pas de date d'entrée
+WARNING;artefact:8969;ligne vide
 WARNING;artefact:8969;pas de quantité
 WARNING;artefact:8969;pas de longueur
 WARNING;artefact:8969;pas de largeur
 WARNING;artefact:8969;pas de hauteur
 WARNING;artefact:8969;pas de poids
 WARNING;artefact:8969;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A76>;est vide
+WARNING;artefact:8970;ligne vide
 WARNING;artefact:8970;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A77>;est vide
+WARNING;artefact:8970;pas de date d'entrée
+WARNING;artefact:9298;ligne vide
 WARNING;artefact:9298;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A78>;est vide
+WARNING;artefact:9298;pas de date d'entrée
+WARNING;artefact:9299;ligne vide
 WARNING;artefact:9299;mauvais encodage de la hauteur
 WARNING;artefact:9299;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A79>;est vide
+WARNING;artefact:9299;pas de date d'entrée
+WARNING;artefact:9300;ligne vide
 WARNING;artefact:9300;mauvais encodage de la hauteur
 WARNING;artefact:9300;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A80>;est vide
+WARNING;artefact:9300;pas de date d'entrée
+WARNING;artefact:9301;ligne vide
 WARNING;artefact:9301;pas de longueur
 WARNING;artefact:9301;pas de largeur
 WARNING;artefact:9301;pas de hauteur
 WARNING;artefact:9301;pas de poids
 WARNING;artefact:9301;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A81>;est vide
+WARNING;artefact:9302;ligne vide
 WARNING;artefact:9302;mauvais encodage de la largeur
 WARNING;artefact:9302;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A82>;est vide
+WARNING;artefact:9302;pas de date d'entrée
+WARNING;artefact:9303;ligne vide
 WARNING;artefact:9303;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A83>;est vide
+WARNING;artefact:9303;pas de date d'entrée
+WARNING;artefact:9304;ligne vide
 WARNING;artefact:9304;mauvais encodage de la largeur
 WARNING;artefact:9304;mauvais encodage de la hauteur
 WARNING;artefact:9304;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A84>;est vide
+WARNING;artefact:9304;pas de date d'entrée
+WARNING;artefact:9305;ligne vide
 WARNING;artefact:9305;mauvais encodage de la hauteur
 WARNING;artefact:9305;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A85>;est vide
+WARNING;artefact:9305;pas de date d'entrée
+WARNING;artefact:9306;ligne vide
 WARNING;artefact:9306;mauvais encodage de la largeur
 WARNING;artefact:9306;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A86>;est vide
+WARNING;artefact:9306;pas de date d'entrée
+WARNING;artefact:9307;ligne vide
 WARNING;artefact:9307;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A87>;est vide
+WARNING;artefact:9307;pas de date d'entrée
+WARNING;artefact:9308;ligne vide
 WARNING;artefact:9308;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A88>;est vide
+WARNING;artefact:9308;pas de date d'entrée
+WARNING;artefact:9309;ligne vide
 WARNING;artefact:9309;mauvais encodage de la longueur
 WARNING;artefact:9309;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A89>;est vide
+WARNING;artefact:9309;pas de date d'entrée
+WARNING;artefact:9337;ligne vide
 WARNING;artefact:9337;mauvais encodage de la hauteur
 WARNING;artefact:9337;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A90>;est vide
+WARNING;artefact:9337;pas de date d'entrée
+WARNING;artefact:9338;ligne vide
 WARNING;artefact:9338;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A91>;est vide
-ERROR;artefact<Cell 'Inventaire'.A92>;est vide
+WARNING;artefact:9338;pas de date d'entrée
+WARNING;artefact:9339;ligne vide
+WARNING;artefact:9339;pas de date d'entrée
+WARNING;artefact:9340;ligne vide
 WARNING;artefact:9340;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A93>;est vide
+WARNING;artefact:9340;pas de date d'entrée
+WARNING;artefact:9341;ligne vide
 WARNING;artefact:9341;pas de longueur
 WARNING;artefact:9341;pas de largeur
 WARNING;artefact:9341;pas de hauteur
 WARNING;artefact:9341;pas de poids
 WARNING;artefact:9341;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A94>;est vide
+WARNING;artefact:9342;ligne vide
 WARNING;artefact:9342;pas de longueur
 WARNING;artefact:9342;pas de largeur
 WARNING;artefact:9342;pas de hauteur
 WARNING;artefact:9342;pas de poids
 WARNING;artefact:9342;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A95>;est vide
-ERROR;artefact<Cell 'Inventaire'.A96>;est vide
+WARNING;artefact:9343;ligne vide
+WARNING;artefact:9343;pas de date d'entrée
+WARNING;artefact:9344;ligne vide
 WARNING;artefact:9344;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A97>;est vide
+WARNING;artefact:9344;pas de date d'entrée
+WARNING;artefact:9345;ligne vide
 WARNING;artefact:9345;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A98>;est vide
+WARNING;artefact:9345;pas de date d'entrée
+WARNING;artefact:9346;ligne vide
 WARNING;artefact:9346;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A99>;est vide
+WARNING;artefact:9346;pas de date d'entrée
+WARNING;artefact:9347;ligne vide
 WARNING;artefact:9347;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A100>;est vide
+WARNING;artefact:9347;pas de date d'entrée
+WARNING;artefact:9394;ligne vide
 WARNING;artefact:9394;mauvais encodage de la longueur
 WARNING;artefact:9394;mauvais encodage de la largeur
 WARNING;artefact:9394;mauvais encodage de la hauteur
 WARNING;artefact:9394;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A101>;est vide
+WARNING;artefact:9394;pas de date d'entrée
+WARNING;artefact:9395;ligne vide
 WARNING;artefact:9395;mauvais encodage de la longueur
 WARNING;artefact:9395;mauvais encodage de la largeur
 WARNING;artefact:9395;mauvais encodage de la hauteur
 WARNING;artefact:9395;mauvais encodage du poids
 WARNING;artefact:9395;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A102>;est vide
+WARNING;artefact:9396;ligne vide
 WARNING;artefact:9396;mauvais encodage de la longueur
 WARNING;artefact:9396;mauvais encodage de la largeur
 WARNING;artefact:9396;mauvais encodage de la hauteur
 WARNING;artefact:9396;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A103>;est vide
+WARNING;artefact:9396;pas de date d'entrée
+WARNING;artefact:9397;ligne vide
 WARNING;artefact:9397;mauvais encodage de la longueur
 WARNING;artefact:9397;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A104>;est vide
+WARNING;artefact:9397;pas de date d'entrée
+WARNING;artefact:9398;ligne vide
 WARNING;artefact:9398;mauvais encodage du poids
 WARNING;artefact:9398;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A105>;est vide
+WARNING;artefact:9399;ligne vide
 WARNING;artefact:9399;mauvais encodage de la hauteur
 WARNING;artefact:9399;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A106>;est vide
+WARNING;artefact:9399;pas de date d'entrée
+WARNING;artefact:9400;ligne vide
 WARNING;artefact:9400;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A107>;est vide
+WARNING;artefact:9400;pas de date d'entrée
+WARNING;artefact:9401;ligne vide
 WARNING;artefact:9401;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A108>;est vide
+WARNING;artefact:9401;pas de date d'entrée
+WARNING;artefact:9402;ligne vide
 WARNING;artefact:9402;mauvais encodage de la longueur
 WARNING;artefact:9402;mauvais encodage de la hauteur
 WARNING;artefact:9402;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A109>;est vide
+WARNING;artefact:9402;pas de date d'entrée
+WARNING;artefact:9403;ligne vide
 WARNING;artefact:9403;pas de quantité
 WARNING;artefact:9403;pas de longueur
 WARNING;artefact:9403;pas de largeur
 WARNING;artefact:9403;pas de hauteur
 WARNING;artefact:9403;pas de poids
 WARNING;artefact:9403;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A110>;est vide
+WARNING;artefact:9404;ligne vide
 WARNING;artefact:9404;mauvais encodage de la largeur
 WARNING;artefact:9404;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A111>;est vide
+WARNING;artefact:9404;pas de date d'entrée
+WARNING;artefact:9405;ligne vide
 WARNING;artefact:9405;mauvais encodage de la hauteur
 WARNING;artefact:9405;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A112>;est vide
+WARNING;artefact:9405;pas de date d'entrée
+WARNING;artefact:9406;ligne vide
 WARNING;artefact:9406;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A113>;est vide
+WARNING;artefact:9406;pas de date d'entrée
+WARNING;artefact:9407;ligne vide
 WARNING;artefact:9407;mauvais encodage de la hauteur
 WARNING;artefact:9407;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A114>;est vide
+WARNING;artefact:9407;pas de date d'entrée
+WARNING;artefact:9408;ligne vide
 WARNING;artefact:9408;mauvais encodage de la longueur
 WARNING;artefact:9408;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A115>;est vide
+WARNING;artefact:9408;pas de date d'entrée
+WARNING;artefact:9471;ligne vide
 WARNING;artefact:9471;mauvais encodage de la largeur
-ERROR;artefact<Cell 'Inventaire'.A116>;est vide
+WARNING;artefact:9471;pas de date d'entrée
+WARNING;artefact:9472;ligne vide
 WARNING;artefact:9472;mauvais encodage de la largeur
 WARNING;artefact:9472;mauvais encodage de la hauteur
 WARNING;artefact:9472;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A117>;est vide
+WARNING;artefact:9472;pas de date d'entrée
+WARNING;artefact:9473;ligne vide
 WARNING;artefact:9473;mauvais encodage de la largeur
 WARNING;artefact:9473;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A118>;est vide
+WARNING;artefact:9473;pas de date d'entrée
+WARNING;artefact:9474;ligne vide
 WARNING;artefact:9474;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A119>;est vide
+WARNING;artefact:9474;pas de date d'entrée
+WARNING;artefact:9475;ligne vide
 WARNING;artefact:9475;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A120>;est vide
+WARNING;artefact:9475;pas de date d'entrée
+WARNING;artefact:9476;ligne vide
 WARNING;artefact:9476;pas de longueur
 WARNING;artefact:9476;pas de largeur
 WARNING;artefact:9476;pas de hauteur
 WARNING;artefact:9476;pas de poids
 WARNING;artefact:9476;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A121>;est vide
+WARNING;artefact:9477;ligne vide
 WARNING;artefact:9477;mauvais encodage de la longueur
 WARNING;artefact:9477;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A122>;est vide
+WARNING;artefact:9477;pas de date d'entrée
+WARNING;artefact:9478;ligne vide
 WARNING;artefact:9478;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A123>;est vide
+WARNING;artefact:9478;pas de date d'entrée
+WARNING;artefact:9479;ligne vide
 WARNING;artefact:9479;mauvais encodage de la largeur
 WARNING;artefact:9479;mauvais encodage de la hauteur
 WARNING;artefact:9479;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A124>;est vide
+WARNING;artefact:9479;pas de date d'entrée
+WARNING;artefact:9480;ligne vide
 WARNING;artefact:9480;mauvais encodage de la longueur
 WARNING;artefact:9480;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A125>;est vide
-ERROR;artefact<Cell 'Inventaire'.A126>;est vide
+WARNING;artefact:9480;pas de date d'entrée
+WARNING;artefact:9669;ligne vide
+WARNING;artefact:9669;pas de date d'entrée
+WARNING;artefact:9670;ligne vide
 WARNING;artefact:9670;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A127>;est vide
+WARNING;artefact:9670;pas de date d'entrée
+WARNING;artefact:9671;ligne vide
 WARNING;artefact:9671;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A128>;est vide
+WARNING;artefact:9671;pas de date d'entrée
+WARNING;artefact:9672;ligne vide
 WARNING;artefact:9672;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A129>;est vide
+WARNING;artefact:9672;pas de date d'entrée
+WARNING;artefact:9673;ligne vide
 WARNING;artefact:9673;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A130>;est vide
+WARNING;artefact:9673;pas de date d'entrée
+WARNING;artefact:9674;ligne vide
 WARNING;artefact:9674;mauvais encodage de la longueur
 WARNING;artefact:9674;mauvais encodage de la largeur
 WARNING;artefact:9674;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A131>;est vide
-ERROR;artefact<Cell 'Inventaire'.A132>;est vide
+WARNING;artefact:9674;pas de date d'entrée
+WARNING;artefact:9675;ligne vide
+WARNING;artefact:9675;pas de date d'entrée
+WARNING;artefact:9676;ligne vide
 WARNING;artefact:9676;mauvais encodage de la longueur
 WARNING;artefact:9676;mauvais encodage de la largeur
 WARNING;artefact:9676;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A133>;est vide
+WARNING;artefact:9676;pas de date d'entrée
+WARNING;artefact:9677;ligne vide
 WARNING;artefact:9677;mauvais encodage de la largeur
 WARNING;artefact:9677;mauvais encodage de la hauteur
 WARNING;artefact:9677;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A134>;est vide
+WARNING;artefact:9677;pas de date d'entrée
+WARNING;artefact:9678;ligne vide
 WARNING;artefact:9678;mauvais encodage de la longueur
 WARNING;artefact:9678;mauvais encodage de la largeur
 WARNING;artefact:9678;mauvais encodage de la hauteur
 WARNING;artefact:9678;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A135>;est vide
+WARNING;artefact:9678;pas de date d'entrée
+WARNING;artefact:9679;ligne vide
 WARNING;artefact:9679;mauvais encodage de la hauteur
 WARNING;artefact:9679;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A136>;est vide
+WARNING;artefact:9679;pas de date d'entrée
+WARNING;artefact:9680;ligne vide
 WARNING;artefact:9680;mauvais encodage de la longueur
 WARNING;artefact:9680;mauvais encodage de la largeur
 WARNING;artefact:9680;mauvais encodage de la hauteur
 WARNING;artefact:9680;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A137>;est vide
+WARNING;artefact:9680;pas de date d'entrée
+WARNING;artefact:9681;ligne vide
 WARNING;artefact:9681;mauvais encodage de la hauteur
 WARNING;artefact:9681;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A138>;est vide
+WARNING;artefact:9681;pas de date d'entrée
+WARNING;artefact:9682;ligne vide
 WARNING;artefact:9682;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A139>;est vide
-ERROR;artefact<Cell 'Inventaire'.A140>;est vide
+WARNING;artefact:9682;pas de date d'entrée
+WARNING;artefact:9683;ligne vide
+WARNING;artefact:9683;pas de date d'entrée
+WARNING;artefact:9684;ligne vide
 WARNING;artefact:9684;mauvais encodage de la longueur
 WARNING;artefact:9684;mauvais encodage de la largeur
 WARNING;artefact:9684;mauvais encodage de la hauteur
 WARNING;artefact:9684;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A141>;est vide
-ERROR;artefact<Cell 'Inventaire'.A142>;est vide
+WARNING;artefact:9684;pas de date d'entrée
+WARNING;artefact:9685;ligne vide
+WARNING;artefact:9685;pas de date d'entrée
+WARNING;artefact:9686;ligne vide
 WARNING;artefact:9686;pas de longueur
 WARNING;artefact:9686;pas de largeur
 WARNING;artefact:9686;pas de hauteur
 WARNING;artefact:9686;pas de poids
 WARNING;artefact:9686;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A143>;est vide
+WARNING;artefact:9687;ligne vide
 WARNING;artefact:9687;mauvais encodage de la longueur
 WARNING;artefact:9687;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A144>;est vide
+WARNING;artefact:9687;pas de date d'entrée
+WARNING;artefact:9688;ligne vide
 WARNING;artefact:9688;mauvais encodage de la longueur
 WARNING;artefact:9688;mauvais encodage de la largeur
 WARNING;artefact:9688;mauvais encodage de la hauteur
 WARNING;artefact:9688;mauvais encodage du poids
 WARNING;artefact:9688;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A145>;est vide
+WARNING;artefact:9689;ligne vide
 WARNING;artefact:9689;pas de longueur
 WARNING;artefact:9689;pas de largeur
 WARNING;artefact:9689;pas de hauteur
 WARNING;artefact:9689;pas de poids
 WARNING;artefact:9689;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A146>;est vide
+WARNING;artefact:9690;ligne vide
 WARNING;artefact:9690;pas de longueur
 WARNING;artefact:9690;pas de largeur
 WARNING;artefact:9690;pas de hauteur
 WARNING;artefact:9690;pas de poids
 WARNING;artefact:9690;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A147>;est vide
+WARNING;artefact:9691;ligne vide
 WARNING;artefact:9691;pas de longueur
 WARNING;artefact:9691;pas de largeur
 WARNING;artefact:9691;pas de hauteur
 WARNING;artefact:9691;pas de poids
 WARNING;artefact:9691;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A148>;est vide
+WARNING;artefact:9692;ligne vide
 WARNING;artefact:9692;mauvais encodage de la largeur
 WARNING;artefact:9692;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A149>;est vide
+WARNING;artefact:9692;pas de date d'entrée
+WARNING;artefact:9693;ligne vide
 WARNING;artefact:9693;mauvais encodage de la hauteur
 WARNING;artefact:9693;mauvais encodage du poids
-ERROR;artefact:9693;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,1,'2005-08-08 00:00:00',2,5,NULL,NULL,'dans boite dorigine',NULL,NULL,52,NULL,' à la ligne 1
-ERROR;artefact:9693;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9693,'Collants de correction cartes','0','0',1950?,1,'2005-08-08 00:00:00',2,5,NULL,NULL,'dans boite dorigine',NULL,NULL,52,NULL,48,8,39)
+WARNING;artefact:9693;pas de date d'entrée
+ERROR;artefact:9693;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,1,NULL,2,5,NULL,NULL,'dans boite dorigine',NULL,NULL,52,NULL,48,8,39)' à la ligne 1
+ERROR;artefact:9693;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9693,'Collants de correction cartes','0','0',1950?,1,NULL,2,5,NULL,NULL,'dans boite dorigine',NULL,NULL,52,NULL,48,8,39)
 
-ERROR;artefact<Cell 'Inventaire'.A150>;est vide
+WARNING;artefact:9694;ligne vide
 WARNING;artefact:9694;pas de longueur
 WARNING;artefact:9694;pas de largeur
 WARNING;artefact:9694;pas de hauteur
 WARNING;artefact:9694;pas de poids
 WARNING;artefact:9694;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A151>;est vide
+WARNING;artefact:9695;ligne vide
 WARNING;artefact:9695;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A152>;est vide
+WARNING;artefact:9695;pas de date d'entrée
+WARNING;artefact:9696;ligne vide
 WARNING;artefact:9696;mauvais encodage de la longueur
 WARNING;artefact:9696;mauvais encodage de la largeur
 WARNING;artefact:9696;mauvais encodage de la hauteur
 WARNING;artefact:9696;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A153>;est vide
+WARNING;artefact:9696;pas de date d'entrée
+WARNING;artefact:9810;ligne vide
 WARNING;artefact:9810;mauvais encodage du poids
 WARNING;artefact:9810;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A154>;est vide
+WARNING;artefact:9811;ligne vide
 WARNING;artefact:9811;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A155>;est vide
+WARNING;artefact:9811;pas de date d'entrée
+WARNING;artefact:9812;ligne vide
 WARNING;artefact:9812;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A156>;est vide
+WARNING;artefact:9812;pas de date d'entrée
+WARNING;artefact:9813;ligne vide
 WARNING;artefact:9813;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A157>;est vide
+WARNING;artefact:9813;pas de date d'entrée
+WARNING;artefact:9814;ligne vide
 WARNING;artefact:9814;pas de longueur
 WARNING;artefact:9814;pas de largeur
 WARNING;artefact:9814;pas de hauteur
 WARNING;artefact:9814;pas de poids
 WARNING;artefact:9814;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A158>;est vide
+WARNING;artefact:9815;ligne vide
 WARNING;artefact:9815;mauvais encodage de la largeur
 WARNING;artefact:9815;mauvais encodage du poids
-ERROR;artefact:9815;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:9815;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9815,'Boite floppy 8"','0','0',0,11,'00:00:00',1,NULL,1,NULL,'Dans une boite DSKT récupérées',NULL,NULL,1,NULL,10,30,1)
-
-ERROR;artefact<Cell 'Inventaire'.A159>;est vide
+WARNING;artefact:9815;pas de date d'entrée
+WARNING;artefact:9816;ligne vide
 WARNING;artefact:9816;pas de quantité
 WARNING;artefact:9816;pas de longueur
 WARNING;artefact:9816;pas de largeur
 WARNING;artefact:9816;pas de hauteur
 WARNING;artefact:9816;pas de poids
 WARNING;artefact:9816;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A160>;est vide
+WARNING;artefact:9817;ligne vide
 WARNING;artefact:9817;pas de quantité
 WARNING;artefact:9817;pas de longueur
 WARNING;artefact:9817;pas de largeur
 WARNING;artefact:9817;pas de hauteur
 WARNING;artefact:9817;pas de poids
 WARNING;artefact:9817;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A161>;est vide
+WARNING;artefact:9818;ligne vide
 WARNING;artefact:9818;pas de longueur
 WARNING;artefact:9818;pas de largeur
 WARNING;artefact:9818;pas de hauteur
 WARNING;artefact:9818;pas de poids
 WARNING;artefact:9818;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A162>;est vide
+WARNING;artefact:9819;ligne vide
 WARNING;artefact:9819;pas de longueur
 WARNING;artefact:9819;pas de largeur
 WARNING;artefact:9819;pas de hauteur
 WARNING;artefact:9819;pas de poids
 WARNING;artefact:9819;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A163>;est vide
+WARNING;artefact:9820;ligne vide
 WARNING;artefact:9820;pas de longueur
 WARNING;artefact:9820;pas de largeur
 WARNING;artefact:9820;pas de hauteur
 WARNING;artefact:9820;pas de poids
 WARNING;artefact:9820;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A164>;est vide
+WARNING;artefact:9821;ligne vide
 WARNING;artefact:9821;pas de longueur
 WARNING;artefact:9821;pas de largeur
 WARNING;artefact:9821;pas de hauteur
 WARNING;artefact:9821;pas de poids
 WARNING;artefact:9821;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A165>;est vide
+WARNING;artefact:9822;ligne vide
 WARNING;artefact:9822;pas de quantité
 WARNING;artefact:9822;pas de longueur
 WARNING;artefact:9822;pas de largeur
 WARNING;artefact:9822;pas de hauteur
 WARNING;artefact:9822;pas de poids
 WARNING;artefact:9822;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A166>;est vide
+WARNING;artefact:9823;ligne vide
 WARNING;artefact:9823;pas de quantité
 WARNING;artefact:9823;pas de longueur
 WARNING;artefact:9823;pas de largeur
 WARNING;artefact:9823;pas de hauteur
 WARNING;artefact:9823;pas de poids
 WARNING;artefact:9823;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A167>;est vide
+WARNING;artefact:9824;ligne vide
 WARNING;artefact:9824;pas de quantité
 WARNING;artefact:9824;pas de longueur
 WARNING;artefact:9824;pas de largeur
 WARNING;artefact:9824;pas de hauteur
 WARNING;artefact:9824;pas de poids
 WARNING;artefact:9824;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A168>;est vide
+WARNING;artefact:9825;ligne vide
 WARNING;artefact:9825;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A169>;est vide
+WARNING;artefact:9825;pas de date d'entrée
+WARNING;artefact:9826;ligne vide
 WARNING;artefact:9826;mauvais encodage de la largeur
 WARNING;artefact:9826;mauvais encodage de la hauteur
 WARNING;artefact:9826;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A170>;est vide
+WARNING;artefact:9826;pas de date d'entrée
+WARNING;artefact:9827;ligne vide
 WARNING;artefact:9827;mauvais encodage de la longueur
 WARNING;artefact:9827;mauvais encodage de la hauteur
 WARNING;artefact:9827;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A171>;est vide
+WARNING;artefact:9827;pas de date d'entrée
+WARNING;artefact:9828;ligne vide
 WARNING;artefact:9828;mauvais encodage de la longueur
 WARNING;artefact:9828;mauvais encodage de la largeur
 WARNING;artefact:9828;mauvais encodage de la hauteur
 WARNING;artefact:9828;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A172>;est vide
+WARNING;artefact:9828;pas de date d'entrée
+WARNING;artefact:9829;ligne vide
 WARNING;artefact:9829;mauvais encodage de la hauteur
 WARNING;artefact:9829;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A173>;est vide
+WARNING;artefact:9829;pas de date d'entrée
+WARNING;artefact:9830;ligne vide
 WARNING;artefact:9830;mauvais encodage de la longueur
 WARNING;artefact:9830;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A174>;est vide
+WARNING;artefact:9830;pas de date d'entrée
+WARNING;artefact:9831;ligne vide
 WARNING;artefact:9831;mauvais encodage de la longueur
 WARNING;artefact:9831;mauvais encodage de la hauteur
 WARNING;artefact:9831;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A175>;est vide
+WARNING;artefact:9831;pas de date d'entrée
+WARNING;artefact:9832;ligne vide
 WARNING;artefact:9832;mauvais encodage de la longueur
 WARNING;artefact:9832;mauvais encodage de la largeur
 WARNING;artefact:9832;mauvais encodage de la hauteur
 WARNING;artefact:9832;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A176>;est vide
+WARNING;artefact:9832;pas de date d'entrée
+WARNING;artefact:9833;ligne vide
 WARNING;artefact:9833;mauvais encodage de la longueur
 WARNING;artefact:9833;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A177>;est vide
+WARNING;artefact:9833;pas de date d'entrée
+WARNING;artefact:9834;ligne vide
 WARNING;artefact:9834;mauvais encodage de la longueur
 WARNING;artefact:9834;mauvais encodage de la largeur
 WARNING;artefact:9834;mauvais encodage de la hauteur
 WARNING;artefact:9834;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A178>;est vide
+WARNING;artefact:9834;pas de date d'entrée
+WARNING;artefact:9835;ligne vide
 WARNING;artefact:9835;pas de longueur
 WARNING;artefact:9835;pas de largeur
 WARNING;artefact:9835;pas de hauteur
 WARNING;artefact:9835;pas de poids
 WARNING;artefact:9835;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A179>;est vide
+WARNING;artefact:9836;ligne vide
 WARNING;artefact:9836;pas de longueur
 WARNING;artefact:9836;pas de largeur
 WARNING;artefact:9836;pas de hauteur
 WARNING;artefact:9836;pas de poids
 WARNING;artefact:9836;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A180>;est vide
+WARNING;artefact:9837;ligne vide
 WARNING;artefact:9837;mauvais encodage de la largeur
 WARNING;artefact:9837;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A181>;est vide
+WARNING;artefact:9837;pas de date d'entrée
+WARNING;artefact:9838;ligne vide
 WARNING;artefact:9838;mauvais encodage de la largeur
 WARNING;artefact:9838;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A182>;est vide
+WARNING;artefact:9838;pas de date d'entrée
+WARNING;artefact:9839;ligne vide
 WARNING;artefact:9839;mauvais encodage de la longueur
 WARNING;artefact:9839;mauvais encodage de la largeur
 WARNING;artefact:9839;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A183>;est vide
+WARNING;artefact:9839;pas de date d'entrée
+WARNING;artefact:9840;ligne vide
 WARNING;artefact:9840;mauvais encodage de la hauteur
 WARNING;artefact:9840;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A184>;est vide
+WARNING;artefact:9840;pas de date d'entrée
+WARNING;artefact:9841;ligne vide
 WARNING;artefact:9841;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A185>;est vide
+WARNING;artefact:9841;pas de date d'entrée
+WARNING;artefact:9842;ligne vide
 WARNING;artefact:9842;mauvais encodage de la hauteur
 WARNING;artefact:9842;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A186>;est vide
+WARNING;artefact:9842;pas de date d'entrée
+WARNING;artefact:9843;ligne vide
 WARNING;artefact:9843;mauvais encodage de la hauteur
 WARNING;artefact:9843;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A187>;est vide
+WARNING;artefact:9843;pas de date d'entrée
+WARNING;artefact:9844;ligne vide
 WARNING;artefact:9844;mauvais encodage de la hauteur
 WARNING;artefact:9844;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A188>;est vide
+WARNING;artefact:9844;pas de date d'entrée
+WARNING;artefact:9855;ligne vide
 WARNING;artefact:9855;mauvais encodage de la hauteur
 WARNING;artefact:9855;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A189>;est vide
+WARNING;artefact:9855;pas de date d'entrée
+WARNING;artefact:9856;ligne vide
 WARNING;artefact:9856;mauvais encodage de la longueur
 WARNING;artefact:9856;mauvais encodage de la largeur
 WARNING;artefact:9856;mauvais encodage de la hauteur
 WARNING;artefact:9856;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A190>;est vide
+WARNING;artefact:9856;pas de date d'entrée
+WARNING;artefact:9857;ligne vide
 WARNING;artefact:9857;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A191>;est vide
+WARNING;artefact:9857;pas de date d'entrée
+WARNING;artefact:9858;ligne vide
 WARNING;artefact:9858;mauvais encodage de la longueur
 WARNING;artefact:9858;mauvais encodage de la largeur
 WARNING;artefact:9858;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A192>;est vide
+WARNING;artefact:9858;pas de date d'entrée
+WARNING;artefact:9859;ligne vide
 WARNING;artefact:9859;mauvais encodage de la longueur
 WARNING;artefact:9859;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A193>;est vide
+WARNING;artefact:9859;pas de date d'entrée
+WARNING;artefact:9860;ligne vide
 WARNING;artefact:9860;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A194>;est vide
+WARNING;artefact:9860;pas de date d'entrée
+WARNING;artefact:9861;ligne vide
 WARNING;artefact:9861;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A195>;est vide
+WARNING;artefact:9861;pas de date d'entrée
+WARNING;artefact:9862;ligne vide
 WARNING;artefact:9862;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A196>;est vide
+WARNING;artefact:9862;pas de date d'entrée
+WARNING;artefact:9863;ligne vide
 WARNING;artefact:9863;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A197>;est vide
+WARNING;artefact:9863;pas de date d'entrée
+WARNING;artefact:9864;ligne vide
 WARNING;artefact:9864;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A198>;est vide
+WARNING;artefact:9864;pas de date d'entrée
+WARNING;artefact:9889;ligne vide
 WARNING;artefact:9889;mauvais encodage de la longueur
 WARNING;artefact:9889;mauvais encodage de la largeur
 WARNING;artefact:9889;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A199>;est vide
+WARNING;artefact:9889;pas de date d'entrée
+WARNING;artefact:9890;ligne vide
 WARNING;artefact:9890;pas de longueur
 WARNING;artefact:9890;pas de largeur
 WARNING;artefact:9890;pas de hauteur
 WARNING;artefact:9890;pas de poids
 WARNING;artefact:9890;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A200>;est vide
+WARNING;artefact:9891;ligne vide
 WARNING;artefact:9891;pas de longueur
 WARNING;artefact:9891;pas de largeur
 WARNING;artefact:9891;pas de hauteur
 WARNING;artefact:9891;pas de poids
 WARNING;artefact:9891;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A201>;est vide
+WARNING;artefact:9892;ligne vide
 WARNING;artefact:9892;mauvais encodage de la longueur
 WARNING;artefact:9892;mauvais encodage de la largeur
 WARNING;artefact:9892;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A202>;est vide
+WARNING;artefact:9892;pas de date d'entrée
+WARNING;artefact:9893;ligne vide
 WARNING;artefact:9893;mauvais encodage de la longueur
 WARNING;artefact:9893;mauvais encodage de la largeur
 WARNING;artefact:9893;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A203>;est vide
+WARNING;artefact:9893;pas de date d'entrée
+WARNING;artefact:9894;ligne vide
 WARNING;artefact:9894;mauvais encodage de la longueur
 WARNING;artefact:9894;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A204>;est vide
+WARNING;artefact:9894;pas de date d'entrée
+WARNING;artefact:9895;ligne vide
 WARNING;artefact:9895;mauvais encodage de la longueur
 WARNING;artefact:9895;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A205>;est vide
+WARNING;artefact:9895;pas de date d'entrée
+WARNING;artefact:9896;ligne vide
 WARNING;artefact:9896;mauvais encodage de la longueur
 WARNING;artefact:9896;mauvais encodage de la largeur
 WARNING;artefact:9896;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A206>;est vide
+WARNING;artefact:9896;pas de date d'entrée
+WARNING;artefact:9897;ligne vide
 WARNING;artefact:9897;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A207>;est vide
+WARNING;artefact:9897;pas de date d'entrée
+WARNING;artefact:9898;ligne vide
 WARNING;artefact:9898;mauvais encodage de la largeur
 WARNING;artefact:9898;mauvais encodage de la hauteur
 WARNING;artefact:9898;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A208>;est vide
+WARNING;artefact:9898;pas de date d'entrée
+WARNING;artefact:9899;ligne vide
 WARNING;artefact:9899;mauvais encodage de la largeur
 WARNING;artefact:9899;mauvais encodage de la hauteur
 WARNING;artefact:9899;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A209>;est vide
+WARNING;artefact:9899;pas de date d'entrée
+WARNING;artefact:9900;ligne vide
 WARNING;artefact:9900;mauvais encodage de la longueur
 WARNING;artefact:9900;mauvais encodage de la largeur
 WARNING;artefact:9900;mauvais encodage de la hauteur
 WARNING;artefact:9900;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A210>;est vide
+WARNING;artefact:9900;pas de date d'entrée
+WARNING;artefact:9901;ligne vide
 WARNING;artefact:9901;mauvais encodage de la longueur
 WARNING;artefact:9901;mauvais encodage de la largeur
 WARNING;artefact:9901;mauvais encodage de la hauteur
 WARNING;artefact:9901;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A211>;est vide
+WARNING;artefact:9901;pas de date d'entrée
+WARNING;artefact:9902;ligne vide
 WARNING;artefact:9902;mauvais encodage de la longueur
 WARNING;artefact:9902;mauvais encodage de la largeur
 WARNING;artefact:9902;mauvais encodage de la hauteur
 WARNING;artefact:9902;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A212>;est vide
+WARNING;artefact:9902;pas de date d'entrée
+WARNING;artefact:9903;ligne vide
 WARNING;artefact:9903;mauvais encodage de la hauteur
 WARNING;artefact:9903;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A213>;est vide
+WARNING;artefact:9903;pas de date d'entrée
+WARNING;artefact:9904;ligne vide
 WARNING;artefact:9904;mauvais encodage de la hauteur
 WARNING;artefact:9904;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A214>;est vide
+WARNING;artefact:9904;pas de date d'entrée
+WARNING;artefact:9905;ligne vide
 WARNING;artefact:9905;mauvais encodage de la longueur
 WARNING;artefact:9905;mauvais encodage de la largeur
 WARNING;artefact:9905;mauvais encodage de la hauteur
 WARNING;artefact:9905;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A215>;est vide
+WARNING;artefact:9905;pas de date d'entrée
+WARNING;artefact:9906;ligne vide
 WARNING;artefact:9906;mauvais encodage de la longueur
 WARNING;artefact:9906;mauvais encodage de la largeur
 WARNING;artefact:9906;mauvais encodage de la hauteur
 WARNING;artefact:9906;mauvais encodage du poids
 WARNING;artefact:9906;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A216>;est vide
+WARNING;artefact:9907;ligne vide
 WARNING;artefact:9907;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A217>;est vide
+WARNING;artefact:9907;pas de date d'entrée
+WARNING;artefact:9908;ligne vide
 WARNING;artefact:9908;mauvais encodage de la largeur
 WARNING;artefact:9908;mauvais encodage de la hauteur
 WARNING;artefact:9908;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A218>;est vide
+WARNING;artefact:9908;pas de date d'entrée
+WARNING;artefact:9909;ligne vide
 WARNING;artefact:9909;mauvais encodage de la longueur
 WARNING;artefact:9909;mauvais encodage de la largeur
 WARNING;artefact:9909;mauvais encodage de la hauteur
 WARNING;artefact:9909;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A219>;est vide
+WARNING;artefact:9909;pas de date d'entrée
+WARNING;artefact:9910;ligne vide
 WARNING;artefact:9910;mauvais encodage de la hauteur
 WARNING;artefact:9910;mauvais encodage du poids
 WARNING;artefact:9910;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A220>;est vide
+WARNING;artefact:9911;ligne vide
 WARNING;artefact:9911;mauvais encodage de la longueur
 WARNING;artefact:9911;mauvais encodage de la largeur
 WARNING;artefact:9911;mauvais encodage de la hauteur
 WARNING;artefact:9911;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A221>;est vide
+WARNING;artefact:9911;pas de date d'entrée
+WARNING;artefact:9912;ligne vide
 WARNING;artefact:9912;mauvais encodage de la longueur
 WARNING;artefact:9912;mauvais encodage de la largeur
 WARNING;artefact:9912;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A222>;est vide
+WARNING;artefact:9912;pas de date d'entrée
+WARNING;artefact:9913;ligne vide
 WARNING;artefact:9913;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A223>;est vide
+WARNING;artefact:9913;pas de date d'entrée
+WARNING;artefact:9914;ligne vide
 WARNING;artefact:9914;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A224>;est vide
+WARNING;artefact:9914;pas de date d'entrée
+WARNING;artefact:9915;ligne vide
 WARNING;artefact:9915;mauvais encodage de la hauteur
 WARNING;artefact:9915;mauvais encodage du poids
 WARNING;artefact:9915;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A225>;est vide
+WARNING;artefact:9916;ligne vide
 WARNING;artefact:9916;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A226>;est vide
+WARNING;artefact:9916;pas de date d'entrée
+WARNING;artefact:9917;ligne vide
 WARNING;artefact:9917;mauvais encodage du poids
 WARNING;artefact:9917;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A227>;est vide
+WARNING;artefact:9918;ligne vide
 WARNING;artefact:9918;mauvais encodage de la hauteur
 WARNING;artefact:9918;mauvais encodage du poids
 WARNING;artefact:9918;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A228>;est vide
+WARNING;artefact:9919;ligne vide
 WARNING;artefact:9919;pas de quantité
 WARNING;artefact:9919;pas de longueur
 WARNING;artefact:9919;pas de largeur
 WARNING;artefact:9919;pas de hauteur
 WARNING;artefact:9919;pas de poids
 WARNING;artefact:9919;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A229>;est vide
+WARNING;artefact:9920;ligne vide
 WARNING;artefact:9920;pas de quantité
 WARNING;artefact:9920;pas de longueur
 WARNING;artefact:9920;pas de largeur
 WARNING;artefact:9920;pas de hauteur
 WARNING;artefact:9920;pas de poids
 WARNING;artefact:9920;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A230>;est vide
+WARNING;artefact:9921;ligne vide
 WARNING;artefact:9921;pas de quantité
 WARNING;artefact:9921;pas de longueur
 WARNING;artefact:9921;pas de largeur
 WARNING;artefact:9921;pas de hauteur
 WARNING;artefact:9921;pas de poids
 WARNING;artefact:9921;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A231>;est vide
+WARNING;artefact:9922;ligne vide
 WARNING;artefact:9922;pas de quantité
 WARNING;artefact:9922;pas de longueur
 WARNING;artefact:9922;pas de largeur
 WARNING;artefact:9922;pas de hauteur
 WARNING;artefact:9922;pas de poids
 WARNING;artefact:9922;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A232>;est vide
+WARNING;artefact:9923;ligne vide
 WARNING;artefact:9923;mauvais encodage de la hauteur
 WARNING;artefact:9923;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A233>;est vide
+WARNING;artefact:9923;pas de date d'entrée
+WARNING;artefact:9924;ligne vide
 WARNING;artefact:9924;mauvais encodage de la longueur
 WARNING;artefact:9924;mauvais encodage de la largeur
 WARNING;artefact:9924;mauvais encodage de la hauteur
 WARNING;artefact:9924;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A234>;est vide
+WARNING;artefact:9924;pas de date d'entrée
+WARNING;artefact:10232;ligne vide
 WARNING;artefact:10232;mauvais encodage de la longueur
 WARNING;artefact:10232;mauvais encodage de la largeur
 WARNING;artefact:10232;mauvais encodage de la hauteur
 WARNING;artefact:10232;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A235>;est vide
-ERROR;artefact<Cell 'Inventaire'.A236>;est vide
-ERROR;artefact<Cell 'Inventaire'.A237>;est vide
+WARNING;artefact:10232;pas de date d'entrée
+WARNING;artefact:10233;ligne vide
+WARNING;artefact:10233;pas de date d'entrée
+WARNING;artefact:10234;ligne vide
+WARNING;artefact:10234;pas de date d'entrée
+WARNING;artefact:10236;ligne vide
 WARNING;artefact:10236;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A238>;est vide
+WARNING;artefact:10236;pas de date d'entrée
+WARNING;artefact:10245;ligne vide
 WARNING;artefact:10245;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A239>;est vide
+WARNING;artefact:10245;pas de date d'entrée
+WARNING;artefact:10246;ligne vide
 WARNING;artefact:10246;mauvais encodage de la longueur
 WARNING;artefact:10246;mauvais encodage de la largeur
 WARNING;artefact:10246;mauvais encodage de la hauteur
 WARNING;artefact:10246;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A240>;est vide
+WARNING;artefact:10246;pas de date d'entrée
+WARNING;artefact:10247;ligne vide
 WARNING;artefact:10247;mauvais encodage de la longueur
 WARNING;artefact:10247;mauvais encodage de la largeur
 WARNING;artefact:10247;mauvais encodage de la hauteur
 WARNING;artefact:10247;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A241>;est vide
+WARNING;artefact:10247;pas de date d'entrée
+WARNING;artefact:10248;ligne vide
 WARNING;artefact:10248;mauvais encodage de la longueur
 WARNING;artefact:10248;mauvais encodage de la largeur
 WARNING;artefact:10248;mauvais encodage de la hauteur
 WARNING;artefact:10248;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A242>;est vide
+WARNING;artefact:10248;pas de date d'entrée
+WARNING;artefact:10249;ligne vide
 WARNING;artefact:10249;mauvais encodage de la largeur
 WARNING;artefact:10249;mauvais encodage de la hauteur
 WARNING;artefact:10249;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A243>;est vide
+WARNING;artefact:10249;pas de date d'entrée
+WARNING;artefact:10250;ligne vide
 WARNING;artefact:10250;mauvais encodage de la longueur
 WARNING;artefact:10250;mauvais encodage de la largeur
 WARNING;artefact:10250;mauvais encodage de la hauteur
 WARNING;artefact:10250;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A244>;est vide
+WARNING;artefact:10250;pas de date d'entrée
+WARNING;artefact:10251;ligne vide
 WARNING;artefact:10251;mauvais encodage de la longueur
 WARNING;artefact:10251;mauvais encodage de la largeur
 WARNING;artefact:10251;mauvais encodage de la hauteur
 WARNING;artefact:10251;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A245>;est vide
+WARNING;artefact:10251;pas de date d'entrée
+WARNING;artefact:10252;ligne vide
 WARNING;artefact:10252;mauvais encodage de la largeur
 WARNING;artefact:10252;mauvais encodage de la hauteur
 WARNING;artefact:10252;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A246>;est vide
+WARNING;artefact:10252;pas de date d'entrée
+WARNING;artefact:10253;ligne vide
 WARNING;artefact:10253;mauvais encodage de la largeur
 WARNING;artefact:10253;mauvais encodage de la hauteur
 WARNING;artefact:10253;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A247>;est vide
+WARNING;artefact:10253;pas de date d'entrée
+WARNING;artefact:10254;ligne vide
 WARNING;artefact:10254;pas de quantité
 WARNING;artefact:10254;pas de longueur
 WARNING;artefact:10254;pas de largeur
 WARNING;artefact:10254;pas de hauteur
 WARNING;artefact:10254;pas de poids
 WARNING;artefact:10254;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A248>;est vide
+WARNING;artefact:10255;ligne vide
 WARNING;artefact:10255;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A249>;est vide
+WARNING;artefact:10255;pas de date d'entrée
+WARNING;artefact:10256;ligne vide
 WARNING;artefact:10256;mauvais encodage de la longueur
 WARNING;artefact:10256;mauvais encodage de la largeur
 WARNING;artefact:10256;mauvais encodage de la hauteur
 WARNING;artefact:10256;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A250>;est vide
+WARNING;artefact:10256;pas de date d'entrée
+WARNING;artefact:10257;ligne vide
 WARNING;artefact:10257;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A251>;est vide
+WARNING;artefact:10257;pas de date d'entrée
+WARNING;artefact:10258;ligne vide
 WARNING;artefact:10258;mauvais encodage de la largeur
 WARNING;artefact:10258;mauvais encodage de la hauteur
 WARNING;artefact:10258;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A252>;est vide
+WARNING;artefact:10258;pas de date d'entrée
+WARNING;artefact:10259;ligne vide
 WARNING;artefact:10259;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A253>;est vide
+WARNING;artefact:10259;pas de date d'entrée
+WARNING;artefact:10260;ligne vide
 WARNING;artefact:10260;mauvais encodage de la largeur
 WARNING;artefact:10260;mauvais encodage de la hauteur
 WARNING;artefact:10260;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A254>;est vide
+WARNING;artefact:10260;pas de date d'entrée
+WARNING;artefact:10291;ligne vide
 WARNING;artefact:10291;pas de quantité
 WARNING;artefact:10291;pas de longueur
 WARNING;artefact:10291;pas de largeur
 WARNING;artefact:10291;pas de hauteur
 WARNING;artefact:10291;pas de poids
 WARNING;artefact:10291;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A255>;est vide
+WARNING;artefact:10292;ligne vide
 WARNING;artefact:10292;pas de quantité
 WARNING;artefact:10292;pas de longueur
 WARNING;artefact:10292;pas de largeur
 WARNING;artefact:10292;pas de hauteur
 WARNING;artefact:10292;pas de poids
 WARNING;artefact:10292;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A256>;est vide
+WARNING;artefact:10293;ligne vide
 WARNING;artefact:10293;pas de quantité
 WARNING;artefact:10293;pas de longueur
 WARNING;artefact:10293;pas de largeur
 WARNING;artefact:10293;pas de hauteur
 WARNING;artefact:10293;pas de poids
 WARNING;artefact:10293;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A257>;est vide
+WARNING;artefact:10294;ligne vide
 WARNING;artefact:10294;pas de quantité
 WARNING;artefact:10294;pas de longueur
 WARNING;artefact:10294;pas de largeur
 WARNING;artefact:10294;pas de hauteur
 WARNING;artefact:10294;pas de poids
 WARNING;artefact:10294;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A258>;est vide
+WARNING;artefact:10295;ligne vide
 WARNING;artefact:10295;pas de quantité
 WARNING;artefact:10295;pas de longueur
 WARNING;artefact:10295;pas de largeur
 WARNING;artefact:10295;pas de hauteur
 WARNING;artefact:10295;pas de poids
 WARNING;artefact:10295;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A259>;est vide
+WARNING;artefact:10296;ligne vide
 WARNING;artefact:10296;pas de quantité
 WARNING;artefact:10296;pas de longueur
 WARNING;artefact:10296;pas de largeur
 WARNING;artefact:10296;pas de hauteur
 WARNING;artefact:10296;pas de poids
 WARNING;artefact:10296;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A260>;est vide
+WARNING;artefact:10297;ligne vide
 WARNING;artefact:10297;pas de quantité
 WARNING;artefact:10297;pas de longueur
 WARNING;artefact:10297;pas de largeur
 WARNING;artefact:10297;pas de hauteur
 WARNING;artefact:10297;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A261>;est vide
+WARNING;artefact:10297;pas de date d'entrée
+WARNING;artefact:10298;ligne vide
 WARNING;artefact:10298;pas de quantité
 WARNING;artefact:10298;pas de longueur
 WARNING;artefact:10298;pas de largeur
 WARNING;artefact:10298;pas de hauteur
 WARNING;artefact:10298;pas de poids
 WARNING;artefact:10298;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A262>;est vide
+WARNING;artefact:10299;ligne vide
 WARNING;artefact:10299;mauvais encodage de la hauteur
 WARNING;artefact:10299;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A263>;est vide
+WARNING;artefact:10299;pas de date d'entrée
+WARNING;artefact:10310;ligne vide
 WARNING;artefact:10310;mauvais encodage de la longueur
 WARNING;artefact:10310;mauvais encodage de la hauteur
 WARNING;artefact:10310;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A264>;est vide
+WARNING;artefact:10310;pas de date d'entrée
+WARNING;artefact:10311;ligne vide
 WARNING;artefact:10311;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A265>;est vide
+WARNING;artefact:10311;pas de date d'entrée
+WARNING;artefact:10312;ligne vide
 WARNING;artefact:10312;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A266>;est vide
+WARNING;artefact:10312;pas de date d'entrée
+WARNING;artefact:10313;ligne vide
 WARNING;artefact:10313;mauvais encodage de la hauteur
 WARNING;artefact:10313;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A267>;est vide
+WARNING;artefact:10313;pas de date d'entrée
+WARNING;artefact:10314;ligne vide
 WARNING;artefact:10314;mauvais encodage de la longueur
 WARNING;artefact:10314;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A268>;est vide
+WARNING;artefact:10314;pas de date d'entrée
+WARNING;artefact:10350;ligne vide
 WARNING;artefact:10350;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A269>;est vide
-ERROR;artefact<Cell 'Inventaire'.A270>;est vide
+WARNING;artefact:10350;pas de date d'entrée
+WARNING;artefact:10351;ligne vide
+WARNING;artefact:10351;pas de date d'entrée
+WARNING;artefact:10352;ligne vide
 WARNING;artefact:10352;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A271>;est vide
-ERROR;artefact<Cell 'Inventaire'.A272>;est vide
+WARNING;artefact:10352;pas de date d'entrée
+WARNING;artefact:10353;ligne vide
+WARNING;artefact:10353;pas de date d'entrée
+WARNING;artefact:10495;ligne vide
 WARNING;artefact:10495;mauvais encodage de la longueur
 WARNING;artefact:10495;mauvais encodage de la largeur
 WARNING;artefact:10495;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A273>;est vide
+WARNING;artefact:10495;pas de date d'entrée
+WARNING;artefact:10496;ligne vide
 WARNING;artefact:10496;pas de quantité
 WARNING;artefact:10496;pas de longueur
 WARNING;artefact:10496;pas de largeur
 WARNING;artefact:10496;pas de hauteur
 WARNING;artefact:10496;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A274>;est vide
+WARNING;artefact:10496;pas de date d'entrée
+WARNING;artefact:10497;ligne vide
 WARNING;artefact:10497;mauvais encodage de la longueur
 WARNING;artefact:10497;mauvais encodage de la hauteur
 WARNING;artefact:10497;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A275>;est vide
+WARNING;artefact:10497;pas de date d'entrée
+WARNING;artefact:10498;ligne vide
 WARNING;artefact:10498;mauvais encodage de la longueur
 WARNING;artefact:10498;mauvais encodage de la hauteur
 WARNING;artefact:10498;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A276>;est vide
+WARNING;artefact:10498;pas de date d'entrée
+WARNING;artefact:10572;ligne vide
 WARNING;artefact:10572;mauvais encodage de la longueur
 WARNING;artefact:10572;mauvais encodage de la largeur
 WARNING;artefact:10572;mauvais encodage de la hauteur
 WARNING;artefact:10572;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A277>;est vide
+WARNING;artefact:10572;pas de date d'entrée
+WARNING;artefact:10573;ligne vide
 WARNING;artefact:10573;mauvais encodage de la longueur
 WARNING;artefact:10573;mauvais encodage de la largeur
 WARNING;artefact:10573;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A278>;est vide
+WARNING;artefact:10573;pas de date d'entrée
+WARNING;artefact:10574;ligne vide
 WARNING;artefact:10574;mauvais encodage de la longueur
 WARNING;artefact:10574;mauvais encodage de la largeur
 WARNING;artefact:10574;mauvais encodage de la hauteur
 WARNING;artefact:10574;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A279>;est vide
+WARNING;artefact:10574;pas de date d'entrée
+WARNING;artefact:10575;ligne vide
 WARNING;artefact:10575;mauvais encodage de la longueur
 WARNING;artefact:10575;mauvais encodage de la largeur
 WARNING;artefact:10575;mauvais encodage de la hauteur
 WARNING;artefact:10575;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A280>;est vide
+WARNING;artefact:10575;pas de date d'entrée
+WARNING;artefact:10576;ligne vide
 WARNING;artefact:10576;mauvais encodage de la longueur
 WARNING;artefact:10576;mauvais encodage de la largeur
 WARNING;artefact:10576;mauvais encodage de la hauteur
 WARNING;artefact:10576;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A281>;est vide
+WARNING;artefact:10576;pas de date d'entrée
+WARNING;artefact:10577;ligne vide
 WARNING;artefact:10577;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A282>;est vide
+WARNING;artefact:10577;pas de date d'entrée
+WARNING;artefact:10578;ligne vide
 WARNING;artefact:10578;mauvais encodage de la longueur
 WARNING;artefact:10578;mauvais encodage de la largeur
 WARNING;artefact:10578;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A283>;est vide
+WARNING;artefact:10578;pas de date d'entrée
+WARNING;artefact:10579;ligne vide
 WARNING;artefact:10579;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A284>;est vide
+WARNING;artefact:10579;pas de date d'entrée
+WARNING;artefact:10580;ligne vide
 WARNING;artefact:10580;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A285>;est vide
+WARNING;artefact:10580;pas de date d'entrée
+WARNING;artefact:10581;ligne vide
 WARNING;artefact:10581;mauvais encodage de la hauteur
 WARNING;artefact:10581;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A286>;est vide
+WARNING;artefact:10581;pas de date d'entrée
+WARNING;artefact:10598;ligne vide
 WARNING;artefact:10598;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A287>;est vide
+WARNING;artefact:10598;pas de date d'entrée
+WARNING;artefact:10599;ligne vide
 WARNING;artefact:10599;mauvais encodage de la longueur
 WARNING;artefact:10599;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A288>;est vide
+WARNING;artefact:10599;pas de date d'entrée
+WARNING;artefact:10600;ligne vide
 WARNING;artefact:10600;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A289>;est vide
+WARNING;artefact:10600;pas de date d'entrée
+WARNING;artefact:10601;ligne vide
 WARNING;artefact:10601;mauvais encodage de la longueur
 WARNING;artefact:10601;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A290>;est vide
+WARNING;artefact:10601;pas de date d'entrée
+WARNING;artefact:10602;ligne vide
 WARNING;artefact:10602;mauvais encodage de la longueur
 WARNING;artefact:10602;mauvais encodage de la hauteur
 WARNING;artefact:10602;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A291>;est vide
+WARNING;artefact:10602;pas de date d'entrée
+WARNING;artefact:10603;ligne vide
 WARNING;artefact:10603;mauvais encodage de la longueur
 WARNING;artefact:10603;mauvais encodage de la hauteur
 WARNING;artefact:10603;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A292>;est vide
+WARNING;artefact:10603;pas de date d'entrée
+WARNING;artefact:10604;ligne vide
 WARNING;artefact:10604;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A293>;est vide
+WARNING;artefact:10604;pas de date d'entrée
+WARNING;artefact:10605;ligne vide
 WARNING;artefact:10605;mauvais encodage de la longueur
 WARNING;artefact:10605;mauvais encodage de la largeur
 WARNING;artefact:10605;mauvais encodage de la hauteur
 WARNING;artefact:10605;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A294>;est vide
+WARNING;artefact:10605;pas de date d'entrée
+WARNING;artefact:10606;ligne vide
 WARNING;artefact:10606;mauvais encodage de la hauteur
 WARNING;artefact:10606;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A295>;est vide
+WARNING;artefact:10606;pas de date d'entrée
+WARNING;artefact:10607;ligne vide
 WARNING;artefact:10607;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A296>;est vide
+WARNING;artefact:10607;pas de date d'entrée
+WARNING;artefact:10608;ligne vide
 WARNING;artefact:10608;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A297>;est vide
+WARNING;artefact:10608;pas de date d'entrée
+WARNING;artefact:10609;ligne vide
 WARNING;artefact:10609;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A298>;est vide
+WARNING;artefact:10609;pas de date d'entrée
+WARNING;artefact:10610;ligne vide
 WARNING;artefact:10610;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A299>;est vide
+WARNING;artefact:10610;pas de date d'entrée
+WARNING;artefact:10611;ligne vide
 WARNING;artefact:10611;mauvais encodage du poids
 WARNING;artefact:10611;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A300>;est vide
+WARNING;artefact:10983;ligne vide
 WARNING;artefact:10983;mauvais encodage de la largeur
 WARNING;artefact:10983;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A301>;est vide
+WARNING;artefact:10983;pas de date d'entrée
+WARNING;artefact:10984;ligne vide
 WARNING;artefact:10984;mauvais encodage de la largeur
 WARNING;artefact:10984;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A302>;est vide
+WARNING;artefact:10984;pas de date d'entrée
+WARNING;artefact:10985;ligne vide
 WARNING;artefact:10985;mauvais encodage de la largeur
 WARNING;artefact:10985;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A303>;est vide
+WARNING;artefact:10985;pas de date d'entrée
+WARNING;artefact:10986;ligne vide
 WARNING;artefact:10986;mauvais encodage de la longueur
 WARNING;artefact:10986;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A304>;est vide
+WARNING;artefact:10986;pas de date d'entrée
+WARNING;artefact:10987;ligne vide
 WARNING;artefact:10987;mauvais encodage de la largeur
 WARNING;artefact:10987;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A305>;est vide
+WARNING;artefact:10987;pas de date d'entrée
+WARNING;artefact:10988;ligne vide
 WARNING;artefact:10988;mauvais encodage de la largeur
 WARNING;artefact:10988;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A306>;est vide
+WARNING;artefact:10988;pas de date d'entrée
+WARNING;artefact:10989;ligne vide
 WARNING;artefact:10989;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A307>;est vide
+WARNING;artefact:10989;pas de date d'entrée
+WARNING;artefact:10990;ligne vide
 WARNING;artefact:10990;mauvais encodage de la largeur
 WARNING;artefact:10990;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A308>;est vide
+WARNING;artefact:10990;pas de date d'entrée
+WARNING;artefact:10991;ligne vide
 WARNING;artefact:10991;mauvais encodage de la longueur
 WARNING;artefact:10991;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A309>;est vide
+WARNING;artefact:10991;pas de date d'entrée
+WARNING;artefact:10992;ligne vide
 WARNING;artefact:10992;mauvais encodage de la hauteur
 WARNING;artefact:10992;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A310>;est vide
+WARNING;artefact:10992;pas de date d'entrée
+WARNING;artefact:10993;ligne vide
 WARNING;artefact:10993;mauvais encodage de la longueur
 WARNING;artefact:10993;mauvais encodage de la largeur
 WARNING;artefact:10993;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A311>;est vide
+WARNING;artefact:10993;pas de date d'entrée
+WARNING;artefact:10994;ligne vide
 WARNING;artefact:10994;mauvais encodage de la longueur
 WARNING;artefact:10994;mauvais encodage de la largeur
 WARNING;artefact:10994;mauvais encodage de la hauteur
 WARNING;artefact:10994;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A312>;est vide
+WARNING;artefact:10994;pas de date d'entrée
+WARNING;artefact:10995;ligne vide
 WARNING;artefact:10995;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A313>;est vide
-ERROR;artefact<Cell 'Inventaire'.A314>;est vide
-ERROR;artefact<Cell 'Inventaire'.A315>;est vide
+WARNING;artefact:10995;pas de date d'entrée
+WARNING;artefact:10996;ligne vide
+WARNING;artefact:10996;pas de date d'entrée
+WARNING;artefact:10997;ligne vide
+WARNING;artefact:10997;pas de date d'entrée
+WARNING;artefact:10998;ligne vide
 WARNING;artefact:10998;pas de longueur
 WARNING;artefact:10998;pas de largeur
 WARNING;artefact:10998;pas de hauteur
 WARNING;artefact:10998;pas de poids
 WARNING;artefact:10998;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A316>;est vide
+WARNING;artefact:10999;ligne vide
 WARNING;artefact:10999;pas de longueur
 WARNING;artefact:10999;pas de largeur
 WARNING;artefact:10999;pas de hauteur
 WARNING;artefact:10999;pas de poids
 WARNING;artefact:10999;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A317>;est vide
+WARNING;artefact:11000;ligne vide
 WARNING;artefact:11000;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A318>;est vide
+WARNING;artefact:11000;pas de date d'entrée
+WARNING;artefact:11001;ligne vide
 WARNING;artefact:11001;pas de longueur
 WARNING;artefact:11001;pas de largeur
 WARNING;artefact:11001;pas de hauteur
 WARNING;artefact:11001;pas de poids
 WARNING;artefact:11001;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A319>;est vide
+WARNING;artefact:11002;ligne vide
 WARNING;artefact:11002;mauvais encodage de la longueur
 WARNING;artefact:11002;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A320>;est vide
+WARNING;artefact:11002;pas de date d'entrée
+WARNING;artefact:11003;ligne vide
 WARNING;artefact:11003;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A321>;est vide
+WARNING;artefact:11003;pas de date d'entrée
+WARNING;artefact:11004;ligne vide
 WARNING;artefact:11004;mauvais encodage de la hauteur
 WARNING;artefact:11004;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A322>;est vide
+WARNING;artefact:11004;pas de date d'entrée
+WARNING;artefact:11005;ligne vide
 WARNING;artefact:11005;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A323>;est vide
+WARNING;artefact:11005;pas de date d'entrée
+WARNING;artefact:11006;ligne vide
 WARNING;artefact:11006;mauvais encodage de la longueur
 WARNING;artefact:11006;mauvais encodage de la hauteur
 WARNING;artefact:11006;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A324>;est vide
+WARNING;artefact:11006;pas de date d'entrée
+WARNING;artefact:11007;ligne vide
 WARNING;artefact:11007;mauvais encodage de la longueur
 WARNING;artefact:11007;mauvais encodage de la largeur
 WARNING;artefact:11007;mauvais encodage de la hauteur
 WARNING;artefact:11007;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A325>;est vide
+WARNING;artefact:11007;pas de date d'entrée
+WARNING;artefact:11032;ligne vide
 WARNING;artefact:11032;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A326>;est vide
+WARNING;artefact:11032;pas de date d'entrée
+WARNING;artefact:11033;ligne vide
 WARNING;artefact:11033;mauvais encodage de la longueur
 WARNING;artefact:11033;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A327>;est vide
+WARNING;artefact:11033;pas de date d'entrée
+WARNING;artefact:11034;ligne vide
 WARNING;artefact:11034;mauvais encodage du poids
 WARNING;artefact:11034;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A328>;est vide
+WARNING;artefact:11052;ligne vide
 WARNING;artefact:11052;pas de longueur
 WARNING;artefact:11052;pas de largeur
 WARNING;artefact:11052;pas de hauteur
 WARNING;artefact:11052;pas de poids
 WARNING;artefact:11052;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A329>;est vide
+WARNING;artefact:11053;ligne vide
 WARNING;artefact:11053;mauvais encodage de la longueur
 WARNING;artefact:11053;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A330>;est vide
+WARNING;artefact:11053;pas de date d'entrée
+WARNING;artefact:11054;ligne vide
 WARNING;artefact:11054;mauvais encodage de la largeur
 WARNING;artefact:11054;mauvais encodage de la hauteur
 WARNING;artefact:11054;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A331>;est vide
+WARNING;artefact:11054;pas de date d'entrée
+WARNING;artefact:11055;ligne vide
 WARNING;artefact:11055;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A332>;est vide
+WARNING;artefact:11055;pas de date d'entrée
+WARNING;artefact:11056;ligne vide
 WARNING;artefact:11056;pas de longueur
 WARNING;artefact:11056;pas de largeur
 WARNING;artefact:11056;pas de hauteur
 WARNING;artefact:11056;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A333>;est vide
+WARNING;artefact:11056;pas de date d'entrée
+WARNING;artefact:11057;ligne vide
 WARNING;artefact:11057;mauvais encodage de la longueur
 WARNING;artefact:11057;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A334>;est vide
+WARNING;artefact:11057;pas de date d'entrée
+WARNING;artefact:11058;ligne vide
 WARNING;artefact:11058;pas de longueur
 WARNING;artefact:11058;pas de largeur
 WARNING;artefact:11058;pas de hauteur
 WARNING;artefact:11058;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A335>;est vide
+WARNING;artefact:11058;pas de date d'entrée
+WARNING;artefact:11074;ligne vide
 WARNING;artefact:11074;mauvais encodage de la longueur
 WARNING;artefact:11074;mauvais encodage de la largeur
 WARNING;artefact:11074;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A336>;est vide
+WARNING;artefact:11074;pas de date d'entrée
+WARNING;artefact:11075;ligne vide
 WARNING;artefact:11075;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A337>;est vide
-ERROR;artefact<Cell 'Inventaire'.A338>;est vide
+WARNING;artefact:11075;pas de date d'entrée
+WARNING;artefact:11076;ligne vide
+WARNING;artefact:11076;pas de date d'entrée
+WARNING;artefact:11077;ligne vide
 WARNING;artefact:11077;mauvais encodage de la longueur
 WARNING;artefact:11077;mauvais encodage de la largeur
 WARNING;artefact:11077;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A339>;est vide
-ERROR;artefact<Cell 'Inventaire'.A340>;est vide
+WARNING;artefact:11077;pas de date d'entrée
+WARNING;artefact:11078;ligne vide
+WARNING;artefact:11078;pas de date d'entrée
+WARNING;artefact:11079;ligne vide
 WARNING;artefact:11079;mauvais encodage de la hauteur
 WARNING;artefact:11079;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A341>;est vide
+WARNING;artefact:11079;pas de date d'entrée
+WARNING;artefact:11080;ligne vide
 WARNING;artefact:11080;mauvais encodage de la largeur
 WARNING;artefact:11080;mauvais encodage de la hauteur
 WARNING;artefact:11080;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A342>;est vide
+WARNING;artefact:11080;pas de date d'entrée
+WARNING;artefact:11081;ligne vide
 WARNING;artefact:11081;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A343>;est vide
+WARNING;artefact:11081;pas de date d'entrée
+WARNING;artefact:11082;ligne vide
 WARNING;artefact:11082;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A344>;est vide
+WARNING;artefact:11082;pas de date d'entrée
+WARNING;artefact:11083;ligne vide
 WARNING;artefact:11083;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A345>;est vide
+WARNING;artefact:11083;pas de date d'entrée
+WARNING;artefact:11084;ligne vide
 WARNING;artefact:11084;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A346>;est vide
+WARNING;artefact:11084;pas de date d'entrée
+WARNING;artefact:11085;ligne vide
 WARNING;artefact:11085;mauvais encodage de la longueur
 WARNING;artefact:11085;mauvais encodage de la largeur
 WARNING;artefact:11085;mauvais encodage de la hauteur
 WARNING;artefact:11085;mauvais encodage du poids
 WARNING;artefact:11085;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A347>;est vide
+WARNING;artefact:11086;ligne vide
 WARNING;artefact:11086;mauvais encodage de la largeur
 WARNING;artefact:11086;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A348>;est vide
-ERROR;artefact<Cell 'Inventaire'.A349>;est vide
+WARNING;artefact:11087;ligne vide
+WARNING;artefact:11087;pas de date d'entrée
+WARNING;artefact:11088;ligne vide
 WARNING;artefact:11088;mauvais encodage de la longueur
 WARNING;artefact:11088;mauvais encodage de la largeur
 WARNING;artefact:11088;mauvais encodage de la hauteur
 WARNING;artefact:11088;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A350>;est vide
+WARNING;artefact:11088;pas de date d'entrée
+WARNING;artefact:11089;ligne vide
 WARNING;artefact:11089;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A351>;est vide
+WARNING;artefact:11089;pas de date d'entrée
+WARNING;artefact:11090;ligne vide
 WARNING;artefact:11090;mauvais encodage de la longueur
 WARNING;artefact:11090;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A352>;est vide
+WARNING;artefact:11090;pas de date d'entrée
+WARNING;artefact:11091;ligne vide
 WARNING;artefact:11091;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A353>;est vide
+WARNING;artefact:11091;pas de date d'entrée
+WARNING;artefact:11092;ligne vide
 WARNING;artefact:11092;mauvais encodage de la hauteur
 WARNING;artefact:11092;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A354>;est vide
-ERROR;artefact<Cell 'Inventaire'.A355>;est vide
+WARNING;artefact:11092;pas de date d'entrée
+WARNING;artefact:11093;ligne vide
+WARNING;artefact:11093;pas de date d'entrée
+WARNING;artefact:11094;ligne vide
 WARNING;artefact:11094;mauvais encodage de la longueur
 WARNING;artefact:11094;mauvais encodage de la largeur
 WARNING;artefact:11094;mauvais encodage de la hauteur
 WARNING;artefact:11094;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A356>;est vide
+WARNING;artefact:11094;pas de date d'entrée
+WARNING;artefact:11105;ligne vide
 WARNING;artefact:11105;mauvais encodage de la largeur
 WARNING;artefact:11105;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A357>;est vide
+WARNING;artefact:11105;pas de date d'entrée
+WARNING;artefact:11106;ligne vide
 WARNING;artefact:11106;mauvais encodage de la largeur
 WARNING;artefact:11106;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A358>;est vide
+WARNING;artefact:11106;pas de date d'entrée
+WARNING;artefact:11107;ligne vide
 WARNING;artefact:11107;mauvais encodage de la longueur
 WARNING;artefact:11107;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A359>;est vide
+WARNING;artefact:11107;pas de date d'entrée
+WARNING;artefact:11108;ligne vide
 WARNING;artefact:11108;mauvais encodage du poids
 WARNING;artefact:11108;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A360>;est vide
+WARNING;artefact:11109;ligne vide
 WARNING;artefact:11109;mauvais encodage du poids
 WARNING;artefact:11109;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A361>;est vide
+WARNING;artefact:11110;ligne vide
 WARNING;artefact:11110;mauvais encodage du poids
 WARNING;artefact:11110;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A362>;est vide
+WARNING;artefact:11111;ligne vide
 WARNING;artefact:11111;mauvais encodage du poids
 WARNING;artefact:11111;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A363>;est vide
+WARNING;artefact:11112;ligne vide
 WARNING;artefact:11112;pas de quantité
 WARNING;artefact:11112;pas de longueur
 WARNING;artefact:11112;pas de largeur
 WARNING;artefact:11112;pas de hauteur
 WARNING;artefact:11112;pas de poids
 WARNING;artefact:11112;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A364>;est vide
+WARNING;artefact:11113;ligne vide
 WARNING;artefact:11113;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A365>;est vide
+WARNING;artefact:11113;pas de date d'entrée
+WARNING;artefact:11114;ligne vide
 WARNING;artefact:11114;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A366>;est vide
+WARNING;artefact:11114;pas de date d'entrée
+WARNING;artefact:11115;ligne vide
 WARNING;artefact:11115;mauvais encodage de la longueur
 WARNING;artefact:11115;mauvais encodage de la hauteur
 WARNING;artefact:11115;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A367>;est vide
+WARNING;artefact:11115;pas de date d'entrée
+WARNING;artefact:11116;ligne vide
 WARNING;artefact:11116;mauvais encodage de la longueur
 WARNING;artefact:11116;mauvais encodage du poids
 WARNING;artefact:11116;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A368>;est vide
+WARNING;artefact:11117;ligne vide
 WARNING;artefact:11117;mauvais encodage de la longueur
 WARNING;artefact:11117;mauvais encodage du poids
 WARNING;artefact:11117;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A369>;est vide
-ERROR;artefact<Cell 'Inventaire'.A370>;est vide
+WARNING;artefact:11118;ligne vide
+WARNING;artefact:11118;pas de date d'entrée
+WARNING;artefact:11119;ligne vide
 WARNING;artefact:11119;mauvais encodage de la hauteur
 WARNING;artefact:11119;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A371>;est vide
+WARNING;artefact:11120;ligne vide
 WARNING;artefact:11120;mauvais encodage de la hauteur
 WARNING;artefact:11120;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A372>;est vide
+WARNING;artefact:11120;pas de date d'entrée
+WARNING;artefact:11121;ligne vide
 WARNING;artefact:11121;pas de quantité
 WARNING;artefact:11121;pas de longueur
 WARNING;artefact:11121;pas de largeur
 WARNING;artefact:11121;pas de hauteur
 WARNING;artefact:11121;pas de poids
 WARNING;artefact:11121;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A373>;est vide
+WARNING;artefact:11122;ligne vide
 WARNING;artefact:11122;mauvais encodage de la longueur
 WARNING;artefact:11122;mauvais encodage de la largeur
 WARNING;artefact:11122;mauvais encodage de la hauteur
 WARNING;artefact:11122;mauvais encodage du poids
 WARNING;artefact:11122;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A374>;est vide
+WARNING;artefact:11123;ligne vide
 WARNING;artefact:11123;mauvais encodage de la hauteur
 WARNING;artefact:11123;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A375>;est vide
+WARNING;artefact:11123;pas de date d'entrée
+WARNING;artefact:11124;ligne vide
 WARNING;artefact:11124;mauvais encodage de la hauteur
 WARNING;artefact:11124;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A376>;est vide
+WARNING;artefact:11124;pas de date d'entrée
+WARNING;artefact:11125;ligne vide
 WARNING;artefact:11125;mauvais encodage de la longueur
 WARNING;artefact:11125;mauvais encodage de la largeur
 WARNING;artefact:11125;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A377>;est vide
+WARNING;artefact:11125;pas de date d'entrée
+WARNING;artefact:11126;ligne vide
 WARNING;artefact:11126;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A378>;est vide
+WARNING;artefact:11126;pas de date d'entrée
+WARNING;artefact:11127;ligne vide
 WARNING;artefact:11127;mauvais encodage de la longueur
 WARNING;artefact:11127;mauvais encodage de la largeur
-ERROR;artefact<Cell 'Inventaire'.A379>;est vide
+WARNING;artefact:11127;pas de date d'entrée
+WARNING;artefact:11128;ligne vide
 WARNING;artefact:11128;mauvais encodage de la longueur
 WARNING;artefact:11128;mauvais encodage de la largeur
 WARNING;artefact:11128;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A380>;est vide
+WARNING;artefact:11128;pas de date d'entrée
+WARNING;artefact:11129;ligne vide
 WARNING;artefact:11129;mauvais encodage de la longueur
 WARNING;artefact:11129;mauvais encodage de la largeur
 WARNING;artefact:11129;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A381>;est vide
+WARNING;artefact:11129;pas de date d'entrée
+WARNING;artefact:11130;ligne vide
 WARNING;artefact:11130;mauvais encodage de la longueur
 WARNING;artefact:11130;mauvais encodage du poids
 WARNING;artefact:11130;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A382>;est vide
+WARNING;artefact:11131;ligne vide
 WARNING;artefact:11131;pas de quantité
 WARNING;artefact:11131;pas de longueur
 WARNING;artefact:11131;pas de largeur
 WARNING;artefact:11131;pas de hauteur
 WARNING;artefact:11131;pas de poids
 WARNING;artefact:11131;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A383>;est vide
+WARNING;artefact:11132;ligne vide
 WARNING;artefact:11132;mauvais encodage de la longueur
 WARNING;artefact:11132;mauvais encodage de la largeur
 WARNING;artefact:11132;mauvais encodage de la hauteur
 WARNING;artefact:11132;mauvais encodage du poids
 WARNING;artefact:11132;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A384>;est vide
+WARNING;artefact:11133;ligne vide
 WARNING;artefact:11133;mauvais encodage de la longueur
 WARNING;artefact:11133;mauvais encodage de la largeur
 WARNING;artefact:11133;mauvais encodage de la hauteur
 WARNING;artefact:11133;mauvais encodage du poids
 WARNING;artefact:11133;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A385>;est vide
+WARNING;artefact:11134;ligne vide
 WARNING;artefact:11134;mauvais encodage de la longueur
 WARNING;artefact:11134;mauvais encodage de la largeur
 WARNING;artefact:11134;mauvais encodage de la hauteur
 WARNING;artefact:11134;mauvais encodage du poids
 WARNING;artefact:11134;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A386>;est vide
+WARNING;artefact:11184;ligne vide
 WARNING;artefact:11184;mauvais encodage du poids
 WARNING;artefact:11184;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A387>;est vide
+WARNING;artefact:11185;ligne vide
 WARNING;artefact:11185;mauvais encodage du poids
 WARNING;artefact:11185;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A388>;est vide
+WARNING;artefact:11186;ligne vide
 WARNING;artefact:11186;mauvais encodage de la longueur
 WARNING;artefact:11186;mauvais encodage du poids
 WARNING;artefact:11186;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A389>;est vide
+WARNING;artefact:11199;ligne vide
 WARNING;artefact:11199;mauvais encodage de la longueur
 WARNING;artefact:11199;mauvais encodage de la largeur
 WARNING;artefact:11199;mauvais encodage de la hauteur
 WARNING;artefact:11199;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A390>;est vide
+WARNING;artefact:11199;pas de date d'entrée
+WARNING;artefact:11200;ligne vide
 WARNING;artefact:11200;mauvais encodage de la longueur
 WARNING;artefact:11200;mauvais encodage de la largeur
 WARNING;artefact:11200;mauvais encodage de la hauteur
 WARNING;artefact:11200;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A391>;est vide
+WARNING;artefact:11200;pas de date d'entrée
+WARNING;artefact:11201;ligne vide
 WARNING;artefact:11201;mauvais encodage de la longueur
 WARNING;artefact:11201;mauvais encodage de la largeur
 WARNING;artefact:11201;mauvais encodage de la hauteur
 WARNING;artefact:11201;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A392>;est vide
+WARNING;artefact:11201;pas de date d'entrée
+WARNING;artefact:11202;ligne vide
 WARNING;artefact:11202;mauvais encodage de la largeur
 WARNING;artefact:11202;mauvais encodage de la hauteur
 WARNING;artefact:11202;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A393>;est vide
+WARNING;artefact:11202;pas de date d'entrée
+WARNING;artefact:11203;ligne vide
 WARNING;artefact:11203;mauvais encodage de la longueur
 WARNING;artefact:11203;mauvais encodage de la largeur
 WARNING;artefact:11203;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A394>;est vide
+WARNING;artefact:11203;pas de date d'entrée
+WARNING;artefact:11204;ligne vide
 WARNING;artefact:11204;mauvais encodage de la longueur
 WARNING;artefact:11204;mauvais encodage de la largeur
 WARNING;artefact:11204;mauvais encodage de la hauteur
 WARNING;artefact:11204;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A395>;est vide
+WARNING;artefact:11204;pas de date d'entrée
+WARNING;artefact:11205;ligne vide
 WARNING;artefact:11205;mauvais encodage de la largeur
 WARNING;artefact:11205;mauvais encodage de la hauteur
 WARNING;artefact:11205;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A396>;est vide
+WARNING;artefact:11205;pas de date d'entrée
+WARNING;artefact:11206;ligne vide
 WARNING;artefact:11206;mauvais encodage de la largeur
 WARNING;artefact:11206;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A397>;est vide
+WARNING;artefact:11206;pas de date d'entrée
+WARNING;artefact:11207;ligne vide
 WARNING;artefact:11207;mauvais encodage de la longueur
 WARNING;artefact:11207;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A398>;est vide
+WARNING;artefact:11207;pas de date d'entrée
+WARNING;artefact:11208;ligne vide
 WARNING;artefact:11208;mauvais encodage de la longueur
 WARNING;artefact:11208;mauvais encodage de la largeur
 WARNING;artefact:11208;mauvais encodage de la hauteur
 WARNING;artefact:11208;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A399>;est vide
+WARNING;artefact:11208;pas de date d'entrée
+WARNING;artefact:11209;ligne vide
 WARNING;artefact:11209;mauvais encodage de la largeur
 WARNING;artefact:11209;mauvais encodage de la hauteur
 WARNING;artefact:11209;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A400>;est vide
+WARNING;artefact:11209;pas de date d'entrée
+WARNING;artefact:11210;ligne vide
 WARNING;artefact:11210;mauvais encodage de la longueur
 WARNING;artefact:11210;mauvais encodage de la largeur
 WARNING;artefact:11210;mauvais encodage de la hauteur
 WARNING;artefact:11210;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A401>;est vide
+WARNING;artefact:11210;pas de date d'entrée
+WARNING;artefact:11211;ligne vide
 WARNING;artefact:11211;mauvais encodage de la hauteur
 WARNING;artefact:11211;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A402>;est vide
+WARNING;artefact:11211;pas de date d'entrée
+WARNING;artefact:11212;ligne vide
 WARNING;artefact:11212;mauvais encodage de la longueur
 WARNING;artefact:11212;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A403>;est vide
+WARNING;artefact:11212;pas de date d'entrée
+WARNING;artefact:11213;ligne vide
 WARNING;artefact:11213;mauvais encodage de la longueur
 WARNING;artefact:11213;mauvais encodage de la largeur
 WARNING;artefact:11213;mauvais encodage de la hauteur
 WARNING;artefact:11213;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A404>;est vide
+WARNING;artefact:11213;pas de date d'entrée
+WARNING;artefact:11214;ligne vide
 WARNING;artefact:11214;mauvais encodage de la largeur
 WARNING;artefact:11214;mauvais encodage de la hauteur
 WARNING;artefact:11214;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A405>;est vide
+WARNING;artefact:11214;pas de date d'entrée
+WARNING;artefact:11215;ligne vide
 WARNING;artefact:11215;mauvais encodage de la hauteur
 WARNING;artefact:11215;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A406>;est vide
+WARNING;artefact:11215;pas de date d'entrée
+WARNING;artefact:11216;ligne vide
 WARNING;artefact:11216;mauvais encodage de la hauteur
 WARNING;artefact:11216;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A407>;est vide
+WARNING;artefact:11216;pas de date d'entrée
+WARNING;artefact:11217;ligne vide
 WARNING;artefact:11217;mauvais encodage de la largeur
 WARNING;artefact:11217;mauvais encodage de la hauteur
 WARNING;artefact:11217;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A408>;est vide
+WARNING;artefact:11217;pas de date d'entrée
+WARNING;artefact:11243;ligne vide
 WARNING;artefact:11243;mauvais encodage de la longueur
 WARNING;artefact:11243;mauvais encodage de la largeur
 WARNING;artefact:11243;mauvais encodage de la hauteur
 WARNING;artefact:11243;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A409>;est vide
+WARNING;artefact:11243;pas de date d'entrée
+WARNING;artefact:11244;ligne vide
 WARNING;artefact:11244;mauvais encodage de la longueur
 WARNING;artefact:11244;mauvais encodage de la largeur
 WARNING;artefact:11244;mauvais encodage de la hauteur
 WARNING;artefact:11244;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A410>;est vide
+WARNING;artefact:11244;pas de date d'entrée
+WARNING;artefact:11245;ligne vide
 WARNING;artefact:11245;mauvais encodage de la longueur
 WARNING;artefact:11245;mauvais encodage de la hauteur
 WARNING;artefact:11245;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A411>;est vide
+WARNING;artefact:11245;pas de date d'entrée
+WARNING;artefact:11246;ligne vide
 WARNING;artefact:11246;mauvais encodage de la largeur
 WARNING;artefact:11246;mauvais encodage de la hauteur
 WARNING;artefact:11246;mauvais encodage du poids
 WARNING;artefact:11246;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A412>;est vide
+WARNING;artefact:11247;ligne vide
 WARNING;artefact:11247;mauvais encodage de la largeur
 WARNING;artefact:11247;mauvais encodage de la hauteur
 WARNING;artefact:11247;mauvais encodage du poids
 WARNING;artefact:11247;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A413>;est vide
+WARNING;artefact:11248;ligne vide
 WARNING;artefact:11248;mauvais encodage de la largeur
 WARNING;artefact:11248;mauvais encodage de la hauteur
 WARNING;artefact:11248;mauvais encodage du poids
 WARNING;artefact:11248;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A414>;est vide
+WARNING;artefact:11282;ligne vide
 WARNING;artefact:11282;mauvais encodage de la longueur
 WARNING;artefact:11282;mauvais encodage de la largeur
 WARNING;artefact:11282;mauvais encodage de la hauteur
 WARNING;artefact:11282;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A415>;est vide
+WARNING;artefact:11282;pas de date d'entrée
+WARNING;artefact:11283;ligne vide
 WARNING;artefact:11283;mauvais encodage de la longueur
 WARNING;artefact:11283;mauvais encodage de la largeur
 WARNING;artefact:11283;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A416>;est vide
+WARNING;artefact:11283;pas de date d'entrée
+WARNING;artefact:11284;ligne vide
 WARNING;artefact:11284;mauvais encodage de la longueur
 WARNING;artefact:11284;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A417>;est vide
+WARNING;artefact:11284;pas de date d'entrée
+WARNING;artefact:11285;ligne vide
 WARNING;artefact:11285;mauvais encodage de la longueur
 WARNING;artefact:11285;mauvais encodage de la largeur
 WARNING;artefact:11285;mauvais encodage de la hauteur
 WARNING;artefact:11285;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A418>;est vide
+WARNING;artefact:11285;pas de date d'entrée
+WARNING;artefact:11286;ligne vide
 WARNING;artefact:11286;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A419>;est vide
+WARNING;artefact:11286;pas de date d'entrée
+WARNING;artefact:11287;ligne vide
 WARNING;artefact:11287;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A420>;est vide
+WARNING;artefact:11287;pas de date d'entrée
+WARNING;artefact:11288;ligne vide
 WARNING;artefact:11288;mauvais encodage de la longueur
 WARNING;artefact:11288;mauvais encodage de la largeur
 WARNING;artefact:11288;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A421>;est vide
+WARNING;artefact:11288;pas de date d'entrée
+WARNING;artefact:11289;ligne vide
 WARNING;artefact:11289;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A422>;est vide
+WARNING;artefact:11289;pas de date d'entrée
+WARNING;artefact:11290;ligne vide
 WARNING;artefact:11290;mauvais encodage de la longueur
 WARNING;artefact:11290;mauvais encodage de la largeur
-ERROR;artefact<Cell 'Inventaire'.A423>;est vide
+WARNING;artefact:11290;pas de date d'entrée
+WARNING;artefact:11291;ligne vide
 WARNING;artefact:11291;mauvais encodage de la hauteur
 WARNING;artefact:11291;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A424>;est vide
+WARNING;artefact:11291;pas de date d'entrée
+WARNING;artefact:11292;ligne vide
 WARNING;artefact:11292;mauvais encodage de la hauteur
 WARNING;artefact:11292;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A425>;est vide
+WARNING;artefact:11292;pas de date d'entrée
+WARNING;artefact:11293;ligne vide
 WARNING;artefact:11293;mauvais encodage de la longueur
 WARNING;artefact:11293;mauvais encodage de la largeur
 WARNING;artefact:11293;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A426>;est vide
+WARNING;artefact:11294;ligne vide
 WARNING;artefact:11294;pas de longueur
 WARNING;artefact:11294;pas de largeur
 WARNING;artefact:11294;pas de hauteur
 WARNING;artefact:11294;pas de poids
 WARNING;artefact:11294;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A427>;est vide
+WARNING;artefact:11295;ligne vide
 WARNING;artefact:11295;mauvais encodage de la longueur
 WARNING;artefact:11295;mauvais encodage de la largeur
 WARNING;artefact:11295;mauvais encodage du poids
 WARNING;artefact:11295;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A428>;est vide
+WARNING;artefact:11296;ligne vide
 WARNING;artefact:11296;pas de quantité
 WARNING;artefact:11296;pas de longueur
 WARNING;artefact:11296;pas de largeur
 WARNING;artefact:11296;pas de hauteur
 WARNING;artefact:11296;pas de poids
 WARNING;artefact:11296;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A429>;est vide
+WARNING;artefact:11297;ligne vide
 WARNING;artefact:11297;pas de quantité
 WARNING;artefact:11297;pas de longueur
 WARNING;artefact:11297;pas de largeur
 WARNING;artefact:11297;pas de hauteur
 WARNING;artefact:11297;pas de poids
 WARNING;artefact:11297;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A430>;est vide
+WARNING;artefact:12000;ligne vide
 WARNING;artefact:12000;pas de longueur
 WARNING;artefact:12000;pas de largeur
 WARNING;artefact:12000;pas de hauteur
 WARNING;artefact:12000;pas de poids
 WARNING;artefact:12000;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A431>;est vide
+WARNING;artefact:12001;ligne vide
 WARNING;artefact:12001;pas de longueur
 WARNING;artefact:12001;pas de largeur
 WARNING;artefact:12001;pas de hauteur
 WARNING;artefact:12001;pas de poids
 WARNING;artefact:12001;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A432>;est vide
+WARNING;artefact:12002;ligne vide
 WARNING;artefact:12002;pas de longueur
 WARNING;artefact:12002;pas de largeur
 WARNING;artefact:12002;pas de hauteur
 WARNING;artefact:12002;pas de poids
 WARNING;artefact:12002;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A433>;est vide
+WARNING;artefact:12003;ligne vide
 WARNING;artefact:12003;pas de longueur
 WARNING;artefact:12003;pas de largeur
 WARNING;artefact:12003;pas de hauteur
 WARNING;artefact:12003;pas de poids
 WARNING;artefact:12003;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A434>;est vide
+WARNING;artefact:12004;ligne vide
 WARNING;artefact:12004;pas de longueur
 WARNING;artefact:12004;pas de largeur
 WARNING;artefact:12004;pas de hauteur
 WARNING;artefact:12004;pas de poids
 WARNING;artefact:12004;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A435>;est vide
+WARNING;artefact:12005;ligne vide
 WARNING;artefact:12005;pas de longueur
 WARNING;artefact:12005;pas de largeur
 WARNING;artefact:12005;pas de hauteur
 WARNING;artefact:12005;pas de poids
 WARNING;artefact:12005;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A436>;est vide
+WARNING;artefact:12006;ligne vide
 WARNING;artefact:12006;pas de longueur
 WARNING;artefact:12006;pas de largeur
 WARNING;artefact:12006;pas de hauteur
 WARNING;artefact:12006;pas de poids
 WARNING;artefact:12006;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A437>;est vide
+WARNING;artefact:12093;ligne vide
 WARNING;artefact:12093;mauvais encodage du poids
 WARNING;artefact:12093;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A438>;est vide
+WARNING;artefact:12094;ligne vide
 WARNING;artefact:12094;mauvais encodage du poids
 WARNING;artefact:12094;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A439>;est vide
+WARNING;artefact:12095;ligne vide
 WARNING;artefact:12095;mauvais encodage du poids
-ERROR;artefact:12095;Error 1292; 1292 (22007): Incorrect date value: ' ' for column 'dateIn' at row 1
-ERROR;artefact:12095;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(12095,'classeur photos','0','1971 à 1983?',0,1,' ',3,2,8,NULL,'Les ordinateurs H316, H200, H2000, Keyplex ',NULL,NULL,1,NULL,91,19,46)
-
-ERROR;artefact<Cell 'Inventaire'.A440>;est vide
+WARNING;artefact:12095;pas de date d'entrée
+WARNING;artefact:12096;ligne vide
 WARNING;artefact:12096;mauvais encodage du poids
 WARNING;artefact:12096;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A441>;est vide
+WARNING;artefact:12097;ligne vide
 WARNING;artefact:12097;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A442>;est vide
+WARNING;artefact:12098;ligne vide
 WARNING;artefact:12098;mauvais encodage de la largeur
 WARNING;artefact:12098;mauvais encodage du poids
-ERROR;artefact:12098;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:12098;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(12098,'Distributeur de Billets de banque  (Bancontact)','0','1986 à 1993',0,1,'00:00:00',3,NULL,5,NULL,'Les ATM (distributeurs de billets de banque)',NULL,NULL,47,NULL,92,53,47)
-
-ERROR;artefact<Cell 'Inventaire'.A443>;est vide
+WARNING;artefact:12098;pas de date d'entrée
+WARNING;artefact:12099;ligne vide
 WARNING;artefact:12099;mauvais encodage du poids
 WARNING;artefact:12099;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A444>;est vide
+WARNING;artefact:12100;ligne vide
 WARNING;artefact:12100;pas de longueur
 WARNING;artefact:12100;pas de largeur
 WARNING;artefact:12100;pas de hauteur
 WARNING;artefact:12100;pas de poids
 WARNING;artefact:12100;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A445>;est vide
+WARNING;artefact:12101;ligne vide
 WARNING;artefact:12101;pas de longueur
 WARNING;artefact:12101;pas de largeur
 WARNING;artefact:12101;pas de hauteur
 WARNING;artefact:12101;pas de poids
 WARNING;artefact:12101;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A446>;est vide
+WARNING;artefact:12102;ligne vide
 WARNING;artefact:12102;pas de longueur
 WARNING;artefact:12102;pas de largeur
 WARNING;artefact:12102;pas de hauteur
 WARNING;artefact:12102;pas de poids
 WARNING;artefact:12102;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A447>;est vide
+WARNING;artefact:12103;ligne vide
 WARNING;artefact:12103;pas de longueur
 WARNING;artefact:12103;pas de largeur
 WARNING;artefact:12103;pas de hauteur
 WARNING;artefact:12103;pas de poids
 WARNING;artefact:12103;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A448>;est vide
+WARNING;artefact:12104;ligne vide
 WARNING;artefact:12104;pas de longueur
 WARNING;artefact:12104;pas de largeur
 WARNING;artefact:12104;pas de hauteur
 WARNING;artefact:12104;pas de poids
 WARNING;artefact:12104;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A449>;est vide
+WARNING;artefact:12105;ligne vide
 WARNING;artefact:12105;pas de longueur
 WARNING;artefact:12105;pas de largeur
 WARNING;artefact:12105;pas de hauteur
 WARNING;artefact:12105;pas de poids
 WARNING;artefact:12105;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A450>;est vide
+WARNING;artefact:12106;ligne vide
 WARNING;artefact:12106;pas de longueur
 WARNING;artefact:12106;pas de largeur
 WARNING;artefact:12106;pas de hauteur
 WARNING;artefact:12106;pas de poids
 WARNING;artefact:12106;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A451>;est vide
+WARNING;artefact:12107;ligne vide
 WARNING;artefact:12107;pas de longueur
 WARNING;artefact:12107;pas de largeur
 WARNING;artefact:12107;pas de hauteur
 WARNING;artefact:12107;pas de poids
 WARNING;artefact:12107;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A452>;est vide
+WARNING;artefact:12108;ligne vide
 WARNING;artefact:12108;pas de longueur
 WARNING;artefact:12108;pas de largeur
 WARNING;artefact:12108;pas de hauteur
 WARNING;artefact:12108;pas de poids
 WARNING;artefact:12108;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A453>;est vide
+WARNING;artefact:12109;ligne vide
 WARNING;artefact:12109;pas de longueur
 WARNING;artefact:12109;pas de largeur
 WARNING;artefact:12109;pas de hauteur
 WARNING;artefact:12109;pas de poids
 WARNING;artefact:12109;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A454>;est vide
+WARNING;artefact:12110;ligne vide
 WARNING;artefact:12110;pas de longueur
 WARNING;artefact:12110;pas de largeur
 WARNING;artefact:12110;pas de hauteur
 WARNING;artefact:12110;pas de poids
 WARNING;artefact:12110;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A455>;est vide
+WARNING;artefact:12111;ligne vide
 WARNING;artefact:12111;pas de longueur
 WARNING;artefact:12111;pas de largeur
 WARNING;artefact:12111;pas de hauteur
 WARNING;artefact:12111;pas de poids
 WARNING;artefact:12111;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A456>;est vide
+WARNING;artefact:12112;ligne vide
 WARNING;artefact:12112;pas de longueur
 WARNING;artefact:12112;pas de largeur
 WARNING;artefact:12112;pas de hauteur
 WARNING;artefact:12112;pas de poids
 WARNING;artefact:12112;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A457>;est vide
+WARNING;artefact:12113;ligne vide
 WARNING;artefact:12113;mauvais encodage de la hauteur
 WARNING;artefact:12113;mauvais encodage du poids
 WARNING;artefact:12113;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A458>;est vide
+WARNING;artefact:12114;ligne vide
 WARNING;artefact:12114;mauvais encodage de la hauteur
 WARNING;artefact:12114;mauvais encodage du poids
 WARNING;artefact:12114;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A459>;est vide
+WARNING;artefact:12115;ligne vide
 WARNING;artefact:12115;mauvais encodage de la hauteur
 WARNING;artefact:12115;mauvais encodage du poids
 WARNING;artefact:12115;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A460>;est vide
+WARNING;artefact:12116;ligne vide
 WARNING;artefact:12116;mauvais encodage de la hauteur
 WARNING;artefact:12116;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A461>;est vide
+WARNING;artefact:12117;ligne vide
 WARNING;artefact:12117;mauvais encodage de la hauteur
 WARNING;artefact:12117;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A462>;est vide
+WARNING;artefact:12118;ligne vide
 WARNING;artefact:12118;mauvais encodage de la hauteur
 WARNING;artefact:12118;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A463>;est vide
+WARNING;artefact:12119;ligne vide
 WARNING;artefact:12119;mauvais encodage de la hauteur
 WARNING;artefact:12119;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A464>;est vide
+WARNING;artefact:12120;ligne vide
 WARNING;artefact:12120;mauvais encodage de la hauteur
 WARNING;artefact:12120;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A465>;est vide
+WARNING;artefact:12121;ligne vide
 WARNING;artefact:12121;mauvais encodage de la hauteur
 WARNING;artefact:12121;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A466>;est vide
+WARNING;artefact:12122;ligne vide
 WARNING;artefact:12122;mauvais encodage de la hauteur
 WARNING;artefact:12122;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A467>;est vide
+WARNING;artefact:12123;ligne vide
 WARNING;artefact:12123;mauvais encodage de la hauteur
 WARNING;artefact:12123;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A468>;est vide
+WARNING;artefact:12124;ligne vide
 WARNING;artefact:12124;mauvais encodage de la hauteur
 WARNING;artefact:12124;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A469>;est vide
+WARNING;artefact:12135;ligne vide
 WARNING;artefact:12135;mauvais encodage de la hauteur
 WARNING;artefact:12135;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A470>;est vide
+WARNING;artefact:12136;ligne vide
 WARNING;artefact:12136;mauvais encodage de la hauteur
 WARNING;artefact:12136;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A471>;est vide
+WARNING;artefact:12137;ligne vide
 WARNING;artefact:12137;mauvais encodage de la hauteur
 WARNING;artefact:12137;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A472>;est vide
+WARNING;artefact:12138;ligne vide
 WARNING;artefact:12138;mauvais encodage de la hauteur
 WARNING;artefact:12138;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A473>;est vide
+WARNING;artefact:12139;ligne vide
 WARNING;artefact:12139;mauvais encodage de la hauteur
 WARNING;artefact:12139;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A474>;est vide
+WARNING;artefact:12140;ligne vide
 WARNING;artefact:12140;mauvais encodage de la hauteur
 WARNING;artefact:12140;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A475>;est vide
+WARNING;artefact:12141;ligne vide
 WARNING;artefact:12141;pas de quantité
 WARNING;artefact:12141;pas de longueur
 WARNING;artefact:12141;pas de largeur
 WARNING;artefact:12141;pas de hauteur
 WARNING;artefact:12141;pas de poids
 WARNING;artefact:12141;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A476>;est vide
+WARNING;artefact:12142;ligne vide
 WARNING;artefact:12142;pas de longueur
 WARNING;artefact:12142;pas de largeur
 WARNING;artefact:12142;pas de hauteur
 WARNING;artefact:12142;pas de poids
 WARNING;artefact:12142;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A477>;est vide
+WARNING;artefact:13000;ligne vide
 WARNING;artefact:13000;mauvais encodage de la longueur
 WARNING;artefact:13000;mauvais encodage de la largeur
 WARNING;artefact:13000;pas de hauteur
 WARNING;artefact:13000;pas de poids
 WARNING;artefact:13000;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A478>;est vide
+WARNING;artefact:13001;ligne vide
 WARNING;artefact:13001;mauvais encodage de la longueur
 WARNING;artefact:13001;mauvais encodage de la largeur
 WARNING;artefact:13001;pas de hauteur
 WARNING;artefact:13001;pas de poids
 WARNING;artefact:13001;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A479>;est vide
+WARNING;artefact:13002;ligne vide
 WARNING;artefact:13002;mauvais encodage de la longueur
 WARNING;artefact:13002;mauvais encodage de la largeur
 WARNING;artefact:13002;mauvais encodage de la hauteur
 WARNING;artefact:13002;mauvais encodage du poids
 WARNING;artefact:13002;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A480>;est vide
+WARNING;artefact:13004;ligne vide
 WARNING;artefact:13004;pas de longueur
 WARNING;artefact:13004;mauvais encodage de la largeur
 WARNING;artefact:13004;mauvais encodage de la hauteur
 WARNING;artefact:13004;pas de poids
 WARNING;artefact:13004;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A481>;est vide
+WARNING;artefact:13005;ligne vide
 WARNING;artefact:13005;pas de longueur
 WARNING;artefact:13005;mauvais encodage de la largeur
 WARNING;artefact:13005;mauvais encodage de la hauteur
 WARNING;artefact:13005;pas de poids
 WARNING;artefact:13005;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A482>;est vide
+WARNING;artefact:13006;ligne vide
 WARNING;artefact:13006;pas de longueur
 WARNING;artefact:13006;pas de largeur
 WARNING;artefact:13006;pas de hauteur
 WARNING;artefact:13006;pas de poids
 WARNING;artefact:13006;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A483>;est vide
+WARNING;artefact:13007;ligne vide
 WARNING;artefact:13007;pas de longueur
 WARNING;artefact:13007;mauvais encodage de la largeur
 WARNING;artefact:13007;mauvais encodage de la hauteur
 WARNING;artefact:13007;pas de poids
 WARNING;artefact:13007;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A484>;est vide
+WARNING;artefact:13008;ligne vide
 WARNING;artefact:13008;pas de longueur
 WARNING;artefact:13008;pas de largeur
 WARNING;artefact:13008;pas de hauteur
@@ -3408,25 +3677,25 @@ WARNING;artefact:13008;pas de date d'entrée
 ERROR;artefact:13008;Error 1064; 1064 (42000): Erreur de syntaxe près de 'à 1957,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,71,1,NULL,100,NULL,46)' à la ligne 1
 ERROR;artefact:13008;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(13008,'Place Congrès','Photo Place du Congrès','NULL',1937 à 1957,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,71,1,NULL,100,NULL,46)
 
-ERROR;artefact<Cell 'Inventaire'.A485>;est vide
+WARNING;artefact:13009;ligne vide
 WARNING;artefact:13009;pas de longueur
 WARNING;artefact:13009;pas de largeur
 WARNING;artefact:13009;pas de hauteur
 WARNING;artefact:13009;pas de poids
 WARNING;artefact:13009;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A486>;est vide
+WARNING;artefact:13010;ligne vide
 WARNING;artefact:13010;pas de longueur
 WARNING;artefact:13010;pas de largeur
 WARNING;artefact:13010;pas de hauteur
 WARNING;artefact:13010;pas de poids
 WARNING;artefact:13010;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A487>;est vide
+WARNING;artefact:13011;ligne vide
 WARNING;artefact:13011;pas de longueur
 WARNING;artefact:13011;pas de largeur
 WARNING;artefact:13011;pas de hauteur
 WARNING;artefact:13011;pas de poids
 WARNING;artefact:13011;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A488>;est vide
+WARNING;artefact:13012;ligne vide
 WARNING;artefact:13012;pas de longueur
 WARNING;artefact:13012;pas de largeur
 WARNING;artefact:13012;pas de hauteur
@@ -3435,163 +3704,160 @@ WARNING;artefact:13012;pas de date d'entrée
 ERROR;artefact:13012;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,1,NULL,102,NULL,46)' à la ligne 1
 ERROR;artefact:13012;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(13012,'Cours de P.C.','NULL','NULL',1980?,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,1,NULL,102,NULL,46)
 
-ERROR;artefact<Cell 'Inventaire'.A489>;est vide
+WARNING;artefact:13013;ligne vide
 WARNING;artefact:13013;pas de longueur
 WARNING;artefact:13013;pas de largeur
 WARNING;artefact:13013;pas de hauteur
 WARNING;artefact:13013;pas de poids
 WARNING;artefact:13013;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A490>;est vide
+WARNING;artefact:13014;ligne vide
 WARNING;artefact:13014;mauvais encodage de la longueur
 WARNING;artefact:13014;mauvais encodage de la largeur
 WARNING;artefact:13014;mauvais encodage de la hauteur
 WARNING;artefact:13014;mauvais encodage du poids
 WARNING;artefact:13014;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A491>;est vide
+WARNING;artefact:13015;ligne vide
 WARNING;artefact:13015;mauvais encodage de la longueur
 WARNING;artefact:13015;mauvais encodage du poids
 WARNING;artefact:13015;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A492>;est vide
+WARNING;artefact:13016;ligne vide
 WARNING;artefact:13016;mauvais encodage de la longueur
 WARNING;artefact:13016;mauvais encodage du poids
 WARNING;artefact:13016;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A493>;est vide
+WARNING;artefact:13017;ligne vide
 WARNING;artefact:13017;mauvais encodage de la largeur
 WARNING;artefact:13017;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A494>;est vide
+WARNING;artefact:13018;ligne vide
 WARNING;artefact:13018;mauvais encodage de la longueur
 WARNING;artefact:13018;mauvais encodage de la largeur
 WARNING;artefact:13018;mauvais encodage de la hauteur
 WARNING;artefact:13018;mauvais encodage du poids
 WARNING;artefact:13018;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A495>;est vide
+WARNING;artefact:13019;ligne vide
 WARNING;artefact:13019;mauvais encodage du poids
 WARNING;artefact:13019;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A496>;est vide
+WARNING;artefact:13020;ligne vide
 WARNING;artefact:13020;mauvais encodage du poids
 WARNING;artefact:13020;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A497>;est vide
+WARNING;artefact:13021;ligne vide
 WARNING;artefact:13021;mauvais encodage du poids
 WARNING;artefact:13021;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A498>;est vide
+WARNING;artefact:13022;ligne vide
 WARNING;artefact:13022;mauvais encodage du poids
 WARNING;artefact:13022;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A499>;est vide
+WARNING;artefact:13023;ligne vide
 WARNING;artefact:13023;mauvais encodage de la hauteur
 WARNING;artefact:13023;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A500>;est vide
+WARNING;artefact:13024;ligne vide
 WARNING;artefact:13024;mauvais encodage du poids
 WARNING;artefact:13024;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A501>;est vide
+WARNING;artefact:13025;ligne vide
 WARNING;artefact:13025;mauvais encodage du poids
 WARNING;artefact:13025;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A502>;est vide
+WARNING;artefact:13026;ligne vide
 WARNING;artefact:13026;mauvais encodage de la hauteur
 WARNING;artefact:13026;mauvais encodage du poids
 WARNING;artefact:13026;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A503>;est vide
+WARNING;artefact:13027;ligne vide
 WARNING;artefact:13027;mauvais encodage de la longueur
 WARNING;artefact:13027;mauvais encodage de la hauteur
 WARNING;artefact:13027;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A504>;est vide
+WARNING;artefact:13028;ligne vide
 WARNING;artefact:13028;mauvais encodage de la longueur
 WARNING;artefact:13028;mauvais encodage de la hauteur
 WARNING;artefact:13028;mauvais encodage du poids
 WARNING;artefact:13028;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A505>;est vide
+WARNING;artefact:13029;ligne vide
 WARNING;artefact:13029;pas de quantité
 WARNING;artefact:13029;pas de longueur
 WARNING;artefact:13029;pas de largeur
 WARNING;artefact:13029;pas de hauteur
 WARNING;artefact:13029;pas de poids
 WARNING;artefact:13029;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A506>;est vide
+WARNING;artefact:13030;ligne vide
 WARNING;artefact:13030;mauvais encodage de la longueur
 WARNING;artefact:13030;mauvais encodage de la largeur
 WARNING;artefact:13030;mauvais encodage de la hauteur
 WARNING;artefact:13030;mauvais encodage du poids
-ERROR;artefact:13030;Error 1292; 1292 (22007): Incorrect date value: ' ' for column 'dateIn' at row 1
-ERROR;artefact:13030;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(13030,'Classeur photos','0','0',0,1,' ',NULL,NULL,NULL,NULL,'Trombinoscope',NULL,64,NULL,NULL,32,1,52)
-
-ERROR;artefact<Cell 'Inventaire'.A507>;est vide
+WARNING;artefact:13030;pas de date d'entrée
+WARNING;artefact:13031;ligne vide
 WARNING;artefact:13031;pas de quantité
 WARNING;artefact:13031;pas de longueur
 WARNING;artefact:13031;pas de largeur
 WARNING;artefact:13031;pas de hauteur
 WARNING;artefact:13031;pas de poids
 WARNING;artefact:13031;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A508>;est vide
+WARNING;artefact:13032;ligne vide
 WARNING;artefact:13032;pas de quantité
 WARNING;artefact:13032;pas de longueur
 WARNING;artefact:13032;pas de largeur
 WARNING;artefact:13032;pas de hauteur
 WARNING;artefact:13032;pas de poids
 WARNING;artefact:13032;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A509>;est vide
+WARNING;artefact:13033;ligne vide
 WARNING;artefact:13033;pas de quantité
 WARNING;artefact:13033;pas de longueur
 WARNING;artefact:13033;pas de largeur
 WARNING;artefact:13033;pas de hauteur
 WARNING;artefact:13033;pas de poids
 WARNING;artefact:13033;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A510>;est vide
+WARNING;artefact:15000;ligne vide
 WARNING;artefact:15000;mauvais encodage de la longueur
 WARNING;artefact:15000;mauvais encodage de la largeur
 WARNING;artefact:15000;mauvais encodage de la hauteur
 WARNING;artefact:15000;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A511>;est vide
+WARNING;artefact:15000;pas de date d'entrée
+WARNING;artefact:15001;ligne vide
 WARNING;artefact:15001;mauvais encodage de la longueur
 WARNING;artefact:15001;mauvais encodage de la largeur
 WARNING;artefact:15001;mauvais encodage de la hauteur
 WARNING;artefact:15001;mauvais encodage du poids
-ERROR;artefact:15001;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:15001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(15001,'Soft ZENITH','0','0',1980,1,'00:00:00',NULL,NULL,NULL,NULL,'NULL',NULL,76,6,NULL,106,9,32)
-
-ERROR;artefact<Cell 'Inventaire'.A512>;est vide
+WARNING;artefact:15001;pas de date d'entrée
+WARNING;artefact:15002;ligne vide
 WARNING;artefact:15002;pas de longueur
 WARNING;artefact:15002;pas de largeur
 WARNING;artefact:15002;pas de hauteur
 WARNING;artefact:15002;pas de poids
 WARNING;artefact:15002;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A513>;est vide
+WARNING;artefact:15003;ligne vide
 WARNING;artefact:15003;pas de longueur
 WARNING;artefact:15003;pas de largeur
 WARNING;artefact:15003;pas de hauteur
 WARNING;artefact:15003;pas de poids
 WARNING;artefact:15003;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A514>;est vide
+WARNING;artefact:15004;ligne vide
 WARNING;artefact:15004;pas de longueur
 WARNING;artefact:15004;pas de largeur
 WARNING;artefact:15004;pas de hauteur
 WARNING;artefact:15004;pas de poids
 WARNING;artefact:15004;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A515>;est vide
+WARNING;artefact:15005;ligne vide
 WARNING;artefact:15005;pas de quantité
 WARNING;artefact:15005;pas de longueur
 WARNING;artefact:15005;pas de largeur
 WARNING;artefact:15005;pas de hauteur
 WARNING;artefact:15005;pas de poids
 WARNING;artefact:15005;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A516>;est vide
+WARNING;artefact:15006;ligne vide
 WARNING;artefact:15006;pas de quantité
 WARNING;artefact:15006;pas de longueur
 WARNING;artefact:15006;pas de largeur
 WARNING;artefact:15006;pas de hauteur
 WARNING;artefact:15006;pas de poids
 WARNING;artefact:15006;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A517>;est vide
+WARNING;artefact:15007;ligne vide
 WARNING;artefact:15007;pas de longueur
 WARNING;artefact:15007;pas de largeur
 WARNING;artefact:15007;pas de hauteur
 WARNING;artefact:15007;pas de poids
 WARNING;artefact:15007;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A518>;est vide
+WARNING;artefact:98000;ligne vide
 WARNING;artefact:98000;mauvais encodage de la longueur
 WARNING;artefact:98000;mauvais encodage de la largeur
 WARNING;artefact:98000;pas de hauteur
 WARNING;artefact:98000;pas de poids
 WARNING;artefact:98000;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A519>;est vide
+WARNING;artefact:98001;ligne vide
 WARNING;artefact:98001;mauvais encodage de la longueur
 WARNING;artefact:98001;mauvais encodage de la largeur
 WARNING;artefact:98001;pas de hauteur
@@ -3600,7 +3866,7 @@ WARNING;artefact:98001;pas de date d'entrée
 ERROR;artefact:98001;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,4,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)' à la ligne 1
 ERROR;artefact:98001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98001,'P.M.E.','Paco Rabane,Bardinet,Jeanneau','TBWA',1992?,4,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)
 
-ERROR;artefact<Cell 'Inventaire'.A520>;est vide
+WARNING;artefact:98002;ligne vide
 WARNING;artefact:98002;mauvais encodage de la longueur
 WARNING;artefact:98002;mauvais encodage de la largeur
 WARNING;artefact:98002;pas de hauteur
@@ -3609,7 +3875,7 @@ WARNING;artefact:98002;pas de date d'entrée
 ERROR;artefact:98002;Error 1064; 1064 (42000): Erreur de syntaxe près de 'Arbre et la Banque','NULL',1992?,3,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,1' à la ligne 1
 ERROR;artefact:98002;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98002,'Banque','L'Arbre et la Banque','NULL',1992?,3,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)
 
-ERROR;artefact<Cell 'Inventaire'.A521>;est vide
+WARNING;artefact:98003;ligne vide
 WARNING;artefact:98003;mauvais encodage de la longueur
 WARNING;artefact:98003;mauvais encodage de la largeur
 WARNING;artefact:98003;pas de hauteur
@@ -3618,7 +3884,7 @@ WARNING;artefact:98003;pas de date d'entrée
 ERROR;artefact:98003;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,4,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)' à la ligne 1
 ERROR;artefact:98003;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98003,'Mathilde','Non impact printing','NULL',1992?,4,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)
 
-ERROR;artefact<Cell 'Inventaire'.A522>;est vide
+WARNING;artefact:98004;ligne vide
 WARNING;artefact:98004;mauvais encodage de la longueur
 WARNING;artefact:98004;mauvais encodage de la largeur
 WARNING;artefact:98004;pas de hauteur
@@ -3627,7 +3893,7 @@ WARNING;artefact:98004;pas de date d'entrée
 ERROR;artefact:98004;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)' à la ligne 1
 ERROR;artefact:98004;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98004,'Die Wuste lebt','NULL','TBWA Dusseldorf',1992?,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,78,1,NULL,107,NULL,57)
 
-ERROR;artefact<Cell 'Inventaire'.A523>;est vide
+WARNING;artefact:98005;ligne vide
 WARNING;artefact:98005;mauvais encodage de la longueur
 WARNING;artefact:98005;mauvais encodage de la largeur
 WARNING;artefact:98005;pas de hauteur
@@ -3636,347 +3902,369 @@ WARNING;artefact:98005;pas de date d'entrée
 ERROR;artefact:98005;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,2,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,1,NULL,NULL,NULL,57)' à la ligne 1
 ERROR;artefact:98005;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98005,'Das Prinzip Freiheit','NULL','TBWA Dusseldorf',1992?,2,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,1,NULL,NULL,NULL,57)
 
-ERROR;artefact<Cell 'Inventaire'.A524>;est vide
+WARNING;artefact:98133;ligne vide
 WARNING;artefact:98133;pas de longueur
 WARNING;artefact:98133;pas de largeur
 WARNING;artefact:98133;pas de hauteur
 WARNING;artefact:98133;pas de poids
 WARNING;artefact:98133;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A525>;est vide
+WARNING;artefact:98134;ligne vide
 WARNING;artefact:98134;pas de longueur
 WARNING;artefact:98134;pas de largeur
 WARNING;artefact:98134;pas de hauteur
 WARNING;artefact:98134;pas de poids
 WARNING;artefact:98134;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A526>;est vide
+WARNING;artefact:98135;ligne vide
 WARNING;artefact:98135;pas de longueur
 WARNING;artefact:98135;pas de largeur
 WARNING;artefact:98135;pas de hauteur
 WARNING;artefact:98135;pas de poids
 WARNING;artefact:98135;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A527>;est vide
+WARNING;artefact:98143;ligne vide
 WARNING;artefact:98143;pas de longueur
 WARNING;artefact:98143;pas de largeur
 WARNING;artefact:98143;pas de hauteur
 WARNING;artefact:98143;pas de poids
 WARNING;artefact:98143;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A528>;est vide
+WARNING;artefact:98144;ligne vide
 WARNING;artefact:98144;mauvais encodage de la longueur
 WARNING;artefact:98144;mauvais encodage de la largeur
 WARNING;artefact:98144;mauvais encodage de la hauteur
 WARNING;artefact:98144;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A529>;est vide
+WARNING;artefact:98144;pas de date d'entrée
+WARNING;artefact:98145;ligne vide
 WARNING;artefact:98145;mauvais encodage de la longueur
 WARNING;artefact:98145;mauvais encodage de la largeur
 WARNING;artefact:98145;mauvais encodage de la hauteur
 WARNING;artefact:98145;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A530>;est vide
+WARNING;artefact:98145;pas de date d'entrée
+WARNING;artefact:98146;ligne vide
 WARNING;artefact:98146;pas de longueur
 WARNING;artefact:98146;pas de largeur
 WARNING;artefact:98146;pas de hauteur
 WARNING;artefact:98146;pas de poids
 WARNING;artefact:98146;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A531>;est vide
+WARNING;artefact:98147;ligne vide
 WARNING;artefact:98147;pas de longueur
 WARNING;artefact:98147;pas de largeur
 WARNING;artefact:98147;pas de hauteur
 WARNING;artefact:98147;pas de poids
 WARNING;artefact:98147;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A532>;est vide
+WARNING;artefact:98148;ligne vide
 WARNING;artefact:98148;pas de longueur
 WARNING;artefact:98148;pas de largeur
 WARNING;artefact:98148;pas de hauteur
 WARNING;artefact:98148;pas de poids
 WARNING;artefact:98148;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A533>;est vide
+WARNING;artefact:98149;ligne vide
 WARNING;artefact:98149;pas de longueur
 WARNING;artefact:98149;pas de largeur
 WARNING;artefact:98149;pas de hauteur
 WARNING;artefact:98149;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A534>;est vide
+WARNING;artefact:98149;pas de date d'entrée
+WARNING;artefact:98150;ligne vide
 WARNING;artefact:98150;pas de longueur
 WARNING;artefact:98150;pas de largeur
 WARNING;artefact:98150;pas de hauteur
 WARNING;artefact:98150;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A535>;est vide
+WARNING;artefact:98150;pas de date d'entrée
+WARNING;artefact:98151;ligne vide
 WARNING;artefact:98151;pas de longueur
 WARNING;artefact:98151;pas de largeur
 WARNING;artefact:98151;pas de hauteur
 WARNING;artefact:98151;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A536>;est vide
+WARNING;artefact:98151;pas de date d'entrée
+WARNING;artefact:98152;ligne vide
 WARNING;artefact:98152;mauvais encodage de la longueur
 WARNING;artefact:98152;mauvais encodage de la largeur
 WARNING;artefact:98152;mauvais encodage de la hauteur
 WARNING;artefact:98152;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A537>;est vide
+WARNING;artefact:98152;pas de date d'entrée
+WARNING;artefact:98153;ligne vide
 WARNING;artefact:98153;pas de longueur
 WARNING;artefact:98153;pas de largeur
 WARNING;artefact:98153;pas de hauteur
 WARNING;artefact:98153;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A538>;est vide
+WARNING;artefact:98153;pas de date d'entrée
+WARNING;artefact:98154;ligne vide
 WARNING;artefact:98154;mauvais encodage de la largeur
 WARNING;artefact:98154;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A539>;est vide
+WARNING;artefact:98154;pas de date d'entrée
+WARNING;artefact:98155;ligne vide
 WARNING;artefact:98155;mauvais encodage de la longueur
 WARNING;artefact:98155;mauvais encodage de la largeur
-ERROR;artefact<Cell 'Inventaire'.A540>;est vide
+WARNING;artefact:98155;pas de date d'entrée
+WARNING;artefact:98156;ligne vide
 WARNING;artefact:98156;mauvais encodage de la longueur
 WARNING;artefact:98156;mauvais encodage de la largeur
 WARNING;artefact:98156;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A541>;est vide
+WARNING;artefact:98156;pas de date d'entrée
+WARNING;artefact:98157;ligne vide
 WARNING;artefact:98157;pas de longueur
 WARNING;artefact:98157;pas de largeur
 WARNING;artefact:98157;pas de hauteur
 WARNING;artefact:98157;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A542>;est vide
+WARNING;artefact:98157;pas de date d'entrée
+WARNING;artefact:98158;ligne vide
 WARNING;artefact:98158;mauvais encodage de la longueur
 WARNING;artefact:98158;mauvais encodage de la hauteur
 WARNING;artefact:98158;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A543>;est vide
+WARNING;artefact:98158;pas de date d'entrée
+WARNING;artefact:98159;ligne vide
 WARNING;artefact:98159;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A544>;est vide
+WARNING;artefact:98159;pas de date d'entrée
+WARNING;artefact:98160;ligne vide
 WARNING;artefact:98160;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A545>;est vide
+WARNING;artefact:98160;pas de date d'entrée
+WARNING;artefact:98161;ligne vide
 WARNING;artefact:98161;pas de longueur
 WARNING;artefact:98161;pas de largeur
 WARNING;artefact:98161;pas de hauteur
 WARNING;artefact:98161;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A546>;est vide
+WARNING;artefact:98161;pas de date d'entrée
+WARNING;artefact:98162;ligne vide
 WARNING;artefact:98162;mauvais encodage de la largeur
 WARNING;artefact:98162;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A547>;est vide
+WARNING;artefact:98162;pas de date d'entrée
+WARNING;artefact:98163;ligne vide
 WARNING;artefact:98163;mauvais encodage de la longueur
 WARNING;artefact:98163;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A548>;est vide
+WARNING;artefact:98163;pas de date d'entrée
+WARNING;artefact:98164;ligne vide
 WARNING;artefact:98164;mauvais encodage de la longueur
 WARNING;artefact:98164;mauvais encodage de la largeur
 WARNING;artefact:98164;mauvais encodage de la hauteur
 WARNING;artefact:98164;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A549>;est vide
+WARNING;artefact:98164;pas de date d'entrée
+WARNING;artefact:98165;ligne vide
 WARNING;artefact:98165;mauvais encodage de la longueur
 WARNING;artefact:98165;mauvais encodage de la largeur
 WARNING;artefact:98165;mauvais encodage de la hauteur
 WARNING;artefact:98165;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A550>;est vide
+WARNING;artefact:98165;pas de date d'entrée
+WARNING;artefact:98166;ligne vide
 WARNING;artefact:98166;mauvais encodage de la largeur
 WARNING;artefact:98166;mauvais encodage de la hauteur
 WARNING;artefact:98166;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A551>;est vide
+WARNING;artefact:98167;ligne vide
 WARNING;artefact:98167;mauvais encodage de la hauteur
 WARNING;artefact:98167;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A552>;est vide
+WARNING;artefact:98168;ligne vide
 WARNING;artefact:98168;mauvais encodage du poids
 WARNING;artefact:98168;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A553>;est vide
+WARNING;artefact:98169;ligne vide
 WARNING;artefact:98169;mauvais encodage de la longueur
 WARNING;artefact:98169;mauvais encodage de la hauteur
 WARNING;artefact:98169;mauvais encodage du poids
 WARNING;artefact:98169;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A554>;est vide
+WARNING;artefact:98170;ligne vide
 WARNING;artefact:98170;mauvais encodage de la longueur
 WARNING;artefact:98170;mauvais encodage de la hauteur
 WARNING;artefact:98170;mauvais encodage du poids
 WARNING;artefact:98170;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A555>;est vide
+WARNING;artefact:98171;ligne vide
 WARNING;artefact:98171;mauvais encodage de la longueur
 WARNING;artefact:98171;mauvais encodage du poids
 WARNING;artefact:98171;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A556>;est vide
+WARNING;artefact:98172;ligne vide
 WARNING;artefact:98172;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A557>;est vide
+WARNING;artefact:98173;ligne vide
 WARNING;artefact:98173;pas de quantité
 WARNING;artefact:98173;pas de longueur
 WARNING;artefact:98173;pas de largeur
 WARNING;artefact:98173;pas de hauteur
 WARNING;artefact:98173;pas de poids
 WARNING;artefact:98173;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A558>;est vide
+WARNING;artefact:98174;ligne vide
 WARNING;artefact:98174;pas de quantité
 WARNING;artefact:98174;pas de longueur
 WARNING;artefact:98174;pas de largeur
 WARNING;artefact:98174;pas de hauteur
 WARNING;artefact:98174;pas de poids
 WARNING;artefact:98174;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A559>;est vide
+WARNING;artefact:98175;ligne vide
 WARNING;artefact:98175;pas de quantité
 WARNING;artefact:98175;pas de longueur
 WARNING;artefact:98175;pas de largeur
 WARNING;artefact:98175;pas de hauteur
 WARNING;artefact:98175;pas de poids
 WARNING;artefact:98175;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A560>;est vide
+WARNING;artefact:98176;ligne vide
 WARNING;artefact:98176;pas de quantité
 WARNING;artefact:98176;pas de longueur
 WARNING;artefact:98176;pas de largeur
 WARNING;artefact:98176;pas de hauteur
 WARNING;artefact:98176;pas de poids
 WARNING;artefact:98176;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A561>;est vide
+WARNING;artefact:98177;ligne vide
 WARNING;artefact:98177;pas de quantité
 WARNING;artefact:98177;pas de longueur
 WARNING;artefact:98177;pas de largeur
 WARNING;artefact:98177;pas de hauteur
 WARNING;artefact:98177;pas de poids
 WARNING;artefact:98177;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A562>;est vide
+WARNING;artefact:98178;ligne vide
 WARNING;artefact:98178;pas de quantité
 WARNING;artefact:98178;pas de longueur
 WARNING;artefact:98178;pas de largeur
 WARNING;artefact:98178;pas de hauteur
 WARNING;artefact:98178;pas de poids
 WARNING;artefact:98178;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A563>;est vide
+WARNING;artefact:98294;ligne vide
 WARNING;artefact:98294;mauvais encodage de la largeur
 WARNING;artefact:98294;mauvais encodage de la hauteur
 WARNING;artefact:98294;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A564>;est vide
+WARNING;artefact:98294;pas de date d'entrée
+WARNING;artefact:98295;ligne vide
 WARNING;artefact:98295;pas de longueur
 WARNING;artefact:98295;pas de largeur
 WARNING;artefact:98295;pas de hauteur
 WARNING;artefact:98295;pas de poids
 WARNING;artefact:98295;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A565>;est vide
-ERROR;artefact<Cell 'Inventaire'.A566>;est vide
+WARNING;artefact:98296;ligne vide
+WARNING;artefact:98296;pas de date d'entrée
+WARNING;artefact:98310;ligne vide
 WARNING;artefact:98310;pas de longueur
 WARNING;artefact:98310;pas de largeur
 WARNING;artefact:98310;pas de hauteur
 WARNING;artefact:98310;pas de poids
 WARNING;artefact:98310;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A567>;est vide
+WARNING;artefact:98311;ligne vide
 WARNING;artefact:98311;mauvais encodage de la hauteur
 WARNING;artefact:98311;mauvais encodage du poids
 WARNING;artefact:98311;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A568>;est vide
+WARNING;artefact:98312;ligne vide
 WARNING;artefact:98312;mauvais encodage de la longueur
 WARNING;artefact:98312;mauvais encodage de la largeur
 WARNING;artefact:98312;mauvais encodage de la hauteur
 WARNING;artefact:98312;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A569>;est vide
+WARNING;artefact:98312;pas de date d'entrée
+WARNING;artefact:98313;ligne vide
 WARNING;artefact:98313;mauvais encodage de la longueur
 WARNING;artefact:98313;mauvais encodage du poids
 WARNING;artefact:98313;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A570>;est vide
+WARNING;artefact:98314;ligne vide
 WARNING;artefact:98314;mauvais encodage de la longueur
 WARNING;artefact:98314;pas de largeur
 WARNING;artefact:98314;pas de hauteur
 WARNING;artefact:98314;pas de poids
 WARNING;artefact:98314;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A571>;est vide
+WARNING;artefact:98315;ligne vide
 WARNING;artefact:98315;pas de longueur
 WARNING;artefact:98315;pas de largeur
 WARNING;artefact:98315;pas de hauteur
 WARNING;artefact:98315;pas de poids
 WARNING;artefact:98315;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A572>;est vide
+WARNING;artefact:98316;ligne vide
 WARNING;artefact:98316;pas de longueur
 WARNING;artefact:98316;pas de largeur
 WARNING;artefact:98316;pas de hauteur
 WARNING;artefact:98316;pas de poids
 WARNING;artefact:98316;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A573>;est vide
+WARNING;artefact:98317;ligne vide
 WARNING;artefact:98317;pas de longueur
 WARNING;artefact:98317;pas de largeur
 WARNING;artefact:98317;pas de hauteur
 WARNING;artefact:98317;pas de poids
 WARNING;artefact:98317;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A574>;est vide
+WARNING;artefact:98318;ligne vide
 WARNING;artefact:98318;pas de longueur
 WARNING;artefact:98318;pas de largeur
 WARNING;artefact:98318;pas de hauteur
 WARNING;artefact:98318;pas de poids
 WARNING;artefact:98318;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A575>;est vide
+WARNING;artefact:98319;ligne vide
 WARNING;artefact:98319;pas de longueur
 WARNING;artefact:98319;pas de largeur
 WARNING;artefact:98319;pas de hauteur
 WARNING;artefact:98319;pas de poids
 WARNING;artefact:98319;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A576>;est vide
+WARNING;artefact:98320;ligne vide
 WARNING;artefact:98320;pas de longueur
 WARNING;artefact:98320;pas de largeur
 WARNING;artefact:98320;pas de hauteur
 WARNING;artefact:98320;pas de poids
 WARNING;artefact:98320;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A577>;est vide
+WARNING;artefact:98321;ligne vide
 WARNING;artefact:98321;pas de longueur
 WARNING;artefact:98321;pas de largeur
 WARNING;artefact:98321;pas de hauteur
 WARNING;artefact:98321;pas de poids
 WARNING;artefact:98321;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A578>;est vide
+WARNING;artefact:98322;ligne vide
 WARNING;artefact:98322;pas de longueur
 WARNING;artefact:98322;pas de largeur
 WARNING;artefact:98322;pas de hauteur
 WARNING;artefact:98322;pas de poids
 WARNING;artefact:98322;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A579>;est vide
+WARNING;artefact:98323;ligne vide
 WARNING;artefact:98323;pas de longueur
 WARNING;artefact:98323;pas de largeur
 WARNING;artefact:98323;pas de hauteur
 WARNING;artefact:98323;pas de poids
 WARNING;artefact:98323;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A580>;est vide
+WARNING;artefact:98324;ligne vide
 WARNING;artefact:98324;pas de longueur
 WARNING;artefact:98324;pas de largeur
 WARNING;artefact:98324;pas de hauteur
 WARNING;artefact:98324;pas de poids
 WARNING;artefact:98324;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A581>;est vide
+WARNING;artefact:98325;ligne vide
 WARNING;artefact:98325;pas de longueur
 WARNING;artefact:98325;pas de largeur
 WARNING;artefact:98325;pas de hauteur
 WARNING;artefact:98325;pas de poids
 WARNING;artefact:98325;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A582>;est vide
+WARNING;artefact:98326;ligne vide
 WARNING;artefact:98326;pas de longueur
 WARNING;artefact:98326;pas de largeur
 WARNING;artefact:98326;pas de hauteur
 WARNING;artefact:98326;pas de poids
 WARNING;artefact:98326;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A583>;est vide
+WARNING;artefact:98327;ligne vide
 WARNING;artefact:98327;pas de longueur
 WARNING;artefact:98327;pas de largeur
 WARNING;artefact:98327;pas de hauteur
 WARNING;artefact:98327;pas de poids
 WARNING;artefact:98327;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A584>;est vide
+WARNING;artefact:98328;ligne vide
 WARNING;artefact:98328;pas de longueur
 WARNING;artefact:98328;pas de largeur
 WARNING;artefact:98328;pas de hauteur
 WARNING;artefact:98328;pas de poids
 WARNING;artefact:98328;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A585>;est vide
+WARNING;artefact:98329;ligne vide
 WARNING;artefact:98329;pas de longueur
 WARNING;artefact:98329;pas de largeur
 WARNING;artefact:98329;pas de hauteur
 WARNING;artefact:98329;pas de poids
 WARNING;artefact:98329;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A586>;est vide
+WARNING;artefact:98330;ligne vide
 WARNING;artefact:98330;pas de longueur
 WARNING;artefact:98330;pas de largeur
 WARNING;artefact:98330;pas de hauteur
 WARNING;artefact:98330;pas de poids
 WARNING;artefact:98330;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A587>;est vide
+WARNING;artefact:98331;ligne vide
 WARNING;artefact:98331;pas de quantité
 WARNING;artefact:98331;pas de longueur
 WARNING;artefact:98331;pas de largeur
 WARNING;artefact:98331;pas de hauteur
 WARNING;artefact:98331;pas de poids
 WARNING;artefact:98331;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A588>;est vide
+WARNING;artefact:98498;ligne vide
 WARNING;artefact:98498;pas de longueur
 WARNING;artefact:98498;pas de largeur
 WARNING;artefact:98498;pas de hauteur
 WARNING;artefact:98498;pas de poids
 WARNING;artefact:98498;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A589>;est vide
+WARNING;artefact:98519;ligne vide
 WARNING;artefact:98519;pas de longueur
 WARNING;artefact:98519;pas de largeur
 WARNING;artefact:98519;pas de hauteur
 WARNING;artefact:98519;pas de poids
 WARNING;artefact:98519;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A590>;est vide
+WARNING;artefact:98520;ligne vide
 WARNING;artefact:98520;pas de longueur
 WARNING;artefact:98520;pas de largeur
 WARNING;artefact:98520;pas de hauteur
@@ -3985,379 +4273,507 @@ WARNING;artefact:98520;pas de date d'entrée
 ERROR;artefact:98520;Error 1064; 1064 (42000): Erreur de syntaxe près de 'arbre Bull en bois','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,134,NUL' à la ligne 1
 ERROR;artefact:98520;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98520,'Arbre Bull en bois','L'arbre Bull en bois','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,134,NULL,104,1,58)
 
-ERROR;artefact<Cell 'Inventaire'.A591>;est vide
+WARNING;artefact:98521;ligne vide
 WARNING;artefact:98521;mauvais encodage de la longueur
 WARNING;artefact:98521;mauvais encodage de la largeur
 WARNING;artefact:98521;mauvais encodage de la hauteur
 WARNING;artefact:98521;mauvais encodage du poids
 WARNING;artefact:98521;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A592>;est vide
+WARNING;artefact:98522;ligne vide
 WARNING;artefact:98522;mauvais encodage de la longueur
 WARNING;artefact:98522;mauvais encodage de la largeur
 WARNING;artefact:98522;mauvais encodage de la hauteur
 WARNING;artefact:98522;mauvais encodage du poids
 WARNING;artefact:98522;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A593>;est vide
+WARNING;artefact:98523;ligne vide
 WARNING;artefact:98523;pas de longueur
 WARNING;artefact:98523;pas de largeur
 WARNING;artefact:98523;pas de hauteur
 WARNING;artefact:98523;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A594>;est vide
+WARNING;artefact:98523;pas de date d'entrée
+WARNING;artefact:98524;ligne vide
 WARNING;artefact:98524;pas de longueur
 WARNING;artefact:98524;pas de largeur
 WARNING;artefact:98524;pas de hauteur
 WARNING;artefact:98524;pas de poids
 WARNING;artefact:98524;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A595>;est vide
+WARNING;artefact:98525;ligne vide
 WARNING;artefact:98525;pas de quantité
 WARNING;artefact:98525;pas de longueur
 WARNING;artefact:98525;pas de largeur
 WARNING;artefact:98525;pas de hauteur
 WARNING;artefact:98525;pas de poids
 WARNING;artefact:98525;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A596>;est vide
+WARNING;artefact:98526;ligne vide
 WARNING;artefact:98526;pas de quantité
 WARNING;artefact:98526;pas de longueur
 WARNING;artefact:98526;pas de largeur
 WARNING;artefact:98526;pas de hauteur
 WARNING;artefact:98526;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A597>;est vide
+WARNING;artefact:98526;pas de date d'entrée
+WARNING;artefact:98527;ligne vide
 WARNING;artefact:98527;pas de quantité
 WARNING;artefact:98527;pas de longueur
 WARNING;artefact:98527;pas de largeur
 WARNING;artefact:98527;pas de hauteur
 WARNING;artefact:98527;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A598>;est vide
+WARNING;artefact:98527;pas de date d'entrée
+WARNING;artefact:98528;ligne vide
 WARNING;artefact:98528;pas de quantité
 WARNING;artefact:98528;pas de longueur
 WARNING;artefact:98528;pas de largeur
 WARNING;artefact:98528;pas de hauteur
 WARNING;artefact:98528;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A599>;est vide
+WARNING;artefact:98528;pas de date d'entrée
+WARNING;artefact:98529;ligne vide
 WARNING;artefact:98529;pas de quantité
 WARNING;artefact:98529;pas de longueur
 WARNING;artefact:98529;pas de largeur
 WARNING;artefact:98529;pas de hauteur
 WARNING;artefact:98529;pas de poids
-ERROR;artefact:98529;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,NULL,'2014-07-30 00:00:00',NULL,NULL,NULL,NULL,'Cahier dExercices fonctions',2' à la ligne 1
-ERROR;artefact:98529;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98529,'Excel 2007','NULL','NULL',  ?,NULL,'2014-07-30 00:00:00',NULL,NULL,NULL,NULL,'Cahier dExercices fonctions',28,NULL,140,NULL,NULL,NULL,61)
+WARNING;artefact:98529;pas de date d'entrée
+ERROR;artefact:98529;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,NULL,NULL,NULL,NULL,NULL,NULL,'Cahier dExercices fonctions',28,NULL,140,NULL,N' à la ligne 1
+ERROR;artefact:98529;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98529,'Excel 2007','NULL','NULL',  ?,NULL,NULL,NULL,NULL,NULL,NULL,'Cahier dExercices fonctions',28,NULL,140,NULL,NULL,NULL,61)
 
-ERROR;artefact<Cell 'Inventaire'.A600>;est vide
+WARNING;artefact:98530;ligne vide
 WARNING;artefact:98530;pas de quantité
 WARNING;artefact:98530;pas de longueur
 WARNING;artefact:98530;pas de largeur
 WARNING;artefact:98530;pas de hauteur
 WARNING;artefact:98530;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A601>;est vide
+WARNING;artefact:98530;pas de date d'entrée
+WARNING;artefact:98531;ligne vide
 WARNING;artefact:98531;pas de quantité
 WARNING;artefact:98531;pas de longueur
 WARNING;artefact:98531;pas de largeur
 WARNING;artefact:98531;pas de hauteur
 WARNING;artefact:98531;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A602>;est vide
+WARNING;artefact:98531;pas de date d'entrée
+WARNING;artefact:98532;ligne vide
 WARNING;artefact:98532;pas de quantité
 WARNING;artefact:98532;pas de longueur
 WARNING;artefact:98532;pas de largeur
 WARNING;artefact:98532;pas de hauteur
 WARNING;artefact:98532;pas de poids
-ERROR;artefact:98532;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,NULL,'2014-07-30 00:00:00',NULL,NULL,NULL,NULL,'Maîtriser Acess Visual',28,NU' à la ligne 1
-ERROR;artefact:98532;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98532,'Visual Basic','NULL','NULL',  ?,NULL,'2014-07-30 00:00:00',NULL,NULL,NULL,NULL,'Maîtriser Acess Visual',28,NULL,143,NULL,NULL,NULL,61)
+WARNING;artefact:98532;pas de date d'entrée
+ERROR;artefact:98532;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,NULL,NULL,NULL,NULL,NULL,NULL,'Maîtriser Acess Visual',28,NULL,143,NULL,NULL,' à la ligne 1
+ERROR;artefact:98532;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98532,'Visual Basic','NULL','NULL',  ?,NULL,NULL,NULL,NULL,NULL,NULL,'Maîtriser Acess Visual',28,NULL,143,NULL,NULL,NULL,61)
 
-ERROR;artefact<Cell 'Inventaire'.A603>;est vide
+WARNING;artefact:98533;ligne vide
 WARNING;artefact:98533;pas de quantité
 WARNING;artefact:98533;pas de longueur
 WARNING;artefact:98533;pas de largeur
 WARNING;artefact:98533;pas de hauteur
 WARNING;artefact:98533;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A604>;est vide
+WARNING;artefact:98533;pas de date d'entrée
+WARNING;artefact:98534;ligne vide
 WARNING;artefact:98534;pas de longueur
 WARNING;artefact:98534;pas de largeur
 WARNING;artefact:98534;pas de hauteur
 WARNING;artefact:98534;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A605>;est vide
+WARNING;artefact:98534;pas de date d'entrée
+WARNING;artefact:98535;ligne vide
 WARNING;artefact:98535;mauvais encodage de la longueur
 WARNING;artefact:98535;mauvais encodage de la largeur
 WARNING;artefact:98535;mauvais encodage de la hauteur
 WARNING;artefact:98535;mauvais encodage du poids
 WARNING;artefact:98535;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A606>;est vide
+WARNING;artefact:98536;ligne vide
 WARNING;artefact:98536;mauvais encodage de la longueur
 WARNING;artefact:98536;mauvais encodage de la largeur
 WARNING;artefact:98536;mauvais encodage de la hauteur
 WARNING;artefact:98536;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A607>;est vide
+WARNING;artefact:98536;pas de date d'entrée
+WARNING;artefact:98537;ligne vide
 WARNING;artefact:98537;pas de quantité
 WARNING;artefact:98537;pas de longueur
 WARNING;artefact:98537;pas de largeur
 WARNING;artefact:98537;pas de hauteur
 WARNING;artefact:98537;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A608>;est vide
+WARNING;artefact:98537;pas de date d'entrée
+WARNING;artefact:98538;ligne vide
 WARNING;artefact:98538;mauvais encodage de la longueur
 WARNING;artefact:98538;mauvais encodage de la largeur
 WARNING;artefact:98538;mauvais encodage de la hauteur
 WARNING;artefact:98538;mauvais encodage du poids
 WARNING;artefact:98538;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A609>;est vide
+WARNING;artefact:98539;ligne vide
 WARNING;artefact:98539;pas de quantité
 WARNING;artefact:98539;pas de longueur
 WARNING;artefact:98539;pas de largeur
 WARNING;artefact:98539;pas de hauteur
 WARNING;artefact:98539;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A610>;est vide
+WARNING;artefact:98539;pas de date d'entrée
+WARNING;artefact:98540;ligne vide
 WARNING;artefact:98540;pas de quantité
 WARNING;artefact:98540;pas de longueur
 WARNING;artefact:98540;pas de largeur
 WARNING;artefact:98540;pas de hauteur
 WARNING;artefact:98540;pas de poids
 WARNING;artefact:98540;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A611>;est vide
+WARNING;artefact:98541;ligne vide
 WARNING;artefact:98541;pas de longueur
 WARNING;artefact:98541;pas de largeur
 WARNING;artefact:98541;pas de hauteur
 WARNING;artefact:98541;pas de poids
 WARNING;artefact:98541;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A612>;est vide
+WARNING;artefact:98542;ligne vide
 WARNING;artefact:98542;pas de quantité
 WARNING;artefact:98542;pas de longueur
 WARNING;artefact:98542;pas de largeur
 WARNING;artefact:98542;pas de hauteur
 WARNING;artefact:98542;pas de poids
 WARNING;artefact:98542;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A613>;est vide
+WARNING;artefact:98543;ligne vide
 WARNING;artefact:98543;pas de quantité
 WARNING;artefact:98543;pas de longueur
 WARNING;artefact:98543;pas de largeur
 WARNING;artefact:98543;pas de hauteur
 WARNING;artefact:98543;pas de poids
 WARNING;artefact:98543;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A614>;est vide
+WARNING;artefact:98544;ligne vide
 WARNING;artefact:98544;pas de quantité
 WARNING;artefact:98544;pas de longueur
 WARNING;artefact:98544;pas de largeur
 WARNING;artefact:98544;pas de hauteur
 WARNING;artefact:98544;pas de poids
 WARNING;artefact:98544;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A615>;est vide
+WARNING;artefact:98545;ligne vide
 WARNING;artefact:98545;pas de quantité
 WARNING;artefact:98545;pas de longueur
 WARNING;artefact:98545;pas de largeur
 WARNING;artefact:98545;pas de hauteur
 WARNING;artefact:98545;pas de poids
 WARNING;artefact:98545;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A616>;est vide
+WARNING;artefact:98546;ligne vide
 WARNING;artefact:98546;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A617>;est vide
+WARNING;artefact:98547;ligne vide
 WARNING;artefact:98547;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A618>;est vide
+WARNING;artefact:98548;ligne vide
 WARNING;artefact:98548;mauvais encodage de la longueur
 WARNING;artefact:98548;mauvais encodage de la largeur
 WARNING;artefact:98548;mauvais encodage de la hauteur
 WARNING;artefact:98548;mauvais encodage du poids
 WARNING;artefact:98548;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A619>;est vide
+WARNING;artefact:98548;ligne vide
 WARNING;artefact:98548;mauvais encodage de la longueur
 WARNING;artefact:98548;mauvais encodage de la hauteur
 WARNING;artefact:98548;mauvais encodage du poids
+WARNING;artefact:98548;pas de date d'entrée
 ERROR;artefact:98548;Error 1062; 1062 (23000): Duplicata du champ '98548' pour la clef 'PRIMARY'
-ERROR;artefact:98548;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98548,'Pour Minitel','MN5512','96160F',NULL,1,'2015-06-10 00:00:00',NULL,3,NULL,NULL,'livres accompagnant le Micral 15',NULL,NULL,NULL,NULL,119,46,63)
+ERROR;artefact:98548;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98548,'Pour Minitel','MN5512','96160F',NULL,1,NULL,NULL,3,NULL,NULL,'livres accompagnant le Micral 15',NULL,NULL,NULL,NULL,119,46,63)
 
-ERROR;artefact<Cell 'Inventaire'.A620>;est vide
+WARNING;artefact:98549;ligne vide
 WARNING;artefact:98549;mauvais encodage de la longueur
-ERROR;artefact<Cell 'Inventaire'.A621>;est vide
+WARNING;artefact:98549;pas de date d'entrée
+WARNING;artefact:98550;ligne vide
 WARNING;artefact:98550;mauvais encodage de la longueur
 WARNING;artefact:98550;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A622>;est vide
+WARNING;artefact:98550;pas de date d'entrée
+WARNING;artefact:98551;ligne vide
 WARNING;artefact:98551;mauvais encodage de la longueur
 WARNING;artefact:98551;mauvais encodage de la largeur
 WARNING;artefact:98551;mauvais encodage de la hauteur
-ERROR;artefact<Cell 'Inventaire'.A623>;est vide
+WARNING;artefact:98551;pas de date d'entrée
+WARNING;artefact:98552;ligne vide
 WARNING;artefact:98552;mauvais encodage de la largeur
 WARNING;artefact:98552;mauvais encodage de la hauteur
 WARNING;artefact:98552;mauvais encodage du poids
-ERROR;artefact:98552;Error 1064; 1064 (42000): Erreur de syntaxe près de 'bank,1,'2015-06-10 00:00:00',7,NULL,NULL,NULL,'avec connecteur femelle vers PC t' à la ligne 1
-ERROR;artefact:98552;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98552,'Lecteur carte banquaire','NULL','18-1329041*1',2000Deutche bank,1,'2015-06-10 00:00:00',7,NULL,NULL,NULL,'avec connecteur femelle vers PC type ? Breveté Bull et Innovatron',3,NULL,NULL,NULL,32,46,32)
+WARNING;artefact:98552;pas de date d'entrée
+ERROR;artefact:98552;Error 1064; 1064 (42000): Erreur de syntaxe près de 'bank,1,NULL,7,NULL,NULL,NULL,'avec connecteur femelle vers PC type ? Breveté Bu' à la ligne 1
+ERROR;artefact:98552;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98552,'Lecteur carte banquaire','NULL','18-1329041*1',2000Deutche bank,1,NULL,7,NULL,NULL,NULL,'avec connecteur femelle vers PC type ? Breveté Bull et Innovatron',3,NULL,NULL,NULL,32,46,32)
 
-ERROR;artefact<Cell 'Inventaire'.A624>;est vide
+WARNING;artefact:98553;ligne vide
 WARNING;artefact:98553;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A625>;est vide
+WARNING;artefact:98554;ligne vide
 WARNING;artefact:98554;mauvais encodage de la longueur
 WARNING;artefact:98554;mauvais encodage de la largeur
 WARNING;artefact:98554;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A626>;est vide
+WARNING;artefact:98554;pas de date d'entrée
+WARNING;artefact:98555;ligne vide
 WARNING;artefact:98555;mauvais encodage de la longueur
 WARNING;artefact:98555;mauvais encodage de la largeur
 WARNING;artefact:98555;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A627>;est vide
+WARNING;artefact:98555;pas de date d'entrée
+WARNING;artefact:98556;ligne vide
 WARNING;artefact:98556;pas de quantité
 WARNING;artefact:98556;pas de longueur
 WARNING;artefact:98556;pas de largeur
 WARNING;artefact:98556;pas de hauteur
 WARNING;artefact:98556;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A628>;est vide
+WARNING;artefact:98556;pas de date d'entrée
+WARNING;artefact:98557;ligne vide
 WARNING;artefact:98557;mauvais encodage de la longueur
 WARNING;artefact:98557;mauvais encodage de la largeur
 WARNING;artefact:98557;mauvais encodage de la hauteur
 WARNING;artefact:98557;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A629>;est vide
+WARNING;artefact:98558;ligne vide
 WARNING;artefact:98558;mauvais encodage de la hauteur
 WARNING;artefact:98558;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A630>;est vide
+WARNING;artefact:98558;pas de date d'entrée
+WARNING;artefact:98559;ligne vide
 WARNING;artefact:98559;pas de quantité
 WARNING;artefact:98559;pas de longueur
 WARNING;artefact:98559;pas de largeur
 WARNING;artefact:98559;pas de hauteur
 WARNING;artefact:98559;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A631>;est vide
+WARNING;artefact:98559;pas de date d'entrée
+WARNING;artefact:98560;ligne vide
 WARNING;artefact:98560;mauvais encodage de la longueur
 WARNING;artefact:98560;mauvais encodage de la largeur
 WARNING;artefact:98560;mauvais encodage de la hauteur
 WARNING;artefact:98560;mauvais encodage du poids
 WARNING;artefact:98560;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A632>;est vide
-ERROR;artefact<Cell 'Inventaire'.A633>;est vide
+WARNING;artefact:98561;ligne vide
+WARNING;artefact:98561;pas de date d'entrée
+WARNING;artefact:98562;ligne vide
 WARNING;artefact:98562;mauvais encodage de la longueur
 WARNING;artefact:98562;mauvais encodage de la largeur
 WARNING;artefact:98562;mauvais encodage de la hauteur
 WARNING;artefact:98562;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A634>;est vide
+WARNING;artefact:98562;pas de date d'entrée
+WARNING;artefact:98563;ligne vide
 WARNING;artefact:98563;mauvais encodage de la longueur
 WARNING;artefact:98563;mauvais encodage de la largeur
 WARNING;artefact:98563;mauvais encodage de la hauteur
 WARNING;artefact:98563;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A635>;est vide
+WARNING;artefact:98563;pas de date d'entrée
+WARNING;artefact:98564;ligne vide
 WARNING;artefact:98564;mauvais encodage de la longueur
 WARNING;artefact:98564;mauvais encodage de la hauteur
 WARNING;artefact:98564;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A636>;est vide
+WARNING;artefact:98564;pas de date d'entrée
+WARNING;artefact:98565;ligne vide
 WARNING;artefact:98565;mauvais encodage de la longueur
 WARNING;artefact:98565;mauvais encodage de la hauteur
 WARNING;artefact:98565;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A637>;est vide
+WARNING;artefact:98565;pas de date d'entrée
+WARNING;artefact:98566;ligne vide
 WARNING;artefact:98566;mauvais encodage de la largeur
 WARNING;artefact:98566;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A638>;est vide
+WARNING;artefact:98566;pas de date d'entrée
+WARNING;artefact:98567;ligne vide
 WARNING;artefact:98567;mauvais encodage de la hauteur
 WARNING;artefact:98567;mauvais encodage du poids
 WARNING;artefact:98567;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A639>;est vide
+WARNING;artefact:98568;ligne vide
 WARNING;artefact:98568;mauvais encodage de la longueur
 WARNING;artefact:98568;mauvais encodage de la largeur
 WARNING;artefact:98568;mauvais encodage de la hauteur
 WARNING;artefact:98568;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A640>;est vide
+WARNING;artefact:98568;pas de date d'entrée
+WARNING;artefact:98569;ligne vide
 WARNING;artefact:98569;mauvais encodage de la longueur
 WARNING;artefact:98569;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A641>;est vide
+WARNING;artefact:98569;pas de date d'entrée
+WARNING;artefact:98570;ligne vide
 WARNING;artefact:98570;mauvais encodage de la largeur
 WARNING;artefact:98570;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A642>;est vide
+WARNING;artefact:98570;pas de date d'entrée
+WARNING;artefact:98593;ligne vide
 WARNING;artefact:98593;mauvais encodage de la longueur
 WARNING;artefact:98593;mauvais encodage de la largeur
 WARNING;artefact:98593;mauvais encodage de la hauteur
 WARNING;artefact:98593;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A643>;est vide
+WARNING;artefact:98593;pas de date d'entrée
+WARNING;artefact:98594;ligne vide
 WARNING;artefact:98594;mauvais encodage de la longueur
 WARNING;artefact:98594;mauvais encodage de la largeur
 WARNING;artefact:98594;mauvais encodage de la hauteur
 WARNING;artefact:98594;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A644>;est vide
+WARNING;artefact:98594;pas de date d'entrée
+WARNING;artefact:98595;ligne vide
 WARNING;artefact:98595;mauvais encodage de la longueur
 WARNING;artefact:98595;mauvais encodage de la largeur
 WARNING;artefact:98595;mauvais encodage de la hauteur
 WARNING;artefact:98595;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A645>;est vide
+WARNING;artefact:98595;pas de date d'entrée
+WARNING;artefact:98596;ligne vide
 WARNING;artefact:98596;mauvais encodage de la longueur
 WARNING;artefact:98596;mauvais encodage de la largeur
 WARNING;artefact:98596;mauvais encodage de la hauteur
 WARNING;artefact:98596;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A646>;est vide
+WARNING;artefact:98596;pas de date d'entrée
+WARNING;artefact:98597;ligne vide
 WARNING;artefact:98597;mauvais encodage de la longueur
 WARNING;artefact:98597;mauvais encodage de la largeur
 WARNING;artefact:98597;mauvais encodage de la hauteur
 WARNING;artefact:98597;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A647>;est vide
+WARNING;artefact:98597;pas de date d'entrée
+WARNING;artefact:98598;ligne vide
 WARNING;artefact:98598;mauvais encodage de la longueur
 WARNING;artefact:98598;mauvais encodage de la largeur
 WARNING;artefact:98598;mauvais encodage de la hauteur
 WARNING;artefact:98598;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A648>;est vide
+WARNING;artefact:98598;pas de date d'entrée
+WARNING;artefact:98599;ligne vide
 WARNING;artefact:98599;mauvais encodage de la longueur
 WARNING;artefact:98599;mauvais encodage de la largeur
 WARNING;artefact:98599;mauvais encodage de la hauteur
 WARNING;artefact:98599;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A649>;est vide
+WARNING;artefact:98599;pas de date d'entrée
+WARNING;artefact:98600;ligne vide
 WARNING;artefact:98600;mauvais encodage de la largeur
 WARNING;artefact:98600;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A650>;est vide
+WARNING;artefact:98600;pas de date d'entrée
+WARNING;artefact:98601;ligne vide
 WARNING;artefact:98601;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A651>;est vide
+WARNING;artefact:98601;pas de date d'entrée
+WARNING;artefact:98602;ligne vide
 WARNING;artefact:98602;pas de longueur
 WARNING;artefact:98602;pas de largeur
 WARNING;artefact:98602;pas de hauteur
 WARNING;artefact:98602;pas de poids
-ERROR;artefact<Cell 'Inventaire'.A652>;est vide
+WARNING;artefact:98602;pas de date d'entrée
+WARNING;artefact:98603;ligne vide
 WARNING;artefact:98603;mauvais encodage de la longueur
 WARNING;artefact:98603;mauvais encodage du poids
 WARNING;artefact:98603;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A653>;est vide
+WARNING;artefact:98604;ligne vide
 WARNING;artefact:98604;mauvais encodage de la hauteur
 WARNING;artefact:98604;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A654>;est vide
+WARNING;artefact:98604;pas de date d'entrée
+WARNING;artefact:98605;ligne vide
 WARNING;artefact:98605;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A655>;est vide
+WARNING;artefact:98605;pas de date d'entrée
+WARNING;artefact:98606;ligne vide
 WARNING;artefact:98606;mauvais encodage de la largeur
 WARNING;artefact:98606;mauvais encodage de la hauteur
 WARNING;artefact:98606;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A656>;est vide
+WARNING;artefact:98606;pas de date d'entrée
+WARNING;artefact:98607;ligne vide
 WARNING;artefact:98607;mauvais encodage de la largeur
 WARNING;artefact:98607;mauvais encodage du poids
 WARNING;artefact:98607;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A657>;est vide
+WARNING;artefact:98608;ligne vide
 WARNING;artefact:98608;mauvais encodage de la longueur
 WARNING;artefact:98608;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A658>;est vide
+WARNING;artefact:98608;pas de date d'entrée
+WARNING;artefact:98609;ligne vide
 WARNING;artefact:98609;mauvais encodage de la largeur
 WARNING;artefact:98609;mauvais encodage de la hauteur
 WARNING;artefact:98609;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A659>;est vide
+WARNING;artefact:98609;pas de date d'entrée
+WARNING;artefact:98610;ligne vide
 WARNING;artefact:98610;mauvais encodage de la longueur
 WARNING;artefact:98610;mauvais encodage de la largeur
 WARNING;artefact:98610;mauvais encodage de la hauteur
 WARNING;artefact:98610;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A660>;est vide
+WARNING;artefact:98610;pas de date d'entrée
+WARNING;artefact:98611;ligne vide
 WARNING;artefact:98611;mauvais encodage de la longueur
 WARNING;artefact:98611;mauvais encodage de la largeur
 WARNING;artefact:98611;mauvais encodage de la hauteur
 WARNING;artefact:98611;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A661>;est vide
+WARNING;artefact:98611;pas de date d'entrée
+WARNING;artefact:98622;ligne vide
 WARNING;artefact:98622;mauvais encodage de la longueur
 WARNING;artefact:98622;mauvais encodage de la largeur
 WARNING;artefact:98622;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A662>;est vide
+WARNING;artefact:98622;pas de date d'entrée
+WARNING;artefact:98623;ligne vide
 WARNING;artefact:98623;mauvais encodage de la longueur
 WARNING;artefact:98623;mauvais encodage de la largeur
 WARNING;artefact:98623;mauvais encodage de la hauteur
 WARNING;artefact:98623;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A663>;est vide
+WARNING;artefact:98623;pas de date d'entrée
+WARNING;artefact:98624;ligne vide
 WARNING;artefact:98624;mauvais encodage du poids
-ERROR;artefact:98624;Error 1292; 1292 (22007): Incorrect date value: '2019/17/12' for column 'dateIn' at row 1
-ERROR;artefact:98624;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98624,'Boites écrous,rondelles','0','0',0,1,'2019/17/12',1,1,1,NULL,'NULL',NULL,NULL,NULL,NULL,86,8,10)
-
-ERROR;artefact<Cell 'Inventaire'.A664>;est vide
+WARNING;artefact:98624;pas de date d'entrée
+WARNING;artefact:98625;ligne vide
 WARNING;artefact:98625;mauvais encodage du poids
-ERROR;artefact<Cell 'Inventaire'.A665>;est vide
+WARNING;artefact:98625;pas de date d'entrée
+WARNING;artefact:98631;ligne vide
 WARNING;artefact:98631;pas de quantité
 WARNING;artefact:98631;pas de longueur
 WARNING;artefact:98631;pas de largeur
 WARNING;artefact:98631;pas de hauteur
 WARNING;artefact:98631;pas de poids
 WARNING;artefact:98631;pas de date d'entrée
-ERROR;artefact<Cell 'Inventaire'.A666>;est vide
+WARNING;artefact:99990;ligne vide
 WARNING;artefact:99990;mauvais encodage de la longueur
 WARNING;artefact:99990;mauvais encodage de la largeur
 WARNING;artefact:99990;mauvais encodage de la hauteur
 WARNING;artefact:99990;mauvais encodage du poids
-ERROR;artefact:99990;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:99990;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99990,'ligne test','0','0',0,0,'00:00:00',NULL,NULL,NULL,NULL,'NULL',NULL,NULL,NULL,NULL,NULL,NULL,42)
+WARNING;artefact:99990;pas de date d'entrée
+WARNING;artefact:99991;ligne vide
+WARNING;artefact:99991;pas de quantité
+WARNING;artefact:99991;pas de longueur
+WARNING;artefact:99991;pas de largeur
+WARNING;artefact:99991;pas de hauteur
+WARNING;artefact:99991;pas de poids
+WARNING;artefact:99991;pas de date d'entrée
+ERROR;artefact:99991;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:99991;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99991,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
 
-ERROR;artefact<Cell 'Inventaire'.A667>;est vide
+WARNING;artefact:99992;ligne vide
+WARNING;artefact:99992;pas de quantité
+WARNING;artefact:99992;pas de longueur
+WARNING;artefact:99992;pas de largeur
+WARNING;artefact:99992;pas de hauteur
+WARNING;artefact:99992;pas de poids
+WARNING;artefact:99992;pas de date d'entrée
+ERROR;artefact:99992;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:99992;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99992,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
+WARNING;artefact:99993;ligne vide
+WARNING;artefact:99993;mauvais encodage de la longueur
+WARNING;artefact:99993;mauvais encodage de la largeur
+WARNING;artefact:99993;mauvais encodage de la hauteur
+WARNING;artefact:99993;mauvais encodage du poids
+WARNING;artefact:99993;pas de date d'entrée
+WARNING;artefact:99994;ligne vide
+WARNING;artefact:99994;mauvais encodage de la longueur
+WARNING;artefact:99994;mauvais encodage de la largeur
+WARNING;artefact:99994;mauvais encodage de la hauteur
+WARNING;artefact:99994;mauvais encodage du poids
+WARNING;artefact:99994;pas de date d'entrée
+WARNING;artefact:99995;ligne vide
+WARNING;artefact:99995;pas de date d'entrée
+WARNING;artefact:99996;ligne vide
+WARNING;artefact:99996;pas de quantité
+WARNING;artefact:99996;pas de longueur
+WARNING;artefact:99996;pas de largeur
+WARNING;artefact:99996;pas de hauteur
+WARNING;artefact:99996;pas de poids
+WARNING;artefact:99996;pas de date d'entrée
+ERROR;artefact:99996;Error 1048; 1048 (23000): Le champ 'famille_key' ne peut être vide (null)
+ERROR;artefact:99996;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99996,'NULL','NULL','NULL',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'NULL',3,NULL,NULL,NULL,NULL,NULL,NULL)
+
+WARNING;artefact:99997;ligne vide
+WARNING;artefact:99997;mauvais encodage de la longueur
+WARNING;artefact:99997;mauvais encodage de la largeur
+WARNING;artefact:99997;mauvais encodage de la hauteur
+WARNING;artefact:99997;mauvais encodage du poids
+WARNING;artefact:99997;pas de date d'entrée
+WARNING;artefact:99998;ligne vide
+WARNING;artefact:99998;mauvais encodage de la longueur
+WARNING;artefact:99998;mauvais encodage de la largeur
+WARNING;artefact:99998;mauvais encodage de la hauteur
+WARNING;artefact:99998;mauvais encodage du poids
+WARNING;artefact:99998;pas de date d'entrée
+WARNING;artefact:99999;ligne vide
+WARNING;artefact:99999;mauvais encodage de la longueur
+WARNING;artefact:99999;mauvais encodage de la largeur
+WARNING;artefact:99999;mauvais encodage de la hauteur
+WARNING;artefact:99999;mauvais encodage du poids
+WARNING;artefact:99999;pas de date d'entrée
+WARNING;artefact:100000;ligne vide
+WARNING;artefact:100000;mauvais encodage de la longueur
+WARNING;artefact:100000;mauvais encodage de la largeur
+WARNING;artefact:100000;mauvais encodage de la hauteur
+WARNING;artefact:100000;mauvais encodage du poids
+WARNING;artefact:100001;ligne vide
+WARNING;artefact:100001;mauvais encodage de la longueur
+WARNING;artefact:100001;mauvais encodage de la largeur
+WARNING;artefact:100001;mauvais encodage de la hauteur
+WARNING;artefact:100001;mauvais encodage du poids
+WARNING;artefact:100001;pas de date d'entrée
+WARNING;artefact:100002;ligne vide
+WARNING;artefact:100002;mauvais encodage de la longueur
+WARNING;artefact:100002;mauvais encodage de la largeur
+WARNING;artefact:100002;mauvais encodage de la hauteur
+WARNING;artefact:100002;mauvais encodage du poids
+ERROR;artefact:100002;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
+ERROR;artefact:100002;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(100002,'util.100002 test','0','0',0,1,'00:00:00',NULL,NULL,NULL,NULL,'NULL',NULL,NULL,NULL,NULL,129,NULL,72)
+
