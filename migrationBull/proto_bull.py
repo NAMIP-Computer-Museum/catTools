@@ -600,7 +600,7 @@ try:
  listeConditionnement.recup_conditionnement(cursor)
  conn.commit()
  for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
-    if any([cell.value is None for cell in row[2:]]):
+    if all([cell.value is None for cell in row[2:]]):
         config.logging.warning("artefact:"+str(row[0].value)+";ligne vide")
     process_row(row,conn)
 finally:
