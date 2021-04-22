@@ -10,7 +10,8 @@ atttention certaines appartenances ne sont pas ecrite de la même façon
 def recup_famille(cursor):
     wb = openpyxl.load_workbook(filename='c:\\Users\\jazzt\\desktop\\NAM-IP\\bull.xlsm')
     ws = wb['Inventaire']
-
+    i = 1
+    usageCount = 13
     for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
         usage = row[1].value
         famille = row[2].value
@@ -33,5 +34,8 @@ def recup_famille(cursor):
               sql1 ="INSERT INTO familles (famille,usage_key) VALUES(\'"+str(famille).capitalize()+"\',"+str(idU)+")"
               cursor.execute(sql1)
 
-
+    while i <= usageCount:
+        sql ="INSERT INTO familles (famille,usage_key) VALUES(\'inconnue\',"+str(i)+")"
+        cursor.execute(sql)
+        i = i+1
 

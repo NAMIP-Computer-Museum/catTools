@@ -63,13 +63,14 @@ def process_famille(row,conn):
     cursor = conn.cursor()
     id = None
     if famille is None:
-        """
-        sql = "SELECT id_usage FROM usages WHERE libellUsage =\'" + str(usage).upper() + "\'"
+        sql = "SELECT id_usage FROM usages WHERE libelleUsage =\'" + str(usage).upper() + "\'"
         cursor.execute(sql)
         res = cursor.fetchone()
         idU = res[0]
-        sql=" SELECT id_famille FROM familles WHERE famille = inconnue AND usage_key ="+str(idU)
-        """
+        sql=" SELECT id_famille FROM familles WHERE famille = \'inconnue\' AND usage_key ="+str(idU)
+        cursor.execute(sql)
+        res = cursor.fetchone()
+        return res[0]
     else:
         sql = "SELECT id_famille FROM familles WHERE famille =\'" + str(famille).capitalize() + "\'"
         cursor.execute(sql)
@@ -593,8 +594,8 @@ try:
  listeConditionnement.recup_conditionnement(cursor)
  conn.commit()
  for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
-    if all([cell.value is None for cell in row[2:]]):
-        config.logging.warning("artefact"+str(row[0])+";est vide")
+    if any([cell.value is None for cell in row[2:]]):
+        config.logging.error("artefact"+str(row[0])+";est vide")
     process_row(row,conn)
 finally:
     conn.close
