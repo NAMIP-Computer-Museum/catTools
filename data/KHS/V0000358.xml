@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+<TIT4/> <INVID ID="FRB.FOBJ6.SCAL.2137">FRB.FOBJ6.SCAL.2137</INVID> <P> <AI R="FOBJSCAL/FOBJSCAL2137AR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2137AR_v.jpg"/> </AI> <AI R="FOBJSCAL/FOBJSCAL2137BR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2137BR_v.jpg"/> </AI> <AI R="FOBJSCAL/FOBJSCAL2137CR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2137CR_v.jpg"/> </AI> <AI R="FOBJSCAL/FOBJSCAL2137DR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2137DR_v.jpg"/> </AI> </P> <ISBD> <Z1> <TITI> <NXP LNP="Hayes">Hayes Smartmodem 1200</NXP> <T>: modem</T> </TITI> </Z1> <Z0> <TYPE>Objet : </TYPE> <INV>2014</INV> <LIEU>C8-D1.1</LIEU> </Z0> <Z2> <SXP>S/N A09800153382</SXP> </Z2> <Z3/> <Z4> <EXP>s.l.</EXP> <T>: </T> <NXP>Hayes Microcomputer Products</NXP> <T>, </T> <DT>s.d.</DT> </Z4> <Z5> <T>L <NB>14</NB> x l <NB>24</NB> x H <NB>3,5</NB> cm; <NB>0,8</NB> kg</T> </Z5> <Z6/> <Z7> <T>Bon &#x00e9;tat</T> </Z7> <Z8> <NXP>Collection Jacques Lemaire</NXP> </Z8> </ISBD> <P><DP D="00112019">Date de publication: novembre 2019</DP></P>
+</top>

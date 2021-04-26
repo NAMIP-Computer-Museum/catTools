@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+<TIT4/> <INVID ID="FRB.FOBJ6.SCAL.2082">FRB.FOBJ6.SCAL.2082</INVID> <P> <AI R="FOBJSCAL/FOBJSCAL2082AR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2082AR_v.jpg"/> </AI> <AI R="FOBJSCAL/FOBJSCAL2082BR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2082BR_v.jpg"/> </AI> <AI R="FOBJSCAL/FOBJSCAL2082CR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2082CR_v.jpg"/> </AI> </P> <ISBD> <Z1> <TITI> <NXP LNP="Ampex">Ampex 196</NXP> <T>: bande vid&#x00e9;o 66/67 minutes dans la boite</T> </TITI> </Z1> <Z0> <TYPE>Objet : </TYPE> <INV>2014</INV> <LIEU>C8-E1.3</LIEU> </Z0> <Z2> <SXP>S/N 196-3170CP8</SXP> </Z2> <Z3/> <Z4> <NXP>USA</NXP> <T>, </T> <NXP>Redwood City</NXP> <T>, </T> <NXP>California</NXP> <T>: </T> <NXP>Ampex Corporation</NXP> <T>, Magnetic Tape Division </T> <EXP>s.d.</EXP> </Z4> <Z5> <T>L <NB>26</NB> x l <NB>26</NB> x H <NB>4,5</NB> cm; <NB>1,2</NB> kg</T> </Z5> <Z6/> <Z7> <T>Bon &#x00e9;tat.</T> </Z7> <Z8> <NXP>Collection Jacques Lemaire</NXP> </Z8> </ISBD> <P><DP D="00112019">Date de publication: novembre 2019</DP></P>
+</top>
