@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ6.SCAL.2126">FRB.FOBJ6.SCAL.2126</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL2126AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2126AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2126BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2126BR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2126CR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2126CR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2126DR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2126DR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP>Lacie</NXP>
+                <T>: disque dur externe</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet :</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-D1.3</LIEU>
+        </Z0>
+        <Z2>
+            <SXP>Model 1280TM</SXP>
+            <T></T>
+            <SXP>S/N 17071443</SXP>
+            <T/>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <NXP>USA</NXP>
+            <T>,</T>
+            <T>:</T>
+            <NXP>Lacie</NXP>
+            <T>,</T>
+            <T></T>
+            <EXP>s.d.</EXP>
+        </Z4>
+        <Z5>
+            <T>L <NB>20</NB> x l <NB>26,5</NB> x H <NB>5</NB> cm; <NB>2</NB> kg
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat.</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+        </Z8>
+    </ISBD>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

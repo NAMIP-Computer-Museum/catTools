@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ6.SCAL.2061">FRB.FOBJ6.SCAL.2061</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL2061AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2061AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2061BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2061BR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2061CR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2061CR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2061DR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2061DR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP LNP="Hewlett Packard">HP Serie 100 150</NXP>
+                <T>: &#x00e9;cran</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet :</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-F1.4</LIEU>
+        </Z0>
+        <Z2>
+            <SXP>S/N 2431F00470</SXP>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <EXP>s.l.</EXP>
+            <T>:</T>
+            <NXP>Hewlett Packard</NXP>
+            <T>,</T>
+            <EXP>s.d.</EXP>
+            <T></T>
+        </Z4>
+        <Z5>
+            <T>L <NB>30,5</NB> x l <NB>32</NB> x H <NB>32</NB> cm; <NB>13,2</NB> kg
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat.</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+        </Z8>
+    </ISBD>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

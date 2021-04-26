@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ4.BULL.9001">FRB.FOBJ4.BULL.9001</INVID>
+    <P>
+        <AI R="FOBJBULL/FOBJBULL9001R.jpg$$">
+            <IMG SRC="$RELDIR$FOBJBULL/FOBJBULL9001R_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP>BULL Trieuse</NXP>
+                <T></T>
+                <NXP>E12</NXP>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet :</TYPE>
+            <INV>2014</INV>
+            <LIEU/>
+        </Z0>
+        <Z2>
+            <SXP>S/N 137W1</SXP>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <EXP>s.l.</EXP>
+            <T>:</T>
+            <NXP>BULL</NXP>
+            <T>,</T>
+            <T/>
+            <DT D="00001955">1955</DT>
+        </Z4>
+        <Z5>
+            <T>L 125 x l 62 x 170 cm; 180 kg; gris</T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Fonctionne</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection BULL-FEBB</NXP>
+            <T>; Don</T>
+            <T/>
+            <NXP>Van Doorne</NXP>
+        </Z8>
+    </ISBD>
+    <STIT4>
+        <NXP>BULL Trieuse</NXP>
+        <T></T>
+        <NXP>E12</NXP>
+    </STIT4>
+    <C>
+        <NXP>B17</NXP>
+        <T>- Cartel de l'expo "Aux racines du num&#x00e9;rique, des machines qui comptent".</T>
+    </C>
+    <P>
+        <T>La trieuse</T>
+        <NXP>E12</NXP>
+        <T>est une machine qui effectue le classement automatique d&#x2019;un lot de cartes dans l&#x2019;ordre
+            croissant ou d&#x00e9;croissant d&#x2019;un indicatif d&#x00e9;termin&#x00e9; (par exemple un num&#x00e9;ro
+            de compte, un num&#x00e9;ro de pointage, etc). Par l&#x2019;adjonction de dispositifs compl&#x00e9;mentaires,
+            elle peut r&#x00e9;soudre des probl&#x00e8;mes de s&#x00e9;lection, de s&#x00e9;paration et d&#x2019;&#x00e9;limination.
+        </T>
+    </P>
+    <P>
+        <T>Cette trieuse fut fabriqu&#x00e9;e en</T>
+        <DT D="00001941">1941</DT>
+        <T>, dans la lign&#x00e9;e de celles construites &#x00e0; partir de</T>
+        <DT D="00001937">1937</DT>
+        <T>, et tr&#x00e8;s proche du mod&#x00e8;le initial cr&#x00e9;&#x00e9; dans les ann&#x00e9;es</T>
+        <DT D="00001930">1930</DT>
+        <T>. Simple et robuste (elle p&#x00e8;se 180 kg), elle fut encore pr&#x00e9;sente dans les ateliers de machines
+            &#x00e0; cartes perfor&#x00e9;es
+        </T>
+        <NXP>Bull</NXP>
+        <T>jusqu&#x2019;&#x00e0; la fin des ann&#x00e9;es</T>
+        <DT D="00001970">1970</DT>
+        <T>. Elle fut g&#x00e9;n&#x00e9;ralement remplac&#x00e9;e par la trieuse &#x00e9;lectronique</T>
+        <NXP>CS100</NXP>
+        <T>.</T>
+    </P>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

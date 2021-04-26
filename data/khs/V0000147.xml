@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ3.SCAL.2011">FRB.FOBJ3.SCAL.2011</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL2011AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2011AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2011BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2011BR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2011CR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2011CR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2011DR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2011DR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP LNP="Facit">Facit NEK</NXP>
+                <T>: machine &#x00e0; calculer &#x00e9;lectrique</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet :</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-I1.1</LIEU>
+        </Z0>
+        <Z2>
+            <T/>
+            <SXP>Model NEK</SXP>
+            <T></T>
+            <SXP>S/N 127732</SXP>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <NXP>Sweden</NXP>
+            <T>:</T>
+            <NXP>Facit</NXP>
+            <T>,</T>
+            <DT D="00001947">1947</DT>
+        </Z4>
+        <Z5>
+            <T>L <NB>28,5</NB> x l <NB>24,5</NB> x H <NB>15,5</NB> cm; <NB>9,8</NB> kg; m&#x00e9;tal
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Plaque: Motor 65 W 110V</T>
+            <B/>
+            <T>Bon &#x00e9;tat</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+        </Z8>
+    </ISBD>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ6.SCAL.2194">FRB.FOBJ6.SCAL.2194</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL2194AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2194AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2194BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2194BR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP LNP="Macintosh">Macintosh Power 7100/80</NXP>
+                <T>: ordinateur de bureau (A), &#x00e9;cran couleur <NB>16"</NB> (B), clavier (C), souris (D)
+                </T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet :</TYPE>
+            <INV>2014</INV>
+            <LIEU>R-P1.4</LIEU>
+        </Z0>
+        <Z2>
+            <T>A)</T>
+            <NXP>PC</NXP>
+            <T>:</T>
+            <SXP>S/N CK5080L144F</SXP>
+            <T/>
+            <B/>
+            <T>B) Color Display</T>
+            <SXP>S/N S13490V7007</SXP>
+            <T/>
+            <B/>
+            <T>C)</T>
+            <NXP>Apple keyboard II</NXP>
+            <SXP>S/N MM32853103NF</SXP>
+            <T/>
+            <B/>
+            <T>D)</T>
+            <NXP>Apple Desktop Bus Mouse II</NXP>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <NXP>USA</NXP>
+            <T>,</T>
+            <NXP>Cupertino</NXP>
+            <T>,</T>
+            <NXP>CA</NXP>
+            <T>:</T>
+            <NXP>Apple Computer Inc.</NXP>
+            <T>,</T>
+            <DT D="00111993">11/1993</DT>
+        </Z4>
+        <Z5>
+            <T>A) L <NB>33</NB> x l <NB>42</NB> x H <NB>14,7</NB> cm; <NB>10,6</NB> kg
+            </T>
+            <B/>
+            <T>B) L <NB>41</NB> x l <NB>44,5</NB> x H <NB>45</NB> cm;
+                <NB/>
+                kg
+            </T>
+            <B/>
+            <T>C) L <NB>40,5</NB> x l <NB>15</NB> x H <NB>2</NB> cm; <NB>1</NB> kg
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat. Ne d&#x00e9;marre pas.</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+            <REF>SYSCAL.68.1020</REF>
+        </Z8>
+    </ISBD>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

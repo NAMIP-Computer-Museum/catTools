@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ3.SCAL.2055">FRB.FOBJ3.SCAL.2055</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL2055AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2055AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2055BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2055BR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2055CR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2055CR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2055DR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2055DR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP LNP="Texas Instruments">TI-5040A</NXP>
+                <T>: machine &#x00e0; calculer &#x00e9;lectrique avec impression</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet :</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-G1.1</LIEU>
+        </Z0>
+        <Z2>
+            <SXP>S/N 50143</SXP>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <EXP>s.l.</EXP>
+            <T>:</T>
+            <EXP>s.n.</EXP>
+            <T>,</T>
+            <EXP>s.d.</EXP>
+        </Z4>
+        <Z5>
+            <T>L <NB>23</NB> x l <NB>24</NB> x H <NB>8</NB> cm; <NB>1,6</NB> kg
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat [manque fixation rouleau papier]. Identique &#x00e0;</T>
+            <VOIR ID="FRB.FOBJ3.SCAL.2056">
+                <IMG SRC="pics\gt1.gif"/>
+            </VOIR>
+            <REF>FRB.FOBJ3.SCAL.2056</REF>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+            <T></T>
+        </Z8>
+    </ISBD>
+    <P>
+        <T>assembled in</T>
+        <NXP>Turkey</NXP>
+        <T>,</T>
+        <DT D="00001976">1976</DT>
+        <T>-</T>
+        <DT D="00001981">1981</DT>
+    </P>
+    <P>
+        <T>(papier thermique <NB>5,7</NB> cm) de bureau, 27 touches, affichage 10 caract&#x00e8;res fluorescents, 1 + 1
+            m&#x00e9;moire, alim.: 220 V~50 Hz 20
+        </T>
+        <NXP>VA</NXP>
+        <T>100</T>
+        <EXP>mA</EXP>
+    </P>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

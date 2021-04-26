@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ3.SCAL.1254">FRB.FOBJ3.SCAL.1254</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL1254AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1254AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL1254BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1254BR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL1254CR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1254CR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL1254DR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1254DR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP LNP="Elgin">Elgin AIBD Bond calculator</NXP>
+                <T>(Association of International Bond Dealers)</T>
+                <T>: machine &#x00e0; calculer financi&#x00e8;re</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet :</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-A1.2</LIEU>
+        </Z0>
+        <Z2>
+            <SXP>S/N 15366</SXP>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <NXP>England</NXP>
+            <T>:</T>
+            <NXP>Elgin Data Ltd</NXP>
+            <T>,</T>
+            <T/>
+            <EXP>s.d.</EXP>
+        </Z4>
+        <Z5>
+            <T>L <NB>24</NB> x l <NB>13,7</NB> x H <NB>6</NB> cm; <NB>0,1</NB> kg
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat.</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+        </Z8>
+    </ISBD>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

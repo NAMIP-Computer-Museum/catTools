@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ2.SCAL.2017">FRB.FOBJ2.SCAL.2017</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL2017AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2017AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2017BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2017BR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2017CR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2017CR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2017DR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2017DR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP LNP="Monroe">Monroe MonroMatic CSA-10</NXP>
+                <T>: machine &#x00e0; calculer m&#x00e9;canique</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet : sans m&#x00e9;diation</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-H1.5</LIEU>
+        </Z0>
+        <Z2>
+            <SXP>S/N B-962309</SXP>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <NXP>USA</NXP>
+            <T>,</T>
+            <NXP>Orange</NXP>
+            <T></T>
+            <NXP>New Jersey</NXP>
+            <T>:</T>
+            <NXP>Monroe International Corporation</NXP>
+            <T>,</T>
+            <EXP>s.d.</EXP>
+        </Z4>
+        <Z5>
+            <T>L <NB>34,5</NB> x l 28 x H <NB>20</NB> cm; <NB>11,4</NB> kg; m&#x00e9;tal et plastic
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat</T>
+            <B/>
+            <T>Plaque:</T>
+            <NXP>Monroe</NXP>
+            <T></T>
+            <NXP>France</NXP>
+            <T>, 29 Rue du Fg</T>
+            <NXP>St Honor&#x00e9;</NXP>
+            <T>-</T>
+            <NXP>Paris</NXP>
+            <T>(<NB>8&#x00b0;</NB>)
+            </T>
+            <B/>
+            <T>Sce Tech. 103, r de</T>
+            <NXP>Tocqueville</NXP>
+            <T>(<NB>17&#x00b0;</NB>)
+            </T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+        </Z8>
+    </ISBD>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

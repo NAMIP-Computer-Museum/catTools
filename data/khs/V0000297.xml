@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ4.BULL.9003">FRB.FOBJ4.BULL.9003</INVID>
+    <P>
+        <AI R="FOBJBULL/FOBJBULL9003R.jpg$$">
+            <IMG SRC="$RELDIR$FOBJBULL/FOBJBULL9003R_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP>BULL Traductrice</NXP>
+                <T></T>
+                <NXP>Trad CC</NXP>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet :</TYPE>
+            <INV>2014</INV>
+            <LIEU/>
+        </Z0>
+        <Z2/>
+        <Z3/>
+        <Z4>
+            <EXP>s.l.</EXP>
+            <T>:</T>
+            <NXP>BULL</NXP>
+            <T>,</T>
+            <T/>
+            <DT D="00001950">1950</DT>
+        </Z4>
+        <Z5>
+            <T>L 59 x l 50 x 120 cm; 190 kg; gris</T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Fonctionne</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection BULL-FEBB</NXP>
+            <T>; Don de</T>
+            <T/>
+            <NXP>FEB-Angers</NXP>
+        </Z8>
+    </ISBD>
+    <STIT4>
+        <NXP>BULL Traductrice</NXP>
+        <T></T>
+        <NXP>Trad CC</NXP>
+    </STIT4>
+    <C>
+        <NXP>B18</NXP>
+        <T>- Cartel de l'expo "Aux racines du num&#x00e9;rique, des machines qui comptent".</T>
+    </C>
+    <P>
+        <T>Contrairement au mod&#x00e8;le &#x201c;80&#x201d;, celle-ci travaille colonne par colonne. Moins rapide (13
+            cartes/minute) mais moins ch&#x00e8;re et plus petite, elle accompagnait g&#x00e9;n&#x00e9;ralement les
+            ordinateurs &#x00e0; m&#x00e9;moires magn&#x00e9;tiques, qui n&#x00e9;cessitaient encore une entr&#x00e9;e
+            carte pour les programmes et les param&#x00e8;tres de gestion (ann&#x00e9;es
+        </T>
+        <DT D="00001970">1970</DT>
+        <T>&#x00e0;</T>
+        <DT D="00001980">1980</DT>
+        <T>). &#x00c0; cause de son bruit, elle &#x00e9;tait surnomm&#x00e9;e &#x201c;la machine &#x00e0;
+            laver&#x201d;.
+        </T>
+    </P>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

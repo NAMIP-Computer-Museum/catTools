@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ4.BULL.9007">FRB.FOBJ4.BULL.9007</INVID>
+    <P>
+        <AI R="FOBJBULL/FOBJBULL9007R.jpg$$">
+            <IMG SRC="$RELDIR$FOBJBULL/FOBJBULL9007R_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP>BULL Traductrice</NXP>
+                <NXP>Trad 80</NXP>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet :</TYPE>
+            <INV>2014</INV>
+            <LIEU/>
+        </Z0>
+        <Z2>
+            <SXP>S/N 50200551</SXP>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <EXP>s.l.</EXP>
+            <T>:</T>
+            <NXP>BULL</NXP>
+            <T>,</T>
+            <DT D="00001964">1964</DT>
+        </Z4>
+        <Z5>
+            <T>L 59 x l 50; gris</T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Fonctionne</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection BULL-FEBB</NXP>
+            <T>; Don de</T>
+            <NXP>Guy</NXP>
+            <T></T>
+            <T/>
+            <NXP>Colas</NXP>
+        </Z8>
+    </ISBD>
+    <STIT4>
+        <NXP>BULL Traductrice</NXP>
+        <NXP>Trad 80</NXP>
+    </STIT4>
+    <C>
+        <NXP>B15</NXP>
+        <T>- Cartel de l'expo "Aux racines du num&#x00e9;rique, des machines qui comptent".</T>
+    </C>
+    <P>
+        <T>La traductrice est une machine qui imprime, sur le bord sup&#x00e9;rieur de la carte, la traduction en
+            lettres et en chiffres des perforations existant sur celle-ci. La traductrice 80 a une vitesse de 60
+            cartes/minute. Le dispositif d&#x2019;impression &#x00e0; ruban est semblable &#x00e0; celui d&#x2019;une
+            machine &#x00e0; &#x00e9;crire, mais il est dispos&#x00e9; verticalement. Il n&#x2019;y a pas de bras porte
+            caract&#x00e8;res comme dans une machine &#x00e0; &#x00e9;crire classique, mais des roues porte caract&#x00e8;res,
+            align&#x00e9;es sur la longueur d&#x2019;une carte perfor&#x00e9;e.
+        </T>
+    </P>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

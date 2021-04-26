@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
-<top>
-<TIT4/> <INVID ID="FRB.FOBJ1.SCAL.1211">FRB.FOBJ1.SCAL.1211</INVID> <P> <AI R="FOBJSCAL/FOBJSCAL1211AR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1211AR_v.jpg"/> </AI> </P> <ISBD> <Z1> <TITI> <NXP>UNIQUE Log-Log </NXP> <T> : r&#x00e8;gle &#x00e0; calcul, type Log-Log</T> </TITI> </Z1> <Z0> <TYPE>Objet : sans m&#x00e9;diation</TYPE> <INV>2014</INV> <LIEU>C8-A1.1</LIEU> </Z0> <Z2/> <Z3/> <Z4> <NXP>England</NXP> <T> : </T> <EXP>s.n.</EXP> <T> </T> <DT>s.d.</DT> </Z4> <Z5> <T>L <NB>16</NB> x l <NB>3,2</NB> x H <NB>0,3</NB> cm; plastique</T> </Z5> <Z6/> <Z7> <T>Bon &#x00e9;tat.</T> </Z7> <Z8> <NXP>Collection Jacques Lemaire</NXP> <T> </T> <REF>SYSCAL.68.1095</REF> </Z8> </ISBD> <P> <T>recto: LU (e^0,1X), X2, [X2, X], X, LL (e^X); [sans curseur]</T> </P> <P><DP D="00112019">Date de publication: novembre 2019</DP></P>
-</top>

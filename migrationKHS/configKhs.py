@@ -8,4 +8,4 @@ user = "root"
 passwd = ""
 database = "Khs"
 
-path = "C:\\Users\\jazzt\\PycharmProjects\\pythonProject\\khs\\data"
+path = "/catTools/data/khs"

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ6.SCAL.2195">FRB.FOBJ6.SCAL.2195</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL2195AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2195AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2195BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2195BR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP LNP="IBM">IBM PS/2 8530</NXP>
+                <T>: ordinateur de bureau, 1 lecteur de disquette
+                    <NB>3"1/2</NB>
+                </T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet :</TYPE>
+            <INV>2014</INV>
+            <LIEU>R.P1.4</LIEU>
+        </Z0>
+        <Z2>
+            <T></T>
+            <T></T>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <NXP>Scotland</NXP>
+            <NXP>Greenock</NXP>
+            <T>:</T>
+            <NXP>IBM United Kingdom Ltd</NXP>
+            <T>,</T>
+            <EXP>s.d.</EXP>
+            <T></T>
+        </Z4>
+        <Z5>
+            <T>L <NB>40,5</NB> x l <NB>39</NB> x H <NB>10,5</NB> cm; <NB>8,4</NB> kg
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat. Ne d&#x00e9;marre pas.</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+        </Z8>
+    </ISBD>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

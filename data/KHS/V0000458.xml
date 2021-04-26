@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
-<top>
-<TIT4/> <INVID ID="FRB.FOBJ6.SCAL.1264">FRB.FOBJ6.SCAL.1264</INVID> <P> <AI R="FOBJSCAL/FOBJSCAL1264AR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1264AR_v.jpg"/> </AI> <AI R="FOBJSCAL/FOBJSCAL1264BR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1264BR_v.jpg"/> </AI> </P> <ISBD> <Z1> <TITI> <NXP LNP="Texas Instruments">Texas Instruments PS-9100 Jot-It</NXP> <T> : horloge, </T> <EXP>rendez-vous</EXP> <T>, &#x00e9;tui avec carnet de </T> <NXP>Post-It</NXP> <T/> </TITI> </Z1> <Z0> <TYPE>Objet : </TYPE> <INV>2014</INV> <LIEU>C8-A1.2</LIEU> </Z0> <Z2/> <Z4> <EXP>s.l.</EXP> <T>: </T> <T/> <NXP>Texas Instruments Incorporated</NXP> <T> , </T> <T/> <EXP>s.d.</EXP> </Z4> <Z5> <T> L <NB>9,2</NB> x l <NB>15</NB> x H <NB>1</NB> cm; <NB>0,1</NB> kg</T> </Z5> <Z7> <T>Bon &#x00e9;tat.</T> </Z7> <Z8> <NXP>Collection Jacques Lemaire</NXP> </Z8> </ISBD> <P><DP D="00112019">Date de publication: novembre 2019</DP></P>
-</top>

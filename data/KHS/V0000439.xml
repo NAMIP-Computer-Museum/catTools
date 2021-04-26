@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
-<top>
-<TIT4/> <INVID ID="FRB.FOBJ6.SCAL.2162">FRB.FOBJ6.SCAL.2162</INVID> <P> <AI R="FOBJSCAL/FOBJSCAL2162AR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2162AR_v.jpg"/> </AI> <AI R="FOBJSCAL/FOBJSCAL2162BR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2162BR_v.jpg"/> </AI> <AI R="FOBJSCAL/FOBJSCAL2162CR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2162CR_v.jpg"/> </AI> <AI R="FOBJSCAL/FOBJSCAL2162DR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2162DR_v.jpg"/> </AI> </P> <ISBD> <Z1> <TITI> <NXP LNP="Sinclair">Sinclair ZX81</NXP> <T> : micro-ordinateur </T> </TITI> </Z1> <Z0> <TYPE>Objet : </TYPE> <INV>2014</INV> <LIEU>C8-D1.1</LIEU> </Z0> <Z2/> <Z3/> <Z4> <EXP>s.l.</EXP> <T>: </T> <T> </T> <NXP>Sinclair Research Ltd</NXP> <T> : </T> <T> , </T> <DT D="00031981">03/1981</DT> </Z4> <Z5> <T>L <NB>16,5</NB> x l <NB>17,5</NB> x H <NB>4</NB> cm; <NB>0,4</NB> kg</T> </Z5> <Z6/> <Z7> <T>Bon &#x00e9;tat.</T> </Z7> <Z8> <NXP>Collection Jacques Lemaire</NXP> </Z8> </ISBD> <P><DP D="00112019">Date de publication: novembre 2019</DP></P>
-</top>

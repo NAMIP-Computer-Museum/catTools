@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ1.SCAL.1048">FRB.FOBJ1.SCAL.1048</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL1048AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1048AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL1048BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1048BR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL1048CR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1048CR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP LNP="Nestler">Nestler Polymath-Duplex 0291</NXP>
+                <T>: r&#x00e8;gle &#x00e0; calcul, &#x00e9;tui</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet : sans m&#x00e9;diation</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-B1.4</LIEU>
+        </Z0>
+        <Z2/>
+        <Z3/>
+        <Z4>
+            <NXP>Germany</NXP>
+            <T>:</T>
+            <NXP>Nestler</NXP>
+            <T>,</T>
+            <EXP>s.d.</EXP>
+        </Z4>
+        <Z5>
+            <T>L <NB>35,8</NB> x l <NB>4,8</NB> x H <NB>1</NB> cm; <NB>0,1</NB> kg
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat.</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+            <T></T>
+            <REF>SYSCAL.68.1048</REF>
+        </Z8>
+    </ISBD>
+    <P>
+        <DT D="00001954">1954</DT>
+    </P>
+    <P>
+        <T>plastique , 22 &#x00e9;chelles, recto: CT/T (arc cot/arc tan), ST (arc), DF (pi.X) [ CF (pi.X), CIF (1/pi.X),
+            CI (1/X), C (X) ] D (X), P (sqrt (1-X2)), S/CS (arc sin/arc cos)
+        </T>
+    </P>
+    <P>
+        <T>verso: LL01 (e^-0,01X), LL02 (e^-0,1 X), LL03 (e^-x), A (x2) [ B (x2), L (lg X), K (X3), C (X) ] D (X), LL4
+            (e^X), LL3 (e^0,1 X), LL1 (e^0,01 X), curseur
+        </T>
+    </P>
+    <P>
+        <T>&#x00e9;tui cuir pour r&#x00e8;gle &#x00e0; calcul <NB>35,7</NB> cm
+        </T>
+        <NXP>Nestler Polymath-Duplex 0291</NXP>
+    </P>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

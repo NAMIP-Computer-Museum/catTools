@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ1.SCAL.1058">FRB.FOBJ1.SCAL.1058</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL1058AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1058AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL1058BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1058BR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP LNP="Nestler">Nestler Electro 37</NXP>
+                <T>: r&#x00e8;gle &#x00e0; calcul, &#x00e9;tui</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet : sans m&#x00e9;diation</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-B1.4</LIEU>
+        </Z0>
+        <Z2/>
+        <Z3/>
+        <Z4>
+            <NXP>Germany</NXP>
+            <T>:</T>
+            <NXP>Nestler</NXP>
+            <T>,</T>
+            <EXP>s.d.</EXP>
+        </Z4>
+        <Z5>
+            <T>L <NB>29,5</NB> x l <NB>3,8</NB> x H <NB>1,1</NB> cm; <NB>0,1</NB> kg, bois recouvert de plastique
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat.</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+            <T></T>
+            <REF>SYSCAL.68.1058</REF>
+        </Z8>
+    </ISBD>
+    <P>
+        <DT D="00001940">1940</DT>
+        <T>-</T>
+        <DT D="00001945">1945</DT>
+    </P>
+    <P>
+        <T>r&#x00e8;gle 10 inch <NB>28,4</NB> cm , recto: 27 cm, V (1,75 X), X&#x00b2;, [X&#x00b2;, 1/X, X], X, U (5,24
+            X), LL3, LL4, verso: [S (arc sin X), S&#x0026;T (arc X), T (tan X) ], feuille avec constantes &#x00e9;lectriques,
+            curseur alu [verre fendu]
+        </T>
+    </P>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ2.SCAL.2002">FRB.FOBJ2.SCAL.2002</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL2002AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2002AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2002BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2002BR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2002CR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2002CR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2002DR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2002DR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP LNP="Burroughs">Burroughs Class 3</NXP>
+                <T>: machine &#x00e0; calculer m&#x00e9;canique avec impression</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet : sans m&#x00e9;diation</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-I1.4</LIEU>
+        </Z0>
+        <Z2>
+            <T/>
+            <SXP>Model Class 3</SXP>
+            <T></T>
+            <SXP>S/N 481195</SXP>
+            <T/>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <NXP>USA</NXP>
+            <T>,</T>
+            <NXP>Detroit</NXP>
+            <T>,</T>
+            <NXP>Michigan</NXP>
+            <T>:</T>
+            <NXP>Burroughs Adding Machine Co</NXP>
+            <T>, vers</T>
+            <DT D="00001925">1925</DT>
+        </Z4>
+        <Z5>
+            <T>L <NB>38</NB> x l <NB>49,5</NB> x H <NB>30</NB> cm; <NB>22,8</NB> kg; m&#x00e9;tal
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>&#x00c9;tat moyen: touches bloqu&#x00e9;es, rouille</T>
+            <B/>
+            <T>Plaque: S.I. Addizionatrice</T>
+            <NXP>Burroughs</NXP>
+            <T>Sede a</T>
+            <NXP>Milano</NXP>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+        </Z8>
+    </ISBD>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ1.SCAL.1210">FRB.FOBJ1.SCAL.1210</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL1210AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1210AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL1210BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1210BR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP>SUN HEMMI</NXP>
+                <T>: r&#x00e8;gle &#x00e0; calcul, &#x00e9;tui cuir brun</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet : sans m&#x00e9;diation</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-A1.1</LIEU>
+        </Z0>
+        <Z2/>
+        <Z3/>
+        <Z4>
+            <NXP>Japon</NXP>
+            <T>:</T>
+            <NXP>SUN HEMMI</NXP>
+            <T>,</T>
+            <EXP>s.d.</EXP>
+        </Z4>
+        <Z5>
+            <T>L <NB>14,6</NB> x l <NB>3</NB> x H <NB>0,3</NB> cm; bois/plastique
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat.</T>
+            <T>&#x201c;With Compliments The</T>
+            <NXP>Sandvik</NXP>
+            <T>Steel Works Co. Ltd.&#x201d;,</T>
+            <NXP>Sandviken</NXP>
+            <T></T>
+            <NXP>Sweden</NXP>
+            <T>. &#x00c9;tui cuir marqu&#x00e9;:</T>
+            <NXP>Sandvik</NXP>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+            <T></T>
+            <REF>SYSCAL.68.1210</REF>
+        </Z8>
+    </ISBD>
+    <P>
+        <T>recto: r&#x00e8;gle <NB>14,5</NB> cm, X2, [X], X, verso: [S, L, T], [sans curseur]
+        </T>
+    </P>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

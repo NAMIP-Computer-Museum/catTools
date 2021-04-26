@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ1.SCAL.1188">FRB.FOBJ1.SCAL.1188</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL1188AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1188AR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP>Hono Rietz</NXP>
+                <T>: r&#x00e8;gle &#x00e0; calcul</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet : sans m&#x00e9;diation</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-A1.1</LIEU>
+        </Z0>
+        <Z2/>
+        <Z3/>
+        <Z4>
+            <NXP>Japon</NXP>
+            <T>,</T>
+            <T>:</T>
+            <EXP>s.n.</EXP>
+            <T>,</T>
+            <T></T>
+            <EXP>s.d.</EXP>
+        </Z4>
+        <Z5>
+            <T>L <NB>14,5</NB> x l <NB>4,2</NB> x H <NB>0,4</NB> cm; plastique
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat.</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+            <T></T>
+            <REF>SYSCAL.68.1188</REF>
+        </Z8>
+    </ISBD>
+    <P>
+        <T>possibly made in</T>
+        <NXP>France</NXP>
+        <T>by</T>
+        <NXP>Graphoplex</NXP>
+    </P>
+    <P>
+        <T>recto: r&#x00e8;gle 13 cm, B, S, B2, [b2, a, b] B, T, L [sans curseur]</T>
+    </P>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

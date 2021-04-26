@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ2.SCAL.2209">FRB.FOBJ2.SCAL.22089</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL2209AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2209AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2209BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2209BR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2209CR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2209CR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2209DR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2209DR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2209ER.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2209ER_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP>Schubert DRV</NXP>
+                <T>: Machine &#x00e0; calculer, manivelle, 4 op&#x00e9;rations, manuel</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet : sans m&#x00e9;diation</TYPE>
+            <INV>2018</INV>
+            <LIEU>C8-A1.5</LIEU>
+        </Z0>
+        <Z2>
+            <SXP>S/N 146556</SXP>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <NXP>Germany</NXP>
+            <T>:</T>
+            <NXP>Schubert</NXP>
+            <T></T>
+            <T>,</T>
+            <EXP>s.d.</EXP>
+        </Z4>
+        <Z5>
+            <T>L <NB>28</NB> x l <NB>14,5</NB> x H <NB>13</NB> cm; <NB>5,5</NB> kg
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat.</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+            <T>De la collection du R. F.</T>
+            <NXP>Robert</NXP>
+            <T></T>
+            <NXP>Graas</NXP>
+            <T>.</T>
+            <DT D="00002018">2018</DT>
+            <T>.</T>
+        </Z8>
+    </ISBD>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

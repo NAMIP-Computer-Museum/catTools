@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ6.SCAL.2062">FRB.FOBJ6.SCAL.2062</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL2062AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2062AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2062BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2062BR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2062CR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2062CR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL2062DR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL2062DR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP>IBM</NXP>
+                <T>: clavier</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet :</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-F1.4</LIEU>
+        </Z0>
+        <Z2>
+            <SXP>P/N 4412501</SXP>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <EXP>s.l.</EXP>
+            <T>:</T>
+            <NXP>IBM</NXP>
+            <T>,</T>
+            <EXP>s.d.</EXP>
+            <T></T>
+        </Z4>
+        <Z5>
+            <T>L <NB>53</NB> x l <NB>24,5</NB> x H <NB>11</NB> cm; <NB>7</NB> kg
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat.</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+        </Z8>
+    </ISBD>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

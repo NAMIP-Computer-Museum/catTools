@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ3.SCAL.1129-01">FRB.FOBJ3.SCAL.1129-1</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL1129-01AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1129-01AR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP LNP="Hewlett Packard">HP-48S</NXP>
+                <T>: calculatrice scientifique graphique programmable</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet :</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-B1.5</LIEU>
+        </Z0>
+        <Z2>
+            <SXP>S/N 3246S00675</SXP>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <EXP>s.l.</EXP>
+            <T>:</T>
+            <NXP>Hewlett Packard Company</NXP>
+            <T>,</T>
+            <T></T>
+            <EXP>s.d.</EXP>
+        </Z4>
+        <Z5>
+            <T>L <NB>8</NB> x l <NB>18</NB> x H <NB>2,5</NB> cm; <NB>0,1</NB> kg
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat, manque bo&#x00ee;tier interne</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+            <T></T>
+            <REF>SYSCAL.68.1129-1</REF>
+        </Z8>
+    </ISBD>
+    <P>
+        <T>made in</T>
+        <NXP>Singapore</NXP>
+        <T>,</T>
+        <DT D="00001993">1993</DT>
+        <T>-</T>
+        <DT D="00002003">2003</DT>
+    </P>
+    <P>
+        <T/>
+        <NXP>RPN</NXP>
+        <T>, 128 kb Ram, 512 kb Rom, 260 fonctions, 49 touches, afficheur 22 x 8</T>
+        <NXP>LCD</NXP>
+        <T>, alim. 3 piles <NB>1,5</NB> V
+        </T>
+        <T/>
+        <NXP>AAA</NXP>
+    </P>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

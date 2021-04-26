@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ1.SCAL.1090">FRB.FOBJ1.SCAL.1090</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL1090AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1090AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL1090BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1090BR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP>Ohmite</NXP>
+                <T>: r&#x00e8;gle de lecture sp&#x00e9;cialis&#x00e9;e &#x00e9;lectricit&#x00e9; Parallel Resistance
+                    Calculator and Standard Slide Rule
+                </T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet : sans m&#x00e9;diation</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-B1.4</LIEU>
+        </Z0>
+        <Z2/>
+        <Z3/>
+        <Z4>
+            <NXP>USA</NXP>
+            <T>,</T>
+            <NXP>Chicago</NXP>
+            <T>,</T>
+            <NXP>IL</NXP>
+            <T></T>
+            <T>:</T>
+            <NXP>Ohmite Manufacturing Company</NXP>
+            <T>,</T>
+            <T></T>
+            <DT D="00001949">1949</DT>
+        </Z4>
+        <Z5>
+            <T>L <NB>23</NB> x l <NB>7,6</NB> x H <NB>0,2</NB> cm; plastique
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat.</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+            <T></T>
+            <REF>SYSCAL.68.1090</REF>
+        </Z8>
+    </ISBD>
+    <P>
+        <T>feuille centrale mobile, recto: Standard Slide Rule A (X&#x00b2;), [B (X&#x00b2;), C (X) ], D (X); Parallel
+            Resistance Scales, 6 &#x00e9;chelles en Ohms; verso: Ohm's Law Calculator, 11 &#x00e9;chelles, W / A / V,
+            formules
+        </T>
+    </P>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>

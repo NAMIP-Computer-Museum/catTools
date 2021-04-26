@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
-<top>
-<TIT4/> <INVID ID="FRB.FOBJ3.SCAL.1507">FRB.FOBJ3.SCAL.1507</INVID> <P> <AI R="FOBJSCAL/FOBJSCAL1507AR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1507AR_v.jpg"/> </AI> <AI R="FOBJSCAL/FOBJSCAL1507BR.jpg$$"> <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1507BR_v.jpg"/> </AI> </P> <ISBD> <Z1> <TITI> <NXP LNP="Hewlett Packard">HP-65</NXP> <T> : 40 cartes programmables, manuel, pour </T> <NXP>HP-65</NXP> <T>, dans un boitier</T> </TITI> </Z1> <Z0> <TYPE>Objet : </TYPE> <INV>2014</INV> <LIEU>C8-A1.4</LIEU> </Z0> <Z2> <SXP>S/N ABCDE 9232-0596</SXP> </Z2> <Z3/> <Z4> <EXP>s.l.</EXP> <T> : </T> <NXP>Hewlett Packard Company</NXP> <T>, </T> <T> </T> <EXP>s.d.</EXP> </Z4> <Z5> <T>L <NB>28</NB> x l <NB>18,5</NB> x H <NB>5,5</NB> cm; <NB>0,6</NB> kg</T> </Z5> <Z6/> <Z7> <T>Bon &#x00e9;tat</T> </Z7> <Z8> <NXP>Collection Jacques Lemaire</NXP> <T> </T> </Z8> </ISBD> <P><DP D="00112019">Date de publication: novembre 2019</DP></P>
-</top>

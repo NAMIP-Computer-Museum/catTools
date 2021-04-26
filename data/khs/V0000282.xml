@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+    <TIT4/>
+    <INVID ID="FRB.FOBJ3.SCAL.21297">FRB.FOBJ3.SCAL.1297</INVID>
+    <P>
+        <AI R="FOBJSCAL/FOBJSCAL1297AR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1297AR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL1297BR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1297BR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL1297CR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1297CR_v.jpg"/>
+        </AI>
+        <AI R="FOBJSCAL/FOBJSCAL1297DR.jpg$$">
+            <IMG SRC="$RELDIR$FOBJSCAL/FOBJSCAL1297DR_v.jpg"/>
+        </AI>
+    </P>
+    <ISBD>
+        <Z1>
+            <TITI>
+                <NXP LNP="Texas Instruments">TI-5112</NXP>
+                <T>: calculatrice &#x00e9;lectronique de bureau avec selecteurs 320 F, K et Z</T>
+            </TITI>
+        </Z1>
+        <Z0>
+            <TYPE>Objet :</TYPE>
+            <INV>2014</INV>
+            <LIEU>C8-A1.2</LIEU>
+        </Z0>
+        <Z2>
+            <SXP>S/N 129204</SXP>
+        </Z2>
+        <Z3/>
+        <Z4>
+            <EXP>s.l.</EXP>
+            <T>:</T>
+            <EXP>s.n.</EXP>
+            <T>,</T>
+            <T/>
+            <DT D="00001980">1980</DT>
+        </Z4>
+        <Z5>
+            <T>L <NB>12,7</NB> x l <NB>18</NB> x H <NB>3,9</NB> cm; <NB>0,1</NB> kg
+            </T>
+        </Z5>
+        <Z6/>
+        <Z7>
+            <T>Bon &#x00e9;tat.</T>
+        </Z7>
+        <Z8>
+            <NXP>Collection Jacques Lemaire</NXP>
+            <T></T>
+            <REF>SYSCAL.68.1164</REF>
+        </Z8>
+    </ISBD>
+    <P>
+        <T>made in</T>
+        <NXP>Japan</NXP>
+        <T>,</T>
+    </P>
+    <P>
+        <T>27 + 4 touches, affichage 12 caract&#x00e8;res</T>
+        <NXP>LCD</NXP>
+        <T>, 1 m&#x00e9;moire, alim. 2 piles</T>
+        <T/>
+        <NXP>AA</NXP>
+    </P>
+    <P>
+        <DP D="00112019">Date de publication: novembre 2019</DP>
+    </P>
+</top>
