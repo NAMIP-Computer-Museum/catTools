@@ -22,8 +22,10 @@ def recup_conditionnement(cursor):
         if res:
            """rien ne se passe"""
         else:
-            if (cond is int) or (cond is None) or (cond ==1 or cond == 0):
-                config.logging.warning("artefact:"+str(idA)+";conditionnement n'est pas correct ou vide")
+            if cond is None:
+                config.logging.warning("artefact:"+str(idA)+";conditionnement est vide")
+            elif (cond is int) or (cond == 1 or cond == 0):
+                config.logging.warning("artefact:" + str(idA) + ";conditionnement est incorrect;"+str(cond))
             else:
               sqlUsage ="SELECT id_local from localisations where localisation =\'"+str(local).capitalize()+"\'"
               cursor.execute(sqlUsage)

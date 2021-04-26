@@ -20,8 +20,10 @@ def recup_appartenance(cursor):
         if res:
            """rien ne se passe"""
         else:
-            if (appart is int) or (appart is None) or (appart ==1 or appart == 0):
-                config.logging.warning("artefact:"+str(idA)+";appartenance n'est pas correcte ou vide")
+            if (appart is None) :
+                config.logging.warning("artefact:"+str(idA)+";appartenance est vide")
+            elif   (appart is int) or  (appart ==1 or appart == 0):
+                config.logging.warning("artefact:" + str(idA) + ";appartenance est incorrecte;"+str(appart))
             else:
               sql1 ="INSERT INTO appartenances (appartenance) VALUES(\'"+str(appart).capitalize()+"\')"
               cursor.execute(sql1)

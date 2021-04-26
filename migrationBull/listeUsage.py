@@ -20,8 +20,10 @@ def recup_usage(cursor):
         if res:
            """rien ne se passe"""
         else:
-            if (usage is int) or (usage is None) or (usage == 1 or usage == 0):
-                config.logging.warning("artefact:"+str(idA)+";usage n'est pas correct ou vide")
+            if usage is None:
+                config.logging.warning("artefact:"+str(idA)+";usage est vide")
+            elif  (usage is int) or  (usage == 1 or usage == 0):
+                config.logging.warning("artefact:" + str(idA) + ";usage est incorrect;"+str(usage))
             else:
               sql1 ="INSERT INTO usages (libelleUsage) VALUES(\'"+str(usage).upper()+"\')"
               cursor.execute(sql1)

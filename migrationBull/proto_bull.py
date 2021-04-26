@@ -290,7 +290,7 @@ nombre+cm  ^[A-Z]{2,3}$
 def process_longueur(row):
     longueur = row[19].value
     id = row[0].value
-    cm = re.compile('^[1-9]+Cm$')
+    cm = re.compile('^[0-9]+[.\-,]*[0-9]*Cm$')
     if longueur is None:
         config.logging.warning("artefact:"+str(id)+";pas de longueur")
         return None
@@ -300,7 +300,7 @@ def process_longueur(row):
         str(longueur).split("C")
         return longueur[0]
     else:
-         config.logging.warning("artefact:"+str(id)+";mauvais encodage de la longueur")
+         config.logging.warning("artefact:"+str(id)+";mauvais encodage de la longueur;"+str(longueur))
     return None
 
 
@@ -314,7 +314,7 @@ def process_largeur(row):
     # print(row[20].value)
     largeur = row[20].value
     id = row[0].value
-    cm = re.compile('^[1-9]+Cm$')
+    cm = re.compile('^[0-9]+[.\-,]*[0-9]*Cm$')
     if largeur is None:
         config.logging.warning("artefact:"+str(id)+";pas de largeur")
         return None
@@ -325,7 +325,7 @@ def process_largeur(row):
         config.logging.debug(largeur[0])
         return largeur[0]
     else:
-        config.logging.warning("artefact:"+str(id)+";mauvais encodage de la largeur")
+        config.logging.warning("artefact:"+str(id)+";mauvais encodage de la largeur;"+str(largeur))
         return None
 
 """
@@ -338,7 +338,7 @@ nombre+cm  ^[A-Z]{2,3}$
 def process_hauteur(row):
     hauteur = row[21].value
     id = row[0].value
-    cm = re.compile('^[1-9]+Cm$')
+    cm = re.compile('^[0-9]+^[.\-,]*[0-9]*Cm$')
     if hauteur is None:
         config.logging.warning("artefact:"+str(id)+";pas de hauteur")
         return None
@@ -348,7 +348,7 @@ def process_hauteur(row):
         str(hauteur).split("C")
         return hauteur[0]
     else:
-        config.logging.warning("artefact:"+str(id)+";mauvais encodage de la hauteur")
+        config.logging.warning("artefact:"+str(id)+";mauvais encodage de la hauteur;"+str(hauteur))
         return None
 
 """
@@ -362,7 +362,7 @@ attention peuty avoir des gramme gr
 def process_poids(row):
     poids = row[22].value
     id = row[0].value
-    kg = re.compile('^[1-9]+Kg$')
+    kg = re.compile('^[0-9]+[.\-,]*[0-9]*Kg$')
     if poids is None:
         config.logging.warning("artefact:"+str(id)+";pas de poids")
         return None
@@ -372,7 +372,7 @@ def process_poids(row):
         str(poids).split("K")
         return poids[0]
     else:
-       config.logging.warning("artefact:"+str(id)+";mauvais encodage du poids")
+       config.logging.warning("artefact:"+str(id)+";mauvais encodage du poids;"+str(poids))
     return None
 
 
@@ -449,7 +449,7 @@ def process_datein(row):
     d = row[31].value
     id = row[0].value
     dateIn = None
-    if datetime.date is None:
+    if d is None:
         dateIn = None
         config.logging.warning("artefact:" + str(id) + ";pas de date d'entrée")
     else:
@@ -601,7 +601,8 @@ try:
  conn.commit()
  for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
     if all([cell.value is None for cell in row[2:]]):
-        config.logging.warning("artefact:"+str(row[0].value)+";ligne vide")
+        config.logging.warning("artefact:"+str(row[0].value)+";ligne vide;ignorée")
+        continue
     process_row(row,conn)
 finally:
     conn.close
