@@ -288,16 +288,21 @@ nombre+cm  ^[A-Z]{2,3}$
 
 
 def process_longueur(row):
-    longueur = row[19].value
+    longueur = str(row[19].value).lower()
     id = row[0].value
-    cm = re.compile('^[0-9]+[.\-,]*[0-9]*Cm$')
+    re1 = re.compile('^[0-9]+,[0-9]*cm$')
+    re2 = re.compile('^[0-9]+$')
+    re3 = re.compile('^[0-9]+cm$')
     if longueur is None:
         config.logging.warning("artefact:"+str(id)+";pas de longueur")
         return None
-    elif longueur is int:
+    elif re2.match(str(longueur)):
         return longueur
-    elif cm.match(str(longueur)):
-        str(longueur).split("C")
+    elif re1.match(str(longueur)):
+        str(longueur).split("c")
+        return longueur[0]
+    elif re3.match(str(longueur)):
+        str(longueur).split("c")
         return longueur[0]
     else:
          config.logging.warning("artefact:"+str(id)+";mauvais encodage de la longueur;"+str(longueur))
@@ -312,17 +317,21 @@ nombre+cm ^[A-Z]{2,3}$
 
 def process_largeur(row):
     # print(row[20].value)
-    largeur = row[20].value
+    largeur = str(row[20].value).lower()
     id = row[0].value
-    cm = re.compile('^[0-9]+[.\-,]*[0-9]*Cm$')
+    re1 = re.compile('^[0-9]+,[0-9]*cm$')
+    re2 = re.compile('^[0-9]+$')
+    re3 = re.compile('^[0-9]+cm$')
     if largeur is None:
         config.logging.warning("artefact:"+str(id)+";pas de largeur")
         return None
-    elif largeur is int:
+    elif re2.match(str(largeur)):
         return largeur
-    elif cm.match(str(largeur)):
-        str(largeur).split("C")
-        config.logging.debug(largeur[0])
+    elif re1.match(str(largeur)):
+        str(largeur).split("c")
+        return largeur[0]
+    elif re3.match(str(largeur)):
+        str(largeur).split("c")
         return largeur[0]
     else:
         config.logging.warning("artefact:"+str(id)+";mauvais encodage de la largeur;"+str(largeur))
@@ -336,16 +345,21 @@ nombre+cm  ^[A-Z]{2,3}$
 
 
 def process_hauteur(row):
-    hauteur = row[21].value
+    hauteur = str(row[21].value).lower()
     id = row[0].value
-    cm = re.compile('^[0-9]+^[.\-,]*[0-9]*Cm$')
+    re1 = re.compile('^[0-9]+,[0-9]*cm$')
+    re2 = re.compile('^[0-9]+$')
+    re3 = re.compile('^[0-9]+cm$')
     if hauteur is None:
         config.logging.warning("artefact:"+str(id)+";pas de hauteur")
         return None
-    elif hauteur is int:
+    elif re2.match(str(hauteur)):
         return hauteur
-    elif cm.match(str(hauteur)):
-        str(hauteur).split("C")
+    elif re1.match(str(hauteur)):
+        str(hauteur).split("c")
+        return hauteur[0]
+    elif re3.match(str(hauteur)):
+        str(hauteur).split("c")
         return hauteur[0]
     else:
         config.logging.warning("artefact:"+str(id)+";mauvais encodage de la hauteur;"+str(hauteur))
@@ -360,16 +374,21 @@ attention peuty avoir des gramme gr
 
 
 def process_poids(row):
-    poids = row[22].value
+    poids = str(row[22].value).lower()
     id = row[0].value
-    kg = re.compile('^[0-9]+[.\-,]*[0-9]*Kg$')
+    re1 = re.compile('^[0-9]+,[0-9]*kg$')
+    re2 = re.compile('^[0-9]+$')
+    re3 = re.compile('^[0-9]+kg$')
     if poids is None:
         config.logging.warning("artefact:"+str(id)+";pas de poids")
         return None
-    elif poids is int:
+    elif re2.match(str(poids)):
         return poids
-    elif kg.match(str(poids)):
-        str(poids).split("K")
+    elif re1.match(str(poids)):
+        str(poids).split("k")
+        return poids[0]
+    elif re3.match(str(poids)):
+        str(poids).split("k")
         return poids[0]
     else:
        config.logging.warning("artefact:"+str(id)+";mauvais encodage du poids;"+str(poids))
@@ -452,6 +471,7 @@ def process_datein(row):
     if d is None:
         dateIn = None
         config.logging.warning("artefact:" + str(id) + ";pas de date d'entrée")
+        return None
     else:
         """
         if d :
@@ -582,7 +602,7 @@ def process_row(row,conn):
             conn.rollback()
      conn.commit()
 
-wb = openpyxl.load_workbook(filename='c:\\Users\\jazzt\\desktop\\NAM-IP\\bull.xlsm')
+wb = openpyxl.load_workbook(filename=config.pathBull)
 ws = wb['Inventaire']
 """
 boucle pour vérifier si les cellules d'une ligne sont compléter ou non et 
