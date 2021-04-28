@@ -16,7 +16,7 @@ max_row = 678
 max_column = 34
 min_column = 0
 # dossier ou se trouve les différents fichiers xml
-pathkhs = '..\\catTools\\data\\KHS'
+pathkhs = 'C:\\Users\\jazzt\\PycharmProjects\\pythonProject\\catTools\\data\\KHS'
 pathBull = 'C:\\Users\\jazzt\\PycharmProjects\\pythonProject\\catTools\\data\\Bull\\extractBull.xlsm'
 """
 initalisation parametres connection DB locale

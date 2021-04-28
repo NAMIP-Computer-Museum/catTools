@@ -290,9 +290,9 @@ nombre+cm  ^[A-Z]{2,3}$
 def process_longueur(row):
     longueur = str(row[19].value).lower()
     id = row[0].value
-    re1 = re.compile('^[0-9]+,[0-9]*cm$')
+    re1 = re.compile('^[0-9]+,[0-9]*\s*cm$')
     re2 = re.compile('^[0-9]+$')
-    re3 = re.compile('^[0-9]+cm$')
+    re3 = re.compile('^[0-9]+\s*cm$')
     if longueur is None:
         config.logging.warning("artefact:"+str(id)+";pas de longueur")
         return None
@@ -319,9 +319,9 @@ def process_largeur(row):
     # print(row[20].value)
     largeur = str(row[20].value).lower()
     id = row[0].value
-    re1 = re.compile('^[0-9]+,[0-9]*cm$')
+    re1 = re.compile('^[0-9]+,[0-9]*\s*cm$')
     re2 = re.compile('^[0-9]+$')
-    re3 = re.compile('^[0-9]+cm$')
+    re3 = re.compile('^[0-9]+\s*cm$')
     if largeur is None:
         config.logging.warning("artefact:"+str(id)+";pas de largeur")
         return None
@@ -347,9 +347,9 @@ nombre+cm  ^[A-Z]{2,3}$
 def process_hauteur(row):
     hauteur = str(row[21].value).lower()
     id = row[0].value
-    re1 = re.compile('^[0-9]+,[0-9]*cm$')
+    re1 = re.compile('^[0-9]+,[0-9]*\s*cm$')
     re2 = re.compile('^[0-9]+$')
-    re3 = re.compile('^[0-9]+cm$')
+    re3 = re.compile('^[0-9]+\s*cm$')
     if hauteur is None:
         config.logging.warning("artefact:"+str(id)+";pas de hauteur")
         return None
@@ -376,9 +376,9 @@ attention peuty avoir des gramme gr
 def process_poids(row):
     poids = str(row[22].value).lower()
     id = row[0].value
-    re1 = re.compile('^[0-9]+,[0-9]*kg$')
+    re1 = re.compile('^[0-9]+,[0-9]*\s*kg$')
     re2 = re.compile('^[0-9]+$')
-    re3 = re.compile('^[0-9]+kg$')
+    re3 = re.compile('^[0-9]+\s*kg$')
     if poids is None:
         config.logging.warning("artefact:"+str(id)+";pas de poids")
         return None
