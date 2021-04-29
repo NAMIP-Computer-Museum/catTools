@@ -1451,7 +1451,7 @@ ERROR;artefact:6989;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libe
 
 WARNING;artefact:6990;mauvais encodage du poids;na
 ERROR;artefact:6990;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:6990;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6990,'Lettre à M. Wackers','0','0',1951,1,'00:00:00',3,2,0,NULL,'archives Belgique  (Roger)',NULL,5,1,NULL,2,NULL,2)
+ERROR;artefact:6990;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(6990,'Lettre à M. Wackers','0','0',1951,1,'00:00:00',30,23,0.01,NULL,'archives Belgique  (Roger)',NULL,5,1,NULL,2,NULL,2)
 
 WARNING;artefact:6991;mauvais encodage de la hauteur;a4
 WARNING;artefact:6992;mauvais encodage de la hauteur;a4
@@ -1484,7 +1484,7 @@ WARNING;artefact:6999;mauvais encodage du poids;none
 WARNING;artefact:6999;pas de date d'entrée
 WARNING;artefact:7001;mauvais encodage du poids;200gr
 ERROR;artefact:7001;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:7001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(7001,'Ecole SEC  abréviations ','0','0',1964,1,'00:00:00',3,2,1,NULL,'NULL',4,10,1,NULL,4,3,7)
+ERROR;artefact:7001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(7001,'Ecole SEC  abréviations ','0','0',1964,1,'00:00:00',31,21.5,1.5,NULL,'NULL',4,10,1,NULL,4,3,7)
 
 WARNING;artefact:7056;mauvais encodage de la longueur;none
 WARNING;artefact:7056;mauvais encodage de la largeur;none
@@ -1721,8 +1721,8 @@ WARNING;artefact:9691;mauvais encodage de la largeur;none
 WARNING;artefact:9691;mauvais encodage de la hauteur;none
 WARNING;artefact:9691;mauvais encodage du poids;none
 WARNING;artefact:9691;pas de date d'entrée
-ERROR;artefact:9693;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,1,'2005-08-08 00:00:00',2,5,2,0,'dans boite dorigine',NULL,NULL,52,NULL,48,8,3' à la ligne 1
-ERROR;artefact:9693;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9693,'Collants de correction cartes','0','0',1950?,1,'2005-08-08 00:00:00',2,5,2,0,'dans boite dorigine',NULL,NULL,52,NULL,48,8,39)
+ERROR;artefact:9693;Error 1064; 1064 (42000): Erreur de syntaxe près de '?,1,'2005-08-08 00:00:00',24,5,2.5,0.1,'dans boite dorigine',NULL,NULL,52,NULL,4' à la ligne 1
+ERROR;artefact:9693;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9693,'Collants de correction cartes','0','0',1950?,1,'2005-08-08 00:00:00',24,5,2.5,0.1,'dans boite dorigine',NULL,NULL,52,NULL,48,8,39)
 
 WARNING;artefact:9694;mauvais encodage de la longueur;none
 WARNING;artefact:9694;mauvais encodage de la largeur;none
@@ -1736,7 +1736,7 @@ WARNING;artefact:9814;mauvais encodage de la hauteur;none
 WARNING;artefact:9814;mauvais encodage du poids;none
 WARNING;artefact:9814;pas de date d'entrée
 ERROR;artefact:9815;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:9815;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9815,'Boite floppy 8"','0','0',0,11,'00:00:00',1,0,1,0,'Dans une boite DSKT récupérées',NULL,NULL,1,NULL,10,30,1)
+ERROR;artefact:9815;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(9815,'Boite floppy 8"','0','0',0,11,'00:00:00',14,0,16,0.5,'Dans une boite DSKT récupérées',NULL,NULL,1,NULL,10,30,1)
 
 WARNING;artefact:9816;pas de quantité
 WARNING;artefact:9816;mauvais encodage de la longueur;none
@@ -1987,12 +1987,12 @@ WARNING;artefact:12006;pas de date d'entrée
 WARNING;artefact:12093;pas de date d'entrée
 WARNING;artefact:12094;pas de date d'entrée
 ERROR;artefact:12095;Error 1292; 1292 (22007): Incorrect date value: ' ' for column 'dateIn' at row 1
-ERROR;artefact:12095;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(12095,'classeur photos','0','1971 à 1983?',0,1,' ',3,2,8,3,'Les ordinateurs H316, H200, H2000, Keyplex ',NULL,NULL,1,NULL,91,19,46)
+ERROR;artefact:12095;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(12095,'classeur photos','0','1971 à 1983?',0,1,' ',32,29,8,3.400,'Les ordinateurs H316, H200, H2000, Keyplex ',NULL,NULL,1,NULL,91,19,46)
 
 WARNING;artefact:12096;pas de date d'entrée
 WARNING;artefact:12097;pas de date d'entrée
 ERROR;artefact:12098;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:12098;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(12098,'Distributeur de Billets de banque  (Bancontact)','0','1986 à 1993',0,1,'00:00:00',3,3,5,1,'Les ATM (distributeurs de billets de banque)',NULL,NULL,47,NULL,92,53,47)
+ERROR;artefact:12098;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(12098,'Distributeur de Billets de banque  (Bancontact)','0','1986 à 1993',0,1,'00:00:00',32,30,5,1.1,'Les ATM (distributeurs de billets de banque)',NULL,NULL,47,NULL,92,53,47)
 
 WARNING;artefact:12099;mauvais encodage du poids;2?2kg
 WARNING;artefact:12099;pas de date d'entrée
@@ -2178,7 +2178,7 @@ WARNING;artefact:13033;mauvais encodage du poids;none
 WARNING;artefact:13033;pas de date d'entrée
 WARNING;artefact:15001;mauvais encodage du poids;100gr
 ERROR;artefact:15001;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:15001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(15001,'Soft ZENITH','0','0',1980,1,'00:00:00',5,1,1,NULL,'NULL',NULL,76,6,NULL,106,9,32)
+ERROR;artefact:15001;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(15001,'Soft ZENITH','0','0',1980,1,'00:00:00',5,10,10,NULL,'NULL',NULL,76,6,NULL,106,9,32)
 
 WARNING;artefact:15002;mauvais encodage de la longueur;none
 WARNING;artefact:15002;mauvais encodage de la largeur;none
@@ -2528,13 +2528,11 @@ WARNING;artefact:98534;mauvais encodage de la largeur;none
 WARNING;artefact:98534;mauvais encodage de la hauteur;none
 WARNING;artefact:98534;mauvais encodage du poids;none
 WARNING;artefact:98535;pas de date d'entrée
-WARNING;artefact:98536;mauvais encodage de la longueur;22.5
 WARNING;artefact:98537;pas de quantité
 WARNING;artefact:98537;mauvais encodage de la longueur;none
 WARNING;artefact:98537;mauvais encodage de la largeur;none
 WARNING;artefact:98537;mauvais encodage de la hauteur;none
 WARNING;artefact:98537;mauvais encodage du poids;none
-WARNING;artefact:98538;mauvais encodage de la largeur;1.18
 WARNING;artefact:98538;pas de date d'entrée
 WARNING;artefact:98539;pas de quantité
 WARNING;artefact:98539;mauvais encodage de la longueur;none
@@ -2580,10 +2578,10 @@ WARNING;artefact:98546;pas de date d'entrée
 WARNING;artefact:98547;pas de date d'entrée
 WARNING;artefact:98548;pas de date d'entrée
 ERROR;artefact:98548;Error 1062; 1062 (23000): Duplicata du champ '98548' pour la clef 'PRIMARY'
-ERROR;artefact:98548;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98548,'Pour Minitel','MN5512','96160F',NULL,1,'2015-06-10 00:00:00',1,3,2,0,'livres accompagnant le Micral 15',NULL,NULL,NULL,NULL,119,46,63)
+ERROR;artefact:98548;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98548,'Pour Minitel','MN5512','96160F',NULL,1,'2015-06-10 00:00:00',10,3,2.5,0.13,'livres accompagnant le Micral 15',NULL,NULL,NULL,NULL,119,46,63)
 
-ERROR;artefact:98552;Error 1064; 1064 (42000): Erreur de syntaxe près de 'bank,1,'2015-06-10 00:00:00',7,4,0,0,'avec connecteur femelle vers PC type ? Bre' à la ligne 1
-ERROR;artefact:98552;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98552,'Lecteur carte banquaire','NULL','18-1329041*1',2000Deutche bank,1,'2015-06-10 00:00:00',7,4,0,0,'avec connecteur femelle vers PC type ? Breveté Bull et Innovatron',3,NULL,NULL,NULL,32,46,32)
+ERROR;artefact:98552;Error 1064; 1064 (42000): Erreur de syntaxe près de 'bank,1,'2015-06-10 00:00:00',7,405,0.4,0.02,'avec connecteur femelle vers PC typ' à la ligne 1
+ERROR;artefact:98552;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98552,'Lecteur carte banquaire','NULL','18-1329041*1',2000Deutche bank,1,'2015-06-10 00:00:00',7,405,0.4,0.02,'avec connecteur femelle vers PC type ? Breveté Bull et Innovatron',3,NULL,NULL,NULL,32,46,32)
 
 WARNING;artefact:98553;pas de date d'entrée
 WARNING;artefact:98556;pas de quantité
@@ -2600,7 +2598,6 @@ WARNING;artefact:98559;mauvais encodage de la hauteur;none
 WARNING;artefact:98559;mauvais encodage du poids;none
 WARNING;artefact:98560;mauvais encodage de la hauteur;4cm 
 WARNING;artefact:98560;pas de date d'entrée
-WARNING;artefact:98563;mauvais encodage de la hauteur;4.3
 WARNING;artefact:98567;pas de date d'entrée
 WARNING;artefact:98602;mauvais encodage de la longueur;none
 WARNING;artefact:98602;mauvais encodage de la largeur;none
@@ -2609,7 +2606,7 @@ WARNING;artefact:98602;mauvais encodage du poids;none
 WARNING;artefact:98603;pas de date d'entrée
 WARNING;artefact:98607;pas de date d'entrée
 ERROR;artefact:98624;Error 1292; 1292 (22007): Incorrect date value: '2019/17/12' for column 'dateIn' at row 1
-ERROR;artefact:98624;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98624,'Boites écrous,rondelles','0','0',0,1,'2019/17/12',1,1,1,1,'NULL',NULL,NULL,NULL,NULL,86,8,10)
+ERROR;artefact:98624;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(98624,'Boites écrous,rondelles','0','0',0,1,'2019/17/12',12,12,17,1.5,'NULL',NULL,NULL,NULL,NULL,86,8,10)
 
 WARNING;artefact:98631;pas de quantité
 WARNING;artefact:98631;mauvais encodage de la longueur;none
@@ -2624,11 +2621,11 @@ WARNING;artefact:99991;ligne vide;ignorée
 WARNING;artefact:99992;ligne vide;ignorée
 WARNING;artefact:99993;mauvais encodage du poids;micro
 ERROR;artefact:99993;Error 1292; 1292 (22007): Incorrect date value: '00:00:00' for column 'dateIn' at row 1
-ERROR;artefact:99993;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99993,'OS  (article de test)','DOS','MS DOS 3,2',1985,0,'00:00:00',2,1,3,NULL,' 5 disquttes dand boite de disquettes 3" 1/2',11,76,29,NULL,127,46,32)
+ERROR;artefact:99993;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99993,'OS  (article de test)','DOS','MS DOS 3,2',1985,0,'00:00:00',20 ,18 ,3 ,NULL,' 5 disquttes dand boite de disquettes 3" 1/2',11,76,29,NULL,127,46,32)
 
 WARNING;artefact:99994;pas de date d'entrée
 ERROR;artefact:99995;Error 1292; 1292 (22007): Incorrect date value: '0' for column 'dateIn' at row 1
-ERROR;artefact:99995;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99995,'456','125','2002',0,0,'0',1,1,2,5,'NULL',NULL,NULL,NULL,NULL,35,74,66)
+ERROR;artefact:99995;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES(99995,'456','125','2002',0,0,'0',18,12,23,5,'NULL',NULL,NULL,NULL,NULL,35,74,66)
 
 WARNING;artefact:99996;pas de quantité
 WARNING;artefact:99996;mauvais encodage de la longueur;none

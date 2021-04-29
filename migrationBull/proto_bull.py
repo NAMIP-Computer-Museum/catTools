@@ -290,8 +290,8 @@ nombre+cm  ^[A-Z]{2,3}$
 def process_longueur(row):
     longueur = str(row[19].value).lower()
     id = row[0].value
-    re1 = re.compile('^[0-9]+,[0-9]*\s*cm$')
-    re2 = re.compile('^[0-9]+$')
+    re1 = re.compile('^[0-9]+,*[0-9]*\s*cm$')
+    re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*cm$')
     if longueur is None:
         config.logging.warning("artefact:"+str(id)+";pas de longueur")
@@ -299,11 +299,13 @@ def process_longueur(row):
     elif re2.match(str(longueur)):
         return longueur
     elif re1.match(str(longueur)):
-        str(longueur).split("c")
-        return longueur[0]
+        longueur = str(longueur).split("c")
+        p = config.re.sub(',', '.', longueur[0])
+        return p
     elif re3.match(str(longueur)):
-        str(longueur).split("c")
-        return longueur[0]
+        longueur = str(longueur).split("c")
+        p = config.re.sub(',', '.', longueur[0])
+        return p
     else:
          config.logging.warning("artefact:"+str(id)+";mauvais encodage de la longueur;"+str(longueur))
     return None
@@ -320,7 +322,7 @@ def process_largeur(row):
     largeur = str(row[20].value).lower()
     id = row[0].value
     re1 = re.compile('^[0-9]+,[0-9]*\s*cm$')
-    re2 = re.compile('^[0-9]+$')
+    re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*cm$')
     if largeur is None:
         config.logging.warning("artefact:"+str(id)+";pas de largeur")
@@ -328,11 +330,13 @@ def process_largeur(row):
     elif re2.match(str(largeur)):
         return largeur
     elif re1.match(str(largeur)):
-        str(largeur).split("c")
-        return largeur[0]
+        largeur = str(largeur).split("c")
+        p = config.re.sub(',', '.', largeur[0])
+        return p
     elif re3.match(str(largeur)):
-        str(largeur).split("c")
-        return largeur[0]
+        largeur = str(largeur).split("c")
+        p = config.re.sub(',', '.', largeur[0])
+        return p
     else:
         config.logging.warning("artefact:"+str(id)+";mauvais encodage de la largeur;"+str(largeur))
         return None
@@ -348,7 +352,7 @@ def process_hauteur(row):
     hauteur = str(row[21].value).lower()
     id = row[0].value
     re1 = re.compile('^[0-9]+,[0-9]*\s*cm$')
-    re2 = re.compile('^[0-9]+$')
+    re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*cm$')
     if hauteur is None:
         config.logging.warning("artefact:"+str(id)+";pas de hauteur")
@@ -356,11 +360,13 @@ def process_hauteur(row):
     elif re2.match(str(hauteur)):
         return hauteur
     elif re1.match(str(hauteur)):
-        str(hauteur).split("c")
-        return hauteur[0]
+        hauteur =  str(hauteur).split("c")
+        p = config.re.sub(',', '.', hauteur[0])
+        return p
     elif re3.match(str(hauteur)):
-        str(hauteur).split("c")
-        return hauteur[0]
+        hauteur = str(hauteur).split("c")
+        p = config.re.sub(',', '.', hauteur[0])
+        return p
     else:
         config.logging.warning("artefact:"+str(id)+";mauvais encodage de la hauteur;"+str(hauteur))
         return None
@@ -377,7 +383,7 @@ def process_poids(row):
     poids = str(row[22].value).lower()
     id = row[0].value
     re1 = re.compile('^[0-9]+,[0-9]*\s*kg$')
-    re2 = re.compile('^[0-9]+$')
+    re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*kg$')
     if poids is None:
         config.logging.warning("artefact:"+str(id)+";pas de poids")
@@ -385,11 +391,13 @@ def process_poids(row):
     elif re2.match(str(poids)):
         return poids
     elif re1.match(str(poids)):
-        str(poids).split("k")
-        return poids[0]
+        poids = str(poids).split("k")
+        p = config.re.sub(',', '.', poids[0])
+        return p
     elif re3.match(str(poids)):
-        str(poids).split("k")
-        return poids[0]
+        poids = str(poids).split("k")
+        p = config.re.sub(',', '.', poids[0])
+        return p
     else:
        config.logging.warning("artefact:"+str(id)+";mauvais encodage du poids;"+str(poids))
     return None
