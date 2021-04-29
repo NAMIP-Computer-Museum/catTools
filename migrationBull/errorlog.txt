@@ -2596,7 +2596,6 @@ WARNING;artefact:98559;mauvais encodage de la longueur;none
 WARNING;artefact:98559;mauvais encodage de la largeur;none
 WARNING;artefact:98559;mauvais encodage de la hauteur;none
 WARNING;artefact:98559;mauvais encodage du poids;none
-WARNING;artefact:98560;mauvais encodage de la hauteur;4cm 
 WARNING;artefact:98560;pas de date d'entrée
 WARNING;artefact:98567;pas de date d'entrée
 WARNING;artefact:98602;mauvais encodage de la longueur;none

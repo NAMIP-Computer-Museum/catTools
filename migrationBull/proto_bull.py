@@ -349,7 +349,7 @@ nombre+cm  ^[A-Z]{2,3}$
 
 
 def process_hauteur(row):
-    hauteur = str(row[21].value).lower()
+    hauteur = str(row[21].value).lower().strip()
     id = row[0].value
     re1 = re.compile('^[0-9]+,[0-9]*\s*cm$')
     re2 = re.compile('^[0-9]+\.*[0-9]*$')
@@ -360,13 +360,12 @@ def process_hauteur(row):
     elif re2.match(str(hauteur)):
         return hauteur
     elif re1.match(str(hauteur)):
-        hauteur =  str(hauteur).split("c")
+        hauteur = str(hauteur).split("c")
         p = config.re.sub(',', '.', hauteur[0])
         return p
     elif re3.match(str(hauteur)):
         hauteur = str(hauteur).split("c")
-        p = config.re.sub(',', '.', hauteur[0])
-        return p
+        return hauteur[0]
     else:
         config.logging.warning("artefact:"+str(id)+";mauvais encodage de la hauteur;"+str(hauteur))
         return None
