@@ -157,11 +157,13 @@ def process_anprod(row):
     if anprod is None:
         return None
     else:
-        if str(anprod) < "1500":
-            config.logging.warning("artefact:"+str(id)+";l'année de production est inférieure;"+str(anprod))
+        if isinstance(anprod, str):
+            config.logging.warning("artefact:"+str(id)+";l'année de production est incorrecte;"+str(anprod))
+        elif int(anprod) < 1500:
+            config.logging.warning("artefact:"+str(id)+";l'année de production est inférieure à 1500;"+str(anprod))
             return None
-        elif str(anprod) > str(datetime.datetime.today().year):
-            config.logging.warning("artefact:"+str(id)+";l'année de production est supérieure;"+str(anprod))
+        elif int(anprod) > int(datetime.datetime.today().year):
+            config.logging.warning("artefact:"+str(id)+";l'année de production est supérieure à ajd;"+str(anprod))
             return None
         else:
            return anprod
@@ -392,7 +394,7 @@ def process_poids(row):
     re1 = re.compile('^[0-9]+,[0-9]*\s*kg$')
     re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*kg$')
-    if poids is None:
+    if (poids is None) or (str(poids) == "none"):
         config.logging.warning("artefact:"+str(id)+";pas de poids")
         return None
     elif re2.match(str(poids)):
@@ -490,7 +492,7 @@ def process_datein(row):
     elif str(d) > str(datetime.datetime.today()):
         config.logging.warning("artefact:"+str(id)+";l'année de production est supérieure;"+str(d))
         return None
-    elif str(d) < "01-01-1990":
+    elif str(d) < str(datetime.datetime(1990, 1, 1)):
         config.logging.warning("artefact:"+str(id)+";l'année de production est inférieure;"+str(d))
         return None
     else:
