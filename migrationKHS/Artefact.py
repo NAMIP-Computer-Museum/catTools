@@ -1,5 +1,6 @@
 class Artefact:
     id: str
+    file: str
     nom: str
     modele: str
     dateProd: int
@@ -16,8 +17,9 @@ class Artefact:
     producteur: int
     etat: int
     collection: int
-    def __init__(self,id):
+    def __init__(self,id,file):
         self.id = id
+        self.file = file
         self.largeur = None
         self.longueur =None
         self.hauteur = None
@@ -31,7 +33,8 @@ class Artefact:
 
     def getId(self):
             return self.id
-
+    def getFile(self):
+           return self.file
     def getNom(self):
             return self.nom
     def setNom(self,nom):

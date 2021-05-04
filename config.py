@@ -2,6 +2,7 @@
 import logging
 import re
 import os
+import mysql.connector
 """
 initialisation de l'ecriture dans un file du logging
 """
@@ -27,6 +28,7 @@ user = "root"
 passwd = ""
 database = "nam_ip"
 #"""
+
 """
 initialisation parametres connection DB distante
 """
@@ -35,4 +37,14 @@ host = "cl1-sql11.phpnet.org"
 database = "durnal6"
 user = "durnal6"
 passwd = "z56p1AEmh4Ry"
+#"""
+
+"""
+initinalisation parametres connection DB locale KHS
+"""
+"""
+host = "localhost"
+user = "root"
+passwd = ""
+database = "Khs"
 #"""

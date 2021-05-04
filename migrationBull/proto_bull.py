@@ -153,10 +153,18 @@ en 4 chiffres
 
 def process_anprod(row):
     anprod = row[7].value
+    id = row[0].value
     if anprod is None:
         return None
     else:
-        return anprod
+        if str(anprod) < "1500":
+            config.logging.warning("artefact:"+str(id)+";l'année de production est inférieure;"+str(anprod))
+            return None
+        elif str(anprod) > str(datetime.datetime.today().year):
+            config.logging.warning("artefact:"+str(id)+";l'année de production est supérieure;"+str(anprod))
+            return None
+        else:
+           return anprod
 
 
 """
@@ -475,17 +483,19 @@ def process_datein(row):
     d = row[31].value
     id = row[0].value
     dateIn = None
-    if d is None:
+    if (d is None) or isinstance(d,datetime.time):
         dateIn = None
         config.logging.warning("artefact:" + str(id) + ";pas de date d'entrée")
         return None
+    elif str(d) > str(datetime.datetime.today()):
+        config.logging.warning("artefact:"+str(id)+";l'année de production est supérieure;"+str(d))
+        return None
+    elif str(d) < "01-01-1990":
+        config.logging.warning("artefact:"+str(id)+";l'année de production est inférieure;"+str(d))
+        return None
     else:
-        """
-        if d :
-        config.logging.warning("artefact:"+str(id)+";date suspecte car inférieur à 1900")
-        """
-        dateIn = d
-    return dateIn
+         dateIn = d
+         return dateIn
 
 
 """
@@ -565,7 +575,7 @@ def process_row(row,conn):
 
      p1 = "INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,"
      p2 = "`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,"
-     p3 = "`appart_key`, `famille_key`) VALUES(" + str(id) + ",\'" + str(libelle) + "\',\'" + str(modele) + "\',\'" + str(numSerie)
+     p3 = "`appart_key`, `famille_key`) VALUES(\'" + str(id) + "\',\'" + str(libelle) + "\',\'" + str(modele) + "\',\'" + str(numSerie)
      if dateIn is not None:
         p4 = "\'," + str(anProd) + "," + str(qte) + ",\'" + str(dateIn) + "\'," + str(long)+ "," +str(larg)+ "," +str(haut)+ "," +str(poids)
      else:
@@ -594,8 +604,12 @@ def process_row(row,conn):
      """
      # insertion dans la table images
      sqlImage = "INSERT INTO `images`(`image`, `artefact_key`) VALUES (\'" + str(image) + "\'," + str(id) + ")"
-     cursor.execute(sqlImage)
-
+     try:
+      cursor.execute(sqlImage)
+     except mysql.connector.errors.DatabaseError as e:
+         conn.rollback()
+         config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
+         config.logging.error("artefact:" + str(id) + ";; erreur requête;" + str(sqlImage) + "\n")
     # insertion dans la table recolements
      if recolement is None:
          #print("")
@@ -619,11 +633,17 @@ try:
  conn = mysql.connector.connect(host=config.host, user=config.user, password=config.passwd, database=config.database)
  cursor = conn.cursor()
  listeEtat.recup_etat(cursor)
+ conn.commit()
  listeProducteur.recup_producteur(cursor)
+ conn.commit()
  listeUsage.recup_usage(cursor)
+ conn.commit()
  listeAppartenance.recup_appartenance(cursor)
+ conn.commit()
  listeFamille.recup_famille(cursor)
+ conn.commit()
  listeLocalisation.recup_localisation(cursor)
+ conn.commit()
  listeConditionnement.recup_conditionnement(cursor)
  conn.commit()
  for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):

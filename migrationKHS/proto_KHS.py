@@ -1,19 +1,20 @@
 # -*- coding: utf8 -*-
-import configKhs
+import config
 import utilitaireKhs
 import ETLEtat
 import ETLCollection
 import ETLProducteur
 import ETLStock
+import Artefact
 import xml.etree.ElementTree as ET
 import sql
 try:
     # ouverture du socket de communication avec la DB
-    conn = configKhs.mysql.connector.connect(host=configKhs.host, user=configKhs.user, password=configKhs.passwd, database=configKhs.database)
+    conn = config.mysql.connector.connect(host=config.host, user=config.user, password=config.passwd, database=config.database)
     cursor = conn.cursor()
     # boucle pour charger les ETL en DB
-    for file in configKhs.os.listdir(configKhs.path):
-        if configKhs.re.match('V[0-9]*.xml', file):
+    for file in config.os.listdir(config.path):
+        if config.re.match('V[0-9]*.xml', file):
             tree = ET.parse("data\\"+str(file))
             root = tree.getroot()
             ETLStock.ETLStock(root, cursor)
@@ -21,14 +22,17 @@ try:
             ETLEtat.ETLEtat(root, cursor)
             ETLCollection.ETLCollection(root, cursor)
             conn.commit
+except config.mysql.connector.errors.DatabaseError as e:
+    config.logging.error("File:"+str(file)+";Error %d;%s" % (e.args[0], e.args[1]))
+try:
     # ouverture de la boucle de lecture des fichiers xml
-    for file in configKhs.os.listdir(configKhs.path):
-        if configKhs.re.match('V[0-9]*.xml', file):
+    for file in config.os.listdir(config.path):
+        if config.re.match('V[0-9]*.xml', file):
               tree = ET.parse("data\\"+str(file))
               root = tree.getroot()
             # recherche des données de l'artefact du fichier xml en cours
               id = utilitaireKhs.idArtefact(root)
-              artefact = configKhs.Artefact.Artefact(id)
+              artefact = Artefact.Artefact(id,file)
               artefact.setNom(utilitaireKhs.nomArtefact(root))
               artefact.setDateIn(utilitaireKhs.dateInArtefact(root))
               artefact.setModele(utilitaireKhs.modeleArtefact(root))
@@ -46,8 +50,8 @@ try:
               sql.addImage(artefact, cursor)
             # commit des modifications dans la DB
               conn.commit()
-except configKhs.mysql.connector.errors.DatabaseError as e:
-    print("Error %d: %s" % (e.args[0], e.args[1]))
+except config.mysql.connector.errors.DatabaseError as e:
+    config.logging.error("File:"+str(file)+";Error %d;%s" % (e.args[0], e.args[1]))
 finally:
     # fermeture de la connection
     conn.close
