@@ -1,5 +1,5 @@
-import config
-import traceback
+from catTools import config
+
 
 def idArtefact(root):
     return root.find("INVID").text

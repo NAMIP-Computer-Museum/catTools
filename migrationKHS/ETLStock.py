@@ -1,4 +1,4 @@
-import config
+from catTools import config
 def ETLStock(root, cursor):
     id = None
     loc = root.find("ISBD/Z0/LIEU")

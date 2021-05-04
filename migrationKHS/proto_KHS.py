@@ -1,5 +1,5 @@
 # -*- coding: utf8 -*-
-import config
+from catTools import config
 import utilitaireKhs
 import ETLEtat
 import ETLCollection
@@ -13,9 +13,9 @@ try:
     conn = config.mysql.connector.connect(host=config.host, user=config.user, password=config.passwd, database=config.database)
     cursor = conn.cursor()
     # boucle pour charger les ETL en DB
-    for file in config.os.listdir(config.path):
+    for file in config.os.listdir(config.pathkhs):
         if config.re.match('V[0-9]*.xml', file):
-            tree = ET.parse("data\\"+str(file))
+            tree = ET.parse("C:\\Users\\jazzt\\PycharmProjects\\pythonProject\\catTools\\data\\khs\\"+str(file))
             root = tree.getroot()
             ETLStock.ETLStock(root, cursor)
             ETLProducteur.ETLProducteur(root, cursor)
@@ -26,9 +26,9 @@ except config.mysql.connector.errors.DatabaseError as e:
     config.logging.error("File:"+str(file)+";Error %d;%s" % (e.args[0], e.args[1]))
 try:
     # ouverture de la boucle de lecture des fichiers xml
-    for file in config.os.listdir(config.path):
+    for file in config.os.listdir(config.pathkhs):
         if config.re.match('V[0-9]*.xml', file):
-              tree = ET.parse("data\\"+str(file))
+              tree = ET.parse("C:\\Users\\jazzt\\PycharmProjects\\pythonProject\\catTools\\data\\khs\\"+str(file))
               root = tree.getroot()
             # recherche des données de l'artefact du fichier xml en cours
               id = utilitaireKhs.idArtefact(root)

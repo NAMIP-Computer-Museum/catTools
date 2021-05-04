@@ -1,4 +1,4 @@
-import config
+from catTools import config
 def ETLEtat(root, cursor):
     id = None
     etat = root.find("ISBD/Z7/T")

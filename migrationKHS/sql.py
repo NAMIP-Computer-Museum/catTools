@@ -1,4 +1,4 @@
-import config
+from catTools import config
 def addArtefact(artefact, cursor):
     p1 = "INSERT INTO artefacts (`id_artefact`,`sourceFile`, `libelle`, `modele`,`anProd`,`dateIn`, `longueur`,"
     p2 = "`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`"

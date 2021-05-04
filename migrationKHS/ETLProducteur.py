@@ -1,6 +1,6 @@
 from xml.etree.ElementTree import ParseError
 import traceback
-import config
+from catTools import config
 def ETLProducteur(root, cursor):
  try:
     id = None
