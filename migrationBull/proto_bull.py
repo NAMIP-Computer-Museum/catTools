@@ -157,7 +157,7 @@ def process_anprod(row):
     if anprod is None:
         return None
     else:
-        if isinstance(anprod, str):
+        if str(anprod).__contains__("?"):
             config.logging.warning("artefact:"+str(id)+";l'année de production est incorrecte;"+str(anprod))
         elif int(anprod) < 1500:
             config.logging.warning("artefact:"+str(id)+";l'année de production est inférieure à 1500;"+str(anprod))
@@ -394,7 +394,7 @@ def process_poids(row):
     re1 = re.compile('^[0-9]+,[0-9]*\s*kg$')
     re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*kg$')
-    if (poids is None) or (str(poids) == "none"):
+    if (poids is None):
         config.logging.warning("artefact:"+str(id)+";pas de poids")
         return None
     elif re2.match(str(poids)):
