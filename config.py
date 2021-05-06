@@ -3,6 +3,8 @@ import logging
 import re
 import os
 import mysql.connector
+import datetime
+import openpyxl
 """
 initialisation de l'ecriture dans un file du logging
 """
@@ -48,3 +50,11 @@ user = "root"
 passwd = ""
 database = "Khs"
 #"""
+
+"""
+config export en excel
+"""
+filename = "exportDB"+str(datetime.date.today())+".xlsx"
+wrap = openpyxl.styles.Alignment(wrap_text=True)
+font = openpyxl.styles.Font(size=12,
+                            bold=True)
