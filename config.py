@@ -9,6 +9,7 @@ import openpyxl
 initialisation de l'ecriture dans un file du logging
 """
 logging.basicConfig(filename="errorlog.txt",filemode="w",format = "%(levelname)s;%(message)s")
+
 """
 initialisation variable de la boucle du fichier
 """
@@ -21,6 +22,7 @@ min_column = 0
 # dossier ou se trouve les différents fichiers xml
 pathkhs = 'C:\\Users\\jazzt\\PycharmProjects\\pythonProject\\catTools\\data\\khs'
 pathBull = 'C:\\Users\\jazzt\\PycharmProjects\\pythonProject\\catTools\\data\\Bull\\extractBull.xlsm'
+
 """
 initalisation parametres connection DB locale
 """

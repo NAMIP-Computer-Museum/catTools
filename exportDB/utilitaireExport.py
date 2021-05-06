@@ -55,7 +55,6 @@ def stylesheet(ws):
 def insertArtefact(ws,cursor):
     # dico d'info à mettre dans l'excel pour une card
     card = {}
-    print(sqlExport.sqlAr)
     cursor.execute(sqlExport.sqlAr)
     resultat = cursor.fetchall()
     for res in resultat:
