@@ -1216,23 +1216,23 @@ ERROR;artefact:<built-in function id>;Error 1064; 1064 (42000): Erreur de syntax
 ERROR;requete pour cond;SELECT id_cond FROM conditionnements WHERE  conditionnement ='Sur l'estrade'
 
 WARNING;artefact:7;mauvais encodage de la hauteur;6cmm
-WARNING;artefact:6987;l'année de production est supérieure à ajd;14594
+WARNING;artefact:6987;l'année de production est incorrecte;14594
 WARNING;artefact:6987;pas de date d'entrée
-WARNING;artefact:6988;l'année de production est inférieure à 1500;0
+WARNING;artefact:6988;l'année de production est incorrecte;0
 WARNING;artefact:6988;pas de date d'entrée
-WARNING;artefact:6989;l'année de production est inférieure à 1500;0
+WARNING;artefact:6989;l'année de production est incorrecte;0
 WARNING;artefact:6989;pas de date d'entrée
 WARNING;artefact:6990;mauvais encodage du poids;na
 WARNING;artefact:6990;pas de date d'entrée
-WARNING;artefact:6991;l'année de production est inférieure à 1500;0
+WARNING;artefact:6991;l'année de production est incorrecte;0
 WARNING;artefact:6991;mauvais encodage de la hauteur;a4
-WARNING;artefact:6992;l'année de production est inférieure à 1500;0
+WARNING;artefact:6992;l'année de production est incorrecte;0
 WARNING;artefact:6992;mauvais encodage de la hauteur;a4
-WARNING;artefact:6993;l'année de production est inférieure à 1500;0
+WARNING;artefact:6993;l'année de production est incorrecte;0
 WARNING;artefact:6993;mauvais encodage de la hauteur;a4
-WARNING;artefact:6994;l'année de production est inférieure à 1500;0
+WARNING;artefact:6994;l'année de production est incorrecte;0
 WARNING;artefact:6994;pas de date d'entrée
-WARNING;artefact:6995;l'année de production est inférieure à 1500;0
+WARNING;artefact:6995;l'année de production est incorrecte;0
 WARNING;artefact:6995;pas de date d'entrée
 WARNING;artefact:6996;mauvais encodage de la longueur;none
 WARNING;artefact:6996;mauvais encodage de la largeur;none
@@ -1437,25 +1437,25 @@ WARNING;artefact:8958;pas de date d'entrée
 WARNING;artefact:8959;mauvais encodage de la longueur;none
 WARNING;artefact:8959;mauvais encodage du poids;none
 WARNING;artefact:8959;pas de date d'entrée
-WARNING;artefact:8963;l'année de production est inférieure à 1500;0
-WARNING;artefact:8968;l'année de production est inférieure à 1500;0
+WARNING;artefact:8963;l'année de production est incorrecte;0
+WARNING;artefact:8968;l'année de production est incorrecte;0
 WARNING;artefact:8969;pas de quantité
 WARNING;artefact:8969;mauvais encodage de la longueur;none
 WARNING;artefact:8969;mauvais encodage de la largeur;none
 WARNING;artefact:8969;mauvais encodage de la hauteur;none
 WARNING;artefact:8969;mauvais encodage du poids;none
 WARNING;artefact:8969;pas de date d'entrée
-WARNING;artefact:9298;l'année de production est inférieure à 1500;0
-WARNING;artefact:9299;l'année de production est inférieure à 1500;0
+WARNING;artefact:9298;l'année de production est incorrecte;0
+WARNING;artefact:9299;l'année de production est incorrecte;0
 WARNING;artefact:9301;mauvais encodage de la longueur;none
 WARNING;artefact:9301;mauvais encodage de la largeur;none
 WARNING;artefact:9301;mauvais encodage de la hauteur;none
 WARNING;artefact:9301;mauvais encodage du poids;none
 WARNING;artefact:9301;pas de date d'entrée
-WARNING;artefact:9303;l'année de production est inférieure à 1500;0
-WARNING;artefact:9304;l'année de production est inférieure à 1500;0
-WARNING;artefact:9308;l'année de production est inférieure à 1500;0
-WARNING;artefact:9309;l'année de production est inférieure à 1500;0
+WARNING;artefact:9303;l'année de production est incorrecte;0
+WARNING;artefact:9304;l'année de production est incorrecte;0
+WARNING;artefact:9308;l'année de production est incorrecte;0
+WARNING;artefact:9309;l'année de production est incorrecte;0
 WARNING;artefact:9341;mauvais encodage de la longueur;none
 WARNING;artefact:9341;mauvais encodage de la largeur;none
 WARNING;artefact:9341;mauvais encodage de la hauteur;none
@@ -1466,29 +1466,29 @@ WARNING;artefact:9342;mauvais encodage de la largeur;none
 WARNING;artefact:9342;mauvais encodage de la hauteur;none
 WARNING;artefact:9342;mauvais encodage du poids;none
 WARNING;artefact:9342;pas de date d'entrée
-WARNING;artefact:9395;l'année de production est inférieure à 1500;0
+WARNING;artefact:9395;l'année de production est incorrecte;0
 WARNING;artefact:9395;mauvais encodage de la largeur; 
 WARNING;artefact:9395;pas de date d'entrée
 WARNING;artefact:9398;pas de date d'entrée
 WARNING;artefact:9403;ligne vide;ignorée
-WARNING;artefact:9405;l'année de production est inférieure à 1500;0
-WARNING;artefact:9407;l'année de production est inférieure à 1500;0
+WARNING;artefact:9405;l'année de production est incorrecte;0
+WARNING;artefact:9407;l'année de production est incorrecte;0
 WARNING;artefact:9471;mauvais encodage de la largeur;42cn
 WARNING;artefact:9476;mauvais encodage de la longueur;none
 WARNING;artefact:9476;mauvais encodage de la largeur;none
 WARNING;artefact:9476;mauvais encodage de la hauteur;none
 WARNING;artefact:9476;mauvais encodage du poids;none
 WARNING;artefact:9476;pas de date d'entrée
-WARNING;artefact:9669;l'année de production est inférieure à 1500;0
-WARNING;artefact:9670;l'année de production est inférieure à 1500;0
-WARNING;artefact:9671;l'année de production est inférieure à 1500;0
-WARNING;artefact:9672;l'année de production est inférieure à 1500;0
-WARNING;artefact:9673;l'année de production est inférieure à 1500;0
-WARNING;artefact:9674;l'année de production est inférieure à 1500;0
-WARNING;artefact:9676;l'année de production est inférieure à 1500;0
-WARNING;artefact:9677;l'année de production est inférieure à 1500;0
-WARNING;artefact:9678;l'année de production est inférieure à 1500;0
-WARNING;artefact:9680;l'année de production est inférieure à 1500;0
+WARNING;artefact:9669;l'année de production est incorrecte;0
+WARNING;artefact:9670;l'année de production est incorrecte;0
+WARNING;artefact:9671;l'année de production est incorrecte;0
+WARNING;artefact:9672;l'année de production est incorrecte;0
+WARNING;artefact:9673;l'année de production est incorrecte;0
+WARNING;artefact:9674;l'année de production est incorrecte;0
+WARNING;artefact:9676;l'année de production est incorrecte;0
+WARNING;artefact:9677;l'année de production est incorrecte;0
+WARNING;artefact:9678;l'année de production est incorrecte;0
+WARNING;artefact:9680;l'année de production est incorrecte;0
 WARNING;artefact:9681;mauvais encodage de la hauteur;10mm
 WARNING;artefact:9686;mauvais encodage de la longueur;none
 WARNING;artefact:9686;mauvais encodage de la largeur;none
@@ -1519,13 +1519,13 @@ WARNING;artefact:9694;mauvais encodage de la hauteur;none
 WARNING;artefact:9694;mauvais encodage du poids;none
 WARNING;artefact:9694;pas de date d'entrée
 WARNING;artefact:9810;pas de date d'entrée
-WARNING;artefact:9813;l'année de production est inférieure à 1500;0
+WARNING;artefact:9813;l'année de production est incorrecte;0
 WARNING;artefact:9814;mauvais encodage de la longueur;none
 WARNING;artefact:9814;mauvais encodage de la largeur;none
 WARNING;artefact:9814;mauvais encodage de la hauteur;none
 WARNING;artefact:9814;mauvais encodage du poids;none
 WARNING;artefact:9814;pas de date d'entrée
-WARNING;artefact:9815;l'année de production est inférieure à 1500;0
+WARNING;artefact:9815;l'année de production est incorrecte;0
 WARNING;artefact:9815;pas de date d'entrée
 WARNING;artefact:9816;pas de quantité
 WARNING;artefact:9816;mauvais encodage de la longueur;none
@@ -1562,13 +1562,13 @@ WARNING;artefact:9821;pas de date d'entrée
 WARNING;artefact:9822;ligne vide;ignorée
 WARNING;artefact:9823;ligne vide;ignorée
 WARNING;artefact:9824;ligne vide;ignorée
-WARNING;artefact:9825;l'année de production est inférieure à 1500;0
-WARNING;artefact:9827;l'année de production est inférieure à 1500;0
-WARNING;artefact:9828;l'année de production est inférieure à 1500;0
-WARNING;artefact:9829;l'année de production est inférieure à 1500;0
-WARNING;artefact:9830;l'année de production est inférieure à 1500;0
-WARNING;artefact:9833;l'année de production est inférieure à 1500;0
-WARNING;artefact:9834;l'année de production est inférieure à 1500;0
+WARNING;artefact:9825;l'année de production est incorrecte;0
+WARNING;artefact:9827;l'année de production est incorrecte;0
+WARNING;artefact:9828;l'année de production est incorrecte;0
+WARNING;artefact:9829;l'année de production est incorrecte;0
+WARNING;artefact:9830;l'année de production est incorrecte;0
+WARNING;artefact:9833;l'année de production est incorrecte;0
+WARNING;artefact:9834;l'année de production est incorrecte;0
 WARNING;artefact:9835;mauvais encodage de la longueur;none
 WARNING;artefact:9835;mauvais encodage de la largeur;none
 WARNING;artefact:9835;mauvais encodage de la hauteur;none
@@ -1579,16 +1579,16 @@ WARNING;artefact:9836;mauvais encodage de la largeur;none
 WARNING;artefact:9836;mauvais encodage de la hauteur;none
 WARNING;artefact:9836;mauvais encodage du poids;none
 WARNING;artefact:9836;pas de date d'entrée
-WARNING;artefact:9837;l'année de production est inférieure à 1500;0
-WARNING;artefact:9838;l'année de production est inférieure à 1500;0
-WARNING;artefact:9839;l'année de production est inférieure à 1500;0
-WARNING;artefact:9840;l'année de production est inférieure à 1500;0
-WARNING;artefact:9841;l'année de production est inférieure à 1500;0
-WARNING;artefact:9856;l'année de production est inférieure à 1500;0
-WARNING;artefact:9858;l'année de production est inférieure à 1500;0
-WARNING;artefact:9860;l'année de production est inférieure à 1500;0
-WARNING;artefact:9864;l'année de production est inférieure à 1500;0
-WARNING;artefact:9889;l'année de production est inférieure à 1500;0
+WARNING;artefact:9837;l'année de production est incorrecte;0
+WARNING;artefact:9838;l'année de production est incorrecte;0
+WARNING;artefact:9839;l'année de production est incorrecte;0
+WARNING;artefact:9840;l'année de production est incorrecte;0
+WARNING;artefact:9841;l'année de production est incorrecte;0
+WARNING;artefact:9856;l'année de production est incorrecte;0
+WARNING;artefact:9858;l'année de production est incorrecte;0
+WARNING;artefact:9860;l'année de production est incorrecte;0
+WARNING;artefact:9864;l'année de production est incorrecte;0
+WARNING;artefact:9889;l'année de production est incorrecte;0
 WARNING;artefact:9890;mauvais encodage de la longueur;none
 WARNING;artefact:9890;mauvais encodage de la largeur;none
 WARNING;artefact:9890;mauvais encodage de la hauteur;none
@@ -1603,12 +1603,12 @@ WARNING;artefact:9900;mauvais encodage de la longueur;1,2cxm
 WARNING;artefact:9901;mauvais encodage de la longueur;1,2cxm
 WARNING;artefact:9902;mauvais encodage de la longueur;1,2cxm
 WARNING;artefact:9906;pas de date d'entrée
-WARNING;artefact:9908;l'année de production est inférieure à 1500;150
-WARNING;artefact:9910;l'année de production est inférieure à 1500;150
+WARNING;artefact:9908;l'année de production est incorrecte;150
+WARNING;artefact:9910;l'année de production est incorrecte;150
 WARNING;artefact:9910;pas de date d'entrée
-WARNING;artefact:9911;l'année de production est inférieure à 1500;0
-WARNING;artefact:9912;l'année de production est inférieure à 1500;0
-WARNING;artefact:9914;l'année de production est inférieure à 1500;0
+WARNING;artefact:9911;l'année de production est incorrecte;0
+WARNING;artefact:9912;l'année de production est incorrecte;0
+WARNING;artefact:9914;l'année de production est incorrecte;0
 WARNING;artefact:9915;pas de date d'entrée
 WARNING;artefact:9917;pas de date d'entrée
 WARNING;artefact:9918;pas de date d'entrée
@@ -1616,9 +1616,9 @@ WARNING;artefact:9919;ligne vide;ignorée
 WARNING;artefact:9920;ligne vide;ignorée
 WARNING;artefact:9921;ligne vide;ignorée
 WARNING;artefact:9922;ligne vide;ignorée
-WARNING;artefact:10245;l'année de production est inférieure à 1500;0
-WARNING;artefact:10246;l'année de production est inférieure à 1500;0
-WARNING;artefact:10248;l'année de production est inférieure à 1500;0
+WARNING;artefact:10245;l'année de production est incorrecte;0
+WARNING;artefact:10246;l'année de production est incorrecte;0
+WARNING;artefact:10248;l'année de production est incorrecte;0
 WARNING;artefact:10252;mauvais encodage de la largeur;2cml
 WARNING;artefact:10253;mauvais encodage de la largeur;2cml
 WARNING;artefact:10254;pas de quantité
@@ -1627,7 +1627,7 @@ WARNING;artefact:10254;mauvais encodage de la largeur;none
 WARNING;artefact:10254;mauvais encodage de la hauteur;none
 WARNING;artefact:10254;mauvais encodage du poids;none
 WARNING;artefact:10254;pas de date d'entrée
-WARNING;artefact:10255;l'année de production est inférieure à 1500;0
+WARNING;artefact:10255;l'année de production est incorrecte;0
 WARNING;artefact:10291;pas de quantité
 WARNING;artefact:10291;mauvais encodage de la longueur;none
 WARNING;artefact:10291;mauvais encodage de la largeur;none
@@ -1665,47 +1665,47 @@ WARNING;artefact:10297;mauvais encodage de la largeur;none
 WARNING;artefact:10297;mauvais encodage de la hauteur;none
 WARNING;artefact:10297;mauvais encodage du poids;none
 WARNING;artefact:10298;ligne vide;ignorée
-WARNING;artefact:10299;l'année de production est inférieure à 1500;0
+WARNING;artefact:10299;l'année de production est incorrecte;0
 WARNING;artefact:10299;mauvais encodage du poids;none
-WARNING;artefact:10311;l'année de production est inférieure à 1500;0
-WARNING;artefact:10312;l'année de production est inférieure à 1500;0
-WARNING;artefact:10313;l'année de production est inférieure à 1500;0
-WARNING;artefact:10314;l'année de production est inférieure à 1500;0
-WARNING;artefact:10350;l'année de production est inférieure à 1500;0
-WARNING;artefact:10351;l'année de production est inférieure à 1500;0
-WARNING;artefact:10352;l'année de production est inférieure à 1500;0
-WARNING;artefact:10353;l'année de production est inférieure à 1500;0
+WARNING;artefact:10311;l'année de production est incorrecte;0
+WARNING;artefact:10312;l'année de production est incorrecte;0
+WARNING;artefact:10313;l'année de production est incorrecte;0
+WARNING;artefact:10314;l'année de production est incorrecte;0
+WARNING;artefact:10350;l'année de production est incorrecte;0
+WARNING;artefact:10351;l'année de production est incorrecte;0
+WARNING;artefact:10352;l'année de production est incorrecte;0
+WARNING;artefact:10353;l'année de production est incorrecte;0
 WARNING;artefact:10496;pas de quantité
 WARNING;artefact:10496;mauvais encodage de la longueur;none
 WARNING;artefact:10496;mauvais encodage de la largeur;none
 WARNING;artefact:10496;mauvais encodage de la hauteur;none
 WARNING;artefact:10496;mauvais encodage du poids;none
-WARNING;artefact:10497;l'année de production est inférieure à 1500;0
-WARNING;artefact:10498;l'année de production est inférieure à 1500;0
-WARNING;artefact:10572;l'année de production est inférieure à 1500;0
-WARNING;artefact:10573;l'année de production est inférieure à 1500;0
-WARNING;artefact:10574;l'année de production est inférieure à 1500;0
+WARNING;artefact:10497;l'année de production est incorrecte;0
+WARNING;artefact:10498;l'année de production est incorrecte;0
+WARNING;artefact:10572;l'année de production est incorrecte;0
+WARNING;artefact:10573;l'année de production est incorrecte;0
+WARNING;artefact:10574;l'année de production est incorrecte;0
 WARNING;artefact:10574;mauvais encodage de la longueur;2,5cvm
-WARNING;artefact:10575;l'année de production est inférieure à 1500;0
-WARNING;artefact:10576;l'année de production est inférieure à 1500;0
-WARNING;artefact:10577;l'année de production est inférieure à 1500;0
-WARNING;artefact:10578;l'année de production est inférieure à 1500;0
-WARNING;artefact:10579;l'année de production est inférieure à 1500;0
-WARNING;artefact:10580;l'année de production est inférieure à 1500;0
-WARNING;artefact:10581;l'année de production est inférieure à 1500;0
-WARNING;artefact:10606;l'année de production est inférieure à 1500;0
+WARNING;artefact:10575;l'année de production est incorrecte;0
+WARNING;artefact:10576;l'année de production est incorrecte;0
+WARNING;artefact:10577;l'année de production est incorrecte;0
+WARNING;artefact:10578;l'année de production est incorrecte;0
+WARNING;artefact:10579;l'année de production est incorrecte;0
+WARNING;artefact:10580;l'année de production est incorrecte;0
+WARNING;artefact:10581;l'année de production est incorrecte;0
+WARNING;artefact:10606;l'année de production est incorrecte;0
 WARNING;artefact:10611;pas de date d'entrée
-WARNING;artefact:10983;l'année de production est inférieure à 1500;0
-WARNING;artefact:10984;l'année de production est inférieure à 1500;0
-WARNING;artefact:10986;l'année de production est inférieure à 1500;0
-WARNING;artefact:10987;l'année de production est inférieure à 1500;0
-WARNING;artefact:10990;l'année de production est inférieure à 1500;0
-WARNING;artefact:10991;l'année de production est inférieure à 1500;0
-WARNING;artefact:10992;l'année de production est inférieure à 1500;0
-WARNING;artefact:10993;l'année de production est inférieure à 1500;0
-WARNING;artefact:10994;l'année de production est inférieure à 1500;0
-WARNING;artefact:10996;l'année de production est inférieure à 1500;0
-WARNING;artefact:10997;l'année de production est inférieure à 1500;0
+WARNING;artefact:10983;l'année de production est incorrecte;0
+WARNING;artefact:10984;l'année de production est incorrecte;0
+WARNING;artefact:10986;l'année de production est incorrecte;0
+WARNING;artefact:10987;l'année de production est incorrecte;0
+WARNING;artefact:10990;l'année de production est incorrecte;0
+WARNING;artefact:10991;l'année de production est incorrecte;0
+WARNING;artefact:10992;l'année de production est incorrecte;0
+WARNING;artefact:10993;l'année de production est incorrecte;0
+WARNING;artefact:10994;l'année de production est incorrecte;0
+WARNING;artefact:10996;l'année de production est incorrecte;0
+WARNING;artefact:10997;l'année de production est incorrecte;0
 WARNING;artefact:10998;mauvais encodage de la longueur;none
 WARNING;artefact:10998;mauvais encodage de la largeur;none
 WARNING;artefact:10998;mauvais encodage de la hauteur;none
@@ -1721,23 +1721,23 @@ WARNING;artefact:11001;mauvais encodage de la largeur;none
 WARNING;artefact:11001;mauvais encodage de la hauteur;none
 WARNING;artefact:11001;mauvais encodage du poids;none
 WARNING;artefact:11001;pas de date d'entrée
-WARNING;artefact:11002;l'année de production est inférieure à 1500;0
-WARNING;artefact:11003;l'année de production est inférieure à 1500;0
-WARNING;artefact:11004;l'année de production est inférieure à 1500;0
-WARNING;artefact:11006;l'année de production est inférieure à 1500;0
-WARNING;artefact:11007;l'année de production est inférieure à 1500;0
-WARNING;artefact:11032;l'année de production est inférieure à 1500;0
-WARNING;artefact:11033;l'année de production est inférieure à 1500;0
+WARNING;artefact:11002;l'année de production est incorrecte;0
+WARNING;artefact:11003;l'année de production est incorrecte;0
+WARNING;artefact:11004;l'année de production est incorrecte;0
+WARNING;artefact:11006;l'année de production est incorrecte;0
+WARNING;artefact:11007;l'année de production est incorrecte;0
+WARNING;artefact:11032;l'année de production est incorrecte;0
+WARNING;artefact:11033;l'année de production est incorrecte;0
 WARNING;artefact:11034;pas de date d'entrée
 WARNING;artefact:11052;mauvais encodage de la longueur;none
 WARNING;artefact:11052;mauvais encodage de la largeur;none
 WARNING;artefact:11052;mauvais encodage de la hauteur;none
 WARNING;artefact:11052;mauvais encodage du poids;none
 WARNING;artefact:11052;pas de date d'entrée
-WARNING;artefact:11053;l'année de production est inférieure à 1500;0
+WARNING;artefact:11053;l'année de production est incorrecte;0
 WARNING;artefact:11053;mauvais encodage de la longueur;12,4kg
 WARNING;artefact:11053;mauvais encodage du poids;42cm
-WARNING;artefact:11054;l'année de production est inférieure à 1500;0
+WARNING;artefact:11054;l'année de production est incorrecte;0
 WARNING;artefact:11056;mauvais encodage de la longueur;none
 WARNING;artefact:11056;mauvais encodage de la largeur;none
 WARNING;artefact:11056;mauvais encodage de la hauteur;none
@@ -1746,14 +1746,14 @@ WARNING;artefact:11058;mauvais encodage de la longueur;none
 WARNING;artefact:11058;mauvais encodage de la largeur;none
 WARNING;artefact:11058;mauvais encodage de la hauteur;none
 WARNING;artefact:11058;mauvais encodage du poids;none
-WARNING;artefact:11077;l'année de production est inférieure à 1500;0
-WARNING;artefact:11078;l'année de production est inférieure à 1500;0
-WARNING;artefact:11080;l'année de production est inférieure à 1500;0
+WARNING;artefact:11077;l'année de production est incorrecte;0
+WARNING;artefact:11078;l'année de production est incorrecte;0
+WARNING;artefact:11080;l'année de production est incorrecte;0
 WARNING;artefact:11085;mauvais encodage de la largeur; 
 WARNING;artefact:11085;pas de date d'entrée
 WARNING;artefact:11086;pas de date d'entrée
-WARNING;artefact:11093;l'année de production est inférieure à 1500;0
-WARNING;artefact:11094;l'année de production est inférieure à 1500;0
+WARNING;artefact:11093;l'année de production est incorrecte;0
+WARNING;artefact:11094;l'année de production est incorrecte;0
 WARNING;artefact:11108;pas de date d'entrée
 WARNING;artefact:11109;pas de date d'entrée
 WARNING;artefact:11110;pas de date d'entrée
@@ -1783,17 +1783,17 @@ WARNING;artefact:11184;pas de date d'entrée
 WARNING;artefact:11185;pas de date d'entrée
 WARNING;artefact:11186;pas de date d'entrée
 WARNING;artefact:11199;mauvais encodage du poids;na
-WARNING;artefact:11200;l'année de production est inférieure à 1500;0
-WARNING;artefact:11201;l'année de production est inférieure à 1500;0
-WARNING;artefact:11202;l'année de production est inférieure à 1500;0
-WARNING;artefact:11203;l'année de production est inférieure à 1500;0
-WARNING;artefact:11204;l'année de production est inférieure à 1500;0
-WARNING;artefact:11205;l'année de production est inférieure à 1500;0
-WARNING;artefact:11206;l'année de production est inférieure à 1500;0
-WARNING;artefact:11207;l'année de production est inférieure à 1500;0
-WARNING;artefact:11208;l'année de production est inférieure à 1500;0
-WARNING;artefact:11212;l'année de production est inférieure à 1500;0
-WARNING;artefact:11213;l'année de production est inférieure à 1500;0
+WARNING;artefact:11200;l'année de production est incorrecte;0
+WARNING;artefact:11201;l'année de production est incorrecte;0
+WARNING;artefact:11202;l'année de production est incorrecte;0
+WARNING;artefact:11203;l'année de production est incorrecte;0
+WARNING;artefact:11204;l'année de production est incorrecte;0
+WARNING;artefact:11205;l'année de production est incorrecte;0
+WARNING;artefact:11206;l'année de production est incorrecte;0
+WARNING;artefact:11207;l'année de production est incorrecte;0
+WARNING;artefact:11208;l'année de production est incorrecte;0
+WARNING;artefact:11212;l'année de production est incorrecte;0
+WARNING;artefact:11213;l'année de production est incorrecte;0
 WARNING;artefact:11243;mauvais encodage du poids;na
 WARNING;artefact:11244;mauvais encodage du poids;na
 WARNING;artefact:11245;mauvais encodage du poids;na
@@ -1857,19 +1857,19 @@ WARNING;artefact:12006;mauvais encodage de la largeur;none
 WARNING;artefact:12006;mauvais encodage de la hauteur;none
 WARNING;artefact:12006;mauvais encodage du poids;none
 WARNING;artefact:12006;pas de date d'entrée
-WARNING;artefact:12093;l'année de production est inférieure à 1500;0
+WARNING;artefact:12093;l'année de production est incorrecte;0
 WARNING;artefact:12093;pas de date d'entrée
-WARNING;artefact:12094;l'année de production est inférieure à 1500;0
+WARNING;artefact:12094;l'année de production est incorrecte;0
 WARNING;artefact:12094;pas de date d'entrée
-WARNING;artefact:12095;l'année de production est inférieure à 1500;0
+WARNING;artefact:12095;l'année de production est incorrecte;0
 WARNING;artefact:12095;l'année de production est inférieure; 
-WARNING;artefact:12096;l'année de production est inférieure à 1500;0
+WARNING;artefact:12096;l'année de production est incorrecte;0
 WARNING;artefact:12096;pas de date d'entrée
-WARNING;artefact:12097;l'année de production est inférieure à 1500;0
+WARNING;artefact:12097;l'année de production est incorrecte;0
 WARNING;artefact:12097;pas de date d'entrée
-WARNING;artefact:12098;l'année de production est inférieure à 1500;0
+WARNING;artefact:12098;l'année de production est incorrecte;0
 WARNING;artefact:12098;pas de date d'entrée
-WARNING;artefact:12099;l'année de production est inférieure à 1500;0
+WARNING;artefact:12099;l'année de production est incorrecte;0
 WARNING;artefact:12099;mauvais encodage du poids;2?2kg
 WARNING;artefact:12099;pas de date d'entrée
 WARNING;artefact:12100;mauvais encodage de la longueur;none
@@ -1983,3 +1983,526 @@ WARNING;artefact:13006;pas de date d'entrée
 WARNING;artefact:13007;mauvais encodage de la longueur;none
 WARNING;artefact:13007;mauvais encodage du poids;none
 WARNING;artefact:13007;pas de date d'entrée
+WARNING;artefact:13008;l'année de production est incorrecte;1937 à 1957
+WARNING;artefact:13008;mauvais encodage de la longueur;none
+WARNING;artefact:13008;mauvais encodage de la largeur;none
+WARNING;artefact:13008;mauvais encodage de la hauteur;none
+WARNING;artefact:13008;mauvais encodage du poids;none
+WARNING;artefact:13008;pas de date d'entrée
+WARNING;artefact:13009;mauvais encodage de la longueur;none
+WARNING;artefact:13009;mauvais encodage de la largeur;none
+WARNING;artefact:13009;mauvais encodage de la hauteur;none
+WARNING;artefact:13009;mauvais encodage du poids;none
+WARNING;artefact:13009;pas de date d'entrée
+WARNING;artefact:13010;mauvais encodage de la longueur;none
+WARNING;artefact:13010;mauvais encodage de la largeur;none
+WARNING;artefact:13010;mauvais encodage de la hauteur;none
+WARNING;artefact:13010;mauvais encodage du poids;none
+WARNING;artefact:13010;pas de date d'entrée
+WARNING;artefact:13011;mauvais encodage de la longueur;none
+WARNING;artefact:13011;mauvais encodage de la largeur;none
+WARNING;artefact:13011;mauvais encodage de la hauteur;none
+WARNING;artefact:13011;mauvais encodage du poids;none
+WARNING;artefact:13011;pas de date d'entrée
+WARNING;artefact:13012;l'année de production est incorrecte;1980?
+WARNING;artefact:13012;mauvais encodage de la longueur;none
+WARNING;artefact:13012;mauvais encodage de la largeur;none
+WARNING;artefact:13012;mauvais encodage de la hauteur;none
+WARNING;artefact:13012;mauvais encodage du poids;none
+WARNING;artefact:13012;pas de date d'entrée
+WARNING;artefact:13013;mauvais encodage de la longueur;none
+WARNING;artefact:13013;mauvais encodage de la largeur;none
+WARNING;artefact:13013;mauvais encodage de la hauteur;none
+WARNING;artefact:13013;mauvais encodage du poids;none
+WARNING;artefact:13013;pas de date d'entrée
+WARNING;artefact:13014;l'année de production est incorrecte;0
+WARNING;artefact:13014;pas de date d'entrée
+WARNING;artefact:13015;pas de date d'entrée
+WARNING;artefact:13016;pas de date d'entrée
+WARNING;artefact:13017;pas de date d'entrée
+WARNING;artefact:13018;pas de date d'entrée
+WARNING;artefact:13019;pas de date d'entrée
+WARNING;artefact:13020;l'année de production est incorrecte;0
+WARNING;artefact:13020;pas de date d'entrée
+WARNING;artefact:13021;l'année de production est incorrecte;0
+WARNING;artefact:13021;pas de date d'entrée
+WARNING;artefact:13022;l'année de production est incorrecte;0
+WARNING;artefact:13022;pas de date d'entrée
+WARNING;artefact:13023;l'année de production est incorrecte;0
+WARNING;artefact:13023;pas de date d'entrée
+WARNING;artefact:13024;l'année de production est incorrecte;0
+WARNING;artefact:13024;pas de date d'entrée
+WARNING;artefact:13025;l'année de production est incorrecte;0
+WARNING;artefact:13025;pas de date d'entrée
+WARNING;artefact:13026;l'année de production est incorrecte;0
+WARNING;artefact:13026;mauvais encodage du poids;800gr
+WARNING;artefact:13026;pas de date d'entrée
+WARNING;artefact:13027;pas de date d'entrée
+WARNING;artefact:13028;pas de date d'entrée
+WARNING;artefact:13029;ligne vide;ignorée
+WARNING;artefact:13030;l'année de production est incorrecte;0
+WARNING;artefact:13030;l'année de production est inférieure; 
+WARNING;artefact:13031;ligne vide;ignorée
+WARNING;artefact:13032;pas de quantité
+WARNING;artefact:13032;mauvais encodage de la longueur;none
+WARNING;artefact:13032;mauvais encodage de la largeur;none
+WARNING;artefact:13032;mauvais encodage de la hauteur;none
+WARNING;artefact:13032;mauvais encodage du poids;none
+WARNING;artefact:13032;pas de date d'entrée
+WARNING;artefact:13033;pas de quantité
+WARNING;artefact:13033;mauvais encodage de la longueur;none
+WARNING;artefact:13033;mauvais encodage de la largeur;none
+WARNING;artefact:13033;mauvais encodage de la hauteur;none
+WARNING;artefact:13033;mauvais encodage du poids;none
+WARNING;artefact:13033;pas de date d'entrée
+WARNING;artefact:15001;mauvais encodage du poids;100gr
+WARNING;artefact:15001;pas de date d'entrée
+WARNING;artefact:15002;mauvais encodage de la longueur;none
+WARNING;artefact:15002;mauvais encodage de la largeur;none
+WARNING;artefact:15002;mauvais encodage de la hauteur;none
+WARNING;artefact:15002;mauvais encodage du poids;none
+WARNING;artefact:15002;pas de date d'entrée
+WARNING;artefact:15003;mauvais encodage de la longueur;none
+WARNING;artefact:15003;mauvais encodage de la largeur;none
+WARNING;artefact:15003;mauvais encodage de la hauteur;none
+WARNING;artefact:15003;mauvais encodage du poids;none
+WARNING;artefact:15003;pas de date d'entrée
+WARNING;artefact:15004;mauvais encodage de la longueur;none
+WARNING;artefact:15004;mauvais encodage de la largeur;none
+WARNING;artefact:15004;mauvais encodage de la hauteur;none
+WARNING;artefact:15004;mauvais encodage du poids;none
+WARNING;artefact:15004;pas de date d'entrée
+WARNING;artefact:15005;ligne vide;ignorée
+WARNING;artefact:15006;ligne vide;ignorée
+WARNING;artefact:15007;mauvais encodage de la longueur;none
+WARNING;artefact:15007;mauvais encodage de la largeur;none
+WARNING;artefact:15007;mauvais encodage de la hauteur;none
+WARNING;artefact:15007;mauvais encodage du poids;none
+WARNING;artefact:15007;pas de date d'entrée
+WARNING;artefact:98000;mauvais encodage de la hauteur;none
+WARNING;artefact:98000;mauvais encodage du poids;none
+WARNING;artefact:98000;pas de date d'entrée
+WARNING;artefact:98001;l'année de production est incorrecte;1992?
+WARNING;artefact:98001;mauvais encodage de la hauteur;none
+WARNING;artefact:98001;mauvais encodage du poids;none
+WARNING;artefact:98001;pas de date d'entrée
+WARNING;artefact:98002;l'année de production est incorrecte;1992?
+WARNING;artefact:98002;mauvais encodage de la hauteur;none
+WARNING;artefact:98002;mauvais encodage du poids;none
+WARNING;artefact:98002;pas de date d'entrée
+ERROR;artefact:98002;Error 1064; 1064 (42000): Erreur de syntaxe près de 'Arbre et la Banque','NULL',NULL,3,NULL,700,500,NULL,NULL,'NULL',NULL,78,1,NULL,1' à la ligne 1
+ERROR;artefact:98002;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('98002','Banque','L'Arbre et la Banque','NULL',NULL,3,NULL,700,500,NULL,NULL,'NULL',NULL,78,1,NULL,107,NULL,57)
+
+WARNING;artefact:98003;l'année de production est incorrecte;1992?
+WARNING;artefact:98003;mauvais encodage de la hauteur;none
+WARNING;artefact:98003;mauvais encodage du poids;none
+WARNING;artefact:98003;pas de date d'entrée
+WARNING;artefact:98004;l'année de production est incorrecte;1992?
+WARNING;artefact:98004;mauvais encodage de la hauteur;none
+WARNING;artefact:98004;mauvais encodage du poids;none
+WARNING;artefact:98004;pas de date d'entrée
+WARNING;artefact:98005;l'année de production est incorrecte;1992?
+WARNING;artefact:98005;mauvais encodage de la hauteur;none
+WARNING;artefact:98005;mauvais encodage du poids;none
+WARNING;artefact:98005;pas de date d'entrée
+WARNING;artefact:98133;mauvais encodage de la longueur;none
+WARNING;artefact:98133;mauvais encodage de la largeur;none
+WARNING;artefact:98133;mauvais encodage de la hauteur;none
+WARNING;artefact:98133;mauvais encodage du poids;none
+WARNING;artefact:98133;pas de date d'entrée
+WARNING;artefact:98134;mauvais encodage de la longueur;none
+WARNING;artefact:98134;mauvais encodage de la largeur;none
+WARNING;artefact:98134;mauvais encodage de la hauteur;none
+WARNING;artefact:98134;mauvais encodage du poids;none
+WARNING;artefact:98134;pas de date d'entrée
+WARNING;artefact:98135;mauvais encodage de la longueur;none
+WARNING;artefact:98135;mauvais encodage de la largeur;none
+WARNING;artefact:98135;mauvais encodage de la hauteur;none
+WARNING;artefact:98135;mauvais encodage du poids;none
+WARNING;artefact:98135;pas de date d'entrée
+WARNING;artefact:98143;mauvais encodage de la longueur;none
+WARNING;artefact:98143;mauvais encodage de la largeur;none
+WARNING;artefact:98143;mauvais encodage de la hauteur;none
+WARNING;artefact:98143;mauvais encodage du poids;none
+WARNING;artefact:98143;pas de date d'entrée
+WARNING;artefact:98144;mauvais encodage de la largeur; 
+WARNING;artefact:98146;mauvais encodage de la longueur;none
+WARNING;artefact:98146;mauvais encodage de la largeur;none
+WARNING;artefact:98146;mauvais encodage de la hauteur;none
+WARNING;artefact:98146;mauvais encodage du poids;none
+WARNING;artefact:98146;pas de date d'entrée
+WARNING;artefact:98147;mauvais encodage de la longueur;none
+WARNING;artefact:98147;mauvais encodage de la largeur;none
+WARNING;artefact:98147;mauvais encodage de la hauteur;none
+WARNING;artefact:98147;mauvais encodage du poids;none
+WARNING;artefact:98147;pas de date d'entrée
+WARNING;artefact:98148;mauvais encodage de la longueur;none
+WARNING;artefact:98148;mauvais encodage de la largeur;none
+WARNING;artefact:98148;mauvais encodage de la hauteur;none
+WARNING;artefact:98148;mauvais encodage du poids;none
+WARNING;artefact:98148;pas de date d'entrée
+WARNING;artefact:98149;mauvais encodage de la longueur;none
+WARNING;artefact:98149;mauvais encodage de la largeur;none
+WARNING;artefact:98149;mauvais encodage de la hauteur;none
+WARNING;artefact:98149;mauvais encodage du poids;none
+WARNING;artefact:98150;mauvais encodage de la longueur;none
+WARNING;artefact:98150;mauvais encodage de la largeur;none
+WARNING;artefact:98150;mauvais encodage de la hauteur;none
+WARNING;artefact:98150;mauvais encodage du poids;none
+WARNING;artefact:98151;mauvais encodage de la longueur;none
+WARNING;artefact:98151;mauvais encodage de la largeur;none
+WARNING;artefact:98151;mauvais encodage de la hauteur;none
+WARNING;artefact:98151;mauvais encodage du poids;none
+WARNING;artefact:98153;mauvais encodage de la longueur;none
+WARNING;artefact:98153;mauvais encodage de la largeur;none
+WARNING;artefact:98153;mauvais encodage de la hauteur;none
+WARNING;artefact:98153;mauvais encodage du poids;none
+WARNING;artefact:98157;mauvais encodage de la longueur;none
+WARNING;artefact:98157;mauvais encodage de la largeur;none
+WARNING;artefact:98157;mauvais encodage de la hauteur;none
+WARNING;artefact:98157;mauvais encodage du poids;none
+WARNING;artefact:98161;mauvais encodage de la longueur;none
+WARNING;artefact:98161;mauvais encodage de la largeur;none
+WARNING;artefact:98161;mauvais encodage de la hauteur;none
+WARNING;artefact:98161;mauvais encodage du poids;none
+WARNING;artefact:98165;mauvais encodage du poids;none
+WARNING;artefact:98166;pas de date d'entrée
+WARNING;artefact:98167;pas de date d'entrée
+WARNING;artefact:98168;pas de date d'entrée
+WARNING;artefact:98169;pas de date d'entrée
+WARNING;artefact:98170;pas de date d'entrée
+WARNING;artefact:98171;pas de date d'entrée
+WARNING;artefact:98172;pas de date d'entrée
+WARNING;artefact:98173;pas de quantité
+WARNING;artefact:98173;mauvais encodage de la longueur;none
+WARNING;artefact:98173;mauvais encodage de la largeur;none
+WARNING;artefact:98173;mauvais encodage de la hauteur;none
+WARNING;artefact:98173;mauvais encodage du poids;none
+WARNING;artefact:98173;pas de date d'entrée
+WARNING;artefact:98174;pas de quantité
+WARNING;artefact:98174;mauvais encodage de la longueur;none
+WARNING;artefact:98174;mauvais encodage de la largeur;none
+WARNING;artefact:98174;mauvais encodage de la hauteur;none
+WARNING;artefact:98174;mauvais encodage du poids;none
+WARNING;artefact:98174;pas de date d'entrée
+WARNING;artefact:98175;pas de quantité
+WARNING;artefact:98175;mauvais encodage de la longueur;none
+WARNING;artefact:98175;mauvais encodage de la largeur;none
+WARNING;artefact:98175;mauvais encodage de la hauteur;none
+WARNING;artefact:98175;mauvais encodage du poids;none
+WARNING;artefact:98175;pas de date d'entrée
+WARNING;artefact:98176;pas de quantité
+WARNING;artefact:98176;mauvais encodage de la longueur;none
+WARNING;artefact:98176;mauvais encodage de la largeur;none
+WARNING;artefact:98176;mauvais encodage de la hauteur;none
+WARNING;artefact:98176;mauvais encodage du poids;none
+WARNING;artefact:98176;pas de date d'entrée
+WARNING;artefact:98177;pas de quantité
+WARNING;artefact:98177;mauvais encodage de la longueur;none
+WARNING;artefact:98177;mauvais encodage de la largeur;none
+WARNING;artefact:98177;mauvais encodage de la hauteur;none
+WARNING;artefact:98177;mauvais encodage du poids;none
+WARNING;artefact:98177;pas de date d'entrée
+WARNING;artefact:98178;pas de quantité
+WARNING;artefact:98178;mauvais encodage de la longueur;none
+WARNING;artefact:98178;mauvais encodage de la largeur;none
+WARNING;artefact:98178;mauvais encodage de la hauteur;none
+WARNING;artefact:98178;mauvais encodage du poids;none
+WARNING;artefact:98178;pas de date d'entrée
+WARNING;artefact:98295;mauvais encodage de la longueur;none
+WARNING;artefact:98295;mauvais encodage de la largeur;none
+WARNING;artefact:98295;mauvais encodage de la hauteur;none
+WARNING;artefact:98295;mauvais encodage du poids;none
+WARNING;artefact:98295;pas de date d'entrée
+WARNING;artefact:98310;mauvais encodage de la longueur;none
+WARNING;artefact:98310;mauvais encodage de la largeur;none
+WARNING;artefact:98310;mauvais encodage de la hauteur;none
+WARNING;artefact:98310;mauvais encodage du poids;none
+WARNING;artefact:98310;pas de date d'entrée
+WARNING;artefact:98311;pas de date d'entrée
+WARNING;artefact:98313;mauvais encodage du poids;350gr
+WARNING;artefact:98313;pas de date d'entrée
+WARNING;artefact:98314;mauvais encodage de la largeur;none
+WARNING;artefact:98314;mauvais encodage de la hauteur;none
+WARNING;artefact:98314;mauvais encodage du poids;none
+WARNING;artefact:98314;pas de date d'entrée
+WARNING;artefact:98315;mauvais encodage de la longueur;none
+WARNING;artefact:98315;mauvais encodage de la largeur;none
+WARNING;artefact:98315;mauvais encodage de la hauteur;none
+WARNING;artefact:98315;mauvais encodage du poids;none
+WARNING;artefact:98315;pas de date d'entrée
+WARNING;artefact:98316;mauvais encodage de la longueur;none
+WARNING;artefact:98316;mauvais encodage de la largeur;none
+WARNING;artefact:98316;mauvais encodage de la hauteur;none
+WARNING;artefact:98316;mauvais encodage du poids;none
+WARNING;artefact:98316;pas de date d'entrée
+WARNING;artefact:98317;mauvais encodage de la longueur;none
+WARNING;artefact:98317;mauvais encodage de la largeur;none
+WARNING;artefact:98317;mauvais encodage de la hauteur;none
+WARNING;artefact:98317;mauvais encodage du poids;none
+WARNING;artefact:98317;pas de date d'entrée
+WARNING;artefact:98318;mauvais encodage de la longueur;none
+WARNING;artefact:98318;mauvais encodage de la largeur;none
+WARNING;artefact:98318;mauvais encodage de la hauteur;none
+WARNING;artefact:98318;mauvais encodage du poids;none
+WARNING;artefact:98318;pas de date d'entrée
+WARNING;artefact:98319;mauvais encodage de la longueur;none
+WARNING;artefact:98319;mauvais encodage de la largeur;none
+WARNING;artefact:98319;mauvais encodage de la hauteur;none
+WARNING;artefact:98319;mauvais encodage du poids;none
+WARNING;artefact:98319;pas de date d'entrée
+WARNING;artefact:98320;mauvais encodage de la longueur;none
+WARNING;artefact:98320;mauvais encodage de la largeur;none
+WARNING;artefact:98320;mauvais encodage de la hauteur;none
+WARNING;artefact:98320;mauvais encodage du poids;none
+WARNING;artefact:98320;pas de date d'entrée
+WARNING;artefact:98321;mauvais encodage de la longueur;none
+WARNING;artefact:98321;mauvais encodage de la largeur;none
+WARNING;artefact:98321;mauvais encodage de la hauteur;none
+WARNING;artefact:98321;mauvais encodage du poids;none
+WARNING;artefact:98321;pas de date d'entrée
+WARNING;artefact:98322;mauvais encodage de la longueur;none
+WARNING;artefact:98322;mauvais encodage de la largeur;none
+WARNING;artefact:98322;mauvais encodage de la hauteur;none
+WARNING;artefact:98322;mauvais encodage du poids;none
+WARNING;artefact:98322;pas de date d'entrée
+WARNING;artefact:98323;mauvais encodage de la longueur;none
+WARNING;artefact:98323;mauvais encodage de la largeur;none
+WARNING;artefact:98323;mauvais encodage de la hauteur;none
+WARNING;artefact:98323;mauvais encodage du poids;none
+WARNING;artefact:98323;pas de date d'entrée
+WARNING;artefact:98324;mauvais encodage de la longueur;none
+WARNING;artefact:98324;mauvais encodage de la largeur;none
+WARNING;artefact:98324;mauvais encodage de la hauteur;none
+WARNING;artefact:98324;mauvais encodage du poids;none
+WARNING;artefact:98324;pas de date d'entrée
+WARNING;artefact:98325;mauvais encodage de la longueur;none
+WARNING;artefact:98325;mauvais encodage de la largeur;none
+WARNING;artefact:98325;mauvais encodage de la hauteur;none
+WARNING;artefact:98325;mauvais encodage du poids;none
+WARNING;artefact:98325;pas de date d'entrée
+WARNING;artefact:98326;mauvais encodage de la longueur;none
+WARNING;artefact:98326;mauvais encodage de la largeur;none
+WARNING;artefact:98326;mauvais encodage de la hauteur;none
+WARNING;artefact:98326;mauvais encodage du poids;none
+WARNING;artefact:98326;pas de date d'entrée
+WARNING;artefact:98327;mauvais encodage de la longueur;none
+WARNING;artefact:98327;mauvais encodage de la largeur;none
+WARNING;artefact:98327;mauvais encodage de la hauteur;none
+WARNING;artefact:98327;mauvais encodage du poids;none
+WARNING;artefact:98327;pas de date d'entrée
+WARNING;artefact:98328;mauvais encodage de la longueur;none
+WARNING;artefact:98328;mauvais encodage de la largeur;none
+WARNING;artefact:98328;mauvais encodage de la hauteur;none
+WARNING;artefact:98328;mauvais encodage du poids;none
+WARNING;artefact:98328;pas de date d'entrée
+WARNING;artefact:98329;mauvais encodage de la longueur;none
+WARNING;artefact:98329;mauvais encodage de la largeur;none
+WARNING;artefact:98329;mauvais encodage de la hauteur;none
+WARNING;artefact:98329;mauvais encodage du poids;none
+WARNING;artefact:98329;pas de date d'entrée
+WARNING;artefact:98330;mauvais encodage de la longueur;none
+WARNING;artefact:98330;mauvais encodage de la largeur;none
+WARNING;artefact:98330;mauvais encodage de la hauteur;none
+WARNING;artefact:98330;mauvais encodage du poids;none
+WARNING;artefact:98330;pas de date d'entrée
+WARNING;artefact:98331;pas de quantité
+WARNING;artefact:98331;mauvais encodage de la longueur;none
+WARNING;artefact:98331;mauvais encodage de la largeur;none
+WARNING;artefact:98331;mauvais encodage de la hauteur;none
+WARNING;artefact:98331;mauvais encodage du poids;none
+WARNING;artefact:98331;pas de date d'entrée
+WARNING;artefact:98498;mauvais encodage de la longueur;none
+WARNING;artefact:98498;mauvais encodage de la largeur;none
+WARNING;artefact:98498;mauvais encodage de la hauteur;none
+WARNING;artefact:98498;mauvais encodage du poids;none
+WARNING;artefact:98498;pas de date d'entrée
+WARNING;artefact:98519;mauvais encodage de la longueur;none
+WARNING;artefact:98519;mauvais encodage de la largeur;none
+WARNING;artefact:98519;mauvais encodage de la hauteur;none
+WARNING;artefact:98519;mauvais encodage du poids;none
+WARNING;artefact:98519;pas de date d'entrée
+WARNING;artefact:98520;mauvais encodage de la longueur;none
+WARNING;artefact:98520;mauvais encodage de la largeur;none
+WARNING;artefact:98520;mauvais encodage de la hauteur;none
+WARNING;artefact:98520;mauvais encodage du poids;none
+WARNING;artefact:98520;pas de date d'entrée
+ERROR;artefact:98520;Error 1064; 1064 (42000): Erreur de syntaxe près de 'arbre Bull en bois','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',NULL,NULL,134,' à la ligne 1
+ERROR;artefact:98520;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('98520','Arbre Bull en bois','L'arbre Bull en bois','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',NULL,NULL,134,NULL,104,1,58)
+
+WARNING;artefact:98521;pas de date d'entrée
+WARNING;artefact:98522;pas de date d'entrée
+WARNING;artefact:98523;mauvais encodage de la longueur;none
+WARNING;artefact:98523;mauvais encodage de la largeur;none
+WARNING;artefact:98523;mauvais encodage de la hauteur;none
+WARNING;artefact:98523;mauvais encodage du poids;none
+WARNING;artefact:98524;mauvais encodage de la longueur;none
+WARNING;artefact:98524;mauvais encodage de la largeur;none
+WARNING;artefact:98524;mauvais encodage de la hauteur;none
+WARNING;artefact:98524;mauvais encodage du poids;none
+WARNING;artefact:98524;pas de date d'entrée
+WARNING;artefact:98525;pas de quantité
+WARNING;artefact:98525;mauvais encodage de la longueur;none
+WARNING;artefact:98525;mauvais encodage de la largeur;none
+WARNING;artefact:98525;mauvais encodage de la hauteur;none
+WARNING;artefact:98525;mauvais encodage du poids;none
+WARNING;artefact:98525;pas de date d'entrée
+WARNING;artefact:98526;pas de quantité
+WARNING;artefact:98526;mauvais encodage de la longueur;none
+WARNING;artefact:98526;mauvais encodage de la largeur;none
+WARNING;artefact:98526;mauvais encodage de la hauteur;none
+WARNING;artefact:98526;mauvais encodage du poids;none
+WARNING;artefact:98527;pas de quantité
+WARNING;artefact:98527;mauvais encodage de la longueur;none
+WARNING;artefact:98527;mauvais encodage de la largeur;none
+WARNING;artefact:98527;mauvais encodage de la hauteur;none
+WARNING;artefact:98527;mauvais encodage du poids;none
+WARNING;artefact:98528;pas de quantité
+WARNING;artefact:98528;mauvais encodage de la longueur;none
+WARNING;artefact:98528;mauvais encodage de la largeur;none
+WARNING;artefact:98528;mauvais encodage de la hauteur;none
+WARNING;artefact:98528;mauvais encodage du poids;none
+WARNING;artefact:98529;l'année de production est incorrecte;  ?
+WARNING;artefact:98529;pas de quantité
+WARNING;artefact:98529;mauvais encodage de la longueur;none
+WARNING;artefact:98529;mauvais encodage de la largeur;none
+WARNING;artefact:98529;mauvais encodage de la hauteur;none
+WARNING;artefact:98529;mauvais encodage du poids;none
+WARNING;artefact:98530;pas de quantité
+WARNING;artefact:98530;mauvais encodage de la longueur;none
+WARNING;artefact:98530;mauvais encodage de la largeur;none
+WARNING;artefact:98530;mauvais encodage de la hauteur;none
+WARNING;artefact:98530;mauvais encodage du poids;none
+WARNING;artefact:98531;pas de quantité
+WARNING;artefact:98531;mauvais encodage de la longueur;none
+WARNING;artefact:98531;mauvais encodage de la largeur;none
+WARNING;artefact:98531;mauvais encodage de la hauteur;none
+WARNING;artefact:98531;mauvais encodage du poids;none
+WARNING;artefact:98532;l'année de production est incorrecte;  ?
+WARNING;artefact:98532;pas de quantité
+WARNING;artefact:98532;mauvais encodage de la longueur;none
+WARNING;artefact:98532;mauvais encodage de la largeur;none
+WARNING;artefact:98532;mauvais encodage de la hauteur;none
+WARNING;artefact:98532;mauvais encodage du poids;none
+WARNING;artefact:98533;pas de quantité
+WARNING;artefact:98533;mauvais encodage de la longueur;none
+WARNING;artefact:98533;mauvais encodage de la largeur;none
+WARNING;artefact:98533;mauvais encodage de la hauteur;none
+WARNING;artefact:98533;mauvais encodage du poids;none
+WARNING;artefact:98534;mauvais encodage de la longueur;none
+WARNING;artefact:98534;mauvais encodage de la largeur;none
+WARNING;artefact:98534;mauvais encodage de la hauteur;none
+WARNING;artefact:98534;mauvais encodage du poids;none
+WARNING;artefact:98535;pas de date d'entrée
+WARNING;artefact:98537;pas de quantité
+WARNING;artefact:98537;mauvais encodage de la longueur;none
+WARNING;artefact:98537;mauvais encodage de la largeur;none
+WARNING;artefact:98537;mauvais encodage de la hauteur;none
+WARNING;artefact:98537;mauvais encodage du poids;none
+WARNING;artefact:98538;pas de date d'entrée
+WARNING;artefact:98539;pas de quantité
+WARNING;artefact:98539;mauvais encodage de la longueur;none
+WARNING;artefact:98539;mauvais encodage de la largeur;none
+WARNING;artefact:98539;mauvais encodage de la hauteur;none
+WARNING;artefact:98539;mauvais encodage du poids;none
+WARNING;artefact:98540;pas de quantité
+WARNING;artefact:98540;mauvais encodage de la longueur;none
+WARNING;artefact:98540;mauvais encodage de la largeur;none
+WARNING;artefact:98540;mauvais encodage de la hauteur;none
+WARNING;artefact:98540;mauvais encodage du poids;none
+WARNING;artefact:98540;pas de date d'entrée
+WARNING;artefact:98541;mauvais encodage de la longueur;none
+WARNING;artefact:98541;mauvais encodage de la largeur;none
+WARNING;artefact:98541;mauvais encodage de la hauteur;none
+WARNING;artefact:98541;mauvais encodage du poids;none
+WARNING;artefact:98541;pas de date d'entrée
+WARNING;artefact:98542;pas de quantité
+WARNING;artefact:98542;mauvais encodage de la longueur;none
+WARNING;artefact:98542;mauvais encodage de la largeur;none
+WARNING;artefact:98542;mauvais encodage de la hauteur;none
+WARNING;artefact:98542;mauvais encodage du poids;none
+WARNING;artefact:98542;pas de date d'entrée
+WARNING;artefact:98543;pas de quantité
+WARNING;artefact:98543;mauvais encodage de la longueur;none
+WARNING;artefact:98543;mauvais encodage de la largeur;none
+WARNING;artefact:98543;mauvais encodage de la hauteur;none
+WARNING;artefact:98543;mauvais encodage du poids;none
+WARNING;artefact:98543;pas de date d'entrée
+WARNING;artefact:98544;pas de quantité
+WARNING;artefact:98544;mauvais encodage de la longueur;none
+WARNING;artefact:98544;mauvais encodage de la largeur;none
+WARNING;artefact:98544;mauvais encodage de la hauteur;none
+WARNING;artefact:98544;mauvais encodage du poids;none
+WARNING;artefact:98544;pas de date d'entrée
+WARNING;artefact:98545;pas de quantité
+WARNING;artefact:98545;mauvais encodage de la longueur;none
+WARNING;artefact:98545;mauvais encodage de la largeur;none
+WARNING;artefact:98545;mauvais encodage de la hauteur;none
+WARNING;artefact:98545;mauvais encodage du poids;none
+WARNING;artefact:98545;pas de date d'entrée
+WARNING;artefact:98546;pas de date d'entrée
+WARNING;artefact:98547;pas de date d'entrée
+WARNING;artefact:98548;pas de date d'entrée
+ERROR;artefact:98548;Error 1062; 1062 (23000): Duplicata du champ '98548' pour la clef 'PRIMARY'
+ERROR;artefact:98548;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('98548','Pour Minitel','MN5512','96160F',NULL,1,'2015-06-10 00:00:00',10,3,2.5,0.13,'livres accompagnant le Micral 15',NULL,NULL,NULL,NULL,119,46,63)
+
+WARNING;artefact:98552;l'année de production est incorrecte;2000Deutche bank
+WARNING;artefact:98553;pas de date d'entrée
+WARNING;artefact:98556;pas de quantité
+WARNING;artefact:98556;mauvais encodage de la longueur;none
+WARNING;artefact:98556;mauvais encodage de la largeur;none
+WARNING;artefact:98556;mauvais encodage de la hauteur;none
+WARNING;artefact:98556;mauvais encodage du poids;none
+WARNING;artefact:98557;mauvais encodage de la largeur; 
+WARNING;artefact:98557;pas de date d'entrée
+WARNING;artefact:98559;pas de quantité
+WARNING;artefact:98559;mauvais encodage de la longueur;none
+WARNING;artefact:98559;mauvais encodage de la largeur;none
+WARNING;artefact:98559;mauvais encodage de la hauteur;none
+WARNING;artefact:98559;mauvais encodage du poids;none
+WARNING;artefact:98560;pas de date d'entrée
+WARNING;artefact:98562;l'année de production est incorrecte;0
+WARNING;artefact:98563;l'année de production est incorrecte;0
+WARNING;artefact:98567;l'année de production est incorrecte;0
+WARNING;artefact:98567;pas de date d'entrée
+WARNING;artefact:98602;mauvais encodage de la longueur;none
+WARNING;artefact:98602;mauvais encodage de la largeur;none
+WARNING;artefact:98602;mauvais encodage de la hauteur;none
+WARNING;artefact:98602;mauvais encodage du poids;none
+WARNING;artefact:98603;pas de date d'entrée
+WARNING;artefact:98604;l'année de production est incorrecte;0
+WARNING;artefact:98607;pas de date d'entrée
+WARNING;artefact:98624;l'année de production est incorrecte;0
+ERROR;artefact:98624;Error 1292; 1292 (22007): Incorrect date value: '2019/17/12' for column 'dateIn' at row 1
+ERROR;artefact:98624;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('98624','Boites écrous,rondelles','0','0',NULL,1,'2019/17/12',12,12,17,1.5,'NULL',NULL,NULL,NULL,NULL,86,8,10)
+
+WARNING;artefact:98631;pas de quantité
+WARNING;artefact:98631;mauvais encodage de la longueur;none
+WARNING;artefact:98631;mauvais encodage de la largeur;none
+WARNING;artefact:98631;mauvais encodage de la hauteur;none
+WARNING;artefact:98631;mauvais encodage du poids;none
+WARNING;artefact:98631;pas de date d'entrée
+WARNING;artefact:99990;l'année de production est incorrecte;0
+WARNING;artefact:99990;pas de date d'entrée
+WARNING;artefact:99991;ligne vide;ignorée
+WARNING;artefact:99992;ligne vide;ignorée
+WARNING;artefact:99993;mauvais encodage du poids;micro
+WARNING;artefact:99993;pas de date d'entrée
+WARNING;artefact:99994;l'année de production est incorrecte;0
+WARNING;artefact:99994;pas de date d'entrée
+WARNING;artefact:99995;l'année de production est incorrecte;0
+WARNING;artefact:99995;l'année de production est inférieure;0
+WARNING;artefact:99996;pas de quantité
+WARNING;artefact:99996;mauvais encodage de la longueur;none
+WARNING;artefact:99996;mauvais encodage de la largeur;none
+WARNING;artefact:99996;mauvais encodage de la hauteur;none
+WARNING;artefact:99996;mauvais encodage du poids;none
+WARNING;artefact:99996;l'année de production est inférieure;0
+WARNING;artefact:99997;l'année de production est incorrecte;0
+WARNING;artefact:99997;pas de date d'entrée
+WARNING;artefact:99999;l'année de production est incorrecte;0
+WARNING;artefact:100000;l'année de production est incorrecte;1
+WARNING;artefact:100001;l'année de production est incorrecte;0
+WARNING;artefact:100001;pas de date d'entrée
+WARNING;artefact:100002;l'année de production est incorrecte;0
+WARNING;artefact:100002;pas de date d'entrée

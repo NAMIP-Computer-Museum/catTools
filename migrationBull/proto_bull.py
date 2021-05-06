@@ -154,10 +154,11 @@ en 4 chiffres
 def process_anprod(row):
     anprod = row[7].value
     id = row[0].value
+    re1 = re.compile('^[0-9]{4}$')
     if anprod is None:
         return None
     else:
-        if str(anprod).__contains__("?"):
+        if not re.match(re1,str(anprod)):
             config.logging.warning("artefact:"+str(id)+";l'année de production est incorrecte;"+str(anprod))
         elif int(anprod) < 1500:
             config.logging.warning("artefact:"+str(id)+";l'année de production est inférieure à 1500;"+str(anprod))
@@ -548,16 +549,20 @@ def process_row(row,conn):
      image = process_images(row)
      dateIn = process_datein(row)
      recolement = process_recolement(row)
-
      cursor = conn.cursor()
+     sqlDon=""
+     idDon = None
      if donateur == 0:
          idDon = None
      elif isinstance(donateur, int):
          idDon = donateur
 
      else:
+         if donateur is None:
+             """rien de se produit"""
          # insertion dans la table de donateur
-         sqlDon = "INSERT INTO donateurs (donateur) VALUES (\'" + str(donateur) + "\')"
+         else:
+          sqlDon = "INSERT INTO donateurs (donateur) VALUES (\'" + str(donateur) + "\')"
          try:
              cursor.execute(sqlDon)
          except mysql.connector.errors.DatabaseError as e:
