@@ -626,11 +626,12 @@ def process_row(row,conn):
         try:
          cursor.execute(sqlRecol)
         except mysql.connector.errors.DatabaseError as e:
-            config.logging.error("artefact:" + str(id) + ";Error %d;%s;"+str(sqlRecol)+"\n" % (e.args[0], e.args[1]))
+            config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
+            config.logging.error("artefact:" + str(id) + ";Error requête;"+str(sqlRecol)+"\n")
             conn.rollback()
      conn.commit()
 
-wb = openpyxl.load_workbook(filename=config.pathBull)
+wb = openpyxl.load_workbook(filename=config.pathBull2)
 ws = wb['Inventaire']
 """
 boucle pour vérifier si les cellules d'une ligne sont compléter ou non et 

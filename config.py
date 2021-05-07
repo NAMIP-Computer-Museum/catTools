@@ -16,12 +16,13 @@ initialisation variable de la boucle du fichier
 min_row = 7
 # nombre maximum de ligne dans le fichier de test: 678
 #nombre maximum dans le vrai fichier: ?
-max_row = 678
+max_row = 3175
 max_column = 34
 min_column = 0
 # dossier ou se trouve les différents fichiers xml
 pathkhs = 'C:\\Users\\jazzt\\PycharmProjects\\pythonProject\\catTools\\data\\khs'
 pathBull = 'C:\\Users\\jazzt\\PycharmProjects\\pythonProject\\catTools\\data\\Bull\\extractBull.xlsm'
+pathBull2 = 'E:\\Inventaire FEBB Master A&R_04012021.xlsm'
 
 """
 initalisation parametres connection DB locale
