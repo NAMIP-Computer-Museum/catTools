@@ -58,6 +58,7 @@ def insertArtefact(ws,cursor):
     cursor.execute(sqlExport.sqlAr)
     resultat = cursor.fetchall()
     for res in resultat:
+        """changer valeur null par vide """
         card['A'] = res[0]
         card['B'] = res[1]
         card['C'] = res[2]

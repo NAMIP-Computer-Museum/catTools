@@ -8,7 +8,8 @@ import ETLStock
 import Artefact
 import xml.etree.ElementTree as ET
 import sql
-try:
+def migration_khs():
+ try:
     # ouverture du socket de communication avec la DB
     conn = config.mysql.connector.connect(host=config.host, user=config.user, password=config.passwd, database=config.database)
     cursor = conn.cursor()
@@ -22,9 +23,9 @@ try:
             ETLEtat.ETLEtat(root, cursor)
             ETLCollection.ETLCollection(root, cursor)
             conn.commit
-except config.mysql.connector.errors.DatabaseError as e:
+ except config.mysql.connector.errors.DatabaseError as e:
     config.logging.error("File:"+str(file)+";Error %d;%s" % (e.args[0], e.args[1]))
-try:
+ try:
     # ouverture de la boucle de lecture des fichiers xml
     for file in config.os.listdir(config.pathkhs):
         if config.re.match('V[0-9]*.xml', file):
@@ -50,9 +51,9 @@ try:
               sql.addImage(artefact, cursor)
             # commit des modifications dans la DB
               conn.commit()
-except config.mysql.connector.errors.DatabaseError as e:
+ except config.mysql.connector.errors.DatabaseError as e:
     config.logging.error("File:"+str(file)+";Error %d;%s" % (e.args[0], e.args[1]))
-finally:
+ finally:
     # fermeture de la connection
     conn.close
 

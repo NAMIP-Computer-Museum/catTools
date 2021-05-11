@@ -19,6 +19,7 @@ methode pour savoir si id est rempli
 def process_id(row):
     # print(row[0].value)
     id = row[0].value
+    id = "BULL-"+str(id)
     return id
 
 
@@ -159,6 +160,7 @@ def process_anprod(row):
     id = row[0].value
     re1 = re.compile('^[0-9]{4}$')
     if anprod is None:
+        config.logging.warning("artefact:"+str(id)+";l'année de production est vide;")
         return None
     else:
         if not re.match(re1,str(anprod)):
@@ -311,7 +313,7 @@ def process_longueur(row):
     re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*cm$')
     re4 = re.compile('^[0-9]+\s*mm$')
-    if longueur is None:
+    if (longueur is None) or (longueur == 'none'):
         config.logging.warning("artefact:"+str(id)+";pas de longueur")
         return None
     elif re2.match(str(longueur)):
@@ -349,8 +351,8 @@ def process_largeur(row):
     re1 = re.compile('^[0-9]+,[0-9]*\s*cm$')
     re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*cm$')
-    re4 = re.compile('^[0-9]+\s*mm$')
-    if largeur is None:
+    re4 = re.compile('^[0-9]+,[0-9]*\s*mm$')
+    if (largeur is None) or (largeur == 'none'):
         config.logging.warning("artefact:"+str(id)+";pas de largeur")
         return None
     elif re2.match(str(largeur)):
@@ -368,7 +370,7 @@ def process_largeur(row):
         if isinstance(int(largeur[0]), int):
          p = int(largeur[0])
          p = float(p/10)
-         config.logging.warning("artefact:" + str(id) + ";correction largueur en cm;" + str(p))
+         config.logging.warning("artefact:" + str(id) + ";correction largueur en cm;"+str(p)+":"+str(largeur[0]))
          return p
     else:
         config.logging.warning("artefact:"+str(id)+";mauvais encodage de la largeur;"+str(largeur))
@@ -388,7 +390,7 @@ def process_hauteur(row):
     re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*cm$')
     re4 = re.compile('^[0-9]+\s*mm$')
-    if hauteur is None:
+    if hauteur is None or (hauteur == 'none'):
         config.logging.warning("artefact:"+str(id)+";pas de hauteur")
         return None
     elif re2.match(str(hauteur)):
@@ -426,7 +428,7 @@ def process_poids(row):
     re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*kg$')
     re4 = re.compile('^[0-9]+\s*gr$')
-    if (poids is None):
+    if (poids is None) or (poids == 'none'):
         config.logging.warning("artefact:"+str(id)+";pas de poids")
         return None
     elif re2.match(str(poids)):
@@ -618,7 +620,7 @@ def process_row(row,conn):
          try:
             cursor.execute(sqlDon2)
          except mysql.connector.errors.DatabaseError as e:
-            config.logging.error("artefact:" + str(id) + ";Error %d; %s;"+ str(sqlDon2)+"\n" % (e.args[0], e.args[1]))
+            config.logging.error("artefact:" + str(id) + ";Error %d; %s;"+ str(sqlDon2) % (e.args[0], e.args[1]))
             conn.rollback()
          res = cursor.fetchall()
          for resultat in res:
@@ -626,7 +628,10 @@ def process_row(row,conn):
 
      p1 = "INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,"
      p2 = "`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,"
-     p3 = "`appart_key`, `famille_key`) VALUES(\'" + str(id) + "\',\'" + str(libelle) + "\',\'" + str(modele) + "\',\'" + str(numSerie)
+     if modele is not None:
+      p3 = "`appart_key`, `famille_key`) VALUES(\'" + str(id) + "\',\'" + str(libelle) + "\',\'" + str(modele) + "\',\'" + str(numSerie)
+     else:
+         p3 = "`appart_key`, `famille_key`) VALUES(\'" + str(id) + "\',\'" + str(libelle) + "\',"+str(modele)+",\'" + str(numSerie)
      if dateIn is not None:
         p4 = "\'," + str(anProd) + "," + str(qte) + ",\'" + str(dateIn) + "\'," + str(long)+ "," +str(larg)+ "," +str(haut)+ "," +str(poids)
      else:
@@ -636,10 +641,11 @@ def process_row(row,conn):
      sqlArtefact = p1 + p2 + p3 + p4 + p5 + p6
      sqlArtefact = re.sub('None', 'NULL', sqlArtefact)
      try:
+
       cursor.execute(sqlArtefact)
      except mysql.connector.errors.DatabaseError as e:
-         config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
-         config.logging.error("artefact:"+str(id)+";; erreur requête;"+str(sqlArtefact)+"\n")
+         config.logging.error("artefact:" + str(id) + ";Error %d; ;%s" % (e.args[0], e.args[1]))
+         config.logging.error("artefact:"+str(id)+";; erreur requête;"+str(sqlArtefact))
          conn.rollback()
     # insertion dans la table des liens
      """ 
@@ -660,8 +666,8 @@ def process_row(row,conn):
       cursor.execute(sqlImage)
      except mysql.connector.errors.DatabaseError as e:
          conn.rollback()
-         config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
-         config.logging.error("artefact:" + str(id) + ";; erreur requête;" + str(sqlImage) + "\n")
+         config.logging.error("artefact:" + str(id) + ";Error %d; ;%s" % (e.args[0], e.args[1]))
+         config.logging.error("artefact:" + str(id) + ";; erreur requête;" + str(sqlImage))
     # insertion dans la table recolements
      if recolement is None:
          #print("")
@@ -671,38 +677,38 @@ def process_row(row,conn):
         try:
          cursor.execute(sqlRecol)
         except mysql.connector.errors.DatabaseError as e:
-            config.logging.error("artefact:" + str(id) + ";Error %d; %s" % (e.args[0], e.args[1]))
-            config.logging.error("artefact:" + str(id) + ";Error requête;"+str(sqlRecol)+"\n")
+            config.logging.error("artefact:" + str(id) + ";Error %d; ;%s" % (e.args[0], e.args[1]))
+            config.logging.error("artefact:" + str(id) + ";Error requête;"+str(sqlRecol))
             conn.rollback()
      conn.commit()
-
-wb = openpyxl.load_workbook(filename=config.pathBull2)
-ws = wb['Inventaire']
-"""
-boucle pour vérifier si les cellules d'une ligne sont compléter ou non et 
-si oui verifier si elle sont bien encodée + mise dans la DataBase si tout est OK 
-"""
-try:
- conn = mysql.connector.connect(host=config.host, user=config.user, password=config.passwd, database=config.database)
- cursor = conn.cursor()
- listeEtat.recup_etat(cursor)
- conn.commit()
- listeProducteur.recup_producteur(cursor)
- conn.commit()
- listeUsage.recup_usage(cursor)
- conn.commit()
- listeAppartenance.recup_appartenance(cursor)
- conn.commit()
- listeFamille.recup_famille(cursor)
- conn.commit()
- listeLocalisation.recup_localisation(cursor)
- conn.commit()
- listeConditionnement.recup_conditionnement(cursor)
- conn.commit()
- for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
+def migration_Bull():
+ wb = openpyxl.load_workbook(filename=config.pathBull2)
+ ws = wb['Inventaire']
+ """
+ boucle pour vérifier si les cellules d'une ligne sont compléter ou non et 
+ si oui verifier si elle sont bien encodée + mise dans la DataBase si tout est OK 
+ """
+ try:
+  conn = mysql.connector.connect(host=config.host, user=config.user, password=config.passwd, database=config.database)
+  cursor = conn.cursor()
+  listeEtat.recup_etat(cursor)
+  conn.commit()
+  listeProducteur.recup_producteur(cursor)
+  conn.commit()
+  listeUsage.recup_usage(cursor)
+  conn.commit()
+  listeAppartenance.recup_appartenance(cursor)
+  conn.commit()
+  listeFamille.recup_famille(cursor)
+  conn.commit()
+  listeLocalisation.recup_localisation(cursor)
+  conn.commit()
+  listeConditionnement.recup_conditionnement(cursor)
+  conn.commit()
+  for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
     if all([cell.value is None for cell in row[2:]]):
         config.logging.warning("artefact:"+str(row[0].value)+";ligne vide;ignorée")
         continue
     process_row(row,conn)
-finally:
+ finally:
     conn.close

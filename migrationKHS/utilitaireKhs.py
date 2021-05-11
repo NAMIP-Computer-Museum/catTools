@@ -16,7 +16,7 @@ def nomArtefact(root):
      libelle = config.re.sub('\'', ' ', libelle)
      return libelle
     else:
-        config.logging.warning("Artefact:"+str(id)+";pas de libelle")
+        config.logging.warning("Artefact:"+str(id)+";libelle est vide")
         return None
 
 def dateInArtefact(root):
@@ -39,7 +39,7 @@ def dateProdArtefact(root):
     annee = root.find("ISBD/Z4/DT")
     id = root.find("INVID").text
     if (annee is None) or (str(annee.text) == "s.d."):
-        config.logging.warning("Artefact:"+str(id)+";pas de date")
+        config.logging.warning("Artefact:"+str(id)+";l'année de production est vide")
         return None
     else:
         return annee.text
@@ -104,7 +104,7 @@ def dimensionArtefact(root, artefact):
         artefact.setLargeur(None)
         artefact.setHauteur(None)
  except BaseException as e:
-     config.logging.warning("artefact:"+str(id)+";pas de dimension")
+     config.logging.warning("artefact:"+str(id)+";dimensions sont vides ")
 
 def imageArtefact(root):
     list = []
@@ -129,16 +129,17 @@ def recupLocalisation(root, cursor):
         id = resultat[0]
      return id
     else :
-        config.logging.warning("artefact:"+str(id)+";pas de localisation")
+        config.logging.warning("artefact:"+str(id)+";localisation est vide")
         return None
 
 
 def recupProducteur(root, cursor):
+    ida = root.find("INVID").text
     id = None
     producteur = root.findall("ISBD/Z4/NXP")
     if len(producteur) == 0:
         prod = "NULL"
-        config.logging.warning("artefact:" + str(id) + ";pas de producteur")
+        config.logging.warning("artefact:" + str(ida) + ";producteur est vide")
     elif len(producteur) == 1:
         prod = producteur[0].text
         if str(prod).__contains__("'"):
@@ -161,6 +162,7 @@ def recupProducteur(root, cursor):
 
 def recupEtat(root, cursor):
     id = None
+    ida = idArtefact(root)
     if root.find("ISBD/Z7/T") is not None:
      etat = root.find("ISBD/Z7/T").text
      if str(etat).__contains__("'"):
@@ -172,11 +174,12 @@ def recupEtat(root, cursor):
         id = resultat[0]
      return id
     else:
-        config.logging.warning("artefact:"+str(id)+";pas d'etat")
+        config.logging.warning("artefact:"+str(ida)+";etat est vide")
         return None
 
 
 def recupCollection(root, cursor):
+    ida = idArtefact(root)
     id = None
     if root.find("ISBD/Z7/T") is not None:
       collection = root.find("ISBD/Z8/NXP").text
@@ -186,8 +189,8 @@ def recupCollection(root, cursor):
       for resultat in res:
         id = resultat[0]
       return id
-    else :
-        config.logging.warning("artefact:"+str(id)+";pas de collection")
+    else:
+        config.logging.warning("artefact:"+str(ida)+";la collection est vide")
         return None
 
 def recupDescription(root):
