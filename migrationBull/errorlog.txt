@@ -2856,10 +2856,10 @@ WARNING;artefact:None;etat est vide
 WARNING;artefact:None;etat est vide
 WARNING;artefact:None;etat est vide
 WARNING;artefact:None;etat est vide
-WARNING;artefact:6988;producteur est incorrect;0
-WARNING;artefact:6989;producteur est incorrect;0
-WARNING;artefact:6994;producteur est incorrect;0
-WARNING;artefact:6995;producteur est incorrect;0
+WARNING;artefact:6988;producteur est vide
+WARNING;artefact:6989;producteur est vide
+WARNING;artefact:6994;producteur est vide
+WARNING;artefact:6995;producteur est vide
 WARNING;artefact:6996;producteur est vide
 WARNING;artefact:6997;producteur est vide
 WARNING;artefact:6998;producteur est vide
@@ -2878,49 +2878,49 @@ WARNING;artefact:8895;producteur est vide
 WARNING;artefact:8896;producteur est vide
 WARNING;artefact:8897;producteur est vide
 WARNING;artefact:8910;producteur est vide
-WARNING;artefact:8963;producteur est incorrect;0
+WARNING;artefact:8963;producteur est vide
 WARNING;artefact:8969;producteur est vide
-WARNING;artefact:9302;producteur est incorrect;0
-WARNING;artefact:9309;producteur est incorrect;0
-WARNING;artefact:9399;producteur est incorrect;0
+WARNING;artefact:9302;producteur est vide
+WARNING;artefact:9309;producteur est vide
+WARNING;artefact:9399;producteur est vide
 WARNING;artefact:9403;producteur est vide
-WARNING;artefact:9405;producteur est incorrect;0
-WARNING;artefact:9475;producteur est incorrect;0
-WARNING;artefact:9669;producteur est incorrect;0
-WARNING;artefact:9674;producteur est incorrect;0
-WARNING;artefact:9675;producteur est incorrect;0
-WARNING;artefact:9681;producteur est incorrect;0
-WARNING;artefact:9692;producteur est incorrect;0
-WARNING;artefact:9813;producteur est incorrect;0
+WARNING;artefact:9405;producteur est vide
+WARNING;artefact:9475;producteur est vide
+WARNING;artefact:9669;producteur est vide
+WARNING;artefact:9674;producteur est vide
+WARNING;artefact:9675;producteur est vide
+WARNING;artefact:9681;producteur est vide
+WARNING;artefact:9692;producteur est vide
+WARNING;artefact:9813;producteur est vide
 WARNING;artefact:9816;producteur est vide
 WARNING;artefact:9817;producteur est vide
 WARNING;artefact:9821;producteur est vide
 WARNING;artefact:9822;producteur est vide
 WARNING;artefact:9823;producteur est vide
 WARNING;artefact:9824;producteur est vide
-WARNING;artefact:9832;producteur est incorrect;0
-WARNING;artefact:9834;producteur est incorrect;0
+WARNING;artefact:9832;producteur est vide
+WARNING;artefact:9834;producteur est vide
 WARNING;artefact:9835;producteur est vide
 WARNING;artefact:9836;producteur est vide
-WARNING;artefact:9837;producteur est incorrect;0
-WARNING;artefact:9838;producteur est incorrect;0
-WARNING;artefact:9839;producteur est incorrect;0
-WARNING;artefact:9840;producteur est incorrect;0
-WARNING;artefact:9843;producteur est incorrect;0
-WARNING;artefact:9844;producteur est incorrect;0
-WARNING;artefact:9856;producteur est incorrect;0
-WARNING;artefact:9889;producteur est incorrect;0
+WARNING;artefact:9837;producteur est vide
+WARNING;artefact:9838;producteur est vide
+WARNING;artefact:9839;producteur est vide
+WARNING;artefact:9840;producteur est vide
+WARNING;artefact:9843;producteur est vide
+WARNING;artefact:9844;producteur est vide
+WARNING;artefact:9856;producteur est vide
+WARNING;artefact:9889;producteur est vide
 WARNING;artefact:9894;producteur est vide
-WARNING;artefact:9895;producteur est incorrect;0
-WARNING;artefact:9896;producteur est incorrect;0
+WARNING;artefact:9895;producteur est vide
+WARNING;artefact:9896;producteur est vide
 WARNING;artefact:9897;producteur est vide
-WARNING;artefact:9898;producteur est incorrect;0
-WARNING;artefact:9899;producteur est incorrect;0
-WARNING;artefact:9908;producteur est incorrect;0
-WARNING;artefact:9911;producteur est incorrect;0
-WARNING;artefact:9912;producteur est incorrect;0
-WARNING;artefact:9913;producteur est incorrect;0
-WARNING;artefact:9914;producteur est incorrect;0
+WARNING;artefact:9898;producteur est vide
+WARNING;artefact:9899;producteur est vide
+WARNING;artefact:9908;producteur est vide
+WARNING;artefact:9911;producteur est vide
+WARNING;artefact:9912;producteur est vide
+WARNING;artefact:9913;producteur est vide
+WARNING;artefact:9914;producteur est vide
 WARNING;artefact:9915;producteur est vide
 WARNING;artefact:9917;producteur est vide
 WARNING;artefact:9918;producteur est vide
@@ -2937,45 +2937,45 @@ WARNING;artefact:10295;producteur est vide
 WARNING;artefact:10296;producteur est vide
 WARNING;artefact:10297;producteur est vide
 WARNING;artefact:10298;producteur est vide
-WARNING;artefact:10299;producteur est incorrect;0
-WARNING;artefact:10311;producteur est incorrect;0
-WARNING;artefact:10350;producteur est incorrect;0
-WARNING;artefact:10351;producteur est incorrect;0
-WARNING;artefact:10352;producteur est incorrect;0
-WARNING;artefact:10353;producteur est incorrect;0
+WARNING;artefact:10299;producteur est vide
+WARNING;artefact:10311;producteur est vide
+WARNING;artefact:10350;producteur est vide
+WARNING;artefact:10351;producteur est vide
+WARNING;artefact:10352;producteur est vide
+WARNING;artefact:10353;producteur est vide
 WARNING;artefact:10496;producteur est vide
-WARNING;artefact:10497;producteur est incorrect;0
-WARNING;artefact:10498;producteur est incorrect;0
-WARNING;artefact:10576;producteur est incorrect;0
-WARNING;artefact:10578;producteur est incorrect;0
+WARNING;artefact:10497;producteur est vide
+WARNING;artefact:10498;producteur est vide
+WARNING;artefact:10576;producteur est vide
+WARNING;artefact:10578;producteur est vide
 WARNING;artefact:10601;producteur est vide
 WARNING;artefact:10605;producteur est vide
-WARNING;artefact:10986;producteur est incorrect;0
-WARNING;artefact:10987;producteur est incorrect;0
-WARNING;artefact:10988;producteur est incorrect;0
-WARNING;artefact:10990;producteur est incorrect;0
-WARNING;artefact:10993;producteur est incorrect;0
-WARNING;artefact:10994;producteur est incorrect;0
+WARNING;artefact:10986;producteur est vide
+WARNING;artefact:10987;producteur est vide
+WARNING;artefact:10988;producteur est vide
+WARNING;artefact:10990;producteur est vide
+WARNING;artefact:10993;producteur est vide
+WARNING;artefact:10994;producteur est vide
 WARNING;artefact:10999;producteur est vide
-WARNING;artefact:11077;producteur est incorrect;0
-WARNING;artefact:11094;producteur est incorrect;0
+WARNING;artefact:11077;producteur est vide
+WARNING;artefact:11094;producteur est vide
 WARNING;artefact:11108;producteur est vide
 WARNING;artefact:11109;producteur est vide
 WARNING;artefact:11110;producteur est vide
 WARNING;artefact:11111;producteur est vide
 WARNING;artefact:11112;producteur est vide
-WARNING;artefact:11113;producteur est incorrect;0
+WARNING;artefact:11113;producteur est vide
 WARNING;artefact:11116;producteur est vide
 WARNING;artefact:11117;producteur est vide
 WARNING;artefact:11120;producteur est vide
 WARNING;artefact:11121;producteur est vide
-WARNING;artefact:11123;producteur est incorrect;0
-WARNING;artefact:11124;producteur est incorrect;0
-WARNING;artefact:11125;producteur est incorrect;0
-WARNING;artefact:11126;producteur est incorrect;0
-WARNING;artefact:11127;producteur est incorrect;0
-WARNING;artefact:11128;producteur est incorrect;0
-WARNING;artefact:11129;producteur est incorrect;0
+WARNING;artefact:11123;producteur est vide
+WARNING;artefact:11124;producteur est vide
+WARNING;artefact:11125;producteur est vide
+WARNING;artefact:11126;producteur est vide
+WARNING;artefact:11127;producteur est vide
+WARNING;artefact:11128;producteur est vide
+WARNING;artefact:11129;producteur est vide
 WARNING;artefact:11130;producteur est vide
 WARNING;artefact:11131;producteur est vide
 WARNING;artefact:11132;producteur est vide
@@ -2984,18 +2984,18 @@ WARNING;artefact:11134;producteur est vide
 WARNING;artefact:11184;producteur est vide
 WARNING;artefact:11185;producteur est vide
 WARNING;artefact:11186;producteur est vide
-WARNING;artefact:11203;producteur est incorrect;0
+WARNING;artefact:11203;producteur est vide
 WARNING;artefact:11210;producteur est vide
 WARNING;artefact:11211;producteur est vide
 WARNING;artefact:11212;producteur est vide
 WARNING;artefact:11214;producteur est vide
 WARNING;artefact:11217;producteur est vide
-WARNING;artefact:11243;producteur est incorrect;0
-WARNING;artefact:11244;producteur est incorrect;0
-WARNING;artefact:11245;producteur est incorrect;0
-WARNING;artefact:11246;producteur est incorrect;0
-WARNING;artefact:11247;producteur est incorrect;0
-WARNING;artefact:11248;producteur est incorrect;0
+WARNING;artefact:11243;producteur est vide
+WARNING;artefact:11244;producteur est vide
+WARNING;artefact:11245;producteur est vide
+WARNING;artefact:11246;producteur est vide
+WARNING;artefact:11247;producteur est vide
+WARNING;artefact:11248;producteur est vide
 WARNING;artefact:11284;producteur est vide
 WARNING;artefact:11293;producteur est vide
 WARNING;artefact:11294;producteur est vide
@@ -3004,33 +3004,33 @@ WARNING;artefact:11297;producteur est vide
 WARNING;artefact:12102;producteur est vide
 WARNING;artefact:12141;producteur est vide
 WARNING;artefact:13029;producteur est vide
-WARNING;artefact:13030;producteur est incorrect;0
+WARNING;artefact:13030;producteur est vide
 WARNING;artefact:13031;producteur est vide
 WARNING;artefact:13032;producteur est vide
 WARNING;artefact:13033;producteur est vide
-WARNING;artefact:15000;producteur est incorrect;0
+WARNING;artefact:15000;producteur est vide
 WARNING;artefact:15002;producteur est vide
 WARNING;artefact:15003;producteur est vide
 WARNING;artefact:15004;producteur est vide
 WARNING;artefact:15005;producteur est vide
 WARNING;artefact:15006;producteur est vide
 WARNING;artefact:15007;producteur est vide
-WARNING;artefact:98144;producteur est incorrect;0
-WARNING;artefact:98145;producteur est incorrect;0
-WARNING;artefact:98149;producteur est incorrect;0
-WARNING;artefact:98150;producteur est incorrect;0
-WARNING;artefact:98151;producteur est incorrect;0
-WARNING;artefact:98152;producteur est incorrect;0
-WARNING;artefact:98153;producteur est incorrect;0
-WARNING;artefact:98154;producteur est incorrect;0
+WARNING;artefact:98144;producteur est vide
+WARNING;artefact:98145;producteur est vide
+WARNING;artefact:98149;producteur est vide
+WARNING;artefact:98150;producteur est vide
+WARNING;artefact:98151;producteur est vide
+WARNING;artefact:98152;producteur est vide
+WARNING;artefact:98153;producteur est vide
+WARNING;artefact:98154;producteur est vide
 WARNING;artefact:98157;producteur est vide
 WARNING;artefact:98158;producteur est vide
 WARNING;artefact:98159;producteur est vide
 WARNING;artefact:98160;producteur est vide
 WARNING;artefact:98161;producteur est vide
-WARNING;artefact:98162;producteur est incorrect;0
-WARNING;artefact:98164;producteur est incorrect;0
-WARNING;artefact:98166;producteur est incorrect;0
+WARNING;artefact:98162;producteur est vide
+WARNING;artefact:98164;producteur est vide
+WARNING;artefact:98166;producteur est vide
 WARNING;artefact:98168;producteur est vide
 WARNING;artefact:98169;producteur est vide
 WARNING;artefact:98170;producteur est vide
@@ -3043,7 +3043,7 @@ WARNING;artefact:98176;producteur est vide
 WARNING;artefact:98177;producteur est vide
 WARNING;artefact:98178;producteur est vide
 WARNING;artefact:98295;producteur est vide
-WARNING;artefact:98296;producteur est incorrect;0
+WARNING;artefact:98296;producteur est vide
 WARNING;artefact:98328;producteur est vide
 WARNING;artefact:98537;producteur est vide
 ERROR;artefact:None;Error 1064; 1064 (42000): Erreur de syntaxe près de 'application'' à la ligne 1
@@ -13697,9 +13697,2578 @@ WARNING;artefact:13031;conditionnement est vide
 WARNING;artefact:15005;conditionnement est vide
 WARNING;artefact:15006;conditionnement est vide
 WARNING;artefact:98005;conditionnement est vide
-ERROR;artefact:<built-in function id>;Error 1064; 1064 (42000): Erreur de syntaxe près de 'estrade'' à la ligne 1
-ERROR;requete pour cond;SELECT id_cond FROM conditionnements WHERE  conditionnement ='Sur l'estrade'
-
+WARNING;artefact:98149;conditionnement est incorrect;0
+WARNING;artefact:98150;conditionnement est incorrect;0
+WARNING;artefact:98151;conditionnement est incorrect;0
+WARNING;artefact:98152;conditionnement est incorrect;0
+WARNING;artefact:98153;conditionnement est incorrect;0
+WARNING;artefact:98154;conditionnement est incorrect;0
+WARNING;artefact:98161;conditionnement est vide
+WARNING;artefact:98162;conditionnement est incorrect;0
+WARNING;artefact:98163;conditionnement est vide
+WARNING;artefact:98164;conditionnement est incorrect;0
+WARNING;artefact:98165;conditionnement est incorrect;0
+WARNING;artefact:98166;conditionnement est incorrect;0
+WARNING;artefact:98167;conditionnement est vide
+WARNING;artefact:98168;conditionnement est vide
+WARNING;artefact:98173;conditionnement est vide
+WARNING;artefact:98174;conditionnement est vide
+WARNING;artefact:98175;conditionnement est vide
+WARNING;artefact:98176;conditionnement est vide
+WARNING;artefact:98177;conditionnement est vide
+WARNING;artefact:98178;conditionnement est vide
+WARNING;artefact:98294;conditionnement est vide
+WARNING;artefact:98295;conditionnement est vide
+WARNING;artefact:98296;conditionnement est vide
+WARNING;artefact:98311;conditionnement est vide
+WARNING;artefact:98312;conditionnement est vide
+WARNING;artefact:98313;conditionnement est vide
+WARNING;artefact:98520;conditionnement est vide
+WARNING;artefact:98522;conditionnement est incorrect;0
+WARNING;artefact:98525;conditionnement est vide
+WARNING;artefact:98526;conditionnement est vide
+WARNING;artefact:98527;conditionnement est vide
+WARNING;artefact:98528;conditionnement est vide
+WARNING;artefact:98529;conditionnement est vide
+WARNING;artefact:98530;conditionnement est vide
+WARNING;artefact:98531;conditionnement est vide
+WARNING;artefact:98532;conditionnement est vide
+WARNING;artefact:98533;conditionnement est vide
+WARNING;artefact:98535;conditionnement est incorrect;0
+WARNING;artefact:98536;conditionnement est incorrect;0
+WARNING;artefact:98542;conditionnement est vide
+WARNING;artefact:98543;conditionnement est vide
+WARNING;artefact:98544;conditionnement est vide
+WARNING;artefact:98545;conditionnement est vide
+WARNING;artefact:98546;conditionnement est vide
+WARNING;artefact:98547;conditionnement est vide
+WARNING;artefact:98548;conditionnement est incorrect;0
+WARNING;artefact:98548;conditionnement est incorrect;0
+WARNING;artefact:98552;conditionnement est vide
+WARNING;artefact:98553;conditionnement est incorrect;0
+WARNING;artefact:98554;conditionnement est incorrect;0
+WARNING;artefact:98555;conditionnement est vide
+WARNING;artefact:98556;conditionnement est vide
+WARNING;artefact:98558;conditionnement est incorrect;0
+WARNING;artefact:98559;conditionnement est vide
+WARNING;artefact:98560;conditionnement est incorrect;0
+WARNING;artefact:98561;conditionnement est incorrect;0
+WARNING;artefact:98562;conditionnement est incorrect;0
+WARNING;artefact:98563;conditionnement est incorrect;0
+WARNING;artefact:98564;conditionnement est vide
+WARNING;artefact:98565;conditionnement est vide
+WARNING;artefact:98569;conditionnement est incorrect;0
+WARNING;artefact:98603;conditionnement est incorrect;0
+WARNING;artefact:98604;conditionnement est incorrect;0
+WARNING;artefact:98622;conditionnement est incorrect;0
+WARNING;artefact:98625;conditionnement est vide
+WARNING;artefact:98631;conditionnement est vide
+WARNING;artefact:99990;conditionnement est incorrect;0
+WARNING;artefact:99991;conditionnement est vide
+WARNING;artefact:99992;conditionnement est vide
+WARNING;artefact:99995;conditionnement est incorrect;0
+WARNING;artefact:99996;conditionnement est vide
+WARNING;artefact:99998;conditionnement est incorrect;0
+WARNING;artefact:99999;conditionnement est incorrect;0
+WARNING;artefact:100000;conditionnement est incorrect;1
+WARNING;artefact:100001;conditionnement est incorrect;0
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
+WARNING;artefact:None;conditionnement est vide
 WARNING;artefact:7;l'année de production est incorrecte;0
 WARNING;artefact:6987;l'année de production est incorrecte;14594
 WARNING;artefact:6987;pas de date d'entrée
@@ -13745,7 +16314,7 @@ WARNING;artefact:6999;mauvais encodage de la largeur;none
 WARNING;artefact:6999;mauvais encodage de la hauteur;none
 WARNING;artefact:6999;mauvais encodage du poids;none
 WARNING;artefact:6999;pas de date d'entrée
-WARNING;artefact:7001;mauvais encodage du poids;200gr
+WARNING;artefact:7001;correction poids en kg;0.2
 WARNING;artefact:7001;pas de date d'entrée
 WARNING;artefact:7002;mauvais encodage de la hauteur;6cmm
 WARNING;artefact:7003;mauvais encodage de la longueur;none
@@ -13753,30 +16322,27 @@ WARNING;artefact:7003;mauvais encodage de la largeur;none
 WARNING;artefact:7003;mauvais encodage de la hauteur;none
 WARNING;artefact:7003;mauvais encodage du poids;none
 WARNING;artefact:7003;pas de date d'entrée
-WARNING;artefact:7004;mauvais encodage du poids;250gr
+WARNING;artefact:7004;correction poids en kg;0.25
 WARNING;artefact:7004;l'année de production est inférieure; 
-WARNING;artefact:7005;mauvais encodage du poids;100gr
+WARNING;artefact:7005;correction poids en kg;0.1
 WARNING;artefact:7005;pas de date d'entrée
-WARNING;artefact:7006;mauvais encodage du poids;600gr
+WARNING;artefact:7006;correction poids en kg;0.6
 WARNING;artefact:7006;pas de date d'entrée
-WARNING;artefact:7007;mauvais encodage du poids;1gr
+WARNING;artefact:7007;correction poids en kg;0.001
 WARNING;artefact:7007;pas de date d'entrée
-WARNING;artefact:7008;mauvais encodage du poids;1gr
+WARNING;artefact:7008;correction poids en kg;0.001
 WARNING;artefact:7008;pas de date d'entrée
 WARNING;artefact:7009;ligne vide;ignorée
-WARNING;artefact:7010;mauvais encodage du poids;300gr
+WARNING;artefact:7010;correction poids en kg;0.3
 WARNING;artefact:7010;pas de date d'entrée
 WARNING;artefact:7011;pas de date d'entrée
-WARNING;artefact:7012;mauvais encodage du poids;200gr
+WARNING;artefact:7012;correction poids en kg;0.2
 WARNING;artefact:7012;pas de date d'entrée
-WARNING;artefact:7013;mauvais encodage du poids;100gr
+WARNING;artefact:7013;correction poids en kg;0.1
 WARNING;artefact:7013;pas de date d'entrée
-WARNING;artefact:7015;mauvais encodage du poids;200gr
+WARNING;artefact:7015;correction poids en kg;0.2
 WARNING;artefact:7015;pas de date d'entrée
-ERROR;artefact:7015;Error 1064; 1064 (42000): Erreur de syntaxe près de 'informatique',7015)' à la ligne 1
-ERROR;artefact:7015;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Fenêtre sur 40 ans d'informatique',7015)
-
-WARNING;artefact:7017;mauvais encodage du poids;300gr
+WARNING;artefact:7017;correction poids en kg;0.3
 WARNING;artefact:7017;pas de date d'entrée
 WARNING;artefact:7018;l'année de production est incorrecte;0
 WARNING;artefact:7018;pas de date d'entrée
@@ -13785,21 +16351,18 @@ WARNING;artefact:7019;mauvais encodage de la largeur;none
 WARNING;artefact:7019;mauvais encodage de la hauteur;none
 WARNING;artefact:7019;mauvais encodage du poids;none
 WARNING;artefact:7019;pas de date d'entrée
-WARNING;artefact:7020;mauvais encodage du poids;600gr
+WARNING;artefact:7020;correction poids en kg;0.6
 WARNING;artefact:7020;pas de date d'entrée
-WARNING;artefact:7021;mauvais encodage du poids;300gr
+WARNING;artefact:7021;correction poids en kg;0.3
 WARNING;artefact:7021;pas de date d'entrée
-ERROR;artefact:7021;Error 1064; 1064 (42000): Erreur de syntaxe près de 'internet par Hugues Bersini,Marie-Paule et Robert Spinette-Rose',7021)' à la ligne 1
-ERROR;artefact:7021;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('du bit à l'internet par Hugues Bersini,Marie-Paule et Robert Spinette-Rose',7021)
-
-WARNING;artefact:7022;mauvais encodage du poids;200gr
+WARNING;artefact:7022;correction poids en kg;0.2
 WARNING;artefact:7022;pas de date d'entrée
-WARNING;artefact:7023;mauvais encodage du poids;200gr
+WARNING;artefact:7023;correction poids en kg;0.2
 WARNING;artefact:7023;pas de date d'entrée
 WARNING;artefact:7024;pas de date d'entrée
-WARNING;artefact:7025;mauvais encodage du poids;100gr
+WARNING;artefact:7025;correction poids en kg;0.1
 WARNING;artefact:7025;pas de date d'entrée
-WARNING;artefact:7026;mauvais encodage du poids;150gr
+WARNING;artefact:7026;correction poids en kg;0.15
 WARNING;artefact:7026;pas de date d'entrée
 WARNING;artefact:7027;pas de date d'entrée
 WARNING;artefact:7028;pas de date d'entrée
@@ -13808,11 +16371,11 @@ WARNING;artefact:7029;mauvais encodage de la largeur;none
 WARNING;artefact:7029;mauvais encodage de la hauteur;none
 WARNING;artefact:7029;mauvais encodage du poids;none
 WARNING;artefact:7029;pas de date d'entrée
-WARNING;artefact:7030;mauvais encodage du poids;300 gr
-WARNING;artefact:7031;mauvais encodage du poids;290gr
+WARNING;artefact:7030;correction poids en kg;0.3
+WARNING;artefact:7031;correction poids en kg;0.29
 WARNING;artefact:7032;l'année de production est incorrecte;0
 WARNING;artefact:7032;l'année de production est inférieure; 
-WARNING;artefact:7033;mauvais encodage du poids;200 gr
+WARNING;artefact:7033;correction poids en kg;0.2
 WARNING;artefact:7034;l'année de production est incorrecte;0
 WARNING;artefact:7034;pas de date d'entrée
 WARNING;artefact:7035;mauvais encodage de la longueur;none
@@ -13845,20 +16408,20 @@ WARNING;artefact:7041;mauvais encodage de la largeur;none
 WARNING;artefact:7041;mauvais encodage de la hauteur;none
 WARNING;artefact:7041;mauvais encodage du poids;none
 WARNING;artefact:7041;pas de date d'entrée
-WARNING;artefact:7042;mauvais encodage du poids;400gr
+WARNING;artefact:7042;correction poids en kg;0.4
 WARNING;artefact:7042;pas de date d'entrée
-WARNING;artefact:7043;mauvais encodage du poids;400gr
+WARNING;artefact:7043;correction poids en kg;0.4
 WARNING;artefact:7043;pas de date d'entrée
-WARNING;artefact:7044;mauvais encodage de la largeur;16mm
-WARNING;artefact:7044;mauvais encodage du poids;200gr
+WARNING;artefact:7044;correction largueur en cm;1.6
+WARNING;artefact:7044;correction poids en kg;0.2
 WARNING;artefact:7044;pas de date d'entrée
-WARNING;artefact:7045;mauvais encodage du poids;200gr
+WARNING;artefact:7045;correction poids en kg;0.2
 WARNING;artefact:7045;pas de date d'entrée
-WARNING;artefact:7046;mauvais encodage du poids;900gr
+WARNING;artefact:7046;correction poids en kg;0.9
 WARNING;artefact:7046;pas de date d'entrée
-WARNING;artefact:7047;mauvais encodage du poids;800gr
+WARNING;artefact:7047;correction poids en kg;0.8
 WARNING;artefact:7047;pas de date d'entrée
-WARNING;artefact:7048;mauvais encodage du poids;200gr
+WARNING;artefact:7048;correction poids en kg;0.2
 WARNING;artefact:7048;pas de date d'entrée
 WARNING;artefact:7049;mauvais encodage de la longueur;none
 WARNING;artefact:7049;mauvais encodage de la largeur;none
@@ -14048,7 +16611,7 @@ WARNING;artefact:7115;mauvais encodage de la largeur;none
 WARNING;artefact:7115;mauvais encodage de la hauteur;none
 WARNING;artefact:7115;mauvais encodage du poids;none
 WARNING;artefact:7115;pas de date d'entrée
-WARNING;artefact:7933;mauvais encodage du poids;100gr
+WARNING;artefact:7933;correction poids en kg;0.1
 WARNING;artefact:7933;pas de date d'entrée
 WARNING;artefact:7934;l'année de production est incorrecte;0
 WARNING;artefact:7934;pas de date d'entrée
@@ -14069,8 +16632,8 @@ WARNING;artefact:7943;mauvais encodage de la largeur;none
 WARNING;artefact:7943;mauvais encodage de la hauteur;none
 WARNING;artefact:7943;mauvais encodage du poids;none
 WARNING;artefact:7943;pas de date d'entrée
-WARNING;artefact:7944;mauvais encodage de la hauteur;4mm
-WARNING;artefact:7944;mauvais encodage du poids;80gr
+WARNING;artefact:7944;correction hauteur en cm;0.4
+WARNING;artefact:7944;correction poids en kg;0.08
 WARNING;artefact:7944;pas de date d'entrée
 WARNING;artefact:7945;mauvais encodage de la longueur;none
 WARNING;artefact:7945;mauvais encodage de la largeur;none
@@ -14107,7 +16670,7 @@ WARNING;artefact:7953;mauvais encodage du poids;none
 WARNING;artefact:7953;pas de date d'entrée
 WARNING;artefact:7954;mauvais encodage de la largeur; 
 WARNING;artefact:7954;pas de date d'entrée
-WARNING;artefact:7955;mauvais encodage du poids;200 gr
+WARNING;artefact:7955;correction poids en kg;0.2
 WARNING;artefact:7956;l'année de production est incorrecte;0
 WARNING;artefact:7956;mauvais encodage de la largeur; 
 WARNING;artefact:7956;pas de date d'entrée
@@ -14138,7 +16701,7 @@ WARNING;artefact:7962;mauvais encodage de la largeur;none
 WARNING;artefact:7962;mauvais encodage de la hauteur;none
 WARNING;artefact:7962;mauvais encodage du poids;none
 WARNING;artefact:7962;pas de date d'entrée
-WARNING;artefact:7963;mauvais encodage du poids;50gr
+WARNING;artefact:7963;correction poids en kg;0.05
 WARNING;artefact:7963;pas de date d'entrée
 WARNING;artefact:7964;mauvais encodage de la largeur; 
 WARNING;artefact:7964;mauvais encodage de la hauteur;w. siemeck
@@ -14179,9 +16742,6 @@ WARNING;artefact:7972;mauvais encodage de la largeur;none
 WARNING;artefact:7972;mauvais encodage de la hauteur;none
 WARNING;artefact:7972;mauvais encodage du poids;none
 WARNING;artefact:7972;pas de date d'entrée
-ERROR;artefact:7972;Error 1064; 1064 (42000): Erreur de syntaxe près de 'annonce','NULL',1984,1,NULL,NULL,NULL,NULL,NULL,'NULL',NULL,NULL,1,NULL,NULL,NUL' à la ligne 1
-ERROR;artefact:7972;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('7972','Imprimantes multifonctions PRT 722X','Guide d'annonce','NULL',1984,1,NULL,NULL,NULL,NULL,NULL,'NULL',NULL,NULL,1,NULL,NULL,NULL,NULL)
-
 WARNING;artefact:7973;mauvais encodage de la longueur;none
 WARNING;artefact:7973;mauvais encodage de la largeur;none
 WARNING;artefact:7973;mauvais encodage de la hauteur;none
@@ -14672,15 +17232,15 @@ WARNING;artefact:8085;mauvais encodage de la largeur;none
 WARNING;artefact:8085;mauvais encodage de la hauteur;none
 WARNING;artefact:8085;mauvais encodage du poids;none
 WARNING;artefact:8085;pas de date d'entrée
-WARNING;artefact:8086;mauvais encodage du poids;50gr
+WARNING;artefact:8086;correction poids en kg;0.05
 WARNING;artefact:8086;pas de date d'entrée
-WARNING;artefact:8087;mauvais encodage du poids;50gr
+WARNING;artefact:8087;correction poids en kg;0.05
 WARNING;artefact:8087;pas de date d'entrée
-WARNING;artefact:8088;mauvais encodage du poids;50gr
+WARNING;artefact:8088;correction poids en kg;0.05
 WARNING;artefact:8088;pas de date d'entrée
-WARNING;artefact:8089;mauvais encodage du poids;50gr
+WARNING;artefact:8089;correction poids en kg;0.05
 WARNING;artefact:8089;pas de date d'entrée
-WARNING;artefact:8090;mauvais encodage du poids;50gr
+WARNING;artefact:8090;correction poids en kg;0.05
 WARNING;artefact:8090;pas de date d'entrée
 WARNING;artefact:8091;mauvais encodage de la longueur;none
 WARNING;artefact:8091;mauvais encodage de la largeur;none
@@ -14973,7 +17533,7 @@ WARNING;artefact:8157;mauvais encodage de la hauteur;none
 WARNING;artefact:8157;mauvais encodage du poids;none
 WARNING;artefact:8157;pas de date d'entrée
 WARNING;artefact:8158;l'année de production est incorrecte;1971/76
-WARNING;artefact:8158;mauvais encodage du poids;300gr
+WARNING;artefact:8158;correction poids en kg;0.3
 WARNING;artefact:8158;pas de date d'entrée
 WARNING;artefact:8159;mauvais encodage de la longueur;none
 WARNING;artefact:8159;mauvais encodage de la largeur;none
@@ -16346,9 +18906,6 @@ WARNING;artefact:8444;mauvais encodage de la largeur;none
 WARNING;artefact:8444;mauvais encodage de la hauteur;none
 WARNING;artefact:8444;mauvais encodage du poids;none
 WARNING;artefact:8444;pas de date d'entrée
-ERROR;artefact:8444;Error 1064; 1064 (42000): Erreur de syntaxe près de 'ordinateur et sa Mémoire','NULL',1965,1,NULL,NULL,NULL,NULL,NULL,'NULL',NULL,NU' à la ligne 1
-ERROR;artefact:8444;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('8444','Traitement de linfo 2','L'ordinateur et sa Mémoire','NULL',1965,1,NULL,NULL,NULL,NULL,NULL,'NULL',NULL,NULL,5,NULL,9,NULL,1)
-
 WARNING;artefact:8445;mauvais encodage de la longueur;none
 WARNING;artefact:8445;mauvais encodage de la largeur;none
 WARNING;artefact:8445;mauvais encodage de la hauteur;none
@@ -16528,32 +19085,32 @@ WARNING;artefact:8480;pas de date d'entrée
 WARNING;artefact:8481;pas de date d'entrée
 WARNING;artefact:8482;mauvais encodage de la longueur;none
 WARNING;artefact:8482;pas de date d'entrée
-WARNING;artefact:8483;mauvais encodage du poids;400gr
+WARNING;artefact:8483;correction poids en kg;0.4
 WARNING;artefact:8483;pas de date d'entrée
 WARNING;artefact:8484;mauvais encodage de la longueur;none
-WARNING;artefact:8484;mauvais encodage du poids;400gr
+WARNING;artefact:8484;correction poids en kg;0.4
 WARNING;artefact:8484;pas de date d'entrée
 WARNING;artefact:8485;mauvais encodage de la longueur;none
-WARNING;artefact:8485;mauvais encodage du poids;400gr
+WARNING;artefact:8485;correction poids en kg;0.4
 WARNING;artefact:8485;pas de date d'entrée
-WARNING;artefact:8486;mauvais encodage du poids;200gr
+WARNING;artefact:8486;correction poids en kg;0.2
 WARNING;artefact:8486;pas de date d'entrée
-WARNING;artefact:8487;mauvais encodage de la hauteur;10mm
-WARNING;artefact:8487;mauvais encodage du poids;200gr
+WARNING;artefact:8487;correction hauteur en cm;1.0
+WARNING;artefact:8487;correction poids en kg;0.2
 WARNING;artefact:8487;pas de date d'entrée
-WARNING;artefact:8488;mauvais encodage de la hauteur;10mm
-WARNING;artefact:8488;mauvais encodage du poids;200gr
+WARNING;artefact:8488;correction hauteur en cm;1.0
+WARNING;artefact:8488;correction poids en kg;0.2
 WARNING;artefact:8488;pas de date d'entrée
-WARNING;artefact:8489;mauvais encodage de la hauteur;5mm
-WARNING;artefact:8489;mauvais encodage du poids;100gr
+WARNING;artefact:8489;correction hauteur en cm;0.5
+WARNING;artefact:8489;correction poids en kg;0.1
 WARNING;artefact:8489;pas de date d'entrée
-WARNING;artefact:8490;mauvais encodage du poids;400gr
+WARNING;artefact:8490;correction poids en kg;0.4
 WARNING;artefact:8490;pas de date d'entrée
 WARNING;artefact:8491;pas de date d'entrée
 WARNING;artefact:8492;pas de date d'entrée
 WARNING;artefact:8493;pas de date d'entrée
-WARNING;artefact:8494;mauvais encodage du poids;50 gr
-WARNING;artefact:8495;mauvais encodage du poids;100 gr
+WARNING;artefact:8494;correction poids en kg;0.05
+WARNING;artefact:8495;correction poids en kg;0.1
 WARNING;artefact:8496;mauvais encodage de la longueur;b-r2.4
 WARNING;artefact:8496;mauvais encodage de la largeur;b-r2.5
 WARNING;artefact:8496;mauvais encodage de la hauteur;b-r2.6
@@ -16564,15 +19121,15 @@ WARNING;artefact:8497;mauvais encodage de la largeur;none
 WARNING;artefact:8497;mauvais encodage de la hauteur;b-r2.6
 WARNING;artefact:8497;mauvais encodage du poids;b-r2.7
 WARNING;artefact:8497;pas de date d'entrée
-WARNING;artefact:8498;mauvais encodage de la largeur;12mm
-WARNING;artefact:8498;mauvais encodage du poids;200gr
+WARNING;artefact:8498;correction largueur en cm;1.2
+WARNING;artefact:8498;correction poids en kg;0.2
 WARNING;artefact:8498;pas de date d'entrée
 WARNING;artefact:8499;mauvais encodage du poids;200fr
 WARNING;artefact:8499;pas de date d'entrée
-WARNING;artefact:8500;mauvais encodage du poids;400gr
+WARNING;artefact:8500;correction poids en kg;0.4
 WARNING;artefact:8500;pas de date d'entrée
-WARNING;artefact:8501;mauvais encodage de la largeur;13mm
-WARNING;artefact:8501;mauvais encodage du poids;200gr
+WARNING;artefact:8501;correction largueur en cm;1.3
+WARNING;artefact:8501;correction poids en kg;0.2
 WARNING;artefact:8501;pas de date d'entrée
 WARNING;artefact:8502;l'année de production est incorrecte;1956 à  CMB
 WARNING;artefact:8502;mauvais encodage de la longueur;none
@@ -16590,7 +19147,7 @@ WARNING;artefact:8504;mauvais encodage de la largeur;none
 WARNING;artefact:8504;mauvais encodage de la hauteur;none
 WARNING;artefact:8504;mauvais encodage du poids;none
 WARNING;artefact:8504;pas de date d'entrée
-WARNING;artefact:8505;mauvais encodage du poids;50 gr
+WARNING;artefact:8505;correction poids en kg;0.05
 WARNING;artefact:8506;mauvais encodage de la longueur;none
 WARNING;artefact:8506;mauvais encodage de la largeur;none
 WARNING;artefact:8506;mauvais encodage de la hauteur;none
@@ -17918,10 +20475,10 @@ WARNING;artefact:8942;mauvais encodage de la largeur;none
 WARNING;artefact:8942;mauvais encodage de la hauteur;none
 WARNING;artefact:8942;mauvais encodage du poids;none
 WARNING;artefact:8942;pas de date d'entrée
-WARNING;artefact:8943;mauvais encodage de la hauteur;5mm
-WARNING;artefact:8943;mauvais encodage du poids;100gr
+WARNING;artefact:8943;correction hauteur en cm;0.5
+WARNING;artefact:8943;correction poids en kg;0.1
 WARNING;artefact:8943;pas de date d'entrée
-WARNING;artefact:8944;mauvais encodage du poids;100gr
+WARNING;artefact:8944;correction poids en kg;0.1
 WARNING;artefact:8944;pas de date d'entrée
 WARNING;artefact:8945;mauvais encodage de la longueur;none
 WARNING;artefact:8945;mauvais encodage de la largeur;none
@@ -18159,9 +20716,6 @@ WARNING;artefact:9175;mauvais encodage de la longueur;none
 WARNING;artefact:9175;mauvais encodage de la largeur;none
 WARNING;artefact:9175;mauvais encodage de la hauteur;none
 WARNING;artefact:9175;mauvais encodage du poids;none
-ERROR;artefact:9175;Error 1064; 1064 (42000): Erreur de syntaxe près de 'attaché','XMAKBB00800',1988,0,'2005-08-08 00:00:00',NULL,NULL,NULL,NULL,'Avec h' à la ligne 1
-ERROR;artefact:9175;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('9175','PC lattaché','BM15 l'attaché','XMAKBB00800',1988,0,'2005-08-08 00:00:00',NULL,NULL,NULL,NULL,'Avec housse',NULL,NULL,1,NULL,26,9,32)
-
 WARNING;artefact:9176;mauvais encodage de la longueur;none
 WARNING;artefact:9176;mauvais encodage de la largeur;none
 WARNING;artefact:9176;mauvais encodage de la hauteur;none
@@ -18234,7 +20788,7 @@ WARNING;artefact:9231;mauvais encodage de la hauteur;none
 WARNING;artefact:9231;mauvais encodage du poids;none
 WARNING;artefact:9231;pas de date d'entrée
 WARNING;artefact:9232;l'année de production est incorrecte;0
-WARNING;artefact:9232;mauvais encodage de la hauteur;9mm
+WARNING;artefact:9232;correction hauteur en cm;0.9
 WARNING;artefact:9233;l'année de production est incorrecte;0
 WARNING;artefact:9234;l'année de production est incorrecte;0
 WARNING;artefact:9235;mauvais encodage de la longueur;none
@@ -18244,7 +20798,7 @@ WARNING;artefact:9235;mauvais encodage du poids;none
 WARNING;artefact:9235;pas de date d'entrée
 WARNING;artefact:9236;l'année de production est incorrecte;0
 WARNING;artefact:9238;l'année de production est incorrecte;0
-WARNING;artefact:9238;mauvais encodage de la hauteur;5mm
+WARNING;artefact:9238;correction hauteur en cm;0.5
 WARNING;artefact:9239;l'année de production est incorrecte;0
 WARNING;artefact:9240;l'année de production est incorrecte;0
 WARNING;artefact:9242;l'année de production est incorrecte;0
@@ -18544,7 +21098,7 @@ WARNING;artefact:9589;mauvais encodage de la hauteur;none
 WARNING;artefact:9589;mauvais encodage du poids;none
 WARNING;artefact:9589;pas de date d'entrée
 WARNING;artefact:9591;l'année de production est incorrecte;0
-WARNING;artefact:9592;mauvais encodage de la largeur;8mm
+WARNING;artefact:9592;correction largueur en cm;0.8
 WARNING;artefact:9595;pas de date d'entrée
 WARNING;artefact:9596;pas de date d'entrée
 WARNING;artefact:9598;pas de date d'entrée
@@ -18580,7 +21134,7 @@ WARNING;artefact:9606;mauvais encodage de la largeur;none
 WARNING;artefact:9606;mauvais encodage de la hauteur;none
 WARNING;artefact:9606;mauvais encodage du poids;none
 WARNING;artefact:9606;pas de date d'entrée
-WARNING;artefact:9607;mauvais encodage de la hauteur;3mm
+WARNING;artefact:9607;correction hauteur en cm;0.3
 WARNING;artefact:9608;l'année de production est incorrecte;0
 WARNING;artefact:9609;mauvais encodage de la longueur;none
 WARNING;artefact:9609;mauvais encodage de la largeur;none
@@ -18600,12 +21154,12 @@ WARNING;artefact:9624;l'année de production est incorrecte;0
 WARNING;artefact:9625;l'année de production est incorrecte;0
 WARNING;artefact:9626;l'année de production est incorrecte;0
 WARNING;artefact:9627;l'année de production est incorrecte;0
-WARNING;artefact:9629;mauvais encodage de la largeur;5mm
-WARNING;artefact:9630;mauvais encodage de la largeur;5mm
-WARNING;artefact:9631;mauvais encodage de la largeur;5mm
+WARNING;artefact:9629;correction largueur en cm;0.5
+WARNING;artefact:9630;correction largueur en cm;0.5
+WARNING;artefact:9631;correction largueur en cm;0.5
 WARNING;artefact:9632;l'année de production est incorrecte;0
 WARNING;artefact:9633;l'année de production est incorrecte;0
-WARNING;artefact:9633;mauvais encodage de la largeur;5mm
+WARNING;artefact:9633;correction largueur en cm;0.5
 WARNING;artefact:9636;l'année de production est incorrecte;0
 WARNING;artefact:9637;l'année de production est incorrecte;0
 WARNING;artefact:9638;l'année de production est incorrecte;0
@@ -18633,7 +21187,7 @@ WARNING;artefact:9676;l'année de production est incorrecte;0
 WARNING;artefact:9677;l'année de production est incorrecte;0
 WARNING;artefact:9678;l'année de production est incorrecte;0
 WARNING;artefact:9680;l'année de production est incorrecte;0
-WARNING;artefact:9681;mauvais encodage de la hauteur;10mm
+WARNING;artefact:9681;correction hauteur en cm;1.0
 WARNING;artefact:9686;mauvais encodage de la longueur;none
 WARNING;artefact:9686;mauvais encodage de la largeur;none
 WARNING;artefact:9686;mauvais encodage de la hauteur;none
@@ -18684,7 +21238,7 @@ WARNING;artefact:9719;pas de date d'entrée
 WARNING;artefact:9720;l'année de production est incorrecte;0
 WARNING;artefact:9721;l'année de production est incorrecte;0
 WARNING;artefact:9722;l'année de production est incorrecte;0
-WARNING;artefact:9728;mauvais encodage de la hauteur;22mm
+WARNING;artefact:9728;correction hauteur en cm;2.2
 WARNING;artefact:9733;l'année de production est incorrecte;0
 WARNING;artefact:9737;pas de date d'entrée
 WARNING;artefact:9738;mauvais encodage de la longueur;none
@@ -18749,7 +21303,7 @@ WARNING;artefact:9778;mauvais encodage de la largeur;none
 WARNING;artefact:9778;mauvais encodage de la hauteur;none
 WARNING;artefact:9778;mauvais encodage du poids;none
 WARNING;artefact:9778;pas de date d'entrée
-WARNING;artefact:9781;mauvais encodage de la longueur;86 mm
+WARNING;artefact:9781;correction longueur en cm;8.6
 WARNING;artefact:9800;mauvais encodage de la longueur;none
 WARNING;artefact:9800;mauvais encodage de la largeur;none
 WARNING;artefact:9800;mauvais encodage de la hauteur;none
@@ -20178,7 +22732,7 @@ WARNING;artefact:13024;pas de date d'entrée
 WARNING;artefact:13025;l'année de production est incorrecte;0
 WARNING;artefact:13025;pas de date d'entrée
 WARNING;artefact:13026;l'année de production est incorrecte;0
-WARNING;artefact:13026;mauvais encodage du poids;800gr
+WARNING;artefact:13026;correction poids en kg;0.8
 WARNING;artefact:13026;pas de date d'entrée
 WARNING;artefact:13027;pas de date d'entrée
 WARNING;artefact:13028;pas de date d'entrée
@@ -20198,7 +22752,7 @@ WARNING;artefact:13033;mauvais encodage de la largeur;none
 WARNING;artefact:13033;mauvais encodage de la hauteur;none
 WARNING;artefact:13033;mauvais encodage du poids;none
 WARNING;artefact:13033;pas de date d'entrée
-WARNING;artefact:15001;mauvais encodage du poids;100gr
+WARNING;artefact:15001;correction poids en kg;0.1
 WARNING;artefact:15001;pas de date d'entrée
 WARNING;artefact:15002;mauvais encodage de la longueur;none
 WARNING;artefact:15002;mauvais encodage de la largeur;none
@@ -20233,9 +22787,6 @@ WARNING;artefact:98002;l'année de production est incorrecte;1992?
 WARNING;artefact:98002;mauvais encodage de la hauteur;none
 WARNING;artefact:98002;mauvais encodage du poids;none
 WARNING;artefact:98002;pas de date d'entrée
-ERROR;artefact:98002;Error 1064; 1064 (42000): Erreur de syntaxe près de 'Arbre et la Banque','NULL',NULL,3,NULL,700,500,NULL,NULL,'NULL',NULL,78,1,NULL,1' à la ligne 1
-ERROR;artefact:98002;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('98002','Banque','L'Arbre et la Banque','NULL',NULL,3,NULL,700,500,NULL,NULL,'NULL',NULL,78,1,NULL,107,NULL,57)
-
 WARNING;artefact:98003;l'année de production est incorrecte;1992?
 WARNING;artefact:98003;mauvais encodage de la hauteur;none
 WARNING;artefact:98003;mauvais encodage du poids;none
@@ -21028,16 +23579,13 @@ WARNING;artefact:98309;mauvais encodage de la largeur;none
 WARNING;artefact:98309;mauvais encodage de la hauteur;none
 WARNING;artefact:98309;mauvais encodage du poids;none
 WARNING;artefact:98309;pas de date d'entrée
-ERROR;artefact:98309;Error 1064; 1064 (42000): Erreur de syntaxe près de 'esprit d'équipe','NULL',1985,1,NULL,NULL,NULL,NULL,NULL,'NULL',153,79,1,NULL,10' à la ligne 1
-ERROR;artefact:98309;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('98309','Porte Clé (carré plastic','l'esprit d'équipe','NULL',1985,1,NULL,NULL,NULL,NULL,NULL,'NULL',153,79,1,NULL,108,NULL,58)
-
 WARNING;artefact:98310;mauvais encodage de la longueur;none
 WARNING;artefact:98310;mauvais encodage de la largeur;none
 WARNING;artefact:98310;mauvais encodage de la hauteur;none
 WARNING;artefact:98310;mauvais encodage du poids;none
 WARNING;artefact:98310;pas de date d'entrée
 WARNING;artefact:98311;pas de date d'entrée
-WARNING;artefact:98313;mauvais encodage du poids;350gr
+WARNING;artefact:98313;correction poids en kg;0.35
 WARNING;artefact:98313;pas de date d'entrée
 WARNING;artefact:98314;mauvais encodage de la largeur;none
 WARNING;artefact:98314;mauvais encodage de la hauteur;none
@@ -21206,17 +23754,11 @@ WARNING;artefact:98513;pas de date d'entrée
 WARNING;artefact:98514;pas de date d'entrée
 WARNING;artefact:98515;mauvais encodage de la largeur; 
 WARNING;artefact:98515;pas de date d'entrée
-ERROR;artefact:98515;Error 1064; 1064 (42000): Erreur de syntaxe près de 'occasion tournoi de tennis','NULL',1985,5,NULL,20,NULL,22,23,'NULL',27,NULL,NULL' à la ligne 1
-ERROR;artefact:98515;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('98515','Dessins de Tome et janry','à l'occasion tournoi de tennis','NULL',1985,5,NULL,20,NULL,22,23,'NULL',27,NULL,NULL,NULL,NULL,1,58)
-
 WARNING;artefact:98516;mauvais encodage de la longueur;none
 WARNING;artefact:98516;mauvais encodage de la largeur;none
 WARNING;artefact:98516;mauvais encodage de la hauteur;none
 WARNING;artefact:98516;mauvais encodage du poids;none
 WARNING;artefact:98516;pas de date d'entrée
-ERROR;artefact:98516;Error 1064; 1064 (42000): Erreur de syntaxe près de 'occasion tournoi de tennis','NULL',1986,6,NULL,NULL,NULL,NULL,NULL,'30',NULL,NUL' à la ligne 1
-ERROR;artefact:98516;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('98516','Dessins de Tome et janry','à l'occasion tournoi de tennis','NULL',1986,6,NULL,NULL,NULL,NULL,NULL,'30',NULL,NULL,NULL,NULL,NULL,1,58)
-
 WARNING;artefact:98517;mauvais encodage de la largeur; 
 WARNING;artefact:98517;pas de date d'entrée
 WARNING;artefact:98518;mauvais encodage de la longueur;none
@@ -21234,9 +23776,6 @@ WARNING;artefact:98520;mauvais encodage de la largeur;none
 WARNING;artefact:98520;mauvais encodage de la hauteur;none
 WARNING;artefact:98520;mauvais encodage du poids;none
 WARNING;artefact:98520;pas de date d'entrée
-ERROR;artefact:98520;Error 1064; 1064 (42000): Erreur de syntaxe près de 'arbre Bull en bois','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',NULL,NULL,134,' à la ligne 1
-ERROR;artefact:98520;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('98520','Arbre Bull en bois','L'arbre Bull en bois','NULL',NULL,1,NULL,NULL,NULL,NULL,NULL,'NULL',NULL,NULL,134,NULL,104,1,58)
-
 WARNING;artefact:98521;pas de date d'entrée
 WARNING;artefact:98522;pas de date d'entrée
 WARNING;artefact:98523;mauvais encodage de la longueur;none
@@ -21380,7 +23919,7 @@ WARNING;artefact:98614;l'année de production est incorrecte;0
 WARNING;artefact:98615;l'année de production est incorrecte;0
 WARNING;artefact:98624;l'année de production est incorrecte;0
 ERROR;artefact:98624;Error 1292; 1292 (22007): Incorrect date value: '2019/17/12' for column 'dateIn' at row 1
-ERROR;artefact:98624;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('98624','Boites écrous,rondelles','0','0',NULL,1,'2019/17/12',12,12,17,1.5,'NULL',NULL,NULL,NULL,NULL,86,8,10)
+ERROR;artefact:98624;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('98624','Boites écrous,rondelles','0','0',NULL,1,'2019/17/12',12,12,17,1.5,'NULL',NULL,101,NULL,NULL,86,8,10)
 
 WARNING;artefact:98631;pas de quantité
 WARNING;artefact:98631;mauvais encodage de la longueur;none

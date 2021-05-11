@@ -16,6 +16,9 @@ def recup_conditionnement(cursor):
         local = row[18].value
         cond = row[17].value
         idA = row[0].value
+        if str(cond).__contains__("\'"):
+         # escape des caracères ' et "
+         cond = config.re.sub('[\'"]', '', cond)
         sql = "SELECT id_cond FROM conditionnements WHERE  conditionnement =\'" + str(cond).capitalize() + "\'"
         cursor.execute(sql)
         res = cursor.fetchone()

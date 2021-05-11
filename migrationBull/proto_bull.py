@@ -109,6 +109,9 @@ def process_modele(row):
     if modele is None:
         return None
     else:
+        if str(modele).__contains__("\'"):
+            # escape des caracères ' et "
+            modele = re.sub('[\'"]', '', modele)
         return modele
 
 
@@ -283,6 +286,9 @@ def process_localisation(row,conn):
     local = row[18].value
     id = None
     cursor = conn.cursor()
+    if str(local).__contains__("\'"):
+        # escape des caracères ' et "
+        local = re.sub('[\'"]', '', local)
     sql = "SELECT id_local FROM localisations WHERE localisation = \'" + str(local).capitalize() + "\'"
     cursor.execute(sql)
     res = cursor.fetchall()
@@ -304,6 +310,7 @@ def process_longueur(row):
     re1 = re.compile('^[0-9]+,*[0-9]*\s*cm$')
     re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*cm$')
+    re4 = re.compile('^[0-9]+\s*mm$')
     if longueur is None:
         config.logging.warning("artefact:"+str(id)+";pas de longueur")
         return None
@@ -317,6 +324,13 @@ def process_longueur(row):
         longueur = str(longueur).split("c")
         p = config.re.sub(',', '.', longueur[0])
         return p
+    elif re4.match(str(longueur)):
+        longueur = str(longueur).split("m")
+        if isinstance(int(longueur[0]), int):
+         p = int(longueur[0])
+         p = float(p/10)
+         config.logging.warning("artefact:" + str(id) + ";correction longueur en cm;" + str(p))
+         return p
     else:
          config.logging.warning("artefact:"+str(id)+";mauvais encodage de la longueur;"+str(longueur))
     return None
@@ -335,6 +349,7 @@ def process_largeur(row):
     re1 = re.compile('^[0-9]+,[0-9]*\s*cm$')
     re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*cm$')
+    re4 = re.compile('^[0-9]+\s*mm$')
     if largeur is None:
         config.logging.warning("artefact:"+str(id)+";pas de largeur")
         return None
@@ -348,6 +363,13 @@ def process_largeur(row):
         largeur = str(largeur).split("c")
         p = config.re.sub(',', '.', largeur[0])
         return p
+    elif re4.match(str(largeur)):
+        largeur = str(largeur).split("m")
+        if isinstance(int(largeur[0]), int):
+         p = int(largeur[0])
+         p = float(p/10)
+         config.logging.warning("artefact:" + str(id) + ";correction largueur en cm;" + str(p))
+         return p
     else:
         config.logging.warning("artefact:"+str(id)+";mauvais encodage de la largeur;"+str(largeur))
         return None
@@ -365,6 +387,7 @@ def process_hauteur(row):
     re1 = re.compile('^[0-9]+,[0-9]*\s*cm$')
     re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*cm$')
+    re4 = re.compile('^[0-9]+\s*mm$')
     if hauteur is None:
         config.logging.warning("artefact:"+str(id)+";pas de hauteur")
         return None
@@ -377,6 +400,13 @@ def process_hauteur(row):
     elif re3.match(str(hauteur)):
         hauteur = str(hauteur).split("c")
         return hauteur[0]
+    elif re4.match(str(hauteur)):
+        hauteur = str(hauteur).split("m")
+        if isinstance(int(hauteur[0]), int):
+         p = int(hauteur[0])
+         p = float(p/10)
+         config.logging.warning("artefact:" + str(id) + ";correction hauteur en cm;" + str(p))
+         return p
     else:
         config.logging.warning("artefact:"+str(id)+";mauvais encodage de la hauteur;"+str(hauteur))
         return None
@@ -395,6 +425,7 @@ def process_poids(row):
     re1 = re.compile('^[0-9]+,[0-9]*\s*kg$')
     re2 = re.compile('^[0-9]+\.*[0-9]*$')
     re3 = re.compile('^[0-9]+\s*kg$')
+    re4 = re.compile('^[0-9]+\s*gr$')
     if (poids is None):
         config.logging.warning("artefact:"+str(id)+";pas de poids")
         return None
@@ -408,6 +439,13 @@ def process_poids(row):
         poids = str(poids).split("k")
         p = config.re.sub(',', '.', poids[0])
         return p
+    elif re4.match(str(poids)):
+        poids = str(poids).split("g")
+        if isinstance(int(poids[0]),int):
+         p = int(poids[0])
+         p = float(p/1000)
+         config.logging.warning("artefact:" + str(id) + ";correction poids en kg;" + str(p))
+         return p
     else:
        config.logging.warning("artefact:"+str(id)+";mauvais encodage du poids;"+str(poids))
     return None
@@ -453,9 +491,7 @@ pas obligatoire
 
 def process_comment(row):
     comment = row[29].value
-    if comment is None:
-        comment = None
-    elif comment == 0:
+    if (comment is None) or (comment == 0):
         comment = None
     else:
         if str(comment).__contains__("\'"):
@@ -472,7 +508,14 @@ mettre le chemin d'acces
 
 
 def process_images(row):
-    return row[30].value
+    image = row[30].value
+    if (image is None) or(image == 0):
+        image = None
+    else:
+        if str(image).__contains__("\'"):
+         # escape des caracères ' et "
+         image = re.sub('[\'"]', '', image)
+    return image
 
 
 """
@@ -550,7 +593,8 @@ def process_row(row,conn):
      dateIn = process_datein(row)
      recolement = process_recolement(row)
      cursor = conn.cursor()
-     sqlDon=""
+     sqlDon = ""
+     sqlImage = ""
      idDon = None
      if donateur == 0:
          idDon = None
@@ -610,7 +654,8 @@ def process_row(row,conn):
          cursor.execute(sqllien)
      """
      # insertion dans la table images
-     sqlImage = "INSERT INTO `images`(`image`, `artefact_key`) VALUES (\'" + str(image) + "\'," + str(id) + ")"
+     if image is not None:
+      sqlImage = "INSERT INTO `images`(`image`, `artefact_key`) VALUES (\'" + str(image) + "\'," + str(id) + ")"
      try:
       cursor.execute(sqlImage)
      except mysql.connector.errors.DatabaseError as e:

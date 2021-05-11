@@ -68,9 +68,25 @@ def insertArtefact(ws,cursor):
         card['H'] = res[7]
         card['I'] = res[8]
         card['J'] = res[9]
-        card['K'] = res[10]
-        card['L'] = res[11]
-        card['M'] = res[12]
-        card['N'] = res[13]
+        if res[10] is not None:
+         sql = str(sqlExport.sqlD)+str(res[10])
+         cursor.execute(sql)
+         resultat = cursor.fetchone()
+         card['K'] = resultat[0]
+        if res[11] is not None:
+         sql = str(sqlExport.sqlP)+str(res[11])
+         cursor.execute(sql)
+         resultat = cursor.fetchone()
+         card['L'] = resultat[0]
+        if res[12] is not None:
+         sql = str(sqlExport.sqlE)+str(res[12])
+         cursor.execute(sql)
+         resultat = cursor.fetchone()
+         card['M'] = resultat[0]
+        if res[13] is not None:
+         sql = str(sqlExport.sqlLocal)+str(res[13])
+         cursor.execute(sql)
+         resultat = cursor.fetchone()
+         card['N'] = resultat[0]
         ws.append(card)
         card.clear()
