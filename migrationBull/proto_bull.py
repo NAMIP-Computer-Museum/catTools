@@ -629,13 +629,15 @@ def process_row(row,conn):
      p1 = "INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,"
      p2 = "`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,"
      if modele is not None:
-      p3 = "`appart_key`, `famille_key`) VALUES(\'" + str(id) + "\',\'" + str(libelle) + "\',\'" + str(modele) + "\',\'" + str(numSerie)
+         p3 = "`appart_key`, `famille_key`) VALUES(\'" + str(id) + "\',\'" + str(libelle) + "\',\'" + str(modele) + "\',\'" + str(numSerie)
      else:
          p3 = "`appart_key`, `famille_key`) VALUES(\'" + str(id) + "\',\'" + str(libelle) + "\',"+str(modele)+",\'" + str(numSerie)
+
      if dateIn is not None:
         p4 = "\'," + str(anProd) + "," + str(qte) + ",\'" + str(dateIn) + "\'," + str(long)+ "," +str(larg)+ "," +str(haut)+ "," +str(poids)
      else:
         p4 = "\'," + str(anProd) + "," + str(qte) + "," + str(dateIn) + "," +str(long)+ "," +str(larg)+ "," +str(haut)+ "," + str(poids)
+
      p5 = ",\'" + str(comment) + "\'," + str(idDon) + "," + str(cond) + "," + str(prod) + "," + str(etat) + "," + str(local)
      p6 = "," + str(appart) + "," + str(famille) + ")"
      sqlArtefact = p1 + p2 + p3 + p4 + p5 + p6
@@ -681,14 +683,14 @@ def process_row(row,conn):
             config.logging.error("artefact:" + str(id) + ";Error requête;"+str(sqlRecol))
             conn.rollback()
      conn.commit()
-def migration_Bull():
- wb = openpyxl.load_workbook(filename=config.pathBull2)
- ws = wb['Inventaire']
- """
+#def migration_Bull():
+wb = openpyxl.load_workbook(filename=config.pathBull2)
+ws = wb['Inventaire']
+"""
  boucle pour vérifier si les cellules d'une ligne sont compléter ou non et 
  si oui verifier si elle sont bien encodée + mise dans la DataBase si tout est OK 
- """
- try:
+"""
+try:
   conn = mysql.connector.connect(host=config.host, user=config.user, password=config.passwd, database=config.database)
   cursor = conn.cursor()
   listeEtat.recup_etat(cursor)
@@ -710,5 +712,5 @@ def migration_Bull():
         config.logging.warning("artefact:"+str(row[0].value)+";ligne vide;ignorée")
         continue
     process_row(row,conn)
- finally:
+finally:
     conn.close

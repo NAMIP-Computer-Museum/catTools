@@ -11,6 +11,7 @@ try:
      ws.title = "db"
      utilitaireExport.stylesheet(ws)
      utilitaireExport.insertArtefact(ws,cursor)
+     utilitaireExport.wrapcolumn(ws,5000)
 finally:
     conn.close
     wb.save(filename=config.filename)

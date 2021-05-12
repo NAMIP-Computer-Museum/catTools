@@ -1,10 +1,15 @@
 from catTools import config
 def addArtefact(artefact, cursor):
     p1 = "INSERT INTO artefacts (`id_artefact`,`sourceFile`, `libelle`, `modele`,`anProd`,`dateIn`, `longueur`,"
-    p2 = "`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`"
-    p3 = ") VALUES(\'" + str(artefact.getId()) + "\',\'"+str(artefact.getFile())+"\',\'" + str(artefact.getNom()) + "\',\'" + str(artefact.getModele()) + "\'," + str(artefact.getDateProd())
+    p2 = "`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`)"
+
+    if artefact.getModele() is not None:
+        p3 = " VALUES(\'" + str(artefact.getId()) + "\',\'"+str(artefact.getFile())+"\',\'" + str(artefact.getNom()) + "\',\'"+ str(artefact.getModele()) + "\',"+str(artefact.getDateProd())+","
+    else:
+        p3 = " VALUES(\'" + str(artefact.getId()) + "\',\'"+str(artefact.getFile())+"\',\'" + str(artefact.getNom()) + "\'," + str("NULL") + ","+str(artefact.getDateProd())+","
+
     if artefact.getDateIn() is not None:
-     p4 = ",\'" + str(artefact.getDateIn()) + "\'," + str(artefact.getLongueur()) + "," + str(artefact.getLargeur()) + ","+ str(artefact.getHauteur()) + "," + str(artefact.getPoids())
+     p4 = "\'" + str(artefact.getDateIn()) + "\'," + str(artefact.getLongueur()) + "," + str(artefact.getLargeur()) + ","+ str(artefact.getHauteur()) + "," + str(artefact.getPoids())
     else:
      p4 = "," + str(artefact.getDateIn()) + "," + str(artefact.getLongueur()) + "," + str(artefact.getLargeur()) + "," + str(artefact.getHauteur()) + "," + str(artefact.getPoids())
 
@@ -14,8 +19,8 @@ def addArtefact(artefact, cursor):
     try:
      cursor.execute(sql)
     except config.mysql.connector.errors.DatabaseError as e:
-        config.logging.error("artefact:" + str(artefact.getFile()) + ";Error %d; %s" % (e.args[0], e.args[1]))
-        config.logging.error("requete artefact;" + str(sql) + "\n")
+        config.logging.error("artefact:" + str(artefact.getFile()) + ";Error %d; ;%s" % (e.args[0], e.args[1]))
+        config.logging.error("artefact:" + str(artefact.getFile()) + ";requete artefact;" + str(sql))
 
 def addImage(artefact,cursor):
     for image in artefact.image:
@@ -23,5 +28,5 @@ def addImage(artefact,cursor):
      try:
       cursor.execute(sql)
      except config.mysql.connector.errors.DatabaseError as e:
-        config.logging.error("artefact:" + str(artefact.getFile()) + ";Error %d; %s" % (e.args[0], e.args[1]))
-        config.logging.error("requete artefact;" + str(sql) + "\n")
+        config.logging.error("artefact:" + str(artefact.getFile()) + ";Error %d; ;%s" % (e.args[0], e.args[1]))
+        config.logging.error("artefact:" + str(artefact.getFile()) + ";requete artefact;" + str(sql))

@@ -18,7 +18,7 @@ def stylesheet(ws):
     ws["C1"].font = config.font
     # colonne des numSerie
     ws.column_dimensions['D'].width = 15
-    ws["D1"] = "numéro série"
+    ws["D1"] = "modele"
     ws["D1"].font = config.font
     # colonne des anprod
     ws.column_dimensions['E'].width = 19
@@ -62,7 +62,10 @@ def insertArtefact(ws,cursor):
         card['A'] = res[0]
         card['B'] = res[1]
         card['C'] = res[2]
-        card['D'] = res[3]
+        if res[3] is not None:
+         card['D'] = res[3]
+        else:
+         card['D'] = ""
         card['E'] = res[4]
         card['F'] = res[5]
         card['G'] = res[6]
@@ -91,3 +94,7 @@ def insertArtefact(ws,cursor):
          card['N'] = resultat[0]
         ws.append(card)
         card.clear()
+def wrapcolumn(ws, longueur):
+    for row in ws.iter_rows(min_row=2, max_row=longueur+1, min_col=3, max_col=14):
+        for cell in row:
+            cell.alignment = config.wrap

@@ -1,5 +1,5 @@
 sqlAr ="Select a.id_artefact,a.sourceFile,"\
-       +"a.libelle,a.numSerie,"\
+       +"a.libelle,a.modele,"\
        +"a.anProd,a.dateIn,"\
        +"a.longueur,a.largeur,a.hauteur,a.poids,"\
        +"a.donateur_key,a.prod_key,a.etat_key,a.localisation_key"\
