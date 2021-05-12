@@ -314,7 +314,7 @@ def process_longueur(row):
     re3 = re.compile('^[0-9]+\s*cm$')
     re4 = re.compile('^[0-9]+\s*mm$')
     if (longueur is None) or (longueur == 'none'):
-        config.logging.warning("artefact:"+str(id)+";pas de longueur")
+        config.logging.warning("artefact:"+str(id)+";longueur est vide")
         return None
     elif re2.match(str(longueur)):
         return longueur
@@ -353,7 +353,7 @@ def process_largeur(row):
     re3 = re.compile('^[0-9]+\s*cm$')
     re4 = re.compile('^[0-9]+,[0-9]*\s*mm$')
     if (largeur is None) or (largeur == 'none'):
-        config.logging.warning("artefact:"+str(id)+";pas de largeur")
+        config.logging.warning("artefact:"+str(id)+";largeur est vide")
         return None
     elif re2.match(str(largeur)):
         return largeur
@@ -391,7 +391,7 @@ def process_hauteur(row):
     re3 = re.compile('^[0-9]+\s*cm$')
     re4 = re.compile('^[0-9]+\s*mm$')
     if hauteur is None or (hauteur == 'none'):
-        config.logging.warning("artefact:"+str(id)+";pas de hauteur")
+        config.logging.warning("artefact:"+str(id)+";hauteur est vide")
         return None
     elif re2.match(str(hauteur)):
         return hauteur
@@ -429,7 +429,7 @@ def process_poids(row):
     re3 = re.compile('^[0-9]+\s*kg$')
     re4 = re.compile('^[0-9]+\s*gr$')
     if (poids is None) or (poids == 'none'):
-        config.logging.warning("artefact:"+str(id)+";pas de poids")
+        config.logging.warning("artefact:"+str(id)+";poids est vide")
         return None
     elif re2.match(str(poids)):
         return poids
@@ -533,7 +533,7 @@ def process_datein(row):
     dateIn = None
     if (d is None) or isinstance(d,datetime.time):
         dateIn = None
-        config.logging.warning("artefact:" + str(id) + ";pas de date d'entrée")
+        config.logging.warning("artefact:" + str(id) + ";date d'entrée est vide")
         return None
     elif str(d) > str(datetime.datetime.today()):
         config.logging.warning("artefact:"+str(id)+";l'année de production est supérieure;"+str(d))

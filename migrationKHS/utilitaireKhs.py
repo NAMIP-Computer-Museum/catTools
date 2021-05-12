@@ -27,7 +27,7 @@ def dateInArtefact(root):
       date =str(year)+date
       return date
      else:
-         config.logging.warning("Artefact:"+str(id)+";pas de date d'entrée")
+         config.logging.warning("Artefact:"+str(id)+";date d'entrée est vide")
          return None
 
 def modeleArtefact(root):
@@ -120,6 +120,7 @@ def imageArtefact(root):
 
 def recupLocalisation(root, cursor):
     id = None
+    ida = root.find("INVID").text
     if root.find("ISBD/Z0/LIEU") is not None:
      loc = root.find("ISBD/Z0/LIEU").text
      sql = "SELECT id_local FROM localisations WHERE localisation = \'" + str(loc) + "\'"
@@ -129,7 +130,7 @@ def recupLocalisation(root, cursor):
         id = resultat[0]
      return id
     else :
-        config.logging.warning("artefact:"+str(id)+";localisation est vide")
+        config.logging.warning("artefact:"+str(ida)+";localisation est vide")
         return None
 
 
