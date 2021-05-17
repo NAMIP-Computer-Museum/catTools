@@ -14,7 +14,6 @@ def recup_etat(cursor):
     for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
         etat = row[11].value
         idA = row[0].value
-        id = None
         #verification si l'etat exsite dans la DB
         sql = "SELECT id_etat FROM etats WHERE etat =\'" + str(etat).upper() + "\'"
         cursor.execute(sql)

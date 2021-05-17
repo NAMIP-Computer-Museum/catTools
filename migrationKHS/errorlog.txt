@@ -65,9 +65,9 @@ WARNING;Artefact:FRB.FOBJ1.SCAL.1187;l'année de production est vide
 WARNING;artefact:FRB.FOBJ1.SCAL.1187;producteur est vide
 WARNING;Artefact:FRB.FOBJ1.SCAL.1211;l'année de production est vide
 WARNING;Artefact:FRB.FOBJ2;libelle est vide
-WARNING;Artefact:FRB.FOBJ2;pas de date d'entrée
+WARNING;Artefact:FRB.FOBJ2;date d'entrée est vide
 WARNING;Artefact:FRB.FOBJ2;l'année de production est vide
-WARNING;artefact:None;localisation est vide
+WARNING;artefact:FRB.FOBJ2;localisation est vide
 WARNING;artefact:FRB.FOBJ2;producteur est vide
 WARNING;artefact:FRB.FOBJ2;etat est vide
 WARNING;artefact:FRB.FOBJ2;la collection est vide
@@ -104,9 +104,9 @@ WARNING;Artefact:FRB.FOBJ2.SCAL.2211;l'année de production est vide
 WARNING;Artefact:FRB.FOBJ2.SCAL.2208;l'année de production est vide
 WARNING;Artefact:FRB.FOBJ2.SCAL.22089;l'année de production est vide
 WARNING;Artefact:FRB.FOBJ3;libelle est vide
-WARNING;Artefact:FRB.FOBJ3;pas de date d'entrée
+WARNING;Artefact:FRB.FOBJ3;date d'entrée est vide
 WARNING;Artefact:FRB.FOBJ3;l'année de production est vide
-WARNING;artefact:None;localisation est vide
+WARNING;artefact:FRB.FOBJ3;localisation est vide
 WARNING;artefact:FRB.FOBJ3;producteur est vide
 WARNING;artefact:FRB.FOBJ3;etat est vide
 WARNING;artefact:FRB.FOBJ3;la collection est vide
@@ -332,9 +332,9 @@ WARNING;Artefact:FRB.FOBJ3.SCAL.2201;l'année de production est vide
 WARNING;Artefact:FRB.FOBJ3.SCAL.1324;l'année de production est vide
 WARNING;artefact:FRB.FOBJ3.SCAL.1324;producteur est vide
 WARNING;Artefact:FRB.FOBJ4;libelle est vide
-WARNING;Artefact:FRB.FOBJ4;pas de date d'entrée
+WARNING;Artefact:FRB.FOBJ4;date d'entrée est vide
 WARNING;Artefact:FRB.FOBJ4;l'année de production est vide
-WARNING;artefact:None;localisation est vide
+WARNING;artefact:FRB.FOBJ4;localisation est vide
 WARNING;artefact:FRB.FOBJ4;producteur est vide
 WARNING;artefact:FRB.FOBJ4;etat est vide
 WARNING;artefact:FRB.FOBJ4;la collection est vide
@@ -342,9 +342,9 @@ ERROR;artefact:V0000290.xml;Error 1064; ;1064 (42000): Erreur de syntaxe près de
 ERROR;artefact:V0000290.xml;requete artefact;INSERT INTO artefacts (`id_artefact`,`sourceFile`, `libelle`, `modele`,`anProd`,`dateIn`, `longueur`,`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`) VALUES('FRB.FOBJ4','V0000290.xml','NULL',NULL,NULL,,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL)
 WARNING;artefact:FRB.FOBJ4.BULL.9007;dimensions sont vides 
 WARNING;Artefact:FRB.FOBJ5;libelle est vide
-WARNING;Artefact:FRB.FOBJ5;pas de date d'entrée
+WARNING;Artefact:FRB.FOBJ5;date d'entrée est vide
 WARNING;Artefact:FRB.FOBJ5;l'année de production est vide
-WARNING;artefact:None;localisation est vide
+WARNING;artefact:FRB.FOBJ5;localisation est vide
 WARNING;artefact:FRB.FOBJ5;producteur est vide
 WARNING;artefact:FRB.FOBJ5;etat est vide
 WARNING;artefact:FRB.FOBJ5;la collection est vide
@@ -353,9 +353,9 @@ ERROR;artefact:V0000301.xml;requete artefact;INSERT INTO artefacts (`id_artefact
 WARNING;Artefact:FRB.FOBJ5.SCAL.2182;l'année de production est vide
 WARNING;artefact:FRB.FOBJ5.SCAL.2182;producteur est vide
 WARNING;Artefact:FRB.FOBJ6;libelle est vide
-WARNING;Artefact:FRB.FOBJ6;pas de date d'entrée
+WARNING;Artefact:FRB.FOBJ6;date d'entrée est vide
 WARNING;Artefact:FRB.FOBJ6;l'année de production est vide
-WARNING;artefact:None;localisation est vide
+WARNING;artefact:FRB.FOBJ6;localisation est vide
 WARNING;artefact:FRB.FOBJ6;producteur est vide
 WARNING;artefact:FRB.FOBJ6;etat est vide
 WARNING;artefact:FRB.FOBJ6;la collection est vide

@@ -226,8 +226,11 @@ peut etre de différents état
 
 
 def process_etat(row,conn):
-    # print(row[5].value)
-    etat = row[5].value
+    """
+    verifier la recupératrion
+    """
+    id = None
+    etat = row[11].value
     if etat is None:
         return None
     else:
@@ -235,7 +238,6 @@ def process_etat(row,conn):
         sql = "SELECT id_etat FROM etats WHERE etat =\'" + str(etat).upper() + "\'"
         cursor.execute(sql)
         res = cursor.fetchall()
-        id = None
         for resultat in res:
             id = resultat[0]
     return id
@@ -291,7 +293,7 @@ def process_localisation(row,conn):
     if str(local).__contains__("\'"):
         # escape des caracères ' et "
         local = re.sub('[\'"]', '', local)
-    sql = "SELECT id_local FROM localisations WHERE localisation = \'" + str(local).capitalize() + "\'"
+    sql = "SELECT id_local FROM localisations WHERE localisation = \'" + str(local)+ "\'"
     cursor.execute(sql)
     res = cursor.fetchall()
     for resultat in res:

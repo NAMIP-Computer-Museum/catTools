@@ -14,7 +14,7 @@ def recup_localisation(cursor):
     for row in ws.iter_rows(min_row=config.min_row, max_col=config.max_column, max_row=config.max_row):
         local = row[18].value
         idA = row[0].value
-        sql = "SELECT id_local  FROM localisations WHERE localisation =\'" + str(local).capitalize() + "\'"
+        sql = "SELECT id_local  FROM localisations WHERE localisation =\'" + str(local)+"\'"
         cursor.execute(sql)
         res = cursor.fetchone()
         if res:
@@ -25,7 +25,7 @@ def recup_localisation(cursor):
             elif  (local is int) or  (local == 1 or local == 0):
                 config.logging.warning("artefact:" + str(idA) + ";localisation est incorrecte;"+str(local))
             else:
-              sql ="INSERT INTO localisations (localisation) VALUES(\'"+str(local).capitalize()+"\')"
+              sql ="INSERT INTO localisations (localisation) VALUES(\'"+str(local)+"\')"
               cursor.execute(sql)
 
 
