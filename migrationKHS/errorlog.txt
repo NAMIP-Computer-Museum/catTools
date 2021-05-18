@@ -71,7 +71,7 @@ WARNING;artefact:FRB.FOBJ2;localisation est vide
 WARNING;artefact:FRB.FOBJ2;producteur est vide
 WARNING;artefact:FRB.FOBJ2;etat est vide
 WARNING;artefact:FRB.FOBJ2;la collection est vide
-ERROR;artefact:V0000071.xml;Error 1064; ;1064 (42000): Erreur de syntaxe près de 'NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL)' à la ligne 1
+ERROR;artefact:V0000071.xml;Error 1064; ;1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL)' at line 1
 ERROR;artefact:V0000071.xml;requete artefact;INSERT INTO artefacts (`id_artefact`,`sourceFile`, `libelle`, `modele`,`anProd`,`dateIn`, `longueur`,`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`) VALUES('FRB.FOBJ2','V0000071.xml','NULL',NULL,NULL,,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL)
 WARNING;Artefact:FRB.FOBJ2.SCAL.1082;l'année de production est vide
 WARNING;artefact:FRB.FOBJ2.SCAL.2020;producteur est vide
@@ -110,7 +110,7 @@ WARNING;artefact:FRB.FOBJ3;localisation est vide
 WARNING;artefact:FRB.FOBJ3;producteur est vide
 WARNING;artefact:FRB.FOBJ3;etat est vide
 WARNING;artefact:FRB.FOBJ3;la collection est vide
-ERROR;artefact:V0000103.xml;Error 1064; ;1064 (42000): Erreur de syntaxe près de 'NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL)' à la ligne 1
+ERROR;artefact:V0000103.xml;Error 1064; ;1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL)' at line 1
 ERROR;artefact:V0000103.xml;requete artefact;INSERT INTO artefacts (`id_artefact`,`sourceFile`, `libelle`, `modele`,`anProd`,`dateIn`, `longueur`,`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`) VALUES('FRB.FOBJ3','V0000103.xml','NULL',NULL,NULL,,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL)
 WARNING;Artefact:FRB.FOBJ3.SCAL.1320;l'année de production est vide
 WARNING;artefact:FRB.FOBJ3.SCAL.1320;dimensions sont vides 
@@ -118,8 +118,8 @@ WARNING;artefact:FRB.FOBJ3.SCAL.1320;producteur est vide
 WARNING;artefact:FRB.FOBJ3.SCAL.2050;dimensions sont vides 
 WARNING;Artefact:FRB.FOBJ3.SCAL.2050;l'année de production est vide
 WARNING;artefact:FRB.FOBJ3.SCAL.2050;dimensions sont vides 
-ERROR;artefact:V0000106.xml;Error 1062; ;1062 (23000): Duplicata du champ 'FRB.FOBJ3.SCAL.2050' pour la clef 'PRIMARY'
-ERROR;artefact:V0000106.xml;requete artefact;INSERT INTO artefacts (`id_artefact`,`sourceFile`, `libelle`, `modele`,`anProd`,`dateIn`, `longueur`,`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`) VALUES('FRB.FOBJ3.SCAL.2050','V0000106.xml','Adler 109T: calculatrice électronique, étui','S/N 67.652.936',NULL,'2014-01-01',NULL,NULL,NULL,NULL,'',160,201,8,132)
+ERROR;artefact:V0000106.xml;Error 1062; ;1062 (23000): Duplicate entry 'FRB.FOBJ3.SCAL.2050' for key 'PRIMARY'
+ERROR;artefact:V0000106.xml;requete artefact;INSERT INTO artefacts (`id_artefact`,`sourceFile`, `libelle`, `modele`,`anProd`,`dateIn`, `longueur`,`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`) VALUES('FRB.FOBJ3.SCAL.2050','V0000106.xml','Adler 109T: calculatrice électronique, étui','S/N 67.652.936',NULL,'2014-01-01',NULL,NULL,NULL,NULL,'',204,201,8,132)
 WARNING;artefact:FRB.FOBJ3.SCAL.1038;dimensions sont vides 
 WARNING;Artefact:FRB.FOBJ3.SCAL.1308;l'année de production est vide
 WARNING;artefact:FRB.FOBJ3.SCAL.1308;dimensions sont vides 
@@ -338,7 +338,7 @@ WARNING;artefact:FRB.FOBJ4;localisation est vide
 WARNING;artefact:FRB.FOBJ4;producteur est vide
 WARNING;artefact:FRB.FOBJ4;etat est vide
 WARNING;artefact:FRB.FOBJ4;la collection est vide
-ERROR;artefact:V0000290.xml;Error 1064; ;1064 (42000): Erreur de syntaxe près de 'NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL)' à la ligne 1
+ERROR;artefact:V0000290.xml;Error 1064; ;1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL)' at line 1
 ERROR;artefact:V0000290.xml;requete artefact;INSERT INTO artefacts (`id_artefact`,`sourceFile`, `libelle`, `modele`,`anProd`,`dateIn`, `longueur`,`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`) VALUES('FRB.FOBJ4','V0000290.xml','NULL',NULL,NULL,,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL)
 WARNING;artefact:FRB.FOBJ4.BULL.9007;dimensions sont vides 
 WARNING;Artefact:FRB.FOBJ5;libelle est vide
@@ -348,7 +348,7 @@ WARNING;artefact:FRB.FOBJ5;localisation est vide
 WARNING;artefact:FRB.FOBJ5;producteur est vide
 WARNING;artefact:FRB.FOBJ5;etat est vide
 WARNING;artefact:FRB.FOBJ5;la collection est vide
-ERROR;artefact:V0000301.xml;Error 1064; ;1064 (42000): Erreur de syntaxe près de 'NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL)' à la ligne 1
+ERROR;artefact:V0000301.xml;Error 1064; ;1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL)' at line 1
 ERROR;artefact:V0000301.xml;requete artefact;INSERT INTO artefacts (`id_artefact`,`sourceFile`, `libelle`, `modele`,`anProd`,`dateIn`, `longueur`,`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`) VALUES('FRB.FOBJ5','V0000301.xml','NULL',NULL,NULL,,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL)
 WARNING;Artefact:FRB.FOBJ5.SCAL.2182;l'année de production est vide
 WARNING;artefact:FRB.FOBJ5.SCAL.2182;producteur est vide
@@ -359,7 +359,7 @@ WARNING;artefact:FRB.FOBJ6;localisation est vide
 WARNING;artefact:FRB.FOBJ6;producteur est vide
 WARNING;artefact:FRB.FOBJ6;etat est vide
 WARNING;artefact:FRB.FOBJ6;la collection est vide
-ERROR;artefact:V0000303.xml;Error 1064; ;1064 (42000): Erreur de syntaxe près de 'NULL,NULL,NULL,NULL,NULL,'Ordinateurs: assistants électroniques de poche (),, o' à la ligne 1
+ERROR;artefact:V0000303.xml;Error 1064; ;1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,NULL,NULL,NULL,NULL,'Ordinateurs: assistants électroniques de poche (),...' at line 1
 ERROR;artefact:V0000303.xml;requete artefact;INSERT INTO artefacts (`id_artefact`,`sourceFile`, `libelle`, `modele`,`anProd`,`dateIn`, `longueur`,`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`) VALUES('FRB.FOBJ6','V0000303.xml','NULL',NULL,NULL,,NULL,NULL,NULL,NULL,NULL,'Ordinateurs: assistants électroniques de poche (),, ordinateurs personnels de bureau, ordinateurs portables… et périphériques.',NULL,NULL,NULL,NULL)
 WARNING;Artefact:FRB.FOBJ6.SCAL.2082;l'année de production est vide
 WARNING;Artefact:FRB.FOBJ6.SCAL.2077;l'année de production est vide
@@ -432,10 +432,18 @@ WARNING;Artefact:FRB.FOBJ6.SCAL.2062;l'année de production est vide
 WARNING;Artefact:FRB.FOBJ6.SCAL.2167;l'année de production est vide
 WARNING;Artefact:FRB.FOBJ6.SCAL.2086;l'année de production est vide
 WARNING;Artefact:FRB.FOBJ6.SCAL.2199;l'année de production est vide
-ERROR;artefact:V0000387.xml;Error 1064; ;1064 (42000): Erreur de syntaxe près de 'juin 1984,'2014-01-01',48,42,18,15.6,'',160,253,64,175)' à la ligne 1
+ERROR;artefact:V0000387.xml;Error 1064; ;1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'juin 1984,'2014-01-01',48,42,18,15.6,'',204,253,64,175)' at line 1
 ERROR;artefact:V0000387.xml;requete artefact;INSERT INTO artefacts (`id_artefact`,`sourceFile`, `libelle`, `modele`,`anProd`,`dateIn`, `longueur`,`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`) VALUES('FRB.FOBJ6.SCAL.2200','V0000387.xml','IBM 5155 Personal Computer Portable: ordinateur portable, 2 lecteurs de disquettes 5"1/4, écran et clavier
                     intégrés
-                ','Model 68',1 juin 1984,'2014-01-01',48,42,18,15.6,'',160,253,64,175)
+                ','Model 68',1 juin 1984,'2014-01-01',48,42,18,15.6,'',204,253,64,175)
+ERROR;artefact:V0000387.xml;Error 1452; ;1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`durnal6`.`images`, CONSTRAINT `images_ibfk_1` FOREIGN KEY (`artefact_key`) REFERENCES `artefacts` (`id_artefact`))
+ERROR;artefact:V0000387.xml;requete artefact;INSERT INTO images(image,artefact_key) VALUES ('FOBJSCAL2200AR.jpg','FRB.FOBJ6.SCAL.2200')
+ERROR;artefact:V0000387.xml;Error 1452; ;1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`durnal6`.`images`, CONSTRAINT `images_ibfk_1` FOREIGN KEY (`artefact_key`) REFERENCES `artefacts` (`id_artefact`))
+ERROR;artefact:V0000387.xml;requete artefact;INSERT INTO images(image,artefact_key) VALUES ('FOBJSCAL2200BR.jpg','FRB.FOBJ6.SCAL.2200')
+ERROR;artefact:V0000387.xml;Error 1452; ;1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`durnal6`.`images`, CONSTRAINT `images_ibfk_1` FOREIGN KEY (`artefact_key`) REFERENCES `artefacts` (`id_artefact`))
+ERROR;artefact:V0000387.xml;requete artefact;INSERT INTO images(image,artefact_key) VALUES ('FOBJSCAL2200CR.jpg','FRB.FOBJ6.SCAL.2200')
+ERROR;artefact:V0000387.xml;Error 1452; ;1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`durnal6`.`images`, CONSTRAINT `images_ibfk_1` FOREIGN KEY (`artefact_key`) REFERENCES `artefacts` (`id_artefact`))
+ERROR;artefact:V0000387.xml;requete artefact;INSERT INTO images(image,artefact_key) VALUES ('FOBJSCAL2200DR.jpg','FRB.FOBJ6.SCAL.2200')
 WARNING;Artefact:FRB.FOBJ6.SCAL.2080;l'année de production est vide
 WARNING;Artefact:FRB.FOBJ6.SCAL.2090;l'année de production est vide
 WARNING;Artefact:FRB.FOBJ6.SCAL.2195;l'année de production est vide

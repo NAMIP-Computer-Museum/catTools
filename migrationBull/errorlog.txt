@@ -3046,7 +3046,7 @@ WARNING;artefact:98295;producteur est vide
 WARNING;artefact:98296;producteur est vide
 WARNING;artefact:98328;producteur est vide
 WARNING;artefact:98537;producteur est vide
-ERROR;artefact:None;Error 1064; 1064 (42000): Erreur de syntaxe près de 'application'' à la ligne 1
+ERROR;artefact:None;Error 1064; 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'application'' at line 1
 WARNING;artefact:99991;usage est vide
 WARNING;artefact:99992;usage est vide
 WARNING;artefact:99996;usage est vide
@@ -16270,7 +16270,7 @@ WARNING;artefact:None;conditionnement est vide
 WARNING;artefact:None;conditionnement est vide
 WARNING;artefact:None;conditionnement est vide
 WARNING;artefact:7;l'année de production est incorrecte;0
-ERROR;artefact:BULL-7;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-7;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-7;Error requête;INSERT INTO `recolements`(`recolement`, `artefact_key`) VALUES ('2021-01-12 00:00:00',BULL-7)
 WARNING;artefact:6987;l'année de production est incorrecte;14594
 WARNING;artefact:6987;date d'entrée est vide
@@ -16286,15 +16286,15 @@ WARNING;artefact:6990;mauvais encodage du poids;na
 WARNING;artefact:6990;date d'entrée est vide
 WARNING;artefact:6991;l'année de production est incorrecte;0
 WARNING;artefact:6991;mauvais encodage de la hauteur;a4
-ERROR;artefact:BULL-6991;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-6991;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-6991;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-6991)
 WARNING;artefact:6992;l'année de production est incorrecte;0
 WARNING;artefact:6992;mauvais encodage de la hauteur;a4
-ERROR;artefact:BULL-6992;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-6992;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-6992;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-6992)
 WARNING;artefact:6993;l'année de production est incorrecte;0
 WARNING;artefact:6993;mauvais encodage de la hauteur;a4
-ERROR;artefact:BULL-6993;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-6993;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-6993;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-6993)
 WARNING;artefact:6994;l'année de production est incorrecte;0
 WARNING;artefact:6994;date d'entrée est vide
@@ -16331,7 +16331,7 @@ WARNING;artefact:6999;date d'entrée est vide
 WARNING;artefact:7001;correction poids en kg;0.2
 WARNING;artefact:7001;date d'entrée est vide
 WARNING;artefact:7002;mauvais encodage de la hauteur;6cmm
-ERROR;artefact:BULL-7002;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-7002;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-7002;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-7002)
 WARNING;artefact:7003;longueur est vide
 WARNING;artefact:7003;largeur est vide
@@ -16351,18 +16351,18 @@ WARNING;artefact:7008;date d'entrée est vide
 WARNING;artefact:7009;ligne vide;ignorée
 WARNING;artefact:7010;correction poids en kg;0.3
 WARNING;artefact:7010;date d'entrée est vide
-ERROR;artefact:BULL-7010;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-7010;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-7010;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('De Charlie au DPS7000',BULL-7010)
 WARNING;artefact:7011;date d'entrée est vide
 WARNING;artefact:7012;correction poids en kg;0.2
 WARNING;artefact:7012;date d'entrée est vide
-ERROR;artefact:BULL-7012;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-7012;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-7012;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Father of the first  generation',BULL-7012)
 WARNING;artefact:7013;correction poids en kg;0.1
 WARNING;artefact:7013;date d'entrée est vide
 WARNING;artefact:7015;correction poids en kg;0.2
 WARNING;artefact:7015;date d'entrée est vide
-ERROR;artefact:BULL-7015;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-7015;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-7015;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Fenêtre sur 40 ans dinformatique',BULL-7015)
 WARNING;artefact:7017;correction poids en kg;0.3
 WARNING;artefact:7017;date d'entrée est vide
@@ -16377,7 +16377,7 @@ WARNING;artefact:7020;correction poids en kg;0.6
 WARNING;artefact:7020;date d'entrée est vide
 WARNING;artefact:7021;correction poids en kg;0.3
 WARNING;artefact:7021;date d'entrée est vide
-ERROR;artefact:BULL-7021;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-7021;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-7021;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('du bit à linternet par Hugues Bersini,Marie-Paule et Robert Spinette-Rose',BULL-7021)
 WARNING;artefact:7022;correction poids en kg;0.2
 WARNING;artefact:7022;date d'entrée est vide
@@ -16426,7 +16426,7 @@ WARNING;artefact:7038;largeur est vide
 WARNING;artefact:7038;hauteur est vide
 WARNING;artefact:7038;poids est vide
 WARNING;artefact:7038;date d'entrée est vide
-ERROR;artefact:BULL-7039;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-7039;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-7039;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-7039)
 WARNING;artefact:7040;longueur est vide
 WARNING;artefact:7040;largeur est vide
@@ -16710,7 +16710,7 @@ WARNING;artefact:7953;date d'entrée est vide
 WARNING;artefact:7954;mauvais encodage de la largeur; 
 WARNING;artefact:7954;date d'entrée est vide
 WARNING;artefact:7955;correction poids en kg;0.2
-ERROR;artefact:BULL-7955;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-7955;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-7955;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-7955)
 WARNING;artefact:7956;l'année de production est incorrecte;0
 WARNING;artefact:7956;mauvais encodage de la largeur; 
@@ -17125,7 +17125,7 @@ WARNING;artefact:8043;poids est vide
 WARNING;artefact:8043;date d'entrée est vide
 WARNING;artefact:8044;l'année de production est incorrecte;0
 WARNING;artefact:8044;l'année de production est inférieure;1985-01-01 00:00:00
-ERROR;artefact:BULL-8044;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-8044;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-8044;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-8044)
 WARNING;artefact:8045;l'année de production est vide;
 WARNING;artefact:8045;longueur est vide
@@ -17170,10 +17170,10 @@ WARNING;artefact:8051;hauteur est vide
 WARNING;artefact:8051;poids est vide
 WARNING;artefact:8051;date d'entrée est vide
 WARNING;artefact:8052;l'année de production est incorrecte;1968 à 1972
-ERROR;artefact:BULL-8052;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-8052;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-8052;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-8052)
 WARNING;artefact:8053;l'année de production est incorrecte;1968 à 1972
-ERROR;artefact:BULL-8053;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-8053;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-8053;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-8053)
 WARNING;artefact:8054;l'année de production est vide;
 WARNING;artefact:8054;longueur est vide
@@ -17197,7 +17197,7 @@ WARNING;artefact:8057;largeur est vide
 WARNING;artefact:8057;hauteur est vide
 WARNING;artefact:8057;poids est vide
 WARNING;artefact:8057;date d'entrée est vide
-ERROR;artefact:BULL-8058;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-8058;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-8058;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-8058)
 WARNING;artefact:8059;longueur est vide
 WARNING;artefact:8059;largeur est vide
@@ -17387,7 +17387,7 @@ WARNING;artefact:8100;hauteur est vide
 WARNING;artefact:8100;poids est vide
 WARNING;artefact:8100;date d'entrée est vide
 WARNING;artefact:8101;date d'entrée est vide
-ERROR;artefact:BULL-8102;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-8102;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-8102;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-8102)
 WARNING;artefact:8103;l'année de production est vide;
 WARNING;artefact:8103;longueur est vide
@@ -19250,7 +19250,7 @@ WARNING;artefact:8492;date d'entrée est vide
 WARNING;artefact:8493;date d'entrée est vide
 WARNING;artefact:8494;correction poids en kg;0.05
 WARNING;artefact:8495;correction poids en kg;0.1
-ERROR;artefact:BULL-8495;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-8495;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-8495;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-8495)
 WARNING;artefact:8496;mauvais encodage de la longueur;b-r2.4
 WARNING;artefact:8496;mauvais encodage de la largeur;b-r2.5
@@ -19737,7 +19737,7 @@ WARNING;artefact:8739;longueur est vide
 WARNING;artefact:8739;largeur est vide
 WARNING;artefact:8739;mauvais encodage du poids;ma
 WARNING;artefact:8739;date d'entrée est vide
-ERROR;artefact:BULL-8739;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-8739;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-8739;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('1',BULL-8739)
 WARNING;artefact:8740;longueur est vide
 WARNING;artefact:8740;largeur est vide
@@ -19794,7 +19794,7 @@ WARNING;artefact:8750;largeur est vide
 WARNING;artefact:8750;hauteur est vide
 WARNING;artefact:8750;poids est vide
 WARNING;artefact:8750;l'année de production est supérieure;227 834656
-ERROR;artefact:BULL-8750;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-8750;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-8750;Error requête;INSERT INTO `recolements`(`recolement`, `artefact_key`) VALUES ('Odhner',BULL-8750)
 WARNING;artefact:8751;longueur est vide
 WARNING;artefact:8751;largeur est vide
@@ -20623,7 +20623,7 @@ WARNING;artefact:8934;hauteur est vide
 WARNING;artefact:8934;poids est vide
 WARNING;artefact:8934;date d'entrée est vide
 WARNING;artefact:8935;l'année de production est incorrecte;0
-ERROR;artefact:BULL-8935;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-8935;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-8935;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-8935)
 WARNING;artefact:8936;l'année de production est vide;
 WARNING;artefact:8936;longueur est vide
@@ -20746,7 +20746,7 @@ WARNING;artefact:8959;poids est vide
 WARNING;artefact:8959;date d'entrée est vide
 WARNING;artefact:8963;l'année de production est incorrecte;0
 WARNING;artefact:8968;l'année de production est incorrecte;0
-ERROR;artefact:BULL-8969;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-8969;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-8969;Error requête;INSERT INTO `recolements`(`recolement`, `artefact_key`) VALUES ('2021-01-14 00:00:00',BULL-8969)
 WARNING;artefact:8974;l'année de production est incorrecte;0
 WARNING;artefact:8975;l'année de production est incorrecte;0
@@ -20758,7 +20758,7 @@ WARNING;artefact:8988;largeur est vide
 WARNING;artefact:8988;hauteur est vide
 WARNING;artefact:8988;poids est vide
 WARNING;artefact:8988;date d'entrée est vide
-ERROR;artefact:BULL-8989;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-8989;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-8989;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-8989)
 WARNING;artefact:8992;l'année de production est incorrecte;0
 WARNING;artefact:8993;l'année de production est incorrecte;0
@@ -20770,94 +20770,94 @@ WARNING;artefact:8999;largeur est vide
 WARNING;artefact:8999;hauteur est vide
 WARNING;artefact:8999;poids est vide
 WARNING;artefact:8999;date d'entrée est vide
-ERROR;artefact:BULL-9001;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9001;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9001;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9001)
-ERROR;artefact:BULL-9002;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9002;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9002;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9002)
-ERROR;artefact:BULL-9003;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9003;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9003;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9003)
-ERROR;artefact:BULL-9004;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9004;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9004;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9004)
-ERROR;artefact:BULL-9005;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9005;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9005;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9005)
-ERROR;artefact:BULL-9006;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9006;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9006;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9006)
 WARNING;artefact:9007;mauvais encodage de la hauteur;120cxm
-ERROR;artefact:BULL-9007;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9007;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9007;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('y',BULL-9007)
-ERROR;artefact:BULL-9008;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9008;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9008;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9008)
-ERROR;artefact:BULL-9010;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9010;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9010;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9010)
-ERROR;artefact:BULL-9011;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9011;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9011;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9011)
-ERROR;artefact:BULL-9012;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9012;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9012;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9012)
-ERROR;artefact:BULL-9013;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9013;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9013;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9013)
-ERROR;artefact:BULL-9014;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9014;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9014;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9014)
-ERROR;artefact:BULL-9015;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9015;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9015;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9015)
-ERROR;artefact:BULL-9016;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9016;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9016;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9016)
-ERROR;artefact:BULL-9017;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9017;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9017;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9017)
-ERROR;artefact:BULL-9018;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9018;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9018;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9018)
-ERROR;artefact:BULL-9019;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9019;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9019;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9019)
-ERROR;artefact:BULL-9020;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9020;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9020;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9020)
-ERROR;artefact:BULL-9021;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9021;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9021;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9021)
-ERROR;artefact:BULL-9022;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9022;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9022;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Y',BULL-9022)
-ERROR;artefact:BULL-9023;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9023;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9023;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9023)
-ERROR;artefact:BULL-9024;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9024;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9024;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9024)
 WARNING;artefact:9025;mauvais encodage de la hauteur;2,5cm11cm
-ERROR;artefact:BULL-9025;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9025;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9025;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9025)
-ERROR;artefact:BULL-9026;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9026;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9026;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('y',BULL-9026)
-ERROR;artefact:BULL-9027;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9027;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9027;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9027)
 WARNING;artefact:9028;longueur est vide
 WARNING;artefact:9028;largeur est vide
 WARNING;artefact:9028;hauteur est vide
 WARNING;artefact:9028;poids est vide
 WARNING;artefact:9028;date d'entrée est vide
-ERROR;artefact:BULL-9029;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9029;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9029;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\SPS-DPX-Unix',BULL-9029)
-ERROR;artefact:BULL-9030;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9030;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9030;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Tabulatrices et PC\Tabulatrices',BULL-9030)
-ERROR;artefact:BULL-9032;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9032;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9032;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Perforatrices\P80',BULL-9032)
-ERROR;artefact:BULL-9033;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9033;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9033;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-9033)
 WARNING;artefact:9034;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9036;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9036;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9036;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Tabulatrices et PC\Tabulatrices',BULL-9036)
-ERROR;artefact:BULL-9037;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9037;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9037;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Tabulatrices et PC\Tabulatrices',BULL-9037)
-ERROR;artefact:BULL-9038;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9038;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9038;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Tabulatrices et PC\Tabulatrices',BULL-9038)
 WARNING;artefact:9039;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9040;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9040;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9040;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-9040)
-ERROR;artefact:BULL-9041;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9041;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9041;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Tabulatrices et PC\PC',BULL-9041)
-ERROR;artefact:BULL-9042;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9042;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9042;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Tabulatrices et PC\PC',BULL-9042)
-ERROR;artefact:BULL-9043;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9043;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9043;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\reproductrices',BULL-9043)
-ERROR;artefact:BULL-9044;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9044;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9044;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\reproductrices',BULL-9044)
-ERROR;artefact:BULL-9046;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9046;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9046;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-9046)
-ERROR;artefact:BULL-9052;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9052;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9052;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\GE 400',BULL-9052)
 WARNING;artefact:9053;l'année de production est vide;
 WARNING;artefact:9053;longueur est vide
@@ -20865,9 +20865,9 @@ WARNING;artefact:9053;largeur est vide
 WARNING;artefact:9053;hauteur est vide
 WARNING;artefact:9053;poids est vide
 WARNING;artefact:9053;date d'entrée est vide
-ERROR;artefact:BULL-9053;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9053;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9053;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Mini 6-DPS 6',BULL-9053)
-ERROR;artefact:BULL-9054;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9054;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9054;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Mini 6-DPS 6',BULL-9054)
 WARNING;artefact:9055;l'année de production est vide;
 WARNING;artefact:9055;longueur est vide
@@ -20875,86 +20875,86 @@ WARNING;artefact:9055;largeur est vide
 WARNING;artefact:9055;hauteur est vide
 WARNING;artefact:9055;poids est vide
 WARNING;artefact:9055;date d'entrée est vide
-ERROR;artefact:BULL-9056;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9056;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9056;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Imprimantes',BULL-9056)
 WARNING;artefact:9057;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9058;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9058;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9058;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\GE 265 time-sharing',BULL-9058)
 WARNING;artefact:9059;l'année de production est vide;
-ERROR;artefact:BULL-9059;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9059;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9059;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-9059)
 WARNING;artefact:9060;longueur est vide
 WARNING;artefact:9060;largeur est vide
 WARNING;artefact:9060;hauteur est vide
 WARNING;artefact:9060;poids est vide
 WARNING;artefact:9060;date d'entrée est vide
-ERROR;artefact:BULL-9060;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9060;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9060;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\GE 265 time-sharing',BULL-9060)
 WARNING;artefact:9061;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9061;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9061;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9061;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9061)
 WARNING;artefact:9062;longueur est vide
 WARNING;artefact:9062;largeur est vide
 WARNING;artefact:9062;hauteur est vide
 WARNING;artefact:9062;poids est vide
 WARNING;artefact:9062;date d'entrée est vide
-ERROR;artefact:BULL-9062;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9062;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9062;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9062)
 WARNING;artefact:9063;date d'entrée est vide
-ERROR;artefact:BULL-9063;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9063;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9063;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Imprimantes',BULL-9063)
 WARNING;artefact:9064;date d'entrée est vide
-ERROR;artefact:BULL-9065;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9065;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9065;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Postes de travail',BULL-9065)
 WARNING;artefact:9066;longueur est vide
 WARNING;artefact:9066;largeur est vide
 WARNING;artefact:9066;hauteur est vide
 WARNING;artefact:9066;poids est vide
 WARNING;artefact:9066;date d'entrée est vide
-ERROR;artefact:BULL-9066;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9066;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9066;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Postes de travail',BULL-9066)
-ERROR;artefact:BULL-9067;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9067;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9067;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Postes de travail',BULL-9067)
-ERROR;artefact:BULL-9068;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9068;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9068;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Telecom',BULL-9068)
-ERROR;artefact:BULL-9069;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9069;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9069;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Telecom',BULL-9069)
-ERROR;artefact:BULL-9072;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9072;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9072;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Telecom',BULL-9072)
 WARNING;artefact:9074;l'année de production est vide;
 WARNING;artefact:9076;l'année de production est vide;
 WARNING;artefact:9079;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9079;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9079;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9079;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('#REF!',BULL-9079)
-ERROR;artefact:BULL-9080;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9080;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9080;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9080)
 WARNING;artefact:9081;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9082;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9082;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9082;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Postes de travail',BULL-9082)
-ERROR;artefact:BULL-9083;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9083;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9083;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Postes de travail',BULL-9083)
-ERROR;artefact:BULL-9084;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9084;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9084;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('#N/A',BULL-9084)
-ERROR;artefact:BULL-9086;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9086;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9086;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\reproductrices',BULL-9086)
-ERROR;artefact:BULL-9087;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9087;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9087;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Divers\Outils',BULL-9087)
 WARNING;artefact:9089;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9089;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9089;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9089;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Tabulatrices et PC\Tabulatrices',BULL-9089)
 WARNING;artefact:9090;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9090;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9090;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9090;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Cartes perf\Divers-Outils',BULL-9090)
-ERROR;artefact:BULL-9091;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9091;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9091;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('#REF!',BULL-9091)
 WARNING;artefact:9092;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9092;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9092;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9092;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Supports magnétiques',BULL-9092)
 WARNING;artefact:9093;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9093;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9093;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9093;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Supports magnétiques',BULL-9093)
 WARNING;artefact:9094;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9096;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9096;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9096;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Perforatrices\P80',BULL-9096)
 WARNING;artefact:9098;l'année de production est vide;
 WARNING;artefact:9098;longueur est vide
@@ -20962,39 +20962,39 @@ WARNING;artefact:9098;largeur est vide
 WARNING;artefact:9098;hauteur est vide
 WARNING;artefact:9098;poids est vide
 WARNING;artefact:9098;date d'entrée est vide
-ERROR;artefact:BULL-9098;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9098;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9098;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Zenith',BULL-9098)
-ERROR;artefact:BULL-9099;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9099;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9099;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Zenith',BULL-9099)
-ERROR;artefact:BULL-9100;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9100;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9100;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9100)
 WARNING;artefact:9101;longueur est vide
 WARNING;artefact:9101;largeur est vide
 WARNING;artefact:9101;hauteur est vide
 WARNING;artefact:9101;poids est vide
 WARNING;artefact:9101;date d'entrée est vide
-ERROR;artefact:BULL-9101;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9101;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9101;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Postes de travail',BULL-9101)
-ERROR;artefact:BULL-9102;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9102;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9102;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Postes de travail',BULL-9102)
 WARNING;artefact:9104;longueur est vide
 WARNING;artefact:9104;largeur est vide
 WARNING;artefact:9104;hauteur est vide
 WARNING;artefact:9104;poids est vide
 WARNING;artefact:9104;date d'entrée est vide
-ERROR;artefact:BULL-9104;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9104;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9104;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Imprimantes',BULL-9104)
 WARNING;artefact:9106;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9107;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9107;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9107;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Telecom',BULL-9107)
-ERROR;artefact:BULL-9108;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9108;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9108;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Telecom',BULL-9108)
-ERROR;artefact:BULL-9109;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9109;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9109;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Tabulatrices et PC\Tabulatrices',BULL-9109)
 WARNING;artefact:9112;date d'entrée est vide
-ERROR;artefact:BULL-9112;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9112;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9112;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-9112)
-ERROR;artefact:BULL-9113;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9113;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9113;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\DPS 90-9000',BULL-9113)
 WARNING;artefact:9114;longueur est vide
 WARNING;artefact:9114;largeur est vide
@@ -21014,68 +21014,68 @@ WARNING;artefact:9121;largeur est vide
 WARNING;artefact:9121;hauteur est vide
 WARNING;artefact:9121;poids est vide
 WARNING;artefact:9121;date d'entrée est vide
-ERROR;artefact:BULL-9122;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9122;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9122;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Bancaire',BULL-9122)
-ERROR;artefact:BULL-9123;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9123;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9123;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\SPS-DPX-Unix',BULL-9123)
-ERROR;artefact:BULL-9124;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9124;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9124;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\SPS-DPX-Unix',BULL-9124)
-ERROR;artefact:BULL-9125;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9125;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9125;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\SPS-DPX-Unix',BULL-9125)
-ERROR;artefact:BULL-9126;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9126;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9126;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\G 55-58-61',BULL-9126)
-ERROR;artefact:BULL-9127;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9127;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9127;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\G 55-58-61',BULL-9127)
-ERROR;artefact:BULL-9128;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9128;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9128;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\G 55-58-61',BULL-9128)
-ERROR;artefact:BULL-9129;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9129;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9129;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Imprimantes',BULL-9129)
 WARNING;artefact:9130;longueur est vide
 WARNING;artefact:9130;largeur est vide
 WARNING;artefact:9130;hauteur est vide
 WARNING;artefact:9130;poids est vide
-ERROR;artefact:BULL-9130;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9130;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9130;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\G 55-58-61',BULL-9130)
-ERROR;artefact:BULL-9131;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9131;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9131;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9131)
 WARNING;artefact:9132;longueur est vide
 WARNING;artefact:9132;largeur est vide
 WARNING;artefact:9132;hauteur est vide
 WARNING;artefact:9132;poids est vide
 WARNING;artefact:9132;date d'entrée est vide
-ERROR;artefact:BULL-9132;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9132;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9132;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9132)
 WARNING;artefact:9133;longueur est vide
 WARNING;artefact:9133;largeur est vide
 WARNING;artefact:9133;hauteur est vide
 WARNING;artefact:9133;poids est vide
 WARNING;artefact:9133;date d'entrée est vide
-ERROR;artefact:BULL-9133;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9133;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9133;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9133)
 WARNING;artefact:9134;longueur est vide
 WARNING;artefact:9134;largeur est vide
 WARNING;artefact:9134;hauteur est vide
 WARNING;artefact:9134;poids est vide
 WARNING;artefact:9134;date d'entrée est vide
-ERROR;artefact:BULL-9134;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9134;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9134;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9134)
 WARNING;artefact:9135;date d'entrée est vide
-ERROR;artefact:BULL-9135;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9135;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9135;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Mini 6-DPS 6',BULL-9135)
-ERROR;artefact:BULL-9136;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9136;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9136;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-9136)
-ERROR;artefact:BULL-9137;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9137;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9137;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Postes de travail',BULL-9137)
-ERROR;artefact:BULL-9138;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9138;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9138;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9138)
 WARNING;artefact:9141;longueur est vide
 WARNING;artefact:9141;largeur est vide
 WARNING;artefact:9141;hauteur est vide
 WARNING;artefact:9141;poids est vide
 WARNING;artefact:9141;date d'entrée est vide
-ERROR;artefact:BULL-9142;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9142;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9142;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Imprimantes',BULL-9142)
-ERROR;artefact:BULL-9145;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9145;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9145;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Imprimantes',BULL-9145)
 WARNING;artefact:9146;l'année de production est incorrecte;0
 WARNING;artefact:9147;longueur est vide
@@ -21083,53 +21083,53 @@ WARNING;artefact:9147;largeur est vide
 WARNING;artefact:9147;hauteur est vide
 WARNING;artefact:9147;poids est vide
 WARNING;artefact:9147;date d'entrée est vide
-ERROR;artefact:BULL-9147;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9147;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9147;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-9147)
-ERROR;artefact:BULL-9148;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9148;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9148;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-9148)
 WARNING;artefact:9149;longueur est vide
 WARNING;artefact:9149;largeur est vide
 WARNING;artefact:9149;hauteur est vide
 WARNING;artefact:9149;poids est vide
 WARNING;artefact:9149;date d'entrée est vide
-ERROR;artefact:BULL-9151;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9151;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9151;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Postes de travail',BULL-9151)
-ERROR;artefact:BULL-9152;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9152;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9152;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Postes de travail',BULL-9152)
-ERROR;artefact:BULL-9153;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9153;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9153;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9153)
-ERROR;artefact:BULL-9154;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9154;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9154;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Imprimantes',BULL-9154)
-ERROR;artefact:BULL-9155;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9155;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9155;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-9155)
-ERROR;artefact:BULL-9157;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9157;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9157;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9157)
 WARNING;artefact:9158;longueur est vide
 WARNING;artefact:9158;largeur est vide
 WARNING;artefact:9158;hauteur est vide
 WARNING;artefact:9158;poids est vide
 WARNING;artefact:9158;date d'entrée est vide
-ERROR;artefact:BULL-9158;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9158;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9158;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9158)
-ERROR;artefact:BULL-9159;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9159;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9159;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9159)
-ERROR;artefact:BULL-9160;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9160;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9160;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9160)
-ERROR;artefact:BULL-9161;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9161;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9161;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9161)
-ERROR;artefact:BULL-9162;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9162;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9162;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9162)
 WARNING;artefact:9163;longueur est vide
 WARNING;artefact:9163;largeur est vide
 WARNING;artefact:9163;hauteur est vide
 WARNING;artefact:9163;poids est vide
 WARNING;artefact:9163;date d'entrée est vide
-ERROR;artefact:BULL-9163;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9163;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9163;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9163)
 WARNING;artefact:9165;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9165;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9165;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9165;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9165)
-ERROR;artefact:BULL-9166;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9166;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9166;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9166)
 WARNING;artefact:9167;l'année de production est vide;
 WARNING;artefact:9167;longueur est vide
@@ -21138,46 +21138,46 @@ WARNING;artefact:9167;hauteur est vide
 WARNING;artefact:9167;poids est vide
 WARNING;artefact:9167;date d'entrée est vide
 WARNING;artefact:9168;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9169;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9169;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9169;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\G 55-58-61',BULL-9169)
 WARNING;artefact:9170;longueur est vide
 WARNING;artefact:9170;largeur est vide
 WARNING;artefact:9170;hauteur est vide
 WARNING;artefact:9170;poids est vide
 WARNING;artefact:9170;date d'entrée est vide
-ERROR;artefact:BULL-9170;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9170;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9170;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\CP8',BULL-9170)
 WARNING;artefact:9171;longueur est vide
 WARNING;artefact:9171;largeur est vide
 WARNING;artefact:9171;hauteur est vide
 WARNING;artefact:9171;poids est vide
 WARNING;artefact:9171;date d'entrée est vide
-ERROR;artefact:BULL-9171;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9171;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9171;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9171)
-ERROR;artefact:BULL-9172;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9172;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9172;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9172)
-ERROR;artefact:BULL-9173;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9173;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9173;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9173)
-ERROR;artefact:BULL-9174;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9174;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9174;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-9174)
 WARNING;artefact:9175;longueur est vide
 WARNING;artefact:9175;largeur est vide
 WARNING;artefact:9175;hauteur est vide
 WARNING;artefact:9175;poids est vide
-ERROR;artefact:BULL-9175;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9175;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9175;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9175)
 WARNING;artefact:9176;longueur est vide
 WARNING;artefact:9176;largeur est vide
 WARNING;artefact:9176;hauteur est vide
 WARNING;artefact:9176;poids est vide
-ERROR;artefact:BULL-9176;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9176;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9176;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9176)
 WARNING;artefact:9177;longueur est vide
 WARNING;artefact:9177;largeur est vide
 WARNING;artefact:9177;hauteur est vide
 WARNING;artefact:9177;poids est vide
 WARNING;artefact:9178;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9178;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9178;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9178;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-9178)
 WARNING;artefact:9179;l'année de production est vide;
 WARNING;artefact:9179;longueur est vide
@@ -21190,7 +21190,7 @@ WARNING;artefact:9180;largeur est vide
 WARNING;artefact:9180;hauteur est vide
 WARNING;artefact:9180;poids est vide
 WARNING;artefact:9180;date d'entrée est vide
-ERROR;artefact:BULL-9182;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9182;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9182;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Perforatrices\P80',BULL-9182)
 WARNING;artefact:9183;l'année de production est incorrecte;0
 WARNING;artefact:9184;longueur est vide
@@ -21199,39 +21199,39 @@ WARNING;artefact:9184;hauteur est vide
 WARNING;artefact:9184;poids est vide
 WARNING;artefact:9184;date d'entrée est vide
 WARNING;artefact:9185;date d'entrée est vide
-ERROR;artefact:BULL-9185;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9185;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9185;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\NIP',BULL-9185)
-ERROR;artefact:BULL-9187;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9187;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9187;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\SPS-DPX-Unix',BULL-9187)
-ERROR;artefact:BULL-9188;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9188;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9188;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-9188)
-ERROR;artefact:BULL-9190;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9190;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9190;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\DPS 90-9000',BULL-9190)
-ERROR;artefact:BULL-9191;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9191;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9191;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\DPS 90-9000',BULL-9191)
-ERROR;artefact:BULL-9192;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9192;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9192;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-9192)
-ERROR;artefact:BULL-9200;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9200;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9200;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-9200)
 WARNING;artefact:9201;l'année de production est vide;
 WARNING;artefact:9202;l'année de production est vide;
-ERROR;artefact:BULL-9203;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9203;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9203;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Perforatrices\P112',BULL-9203)
-ERROR;artefact:BULL-9204;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9204;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9204;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\150-Gamma 3\Perforatrices\P112',BULL-9204)
 WARNING;artefact:9205;l'année de production est vide;
-ERROR;artefact:BULL-9205;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9205;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9205;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Postes de travail',BULL-9205)
 WARNING;artefact:9206;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9206;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9206;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9206;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9206)
 WARNING;artefact:9207;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9207;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9207;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9207;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9207)
 WARNING;artefact:9208;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9208;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9208;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9208;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Bull et divers',BULL-9208)
-ERROR;artefact:BULL-9209;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9209;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9209;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-9209)
 WARNING;artefact:9210;l'année de production est vide;
 WARNING;artefact:9210;longueur est vide
@@ -21239,7 +21239,7 @@ WARNING;artefact:9210;largeur est vide
 WARNING;artefact:9210;hauteur est vide
 WARNING;artefact:9210;poids est vide
 WARNING;artefact:9210;date d'entrée est vide
-ERROR;artefact:BULL-9210;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9210;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9210;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Mini 6-DPS 6',BULL-9210)
 WARNING;artefact:9211;l'année de production est incorrecte;0
 WARNING;artefact:9212;l'année de production est incorrecte;0
@@ -21248,10 +21248,10 @@ WARNING;artefact:9213;date d'entrée est vide
 WARNING;artefact:9214;l'année de production est incorrecte;0
 WARNING;artefact:9214;longueur est vide
 WARNING;artefact:9214;largeur est vide
-ERROR;artefact:BULL-9214;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9214;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9214;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\SPS-DPX-Unix',BULL-9214)
 WARNING;artefact:9215;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9215;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9215;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9215;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\SPS-DPX-Unix',BULL-9215)
 WARNING;artefact:9216;l'année de production est vide;
 WARNING;artefact:9216;longueur est vide
@@ -21259,15 +21259,15 @@ WARNING;artefact:9216;largeur est vide
 WARNING;artefact:9216;hauteur est vide
 WARNING;artefact:9216;poids est vide
 WARNING;artefact:9216;date d'entrée est vide
-ERROR;artefact:BULL-9216;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9216;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9216;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-9216)
 WARNING;artefact:9217;date d'entrée est vide
-ERROR;artefact:BULL-9218;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9218;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9218;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\G 60',BULL-9218)
 WARNING;artefact:9219;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9219;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9219;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9219;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9219)
-ERROR;artefact:BULL-9220;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9220;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9220;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\CP8',BULL-9220)
 WARNING;artefact:9221;l'année de production est vide;
 WARNING;artefact:9221;longueur est vide
@@ -21275,7 +21275,7 @@ WARNING;artefact:9221;largeur est vide
 WARNING;artefact:9221;hauteur est vide
 WARNING;artefact:9221;poids est vide
 WARNING;artefact:9221;date d'entrée est vide
-ERROR;artefact:BULL-9221;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9221;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9221;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\CP8',BULL-9221)
 WARNING;artefact:9222;l'année de production est incorrecte;0
 WARNING;artefact:9222;longueur est vide
@@ -21283,21 +21283,21 @@ WARNING;artefact:9222;largeur est vide
 WARNING;artefact:9222;hauteur est vide
 WARNING;artefact:9222;poids est vide
 WARNING;artefact:9222;date d'entrée est vide
-ERROR;artefact:BULL-9222;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9222;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9222;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Zenith',BULL-9222)
 WARNING;artefact:9223;l'année de production est vide;
 WARNING;artefact:9224;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9224;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9224;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9224;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9224)
 WARNING;artefact:9225;l'année de production est incorrecte;0
 WARNING;artefact:9225;mauvais encodage du poids;0,05k
-ERROR;artefact:BULL-9225;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9225;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9225;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9225)
 WARNING;artefact:9226;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9226;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9226;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9226;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9226)
 WARNING;artefact:9227;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9227;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9227;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9227;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-9227)
 WARNING;artefact:9228;l'année de production est vide;
 WARNING;artefact:9229;l'année de production est vide;
@@ -21312,7 +21312,7 @@ WARNING;artefact:9231;date d'entrée est vide
 WARNING;artefact:9232;l'année de production est incorrecte;0
 WARNING;artefact:9232;correction hauteur en cm;0.9
 WARNING;artefact:9233;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9233;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9233;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9233;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9233)
 WARNING;artefact:9234;l'année de production est incorrecte;0
 WARNING;artefact:9235;l'année de production est vide;
@@ -21322,17 +21322,17 @@ WARNING;artefact:9235;hauteur est vide
 WARNING;artefact:9235;poids est vide
 WARNING;artefact:9235;date d'entrée est vide
 WARNING;artefact:9236;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9236;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9236;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9236;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9236)
-ERROR;artefact:BULL-9237;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9237;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9237;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9237)
 WARNING;artefact:9238;l'année de production est incorrecte;0
 WARNING;artefact:9238;correction hauteur en cm;0.5
 WARNING;artefact:9239;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9239;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9239;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9239;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9239)
 WARNING;artefact:9240;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9240;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9240;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9240;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\GE 400',BULL-9240)
 WARNING;artefact:9242;l'année de production est incorrecte;0
 WARNING;artefact:9243;l'année de production est incorrecte;0
@@ -21353,7 +21353,7 @@ WARNING;artefact:9256;l'année de production est incorrecte;0
 WARNING;artefact:9257;l'année de production est incorrecte;0
 WARNING;artefact:9258;l'année de production est incorrecte;0
 WARNING;artefact:9259;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9259;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9259;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9259;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Y',BULL-9259)
 WARNING;artefact:9260;l'année de production est incorrecte;0
 WARNING;artefact:9261;l'année de production est incorrecte;0
@@ -21363,35 +21363,35 @@ WARNING;artefact:9262;largeur est vide
 WARNING;artefact:9262;hauteur est vide
 WARNING;artefact:9262;poids est vide
 WARNING;artefact:9264;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9264;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9264;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9264;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Imprimantes',BULL-9264)
-ERROR;artefact:BULL-9265;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9265;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9265;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-9265)
 WARNING;artefact:9266;l'année de production est incorrecte;0
 WARNING;artefact:9267;l'année de production est vide;
 WARNING;artefact:9267;mauvais encodage de la hauteur;0,5mm
-ERROR;artefact:BULL-9267;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9267;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9267;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\CP8',BULL-9267)
 WARNING;artefact:9269;l'année de production est vide;
-ERROR;artefact:BULL-9269;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9269;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9269;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\CP8',BULL-9269)
 WARNING;artefact:9272;longueur est vide
 WARNING;artefact:9272;largeur est vide
 WARNING;artefact:9272;hauteur est vide
 WARNING;artefact:9272;poids est vide
-ERROR;artefact:BULL-9272;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9272;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9272;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Postes de travail',BULL-9272)
 WARNING;artefact:9273;l'année de production est incorrecte;0
 WARNING;artefact:9274;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9274;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9274;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9274;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9274)
 WARNING;artefact:9275;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9275;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9275;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9275;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9275)
 WARNING;artefact:9276;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9276;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9276;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9276;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9276)
-ERROR;artefact:BULL-9277;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9277;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9277;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9277)
 WARNING;artefact:9278;l'année de production est vide;
 WARNING;artefact:9278;longueur est vide
@@ -21400,17 +21400,17 @@ WARNING;artefact:9278;hauteur est vide
 WARNING;artefact:9278;poids est vide
 WARNING;artefact:9279;l'année de production est incorrecte;0
 WARNING;artefact:9280;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9280;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9280;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9280;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9280)
-ERROR;artefact:BULL-9281;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9281;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9281;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Zenith',BULL-9281)
 WARNING;artefact:9283;longueur est vide
 WARNING;artefact:9283;largeur est vide
 WARNING;artefact:9283;hauteur est vide
 WARNING;artefact:9283;poids est vide
-ERROR;artefact:BULL-9283;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9283;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9283;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Zenith',BULL-9283)
-ERROR;artefact:BULL-9284;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9284;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9284;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Zenith',BULL-9284)
 WARNING;artefact:9287;l'année de production est incorrecte;0
 WARNING;artefact:9288;l'année de production est vide;
@@ -21438,9 +21438,9 @@ WARNING;artefact:9291;poids est vide
 WARNING;artefact:9291;date d'entrée est vide
 WARNING;artefact:9292;l'année de production est incorrecte;0
 WARNING;artefact:9293;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9293;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9293;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9293;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Calculatrices manuelles',BULL-9293)
-ERROR;artefact:BULL-9294;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9294;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9294;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\Micros Zenith',BULL-9294)
 WARNING;artefact:9295;l'année de production est incorrecte;0
 WARNING;artefact:9296;l'année de production est vide;
@@ -21507,7 +21507,7 @@ WARNING;artefact:9363;date d'entrée est vide
 WARNING;artefact:9365;l'année de production est incorrecte;0
 WARNING;artefact:9371;l'année de production est incorrecte;0
 WARNING;artefact:9372;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9374;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9374;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9374;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('#REF!',BULL-9374)
 WARNING;artefact:9377;date d'entrée est vide
 WARNING;artefact:9378;date d'entrée est vide
@@ -21533,7 +21533,7 @@ WARNING;artefact:9387;poids est vide
 WARNING;artefact:9387;date d'entrée est vide
 WARNING;artefact:9392;l'année de production est incorrecte;0
 WARNING;artefact:9393;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9393;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9393;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9393;Error requête;INSERT INTO `recolements`(`recolement`, `artefact_key`) VALUES ('2021-01-14 00:00:00',BULL-9393)
 WARNING;artefact:9395;l'année de production est incorrecte;0
 WARNING;artefact:9395;mauvais encodage de la largeur; 
@@ -21564,7 +21564,7 @@ WARNING;artefact:9425;l'année de production est vide;
 WARNING;artefact:9428;l'année de production est incorrecte;0
 WARNING;artefact:9437;l'année de production est incorrecte;0
 WARNING;artefact:9441;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9441;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9441;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9441;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('#N/A',BULL-9441)
 WARNING;artefact:9442;l'année de production est incorrecte;0
 WARNING;artefact:9443;l'année de production est incorrecte;0
@@ -21574,11 +21574,11 @@ WARNING;artefact:9446;mauvais encodage du poids;0,15k
 WARNING;artefact:9447;l'année de production est incorrecte;0
 WARNING;artefact:9448;l'année de production est incorrecte;0
 WARNING;artefact:9450;mauvais encodage de la largeur;5.5cm
-ERROR;artefact:BULL-9451;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9451;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9451;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('O',BULL-9451)
-ERROR;artefact:BULL-9452;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9452;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9452;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-9452)
-ERROR;artefact:BULL-9453;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9453;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9453;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Y',BULL-9453)
 WARNING;artefact:9456;l'année de production est incorrecte;0
 WARNING;artefact:9469;mauvais encodage du poids;1,6+kg
@@ -21646,7 +21646,7 @@ WARNING;artefact:9544;hauteur est vide
 WARNING;artefact:9544;poids est vide
 WARNING;artefact:9544;date d'entrée est vide
 WARNING;artefact:9546;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9550;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9550;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9550;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-9550)
 WARNING;artefact:9551;l'année de production est vide;
 WARNING;artefact:9551;longueur est vide
@@ -21660,7 +21660,7 @@ WARNING;artefact:9552;largeur est vide
 WARNING;artefact:9552;hauteur est vide
 WARNING;artefact:9552;poids est vide
 WARNING;artefact:9552;date d'entrée est vide
-ERROR;artefact:BULL-9553;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9553;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9553;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-9553)
 WARNING;artefact:9554;longueur est vide
 WARNING;artefact:9554;largeur est vide
@@ -21692,11 +21692,9 @@ WARNING;artefact:9572;l'année de production est vide;
 WARNING;artefact:9573;l'année de production est incorrecte;0
 WARNING;artefact:9575;l'année de production est inférieure;1989-05-05 00:00:00
 WARNING;artefact:9576;date d'entrée est vide
-ERROR;artefact:BULL-9577;Error 1292; ;1292 (22007): Incorrect date value: '2019/11/31' for column 'dateIn' at row 1
-ERROR;artefact:BULL-9577;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('BULL-9577','Tiroir logique G3','Tiroir Gamma 3','0',1962,1,'2019/11/31',65,27,6,4.5,'NULL',NULL,NULL,1,NULL,NULL,59,1)
 WARNING;artefact:9579;l'année de production est incorrecte;0
 WARNING;artefact:9580;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9580;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9580;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9580;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Y',BULL-9580)
 WARNING;artefact:9583;l'année de production est incorrecte;0
 WARNING;artefact:9585;longueur est vide
@@ -21789,7 +21787,7 @@ WARNING;artefact:9639;l'année de production est incorrecte;0
 WARNING;artefact:9641;l'année de production est incorrecte;0
 WARNING;artefact:9644;date d'entrée est vide
 WARNING;artefact:9645;l'année de production est inférieure; 2014/02/03
-ERROR;artefact:BULL-9645;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9645;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9645;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-9645)
 WARNING;artefact:9650;l'année de production est incorrecte;0
 WARNING;artefact:9651;l'année de production est incorrecte;0
@@ -21840,7 +21838,7 @@ WARNING;artefact:9694;largeur est vide
 WARNING;artefact:9694;hauteur est vide
 WARNING;artefact:9694;poids est vide
 WARNING;artefact:9694;date d'entrée est vide
-ERROR;artefact:BULL-9695;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9695;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9695;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Y',BULL-9695)
 WARNING;artefact:9698;l'année de production est vide;
 WARNING;artefact:9700;l'année de production est incorrecte;0
@@ -21875,7 +21873,7 @@ WARNING;artefact:9719;date d'entrée est vide
 WARNING;artefact:9720;l'année de production est incorrecte;0
 WARNING;artefact:9721;l'année de production est incorrecte;0
 WARNING;artefact:9722;l'année de production est incorrecte;0
-ERROR;artefact:BULL-9726;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9726;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9726;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-9726)
 WARNING;artefact:9728;correction hauteur en cm;2.2
 WARNING;artefact:9733;l'année de production est incorrecte;0
@@ -21950,11 +21948,11 @@ WARNING;artefact:9778;hauteur est vide
 WARNING;artefact:9778;poids est vide
 WARNING;artefact:9778;date d'entrée est vide
 WARNING;artefact:9781;correction longueur en cm;8.6
-ERROR;artefact:BULL-9781;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9781;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9781;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-9781)
-ERROR;artefact:BULL-9784;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9784;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9784;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-9784)
-ERROR;artefact:BULL-9793;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9793;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9793;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('#N/A',BULL-9793)
 WARNING;artefact:9800;l'année de production est vide;
 WARNING;artefact:9800;longueur est vide
@@ -22137,7 +22135,7 @@ WARNING;artefact:9919;date d'entrée est vide
 WARNING;artefact:9920;date d'entrée est vide
 WARNING;artefact:9921;ligne vide;ignorée
 WARNING;artefact:9922;ligne vide;ignorée
-ERROR;artefact:BULL-9923;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9923;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9923;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-9923)
 WARNING;artefact:9925;l'année de production est vide;
 WARNING;artefact:9926;l'année de production est vide;
@@ -22146,12 +22144,12 @@ WARNING;artefact:9987;mauvais encodage de la largeur;5,5vm
 WARNING;artefact:9991;mauvais encodage de la longueur;,5cm
 WARNING;artefact:9992;date d'entrée est vide
 WARNING;artefact:9993;l'année de production est inférieure;0
-ERROR;artefact:BULL-9993;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-9993;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-9993;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('bull',BULL-9993)
 WARNING;artefact:9998;l'année de production est incorrecte;0
 WARNING;artefact:10007;date d'entrée est vide
 WARNING;artefact:10011;l'année de production est incorrecte;0
-ERROR;artefact:BULL-10016;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-10016;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-10016;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('#REF!',BULL-10016)
 WARNING;artefact:10027;date d'entrée est vide
 WARNING;artefact:10029;l'année de production est incorrecte;0
@@ -22179,10 +22177,10 @@ WARNING;artefact:10053;l'année de production est incorrecte;0
 WARNING;artefact:10055;l'année de production est incorrecte;0
 WARNING;artefact:10056;l'année de production est incorrecte;0
 WARNING;artefact:10059;l'année de production est inférieure; 
-ERROR;artefact:BULL-10059;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-10059;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-10059;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-10059)
 WARNING;artefact:10060;l'année de production est incorrecte; 
-ERROR;artefact:BULL-10060;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-10060;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-10060;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('#N/A',BULL-10060)
 WARNING;artefact:10061;l'année de production est incorrecte;0
 WARNING;artefact:10063;mauvais encodage de la longueur;1,2cxm
@@ -22449,7 +22447,7 @@ WARNING;artefact:10496;poids est vide
 WARNING;artefact:10497;l'année de production est incorrecte;0
 WARNING;artefact:10498;l'année de production est incorrecte;0
 WARNING;artefact:10499;l'année de production est incorrecte;0
-ERROR;artefact:BULL-10500;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-10500;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-10500;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('#REF!',BULL-10500)
 WARNING;artefact:10507;l'année de production est incorrecte;0
 WARNING;artefact:10508;l'année de production est incorrecte;0
@@ -22553,7 +22551,7 @@ WARNING;artefact:10611;date d'entrée est vide
 WARNING;artefact:10612;l'année de production est vide;
 WARNING;artefact:10612;date d'entrée est vide
 WARNING;artefact:10613;date d'entrée est vide
-ERROR;artefact:BULL-10977;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-10977;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-10977;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('..\Mes images\Photos machines\CP8',BULL-10977)
 WARNING;artefact:10978;l'année de production est incorrecte;0
 WARNING;artefact:10979;l'année de production est incorrecte;0
@@ -22751,7 +22749,7 @@ WARNING;artefact:11058;largeur est vide
 WARNING;artefact:11058;hauteur est vide
 WARNING;artefact:11058;poids est vide
 WARNING;artefact:11059;l'année de production est incorrecte;0
-ERROR;artefact:BULL-11059;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-11059;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-11059;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-11059)
 WARNING;artefact:11060;mauvais encodage de la hauteur;6kg
 WARNING;artefact:11063;l'année de production est incorrecte;0
@@ -22776,9 +22774,9 @@ WARNING;artefact:11082;l'année de production est vide;
 WARNING;artefact:11085;mauvais encodage de la largeur; 
 WARNING;artefact:11085;date d'entrée est vide
 WARNING;artefact:11086;date d'entrée est vide
-ERROR;artefact:BULL-11089;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-11089;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-11089;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-11089)
-ERROR;artefact:BULL-11090;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-11090;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-11090;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-11090)
 WARNING;artefact:11091;l'année de production est vide;
 WARNING;artefact:11093;l'année de production est incorrecte;0
@@ -22820,10 +22818,6 @@ WARNING;artefact:11184;date d'entrée est vide
 WARNING;artefact:11185;date d'entrée est vide
 WARNING;artefact:11186;date d'entrée est vide
 WARNING;artefact:11187;date d'entrée est vide
-ERROR;artefact:BULL-11189;Error 1292; ;1292 (22007): Incorrect date value: '2020/30/01' for column 'dateIn' at row 1
-ERROR;artefact:BULL-11189;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('BULL-11189','White spirit','0','0',2000,1,'2020/30/01',8.5,8.5,23,1,'NULL',NULL,54,NULL,NULL,85,NULL,10)
-ERROR;artefact:BULL-11190;Error 1292; ;1292 (22007): Incorrect date value: '2020/30/01' for column 'dateIn' at row 1
-ERROR;artefact:BULL-11190;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('BULL-11190','Xyladecor','0','0',2000,1,'2020/30/01',6,6,26,2.5,'NULL',NULL,54,NULL,3,85,1,10)
 WARNING;artefact:11191;date d'entrée est vide
 WARNING;artefact:11192;mauvais encodage du poids;na
 WARNING;artefact:11193;mauvais encodage du poids;na
@@ -22869,8 +22863,6 @@ WARNING;artefact:11233;l'année de production est vide;
 WARNING;artefact:11233;date d'entrée est vide
 WARNING;artefact:11234;l'année de production est vide;
 WARNING;artefact:11234;date d'entrée est vide
-ERROR;artefact:BULL-11235;Error 1292; ;1292 (22007): Incorrect date value: '2019/11/31' for column 'dateIn' at row 1
-ERROR;artefact:BULL-11235;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('BULL-11235','Lampe à bayonnette ','48 volts','0',1960,1,'2019/11/31',5,3,3,0.02,'Pour Balladeuse',29,NULL,1,3,48,1,10)
 WARNING;artefact:11239;mauvais encodage du poids;na
 WARNING;artefact:11240;mauvais encodage du poids;na
 WARNING;artefact:11241;mauvais encodage du poids;na
@@ -23419,13 +23411,13 @@ WARNING;artefact:12088;poids est vide
 WARNING;artefact:12088;date d'entrée est vide
 WARNING;artefact:12089;l'année de production est incorrecte;0
 WARNING;artefact:12089;l'année de production est inférieure; 
-ERROR;artefact:BULL-12089;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-12089;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-12089;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-12089)
 WARNING;artefact:12090;l'année de production est incorrecte;0
 WARNING;artefact:12090;date d'entrée est vide
 WARNING;artefact:12091;l'année de production est incorrecte;0
 WARNING;artefact:12091;date d'entrée est vide
-ERROR;artefact:BULL-12091;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-12091;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-12091;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-12091)
 WARNING;artefact:12092;l'année de production est incorrecte;0
 WARNING;artefact:12092;date d'entrée est vide
@@ -23435,7 +23427,7 @@ WARNING;artefact:12094;l'année de production est incorrecte;0
 WARNING;artefact:12094;date d'entrée est vide
 WARNING;artefact:12095;l'année de production est incorrecte;0
 WARNING;artefact:12095;l'année de production est inférieure; 
-ERROR;artefact:BULL-12095;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-12095;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-12095;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-12095)
 WARNING;artefact:12096;l'année de production est incorrecte;0
 WARNING;artefact:12096;date d'entrée est vide
@@ -23443,7 +23435,7 @@ WARNING;artefact:12097;l'année de production est incorrecte;0
 WARNING;artefact:12097;date d'entrée est vide
 WARNING;artefact:12098;l'année de production est incorrecte;0
 WARNING;artefact:12098;date d'entrée est vide
-ERROR;artefact:BULL-12098;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-12098;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-12098;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES (' ',BULL-12098)
 WARNING;artefact:12099;l'année de production est incorrecte;0
 WARNING;artefact:12099;mauvais encodage du poids;2?2kg
@@ -23654,7 +23646,7 @@ WARNING;artefact:13028;date d'entrée est vide
 WARNING;artefact:13029;ligne vide;ignorée
 WARNING;artefact:13030;l'année de production est incorrecte;0
 WARNING;artefact:13030;l'année de production est inférieure; 
-ERROR;artefact:BULL-13030;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-13030;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-13030;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Y',BULL-13030)
 WARNING;artefact:13031;ligne vide;ignorée
 WARNING;artefact:13032;l'année de production est vide;
@@ -23671,7 +23663,7 @@ WARNING;artefact:13033;largeur est vide
 WARNING;artefact:13033;hauteur est vide
 WARNING;artefact:13033;poids est vide
 WARNING;artefact:13033;date d'entrée est vide
-ERROR;artefact:BULL-15000;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-15000;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-15000;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-15000)
 WARNING;artefact:15001;correction poids en kg;0.1
 WARNING;artefact:15001;date d'entrée est vide
@@ -24446,7 +24438,7 @@ WARNING;artefact:98143;hauteur est vide
 WARNING;artefact:98143;poids est vide
 WARNING;artefact:98143;date d'entrée est vide
 WARNING;artefact:98144;mauvais encodage de la largeur; 
-ERROR;artefact:BULL-98145;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98145;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98145;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-98145)
 WARNING;artefact:98146;l'année de production est vide;
 WARNING;artefact:98146;longueur est vide
@@ -24478,7 +24470,7 @@ WARNING;artefact:98151;longueur est vide
 WARNING;artefact:98151;largeur est vide
 WARNING;artefact:98151;hauteur est vide
 WARNING;artefact:98151;poids est vide
-ERROR;artefact:BULL-98152;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98152;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98152;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-98152)
 WARNING;artefact:98153;longueur est vide
 WARNING;artefact:98153;largeur est vide
@@ -24496,7 +24488,7 @@ WARNING;artefact:98161;longueur est vide
 WARNING;artefact:98161;largeur est vide
 WARNING;artefact:98161;hauteur est vide
 WARNING;artefact:98161;poids est vide
-ERROR;artefact:BULL-98164;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98164;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98164;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-98164)
 WARNING;artefact:98165;poids est vide
 WARNING;artefact:98166;date d'entrée est vide
@@ -24837,7 +24829,7 @@ WARNING;artefact:98523;longueur est vide
 WARNING;artefact:98523;largeur est vide
 WARNING;artefact:98523;hauteur est vide
 WARNING;artefact:98523;poids est vide
-ERROR;artefact:BULL-98523;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98523;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98523;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-98523)
 WARNING;artefact:98524;longueur est vide
 WARNING;artefact:98524;largeur est vide
@@ -24909,7 +24901,7 @@ WARNING;artefact:98539;longueur est vide
 WARNING;artefact:98539;largeur est vide
 WARNING;artefact:98539;hauteur est vide
 WARNING;artefact:98539;poids est vide
-ERROR;artefact:BULL-98539;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98539;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98539;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-98539)
 WARNING;artefact:98540;l'année de production est vide;
 WARNING;artefact:98540;pas de quantité
@@ -24955,47 +24947,47 @@ WARNING;artefact:98546;date d'entrée est vide
 WARNING;artefact:98547;date d'entrée est vide
 WARNING;artefact:98548;date d'entrée est vide
 WARNING;artefact:98548;l'année de production est vide;
-ERROR;artefact:BULL-98548;Error 1062; ;1062 (23000): Duplicata du champ 'BULL-98548' pour la clef 'PRIMARY'
+ERROR;artefact:BULL-98548;Error 1062; ;1062 (23000): Duplicate entry 'BULL-98548' for key 'PRIMARY'
 ERROR;artefact:BULL-98548;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('BULL-98548','Pour Minitel','MN5512','96160F',NULL,1,'2015-06-10 00:00:00',10,3,2.5,0.13,'livres accompagnant le Micral 15',NULL,NULL,NULL,NULL,119,46,63)
-ERROR;artefact:BULL-98548;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98548;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98548;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-98548)
-ERROR;artefact:BULL-98550;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98550;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98550;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Y',BULL-98550)
-ERROR;artefact:BULL-98551;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98551;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98551;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Y',BULL-98551)
-ERROR;artefact:BULL-98552;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98552;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98552;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-98552)
 WARNING;artefact:98553;date d'entrée est vide
-ERROR;artefact:BULL-98556;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98556;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98556;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-98556)
 WARNING;artefact:98557;mauvais encodage de la largeur; 
 WARNING;artefact:98557;date d'entrée est vide
-ERROR;artefact:BULL-98558;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98558;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98558;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-98558)
-ERROR;artefact:BULL-98559;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98559;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98559;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('o',BULL-98559)
 WARNING;artefact:98560;date d'entrée est vide
 WARNING;artefact:98562;l'année de production est incorrecte;0
-ERROR;artefact:BULL-98562;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98562;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98562;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Y',BULL-98562)
 WARNING;artefact:98563;l'année de production est incorrecte;0
-ERROR;artefact:BULL-98563;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98563;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98563;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-98563)
-ERROR;artefact:BULL-98564;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98564;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98564;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-98564)
-ERROR;artefact:BULL-98565;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98565;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98565;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Y',BULL-98565)
-ERROR;artefact:BULL-98566;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98566;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98566;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-98566)
 WARNING;artefact:98567;l'année de production est incorrecte;0
 WARNING;artefact:98567;date d'entrée est vide
-ERROR;artefact:BULL-98568;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98568;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98568;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-98568)
-ERROR;artefact:BULL-98569;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98569;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98569;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-98569)
-ERROR;artefact:BULL-98570;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98570;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98570;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Y',BULL-98570)
-ERROR;artefact:BULL-98571;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98571;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98571;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('N',BULL-98571)
 WARNING;artefact:98573;l'année de production est incorrecte;0
 WARNING;artefact:98574;l'année de production est vide;
@@ -25008,7 +25000,7 @@ WARNING;artefact:98602;longueur est vide
 WARNING;artefact:98602;largeur est vide
 WARNING;artefact:98602;hauteur est vide
 WARNING;artefact:98602;poids est vide
-ERROR;artefact:BULL-98602;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-98602;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-98602;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('Rouleaux papier FAX ',BULL-98602)
 WARNING;artefact:98603;date d'entrée est vide
 WARNING;artefact:98604;l'année de production est incorrecte;0
@@ -25024,8 +25016,6 @@ WARNING;artefact:98613;date d'entrée est vide
 WARNING;artefact:98614;l'année de production est incorrecte;0
 WARNING;artefact:98615;l'année de production est incorrecte;0
 WARNING;artefact:98624;l'année de production est incorrecte;0
-ERROR;artefact:BULL-98624;Error 1292; ;1292 (22007): Incorrect date value: '2019/17/12' for column 'dateIn' at row 1
-ERROR;artefact:BULL-98624;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('BULL-98624','Boites écrous,rondelles','0','0',NULL,1,'2019/17/12',12,12,17,1.5,'NULL',NULL,101,NULL,3,86,8,10)
 WARNING;artefact:98631;l'année de production est vide;
 WARNING;artefact:98631;pas de quantité
 WARNING;artefact:98631;longueur est vide
@@ -25043,7 +25033,7 @@ WARNING;artefact:99994;l'année de production est incorrecte;0
 WARNING;artefact:99994;date d'entrée est vide
 WARNING;artefact:99995;l'année de production est incorrecte;0
 WARNING;artefact:99995;l'année de production est inférieure;0
-ERROR;artefact:BULL-99995;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-99995;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-99995;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-99995)
 WARNING;artefact:99996;l'année de production est vide;
 WARNING;artefact:99996;pas de quantité
@@ -25054,25 +25044,27 @@ WARNING;artefact:99996;poids est vide
 WARNING;artefact:99996;l'année de production est inférieure;0
 WARNING;artefact:99997;l'année de production est incorrecte;0
 WARNING;artefact:99997;date d'entrée est vide
-ERROR;artefact:BULL-99998;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-99998;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-99998;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-99998)
 WARNING;artefact:99999;l'année de production est incorrecte;0
-ERROR;artefact:BULL-99999;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-99999;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-99999;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-99999)
-ERROR;artefact:BULL-99999;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-99999;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-99999;Error requête;INSERT INTO `recolements`(`recolement`, `artefact_key`) VALUES ('2020-12-15 00:00:00',BULL-99999)
 WARNING;artefact:100000;l'année de production est incorrecte;1
-ERROR;artefact:BULL-100000;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-100000;Error 1452; ;1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`durnal6`.`artefacts`, CONSTRAINT `artefacts_ibfk_1` FOREIGN KEY (`donateur_key`) REFERENCES `donateurs` (`id_donateur`))
+ERROR;artefact:BULL-100000;; erreur requête;INSERT INTO artefacts (`id_artefact`, `libelle`, `modele`, `numSerie`, `anProd`, `quantite`, `dateIn`, `longueur`,`largeur`, `hauteur`, `poids`, `commentaire`, `donateur_key`, `cond_key`, `prod_key`, `etat_key`, `localisation_key`,`appart_key`, `famille_key`) VALUES('BULL-100000','Utilisation test100000','Fonct','141415',NULL,0,'2014-02-20 00:00:00',1,1,1,1,'Blabla',1,NULL,NULL,NULL,NULL,77,70)
+ERROR;artefact:BULL-100000;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-100000;; erreur requête;INSERT INTO `images`(`image`, `artefact_key`) VALUES ('n',BULL-100000)
 WARNING;artefact:100001;l'année de production est incorrecte;0
 WARNING;artefact:100001;date d'entrée est vide
-ERROR;artefact:BULL-100001;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-100001;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-100001;Error requête;INSERT INTO `recolements`(`recolement`, `artefact_key`) VALUES ('2020-12-23 00:00:00',BULL-100001)
 WARNING;artefact:100002;l'année de production est incorrecte;0
 WARNING;artefact:100002;date d'entrée est vide
-ERROR;artefact:BULL-100002;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-100002;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-100002;Error requête;INSERT INTO `recolements`(`recolement`, `artefact_key`) VALUES ('2021-01-04 00:00:00',BULL-100002)
 WARNING;artefact:100003;date d'entrée est vide
 WARNING;artefact:100005;l'année de production est incorrecte;0
-ERROR;artefact:BULL-100005;Error 1054; ;1054 (42S22): Champ 'BULL' inconnu dans field list
+ERROR;artefact:BULL-100005;Error 1054; ;1054 (42S22): Unknown column 'BULL' in 'field list'
 ERROR;artefact:BULL-100005;Error requête;INSERT INTO `recolements`(`recolement`, `artefact_key`) VALUES ('2021-01-12 00:00:00',BULL-100005)

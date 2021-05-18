@@ -17,11 +17,14 @@ def recup_usage(cursor):
         sql = "SELECT id_usage FROM usages WHERE libelleUsage =\'" + str(usage).upper() + "\'"
         cursor.execute(sql)
         res = cursor.fetchone()
+        # condition pour voir si l'usage existe déja en DB
         if res:
            """rien ne se passe"""
         else:
+            # si l'usage est vide
             if usage is None:
                 config.logging.warning("artefact:"+str(idA)+";usage est vide")
+            # si l'usage ne correspond pas à une valeur de base du fichier
             elif  (usage is int) or  (usage == 1 or usage == 0):
                 config.logging.warning("artefact:" + str(idA) + ";usage est incorrect;"+str(usage))
             else:

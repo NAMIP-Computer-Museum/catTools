@@ -8,7 +8,7 @@ import openpyxl
 """
 initialisation de l'ecriture dans un file du logging
 """
-logging.basicConfig(filename="errorlog.txt",filemode="w",format = "%(levelname)s;%(message)s")
+logging.basicConfig(filename="errorlog.txt",filemode="w+",format = "%(levelname)s;%(message)s")
 
 """
 initialisation variable de la boucle du fichier
@@ -27,7 +27,7 @@ pathBull2 = 'E:\\Inventaire FEBB Master A&R_04012021.xlsm'
 """
 initalisation parametres connection DB locale
 """
-#"""
+"""
 host = "localhost"
 user = "root"
 passwd = ""
@@ -37,7 +37,7 @@ database = "nam_ip"
 """
 initialisation parametres connection DB distante
 """
-"""
+
 host = "cl1-sql11.phpnet.org"
 database = "durnal6"
 user = "durnal6"
