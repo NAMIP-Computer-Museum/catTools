@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="c:\inetpub\webpubdotnet\directio\web\css\bases\fipbinvkhs.css" ?>
+<top>
+<TIT6/> <INVID ID="FRB.ARCH.IB.INF.BD-87C">FRB.ARCH.IB.INF.BD-87C</INVID> <ISBD> <Z1> <TITI> <NXP>GESFIL</NXP> </TITI> </Z1> <Z0> <TYPE>Texte: sans m&#x00e9;diation</TYPE> <INV>2014</INV> <LIEU>A-G4.1 [J19]</LIEU> </Z0> <Z8> <NXP>Collection I&#x0026;B</NXP> </Z8> </ISBD> <P> <T>Fichier sur bandes magn&#x00e9;tiques </T> <AV V="IBARCH\ARCH87C\ARCH87C1T">Documents num&#x00e9;ris&#x00e9;s</AV> <T/> </P> <P> <T>Fichier sur disques </T> <AV V="IBARCH\ARCH87C\ARCH87C2D">Documents num&#x00e9;ris&#x00e9;s</AV> <T/> </P> <P><DP D="00112019">Date de publication: novembre 2019</DP><T> </T><DP D="00062020">Date de modification: juin 2020</DP></P>
+</top>
