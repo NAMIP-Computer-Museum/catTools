@@ -8,6 +8,8 @@ import mysql.connector
 from catTools_app import requetes_sql as sql
 from .outils_bull import db, fichier_excel
 
+from tqdm import tqdm
+
 """
 Ce fichier contient le code principale de la migration des données de bull
 """
@@ -16,13 +18,12 @@ Ce fichier contient le code principale de la migration des données de bull
 def migration(connexion, cursor):
     wb = pyxl.load_workbook(filename=config.pathbull)
     ws = wb["Inventaire"]
-    nb_artefact = 0
-    for ligne in ws.iter_rows(
+    for ligne in tqdm(ws.iter_rows(
         min_row=config.ligne_min,
         max_row=config.ligne_max,
         min_col=config.colonne_min,
         max_col=config.colonne_max,
-    ):
+    ), total = config.ligne_max - config.ligne_min + 1, desc="Migration Bull"):
         artefact = fichier_excel.artefact(ligne)
         remplir_tables_externe(artefact, cursor)
         ajouter_artefact(artefact, cursor)

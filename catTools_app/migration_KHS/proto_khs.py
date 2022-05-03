@@ -9,6 +9,8 @@ from catTools_app.migration_KHS.Artefact import Artefact
 
 from . import outils_khs
 
+from tqdm import tqdm
+
 
 """
 Ce fichier permet de migrer les données de KHS vers la base de données en utilisant les fonctions définies dans le fichier outils_khs.py 
@@ -18,7 +20,7 @@ Ce fichier permet de migrer les données de KHS vers la base de données en util
 def migration_khs(connexion, cursor):
     fichier = ""
     try:
-        for fichier in listdir(config.pathkhs):
+        for fichier in tqdm(listdir(config.pathkhs), total=len(listdir(config.pathkhs)), desc="Migration KHS"):
             if re.match("V[0-9]*.xml", fichier):
                 tree = ET.parse(config.pathkhs + "\\" + str(fichier))
                 root = tree.getroot()

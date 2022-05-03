@@ -253,3 +253,4 @@ def creer_table_images():
         "CREATE TABLE IF NOT EXISTS images(id_image int(10) NOT NULL AUTO_INCREMENT, image varchar(255) NOT NULL,"
         + "artefact_key varchar(255) NOT NULL, PRIMARY KEY(id_image), FOREIGN KEY (artefact_key) REFERENCES artefacts(id_artefact))"
     )
+    
