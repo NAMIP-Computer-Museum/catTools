@@ -10,7 +10,7 @@ CREATE TABLE `pays`(
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 LOAD DATA LOCAL
-INFILE 'E:\\NAM-IP\\catTools-git\\dB_lieux\\pays.csv' INTO TABLE `pays`
+INFILE 'E:\\NAM-IP\\catTools\\dB_lieux\\pays.csv' INTO TABLE `pays`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n' IGNORE 1 LINES;
@@ -18,16 +18,17 @@ LINES TERMINATED BY '\r\n' IGNORE 1 LINES;
 CREATE TABLE ville(
 	id INT PRIMARY KEY auto_increment,
     code_pays CHAR(2) NOT NULL,
-    libelle VARCHAR(300) NOT NULL    
+    libelle VARCHAR(300) NOT NULL,
+    population INT NOT NULL
     );
     
 LOAD DATA LOCAL
-INFILE 'E:\\NAM-IP\\catTools-git\\dB_lieux\\cities_merge.csv' 
+INFILE 'E:\\NAM-IP\\catTools-git\\dB_lieux\\cities.csv' 
 INTO TABLE ville
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\r\n' IGNORE 1 LINES
-(code_pays, libelle)
+(code_pays, libelle, population)
 SET ID = NULL;
 
 CREATE INDEX libelle_ville ON ville(libelle);
-
+CREATE INDEX code_pays ON pays(pays_code_alpha2);

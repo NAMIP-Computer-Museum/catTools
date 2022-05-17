@@ -3,14 +3,12 @@ import xml.etree.ElementTree as ET
 from os import listdir
 
 import mysql.connector
+from tqdm import tqdm
 
 from catTools_app import config, requetes_sql
 from catTools_app.migration_KHS.Artefact import Artefact
 
 from . import outils_khs
-
-from tqdm import tqdm
-
 
 """
 Ce fichier permet de migrer les données de KHS vers la base de données en utilisant les fonctions définies dans le fichier outils_khs.py 
@@ -20,7 +18,11 @@ Ce fichier permet de migrer les données de KHS vers la base de données en util
 def migration_khs(connexion, cursor):
     fichier = ""
     try:
-        for fichier in tqdm(listdir(config.pathkhs), total=len(listdir(config.pathkhs)), desc="Migration KHS"):
+        for fichier in tqdm(
+            listdir(config.pathkhs),
+            total=len(listdir(config.pathkhs)),
+            desc="Migration KHS",
+        ):
             if re.match("V[0-9]*.xml", fichier):
                 tree = ET.parse(config.pathkhs + "\\" + str(fichier))
                 root = tree.getroot()
@@ -28,8 +30,12 @@ def migration_khs(connexion, cursor):
                 outils_khs.ajouter_producteur(root, cursor)
                 outils_khs.ajouter_etat(root, cursor)
                 outils_khs.ajouter_collection(root, cursor)
+                outils_khs.ajouter_categorie(root, cursor)
                 ajouter_artefact(cursor, root, fichier)
 
+        connexion.commit()
+
+        outils_khs.completer_info_prod(cursor)
         connexion.commit()
 
     except mysql.connector.errors.DatabaseError as e:
@@ -52,6 +58,7 @@ def ajouter_artefact(cursor, root, fichier):
     artefact.producteur = outils_khs.identifiant_producteur(root, cursor)
     artefact.etat = outils_khs.identifiant_etat(root, cursor)
     artefact.collection = outils_khs.identifiant_collection(root, cursor)
+    artefact.categorie = outils_khs.identifiant_categorie(root, cursor)
 
     try:
         cursor.execute(requetes_sql.ajouter_artefact_khs(artefact))

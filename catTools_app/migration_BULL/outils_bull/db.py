@@ -1,6 +1,7 @@
-from catTools_app import requetes_sql as sql
 import mysql.connector
+
 from catTools_app import config
+from catTools_app import requetes_sql as sql
 
 
 def ajouter_artefact(cursor, artefact):

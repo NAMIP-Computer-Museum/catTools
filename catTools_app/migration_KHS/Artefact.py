@@ -15,6 +15,7 @@ class Artefact:
     producteur: int
     etat: int
     collection: int
+    categorie: int
 
     def __init__(self, id, fichier_source):
         self.id = id
@@ -30,6 +31,7 @@ class Artefact:
         self.producteur = None
         self.etat = None
         self.collection = None
+        self.categorie = None
 
     def ajouter_image(self, image):
         self.images.append(image)

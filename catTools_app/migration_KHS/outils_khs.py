@@ -1,13 +1,15 @@
-from calendar import c
 import re
 import traceback
+from calendar import c
 from xml.etree.ElementTree import ParseError
 
 import mysql.connector
+from tqdm import tqdm
 
 from catTools_app import config
 from catTools_app import requetes_sql as sql
 from catTools_app.outils_format import format_localisation
+
 """
 Les fonctions ci-dessus se charge d'aller recuperer les informations souhaitees dans la base de donnees
 """
@@ -30,7 +32,7 @@ def nom_artefact(root):
         if libelle == "":
             config.message_avertissement(id_artefact(root), "Le libelle est vide")
             return None
-        
+
         return libelle.lstrip()
     else:
         config.message_avertissement(id_artefact(root), "Le libelle est vide")
@@ -49,9 +51,7 @@ def date_entree_artefact(root):
         date = str(annee) + date
         return date
     else:
-        config.message_avertissement(
-            id_artefact(root), "La date d'entree est vide"
-        )
+        config.message_avertissement(id_artefact(root), "La date d'entree est vide")
         return None
 
 
@@ -119,12 +119,14 @@ def identifiant_localisation(root, cursor):
             except mysql.connector.errors.DatabaseError as e:
                 config.message_erreur(e, id_artefact(root))
         elif localisation is not None or localisation not in ("None", "none"):
-            config.message_avertissement(id_artefact(root), "La localisation ne respecte pas le bon format d'ecriture", localisation)
+            config.message_avertissement(
+                id_artefact(root),
+                "La localisation ne respecte pas le bon format d'ecriture",
+                localisation,
+            )
             return -1
     else:
-        config.message_avertissement(
-            id_artefact(root), "La localisation est vide"
-        )
+        config.message_avertissement(id_artefact(root), "La localisation est vide")
         return 1
 
 
@@ -138,19 +140,23 @@ def identifiant_producteur(root, cursor):
         if len(producteur) == 0:
             config.message_avertissement(id_artefact(root), "Le producteur est vide")
             return None
-        elif len(producteur) == 1 and not verif_pays(re.sub("'", "''", str(producteur[0].text))) or str(producteur[0].text) in ("Aba"):
+        elif (
+            len(producteur) == 1
+            and not verif_pays(re.sub("'", "''", str(producteur[0].text)))
+            or str(producteur[0].text) in ("Aba")
+        ):
             prod = re.sub("'", "''", str(producteur[0].text))
         elif len(producteur) != 0:
             prod_trouve = False
             for elem in producteur:
-                text = re.sub("'", "''", str(elem.text))        
-                    
+                text = re.sub("'", "''", str(elem.text))
+
                 if not prod_trouve and not verif_ville(text) and not verif_pays(text):
                     prod_trouve = True
                     prod = text.lstrip()
                 if prod_trouve:
-                    break    
-                  
+                    break
+
         cursor.execute(sql.id_producteur(prod))
         result = cursor.fetchone()
         if result is None:
@@ -158,7 +164,7 @@ def identifiant_producteur(root, cursor):
             return None
         else:
             return str(result[0])
-        
+
     except ParseError as e:
         config.message_erreur(e, id_artefact(root))
         traceback.print_exc()
@@ -195,10 +201,21 @@ def identifiant_collection(root, cursor):
             return None
         return resultat[0][0]
     else:
+        config.message_avertissement(id_artefact(root), "la collection est vide")
+        return None
+
+
+def identifiant_categorie(root, cursor):
+    collection = categorie_artefact(root)
+    cursor.execute(sql.id_categorie(collection))
+    resultat = cursor.fetchall()
+    if len(resultat) == 0:
         config.message_avertissement(
-            id_artefact(root), "la collection est vide"
+            id_artefact(root),
+            "la categorie n'a pas ete trouvee dans la base de donnees",
         )
         return None
+    return resultat[0][0]
 
 
 def description_artefact(root):
@@ -246,7 +263,10 @@ def ajouter_producteur(root, cursor):
         prod = None
         ville = None
         pays = None
-        if len(producteur) == 1 and str(producteur[0].text) in ("Aba") and not verif_pays(re.sub("'", "''", str(producteur[0].text))):
+        pays_si_pas = None
+        if len(producteur) == 1 and not verif_pays(
+            re.sub("'", "''", str(producteur[0].text))
+        ):
             prod = re.sub("'", "''", str(producteur[0].text))
         elif len(producteur) != 0:
             pays_trouve = False
@@ -257,36 +277,52 @@ def ajouter_producteur(root, cursor):
                 text = re.sub("'", "''", str(elem.text))
                 if text in ("U.K.", "England"):
                     text = "Royaume-Uni"
+                elif text in ("CA", "California"):
+                    text = "Californie"
 
-                if not pays_trouve and verif_pays(text):
+                if (
+                    text not in ("Aba", "ABB", "Andrew")
+                    and not pays_trouve
+                    and verif_pays(text)
+                ):
                     pays_trouve = True
                     est_pays = True
                     pays, traduit = traduire_pays(text, "FR")
-                    
+
                     if traduit:
-                        config.message_info("Pays traduit", id_artefact(root), pays, text)
-                               
-                    
-                if not est_pays and verif_ville(text):
-                    if ville_trouvee:
+                        config.message_info(
+                            "Pays traduit", id_artefact(root), pays, text
+                        )
+
+                if (
+                    text not in ("Aba", "ABB", "Andrew")
+                    and not est_pays
+                    and verif_ville(text)
+                ):
+                    if ville_trouvee and text is not None:
                         ville += ", " + text
                     else:
                         ville_trouvee = True
-                        ville = text                      
-                    
-                if not prod_trouve and not verif_ville(text) and not verif_pays(text):
+                        ville = text
+
+                if (
+                    text in ("Aba", "ABB", "Andrew")
+                    or not prod_trouve
+                    and not verif_ville(text)
+                    and not verif_pays(text)
+                ):
                     prod_trouve = True
                     prod = text.lstrip()
-                    
-        cursor.execute(sql.id_producteur(prod))
-        result = cursor.fetchone()
-        if result is None:
-            cursor.execute(sql.ajouter_producteur(prod, ville, pays))
-        
+        if prod is not None:
+            cursor.execute(sql.id_producteur(prod))
+            result = cursor.fetchone()
+            if result is None and prod not in ("s.n.", "None"):
+                cursor.execute(sql.ajouter_producteur(prod, ville, pays))
+
     except ParseError as e:
         config.message_erreur(e, id_artefact(root))
         traceback.print_exc()
-        
+
 
 def verif_pays(pays):
     try:
@@ -296,21 +332,21 @@ def verif_pays(pays):
             password="root1234",
             database="places",
         )
-        
-        cursor = connexion.cursor()
+
+        cursor = connexion.cursor(buffered=True)
         sql = "SELECT * FROM pays WHERE libelle = '" + str(pays) + "'"
-        
+
         cursor.execute(sql)
         result = cursor.fetchall()
-        
-        
+
         return len(result) != 0
-    
-    except mysql.connector.errors.custom_error_exceptionDatabaseError as e:
+
+    except mysql.connector.errors.DatabaseError as e:
         config.message_erreur(e)
     finally:
         connexion.close()
-    
+
+
 def traduire_pays(pays, lang):
     try:
         connexion = mysql.connector.connect(
@@ -319,26 +355,30 @@ def traduire_pays(pays, lang):
             password="root1234",
             database="places",
         )
-        
+
         cursor = connexion.cursor(buffered=True)
         sql = "SELECT pays_code_alpha2 FROM pays WHERE libelle = '" + str(pays) + "'"
         cursor.execute(sql)
         result = cursor.fetchone()
         if result is not None:
             code = str(result[0])
-            sql =  "SELECT libelle FROM pays WHERE pays_code_alpha2 = '%s' AND lang = '%s'" % (code, lang)
+            sql = (
+                "SELECT libelle FROM pays WHERE pays_code_alpha2 = '%s' AND lang = '%s'"
+                % (code, lang)
+            )
             cursor.execute(sql)
             result = cursor.fetchone()
             if result is not None:
                 return str(result[0]), True
-        
+
         return pays, False
-    
+
     except mysql.connector.errors.DatabaseError as e:
         config.message_erreur(e)
     finally:
         connexion.close()
-    
+
+
 def verif_ville(ville):
     try:
         connexion = mysql.connector.connect(
@@ -347,18 +387,19 @@ def verif_ville(ville):
             password="root1234",
             database="places",
         )
-        
+
         cursor = connexion.cursor()
         sql = "SELECT * FROM ville WHERE libelle = '" + str(ville) + "'"
-        
+
         cursor.execute(sql)
         result = cursor.fetchall()
         return len(result) != 0
-    
+
     except mysql.connector.errors.DatabaseError as e:
         config.message_erreur(e)
     finally:
         connexion.close()
+
 
 def ajouter_etat(root, cursor):
     """Permet d'ajouter un etat à la base de donnees à partir d'un fichier s'il n'y est pas encore present"""
@@ -394,30 +435,42 @@ def ajouter_lieu_stockage(root, cursor):
                 config.message_erreur(e, id_artefact(root))
 
 
+def ajouter_categorie(root, cursor):
+    cat = categorie_artefact(root)
+    try:
+        cursor.execute(sql.id_categorie(cat))
+        if len(cursor.fetchall()) == 0:
+            cursor.execute(sql.ajouter_categorie(cat))
+    except mysql.connector.errors.DatabaseError as e:
+        config.message_erreur(e, id_artefact(root))
+
+
 """
-Les fonctiones ci-dessous sont des outils supplementaires
+Les fonctions ci-dessous sont des outils supplementaires
 """
+
 
 def categorie_artefact(root):
     id = id_artefact(root)
-    
-    if re.match("^FRB\.ARCH\..+$", str(id)):
-        return "Archive"
-    
-    if re.match("^FRB\.BIB\..+$", str(id)):
-        return "Monographies"
-    
-    if re.match("^FRB\.P\..+$", str(id)):
-        return "Périodiques"
-    
-    if re.match("^FRB\.FOBJ\..+$", str(id)):
+
+    if re.match("^FRB\.ARCH(.)*\..+$", str(id)):
+        return "Archive"  # Livre
+
+    if re.match("^FRB\.BIB(.)*\..+$", str(id)):
+        return "Monographies"  # Livre
+
+    if re.match("^FRB\.P(.)*\..+$", str(id)):
+        return "Périodiques"  # REVUE
+
+    if re.match("^FRB\.FOBJ(.)*\..+$", str(id)):
         return "Machines"
-    
-    if re.match("^FRB\.FNUMPIC\..+$", str(id)):
+
+    if re.match("^FRB\.FNUMPIC(.)*\..+$", str(id)):
         return "Photographies numériques"
-    
-    if re.match("^FRB\.FNUMD\..+$", str(id)):
-        return "Ressources électroniques"
+
+    if re.match("^FRB\.FNUMD(.)*\..+$", str(id)):
+        return "Ressources électroniques"  # Logiciel
+
 
 def producteur_existe(root, producteur, cursor):
     """Verifie si le producteur est dejà present dans la base de donnees"""
@@ -440,9 +493,9 @@ def dimensions_artefact(root, artefact):
                     dim += little_child.text
                 if little_child.tail is not None:
                     dim += little_child.tail
-        dimensions = re.findall("((L|l|H) \d*,?(\d*)?)", dim)
-        poids = re.findall("(\d*,?(\d*)? kg)", dim)
-        if len(dimensions) == 3:
+        dimensions = re.findall("((L|l|H)( |\n)*\d+,?(\d*)?)", dim)
+        poids = re.findall("(\d*,?(\d*)?( |\n)( )*kg)", dim)
+        if len(dimensions) >= 3:
             artefact.longueur = re.sub(
                 "L", "", (re.sub(",", ".", dimensions[0][0]))
             ).lstrip()
@@ -475,3 +528,53 @@ def dimensions_artefact(root, artefact):
         config.logging.error(
             "dimensions_artefact (" + id_artefact(root) + ") " + str(e)
         )
+
+
+def completer_info_prod(cursor):
+    try:
+        connexionLieux = mysql.connector.connect(
+            host="localhost",
+            user="root",
+            password="root1234",
+            database="places",
+        )
+        sql = "SELECT * FROM producteurs WHERE ville IS NOT NULL AND pays IS NULL"
+        cursor.execute(sql)
+        results = cursor.fetchall()
+
+        for prod in tqdm(results, total=len(results), desc="Info producteur"):
+            ville = str(prod[3]).split(",")[0]
+            id = str(prod[0])
+            cursorLieux = connexionLieux.cursor(buffered=True)
+            sql = (
+                "SELECT code_pays FROM ville WHERE libelle = '"
+                + ville
+                + "' ORDER BY population DESC"
+            )
+            cursorLieux.execute(sql)
+            code_pays = cursorLieux.fetchone()
+            if code_pays is not None:
+                code_pays = str(code_pays[0])
+                sql = (
+                    "SELECT libelle FROM pays WHERE lang = 'FR' AND pays_code_alpha2 = '"
+                    + code_pays
+                    + "'"
+                )
+                cursorLieux.execute(sql)
+                pays = cursorLieux.fetchone()
+
+                if pays is not None:
+                    pays = str(pays[0])
+                    sql = (
+                        "UPDATE producteurs SET pays = '"
+                        + pays
+                        + "' WHERE id_producteur = '"
+                        + id
+                        + "'"
+                    )
+                    cursor.execute(sql)
+
+    except mysql.connector.errors.DatabaseError as e:
+        config.message_erreur(e)
+    finally:
+        connexionLieux.close()

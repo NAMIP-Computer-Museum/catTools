@@ -1,13 +1,15 @@
-from datetime import datetime
-from catTools_app import config
 import re
-from .. import constantes as const
+from datetime import datetime
+
+from catTools_app import config
 from catTools_app.outils_format import (
-    RE_USAGE,
     RE_ANNEE_PROD,
-    format_localisation,
+    RE_USAGE,
     format_dimension,
+    format_localisation,
 )
+
+from .. import constantes as const
 
 
 def artefact(ligne):
@@ -34,7 +36,7 @@ def artefact(ligne):
         "image": image_artefact(ligne),
         "date_entree": date_entree_artefact(ligne),
         "recolement": recolement_artefact(ligne),
-        "commentaire": commentaire_artefact(ligne)
+        "commentaire": commentaire_artefact(ligne),
     }
 
 
@@ -76,8 +78,8 @@ def famille_artefact(ligne):
     Verifie que la famille est presente (si pas renvoie None et mention dans log)
     Formatte la famille pour qu'elle commence toujours par une majuscule
     """
-    famille = ligne[const.USAGE].value
-    if famille is None:
+    famille = ligne[const.FAMILLE].value
+    if famille is None or famille == 0:
         config.message_avertissement(id_artefact(ligne), "La famille est vide")
     else:
         return famille.capitalize()
@@ -124,17 +126,13 @@ def appartenance_artefact(ligne):
     """
     appart = ligne[const.APPARTENANCE].value
     if appart is None or appart == 0:
-        config.message_avertissement(
-            id_artefact(ligne), "L'appartenance est vide"
-        )
+        config.message_avertissement(id_artefact(ligne), "L'appartenance est vide")
         return None
     else:
         appart = str(appart).lstrip().rstrip()
         if appart == "" or appart == "?":
-            config.message_avertissement(
-            id_artefact(ligne), "L'appartenance est vide"
-        )
-            return None 
+            config.message_avertissement(id_artefact(ligne), "L'appartenance est vide")
+            return None
         return appart
 
 
@@ -145,9 +143,7 @@ def num_serie_artefact(ligne):
     """
     num_serie = ligne[const.NUMERO_SERIE].value
     if num_serie is None or num_serie == 0:
-        config.message_avertissement(
-            id_artefact(ligne), "Le numero de serie est vide"
-        )
+        config.message_avertissement(id_artefact(ligne), "Le numero de serie est vide")
         return None
     else:
         return num_serie
@@ -168,19 +164,20 @@ def annee_prod_artefact(ligne):
     elif not RE_ANNEE_PROD.match(annee_prod):
         config.message_avertissement(
             id_artefact(ligne),
-            "L'annee de production n'a pas le bon format", annee_prod
+            "L'annee de production n'a pas le bon format",
+            annee_prod,
         )
         return None
     elif int(annee_prod) < 1500:
         config.message_avertissement(
-            id_artefact(ligne),
-            "L'annee de production est inferieur à 1500", annee_prod
+            id_artefact(ligne), "L'annee de production est inferieur à 1500", annee_prod
         )
         return None
     elif int(annee_prod) > int(datetime.today().year):
         config.message_avertissement(
             id_artefact(ligne),
-            "L'annee de production est superieur à aujourd'hui", annee_prod
+            "L'annee de production est superieur à aujourd'hui",
+            annee_prod,
         )
         return None
     else:
@@ -195,9 +192,7 @@ def producteur_artefact(ligne):
     """
     producteur = ligne[const.PRODUCTEUR].value
     if producteur is None or producteur == 0:
-        config.message_avertissement(
-            id_artefact(ligne), "Le producteur est vide"
-        )
+        config.message_avertissement(id_artefact(ligne), "Le producteur est vide")
         return None
     else:
         producteur = re.sub("'", "''", str(producteur))
@@ -211,9 +206,7 @@ def quantite_artefact(ligne):
     """
     qte = ligne[const.QUANTITE].value
     if qte is None:
-        config.message_avertissement(
-            id_artefact(ligne), "La quantite est vide"
-        )
+        config.message_avertissement(id_artefact(ligne), "La quantite est vide")
         return None
     else:
         return qte
@@ -253,9 +246,7 @@ def localisation_artefact(ligne):
     """
     local = ligne[const.LOCALISATION].value
     if local is None or local == 0:
-        config.message_avertissement(
-            id_artefact(ligne), "La localisation est vide"
-        )
+        config.message_avertissement(id_artefact(ligne), "La localisation est vide")
         return None
     else:
         local, bon_format = format_localisation(local, id_artefact(ligne))
@@ -263,8 +254,7 @@ def localisation_artefact(ligne):
             return local
         else:
             config.message_avertissement(
-                id_artefact(ligne),
-                "La localisation n'a pas le bon format", str(local)
+                id_artefact(ligne), "La localisation n'a pas le bon format", str(local)
             )
             return None
 
@@ -276,9 +266,7 @@ def longueur_artefact(ligne):
     """
     longueur = str(ligne[const.LONGUEUR].value).lower()
     if longueur is None:
-        config.message_avertissement(
-            id_artefact(ligne), "La longueur est vide"
-        )
+        config.message_avertissement(id_artefact(ligne), "La longueur est vide")
         return None
     else:
         longueur, bon_format = format_dimension(
@@ -386,18 +374,20 @@ def date_entree_artefact(ligne):
     """
     date_entree = ligne[const.DATE_ENTREE].value
     if date_entree is None or date_entree == "":
-        config.message_avertissement(
-            id_artefact(ligne), "La date d'entree est vide"
-        )
+        config.message_avertissement(id_artefact(ligne), "La date d'entree est vide")
         return None
     elif str(date_entree) > str(datetime.today()):
         config.message_avertissement(
-            id_artefact(ligne), "La date d'entree est posterieur à aujourd'hui", date_entree
+            id_artefact(ligne),
+            "La date d'entree est posterieur à aujourd'hui",
+            date_entree,
         )
         return None
     elif str(date_entree) < str(datetime(1990, 1, 1)):
         config.message_avertissement(
-            id_artefact(ligne), "La date d'entree est anterieur au 01/01/1990", date_entree
+            id_artefact(ligne),
+            "La date d'entree est anterieur au 01/01/1990",
+            date_entree,
         )
         return None
     else:
@@ -408,7 +398,9 @@ def date_entree_artefact(ligne):
                 datetime(year=int(split[0]), month=int(split[1]), day=int(split[2]))
                 return date_entree
             except ValueError as e:
-                config.message_avertissement(id_artefact(ligne), "La date d'entree est incorrect", date_entree)
+                config.message_avertissement(
+                    id_artefact(ligne), "La date d'entree est incorrect", date_entree
+                )
         else:
             return date_entree.strftime("%Y-%m-%d")
 

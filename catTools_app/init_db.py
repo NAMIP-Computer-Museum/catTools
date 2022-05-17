@@ -17,6 +17,7 @@ def init_db(cursor):
         cursor.execute(sql.creer_table_conditionnements())
         cursor.execute(sql.creer_table_usages())
         cursor.execute(sql.creer_table_familles())
+        cursor.execute(sql.creer_table_catégorie())
         cursor.execute(sql.creer_table_artefacts())
         cursor.execute(sql.creer_table_recolements())
         cursor.execute(sql.creer_table_images())

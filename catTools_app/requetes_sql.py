@@ -3,7 +3,7 @@ import re
 
 def ajouter_artefact_khs(artefact):
     p1 = "INSERT INTO artefacts (`id_artefact`,`sourceFile`, `libelle`, `modele`,`anProd`,`dateIn`, `longueur`,"
-    p2 = "`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`)"
+    p2 = "`largeur`, `hauteur`, `poids`,`description`, `donateur_key`, `prod_key`, `etat_key`, `localisation_key`, `cat_key`)"
 
     if artefact.modele is not None:
         p3 = (
@@ -69,6 +69,8 @@ def ajouter_artefact_khs(artefact):
         + str(artefact.etat)
         + ","
         + str(artefact.stock)
+        + ","
+        + str(artefact.categorie)
         + ")"
     )
     sql = p1 + p2 + p3 + p4 + p5
@@ -89,10 +91,24 @@ def ajouter_image(image, id_artefact):
 
 
 def ajouter_producteur(producteur, ville=None, pays=None):
-    return (
-        "INSERT INTO producteurs (producteur, ville, pays) VALUES ('%s', '%s', '%s')"
-        % (str(producteur), str(ville), str(pays))
-    )
+    if pays is None and ville is None:
+        sql = "INSERT INTO producteurs (producteur) VALUES ('%s')" % (str(producteur))
+    elif ville is None:
+        sql = "INSERT INTO producteurs (producteur, pays) VALUES ('%s', '%s')" % (
+            str(producteur),
+            str(pays),
+        )
+    elif pays is None:
+        sql = "INSERT INTO producteurs (producteur, ville) VALUES ('%s', '%s')" % (
+            str(producteur),
+            str(ville),
+        )
+    else:
+        sql = (
+            "INSERT INTO producteurs (producteur, ville, pays) VALUES ('%s', '%s', '%s')"
+            % (str(producteur), str(ville), str(pays))
+        )
+    return sql
 
 
 def ajouter_localisation(localisation):
@@ -169,6 +185,10 @@ def ajouter_usage(usage):
     return "INSERT INTO usages (libelleUsage) VALUES ('" + str(usage) + "')"
 
 
+def ajouter_categorie(cat):
+    return "INSERT INTO categorie(libelle) VALUES ('" + str(cat) + "')"
+
+
 def id_etat(etat):
     return "SELECT id_etat FROM etats WHERE etat = '" + str(etat) + "'"
 
@@ -185,8 +205,12 @@ def id_usage(usage):
     return "SELECT id_usage FROM usages WHERE libelleUsage ='" + str(usage) + "'"
 
 
+def id_categorie(cat):
+    return "SELECT id_categorie FROM categorie WHERE libelle = '" + str(cat) + "'"
+
+
 def supprimer_tables():
-    return "DROP TABLE IF EXISTS etats, producteurs, donateurs, appartenances, localisations, conditionnements, usages, familles, artefacts, recolements, images, liens"
+    return "DROP TABLE IF EXISTS categorie, etats, producteurs, donateurs, appartenances, localisations, conditionnements, usages, familles, artefacts, recolements, images, liens"
 
 
 def creer_table_etats():
@@ -206,6 +230,10 @@ def creer_table_donateurs():
 
 def creer_table_appartenances():
     return "CREATE TABLE IF NOT EXISTS appartenances(id_appart int(10) NOT NULL AUTO_INCREMENT, appartenance varchar(255) NOT NULL, PRIMARY KEY(id_appart))"
+
+
+def creer_table_catégorie():
+    return "CREATE TABLE IF NOT EXISTS categorie(id_categorie int(10) NOT NULL AUTO_INCREMENT, libelle varchar(50) NOT NULL, PRIMARY KEY(id_categorie))"
 
 
 def creer_table_localisations():
@@ -233,11 +261,12 @@ def creer_table_artefacts():
         + "libelle varchar(600) DEFAULT NULL, modele varchar(255) DEFAULT NULL, numSerie varchar(255) DEFAULT NULL, anProd int(4) DEFAULT NULL,"
         + "quantite int(5) DEFAULT NULL, dateIn date DEFAULT NULL, longueur double(10,3) DEFAULT NULL, largeur double(10,3) DEFAULT NULL,"
         + "hauteur double(10,3) DEFAULT NULL, poids double(10,3) DEFAULT NULL, description longtext DEFAULT NULL, commentaire varchar(255) DEFAULT NULL,"
-        + "donateur_key int NULL, cond_key int NULL, prod_key int NULL, etat_key int NULL, localisation_key int NULL, appart_key int NULL,"
+        + "donateur_key int NULL, cond_key int NULL, prod_key int NULL, etat_key int NULL, localisation_key int NULL, cat_key INT NULL, appart_key int NULL,"
         + "famille_key int NULL, PRIMARY KEY(id_artefact), FOREIGN KEY (donateur_key)  REFERENCES donateurs(id_donateur),"
         + "FOREIGN KEY (cond_key) REFERENCES conditionnements (id_cond), FOREIGN KEY (prod_key) REFERENCES producteurs(id_producteur), "
         + "FOREIGN KEY (etat_key) REFERENCES etats(id_etat), FOREIGN KEY (localisation_key)  REFERENCES localisations(id_local),"
-        + "FOREIGN KEY (appart_key) REFERENCES appartenances(id_appart), FOREIGN KEY (famille_key) REFERENCES familles(id_famille))"
+        + "FOREIGN KEY (appart_key) REFERENCES appartenances(id_appart), FOREIGN KEY (famille_key) REFERENCES familles(id_famille),"
+        + "FOREIGN KEY (cat_key) REFERENCES categorie(id_categorie))"
     )
 
 
@@ -253,4 +282,3 @@ def creer_table_images():
         "CREATE TABLE IF NOT EXISTS images(id_image int(10) NOT NULL AUTO_INCREMENT, image varchar(255) NOT NULL,"
         + "artefact_key varchar(255) NOT NULL, PRIMARY KEY(id_image), FOREIGN KEY (artefact_key) REFERENCES artefacts(id_artefact))"
     )
-    
